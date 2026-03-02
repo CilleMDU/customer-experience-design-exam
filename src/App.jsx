@@ -4,6 +4,9 @@ import FooterBar from "./components/FooterBar";
 import HomePage from "./pages/homepage/homepage";
 import ProductPage from "./pages/productPage/productPage";
 import ProductDetailPage from "./pages/productDetailPages/productDetailPage";
+import ErrorPage from "./pages/errorpage/errorpage";
+import About from "./pages/about/about";
+
 
 function App() {
   return (
