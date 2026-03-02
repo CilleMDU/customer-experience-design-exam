@@ -1,15 +1,582 @@
 [
     {
+      "id": 1,
+      "gallery": [
+        {
+            "image-name": "",
+            "image_url": "",
+            "alt_text": ""
+        },
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        },
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        },
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        }
+      ],
+      "brand": "",
+      "title": "",
+      "price": "",
+      "description": "",
+      "category": "",
+      "material": "",
+      "size": [
+        {
+          "size1": "32",
+          "available": true
+        },
+        {
+          "size2": "33",
+          "available": true
+        },
+        {
+          "size3": "34",
+          "available": true
+        },
+        {
+          "size4": "35",
+          "available": true
+        },
+        {
+          "size5": "36",
+          "available": true
+        },
+        {
+          "size6": "37",
+          "available": true
+        },
+        {
+          "size7": "38",
+          "available": true
+        },
+        {
+          "size8": "39",
+          "available": true
+        },
+        {
+          "size9": "40",
+          "available": true
+        },
+        {
+          "size10": "41",
+          "available": true
+        },
+        {
+          "size11": "42",
+          "available": true
+        },
+        {
+          "size12": "43",
+          "available": true
+        },
+        {
+          "size13": "44",
+          "available": true
+        },
+        {
+          "size14": "45",
+          "available": true
+        },
+        {
+          "size15": "46",
+          "available": true
+        },
+        {
+          "size16": "47",
+          "available": true
+        },
+        {
+          "size17": "48",
+          "available": true
+        },
+        {
+          "size18": "49",
+          "available": true
+        },
+        {
+          "size19": "50",
+          "available": true
+        }
+      ],
+      "stock": "",
+      "single-item-service": "",
+      "touch-approved": "",
+      "rating": {
+        "rate": "",
+        "count": ""
+      }
     },
     {
-
+      "id": 2,
+      "gallery": [
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        },
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        },
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        },
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        }
+      ],
+      "brand": "",
+      "title": "",
+      "price": "",
+      "description": "",
+      "category": "",
+      "material": "",
+      "size": [
+        {
+          "size1": "32",
+          "available": true
+        },
+        {
+          "size2": "33",
+          "available": true
+        },
+        {
+          "size3": "34",
+          "available": true
+        },
+        {
+          "size4": "35",
+          "available": true
+        },
+        {
+          "size5": "36",
+          "available": true
+        },
+        {
+          "size6": "37",
+          "available": true
+        },
+        {
+          "size7": "38",
+          "available": true
+        },
+        {
+          "size8": "39",
+          "available": true
+        },
+        {
+          "size9": "40",
+          "available": true
+        },
+        {
+          "size10": "41",
+          "available": true
+        },
+        {
+          "size11": "42",
+          "available": true
+        },
+        {
+          "size12": "43",
+          "available": true
+        },
+        {
+          "size13": "44",
+          "available": true
+        },
+        {
+          "size14": "45",
+          "available": true
+        },
+        {
+          "size15": "46",
+          "available": true
+        },
+        {
+          "size16": "47",
+          "available": true
+        },
+        {
+          "size17": "48",
+          "available": true
+        },
+        {
+          "size18": "49",
+          "available": true
+        },
+        {
+          "size19": "50",
+          "available": true
+        }
+      ],
+      "stock": "",
+      "single-item-service": "",
+      "touch-approved": "",
+      "rating": {
+        "rate": "",
+        "count": ""
+      }
     },
     {
-
+      "id": 3,
+      "gallery": [
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        },
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        },
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        },
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        }
+      ],
+      "brand": "",
+      "title": "",
+      "price": "",
+      "description": "",
+      "category": "",
+      "material": "",
+      "size": [
+        {
+          "size1": "32",
+          "available": true
+        },
+        {
+          "size2": "33",
+          "available": true
+        },
+        {
+          "size3": "34",
+          "available": true
+        },
+        {
+          "size4": "35",
+          "available": true
+        },
+        {
+          "size5": "36",
+          "available": true
+        },
+        {
+          "size6": "37",
+          "available": true
+        },
+        {
+          "size7": "38",
+          "available": true
+        },
+        {
+          "size8": "39",
+          "available": true
+        },
+        {
+          "size9": "40",
+          "available": true
+        },
+        {
+          "size10": "41",
+          "available": true
+        },
+        {
+          "size11": "42",
+          "available": true
+        },
+        {
+          "size12": "43",
+          "available": true
+        },
+        {
+          "size13": "44",
+          "available": true
+        },
+        {
+          "size14": "45",
+          "available": true
+        },
+        {
+          "size15": "46",
+          "available": true
+        },
+        {
+          "size16": "47",
+          "available": true
+        },
+        {
+          "size17": "48",
+          "available": true
+        },
+        {
+          "size18": "49",
+          "available": true
+        },
+        {
+          "size19": "50",
+          "available": true
+        }
+      ],
+      "stock": "",
+      "single-item-service": "",
+      "touch-approved": "",
+      "rating": {
+        "rate": "",
+        "count": ""
+      }
     },
     {
-
+      "id": 5,
+      "gallery": [
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        },
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        },
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        },
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        }
+      ],
+      "brand": "",
+      "title": "",
+      "price": "",
+      "description": "",
+      "category": "",
+      "material": "",
+      "size": [
+        {
+          "size1": "32",
+          "available": true
+        },
+        {
+          "size2": "33",
+          "available": true
+        },
+        {
+          "size3": "34",
+          "available": true
+        },
+        {
+          "size4": "35",
+          "available": true
+        },
+        {
+          "size5": "36",
+          "available": true
+        },
+        {
+          "size6": "37",
+          "available": true
+        },
+        {
+          "size7": "38",
+          "available": true
+        },
+        {
+          "size8": "39",
+          "available": true
+        },
+        {
+          "size9": "40",
+          "available": true
+        },
+        {
+          "size10": "41",
+          "available": true
+        },
+        {
+          "size11": "42",
+          "available": true
+        },
+        {
+          "size12": "43",
+          "available": true
+        },
+        {
+          "size13": "44",
+          "available": true
+        },
+        {
+          "size14": "45",
+          "available": true
+        },
+        {
+          "size15": "46",
+          "available": true
+        },
+        {
+          "size16": "47",
+          "available": true
+        },
+        {
+          "size17": "48",
+          "available": true
+        },
+        {
+          "size18": "49",
+          "available": true
+        },
+        {
+          "size19": "50",
+          "available": true
+        }
+      ],
+      "stock": "",
+      "single-item-service": "",
+      "touch-approved": "",
+      "rating": {
+        "rate": "",
+        "count": ""
+      }
     },
     {
+      "id": 2,
+      "gallery": [
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        },
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        },
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        },
+        {
+          "image-name": "",
+          "image_url": "",
+          "alt_text": ""
+        }
+      ],
+      "brand": "",
+      "title": "",
+      "price": "",
+      "description": "",
+      "category": "",
+      "material": "",
+      "size": [
+        {
+          "size1": "32",
+          "available": true
+        },
+        {
+          "size2": "33",
+          "available": true
+        },
+        {
+          "size3": "34",
+          "available": true
+        },
+        {
+          "size4": "35",
+          "available": true
+        },
+        {
+          "size5": "36",
+          "available": true
+        },
+        {
+          "size6": "37",
+          "available": true
+        },
+        {
+          "size7": "38",
+          "available": true
+        },
+        {
+          "size8": "39",
+          "available": true
+        },
+        {
+          "size9": "40",
+          "available": true
+        },
+        {
+          "size10": "41",
+          "available": true
+        },
+        {
+          "size11": "42",
+          "available": true
+        },
+        {
+          "size12": "43",
+          "available": true
+        },
+        {
+          "size13": "44",
+          "available": true
+        },
+        {
+          "size14": "45",
+          "available": true
+        },
+        {
+          "size15": "46",
+          "available": true
+        },
+        {
+          "size16": "47",
+          "available": true
+        },
+        {
+          "size17": "48",
+          "available": true
+        },
+        {
+          "size18": "49",
+          "available": true
+        },
+        {
+          "size19": "50",
+          "available": true
+        }
+      ],
+      "stock": "",
+      "single-item-service": "",
+      "touch-approved": "",
+      "rating": {
+        "rate": "",
+        "count": ""
+      }
     }
 ]
