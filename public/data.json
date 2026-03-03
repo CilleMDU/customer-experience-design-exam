@@ -115,7 +115,7 @@
       "single-item-service": false,
       "touch-approved": true,
       "rating": {
-        "rate": "4.4",
+        "rate": "4.4/5",
         "count": "971"
       }
     },
@@ -231,12 +231,12 @@
           "available": true
         }
       ],
-      "stock": "",
-      "single-item-service": "",
-      "touch-approved": "",
+      "stock": true,
+      "single-item-service": false,
+      "touch-approved": true,
       "rating": {
-        "rate": "",
-        "count": ""
+        "rate": "4.2/5",
+        "count": "34"
       }
     },
     {
