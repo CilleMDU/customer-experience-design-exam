@@ -1,562 +1,578 @@
 [
-    {
-      "id": 1,
-      "gallery": [
-        {
-            "image-name": "",
-            "image_url": "",
-            "alt_text": ""
-        },
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        },
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        },
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        }
-      ],
-      "brand": "",
-      "title": "",
-      "price": "",
-      "description": "",
-      "category": "",
-      "material": "",
-      "size": [
-        {
-          "size1": "32",
-          "available": true
-        },
-        {
-          "size2": "33",
-          "available": true
-        },
-        {
-          "size3": "34",
-          "available": true
-        },
-        {
-          "size4": "35",
-          "available": true
-        },
-        {
-          "size5": "36",
-          "available": true
-        },
-        {
-          "size6": "37",
-          "available": true
-        },
-        {
-          "size7": "38",
-          "available": true
-        },
-        {
-          "size8": "39",
-          "available": true
-        },
-        {
-          "size9": "40",
-          "available": true
-        },
-        {
-          "size10": "41",
-          "available": true
-        },
-        {
-          "size11": "42",
-          "available": true
-        },
-        {
-          "size12": "43",
-          "available": true
-        },
-        {
-          "size13": "44",
-          "available": true
-        },
-        {
-          "size14": "45",
-          "available": true
-        },
-        {
-          "size15": "46",
-          "available": true
-        },
-        {
-          "size16": "47",
-          "available": true
-        },
-        {
-          "size17": "48",
-          "available": true
-        },
-        {
-          "size18": "49",
-          "available": true
-        }
-      ],
-      "stock": "",
-      "single-item-service": "",
-      "touch-approved": "",
-      "rating": {
-        "rate": "",
-        "count": ""
+  {
+    "id": 1,
+    "gallery": [
+      {
+        "image-name": "Lululemon pink leggings",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IYOS_074028_1?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "model wearing the Align Pant in pink, showing the high-rise fit and the soft, buttery fabric"
+      },
+      {
+        "image-name": "Lululemon pink leggings front view",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IYOS_074028_2?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "front view of the Align Pant in pink, showing the high-rise fit and the soft, buttery fabric"
+      },
+      {
+        "image-name": "Lululemon pink leggings back view",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IYOS_074028_3?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "back view of the Align Pant in pink, showing the high-rise fit and the soft, buttery fabric"
+      },
+      {
+        "image-name": "Lululemon pink leggings waistband close up",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IYOS_074028_4?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "close up of the waistband of the Align Pant in pink, showing the high-rise fit and the soft, buttery fabric"
       }
+    ],
+    "brand": "Lululemon",
+    "title": "Lululemon Align No Line™ High-Rise Pant 20",
+    "price": "696.00,-",
+    "description": "The Align No Line™ High-Rise Pant 20 is designed for yoga and everyday wear, featuring a high-rise fit and buttery-soft fabric that feels like a second skin. With its seamless construction and four-way stretch, it offers maximum comfort and freedom of movement. The pant is perfect for those who want to move freely and feel comfortable all day long.",
+    "category": "Leggings",
+    "material": {
+      "body": "81% Nylon, 19% Lycra Elastane",
+      "lining": "90% Nylon, 10% Lycra Elastane"
     },
-    {
-      "id": 2,
-      "gallery": [
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        },
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        },
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        },
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        }
-      ],
-      "brand": "",
-      "title": "",
-      "price": "",
-      "description": "",
-      "category": "",
-      "material": "",
-      "size": [
-        {
-          "size1": "32",
-          "available": true
-        },
-        {
-          "size2": "33",
-          "available": true
-        },
-        {
-          "size3": "34",
-          "available": true
-        },
-        {
-          "size4": "35",
-          "available": true
-        },
-        {
-          "size5": "36",
-          "available": true
-        },
-        {
-          "size6": "37",
-          "available": true
-        },
-        {
-          "size7": "38",
-          "available": true
-        },
-        {
-          "size8": "39",
-          "available": true
-        },
-        {
-          "size9": "40",
-          "available": true
-        },
-        {
-          "size10": "41",
-          "available": true
-        },
-        {
-          "size11": "42",
-          "available": true
-        },
-        {
-          "size12": "43",
-          "available": true
-        },
-        {
-          "size13": "44",
-          "available": true
-        },
-        {
-          "size14": "45",
-          "available": true
-        },
-        {
-          "size15": "46",
-          "available": true
-        },
-        {
-          "size16": "47",
-          "available": true
-        },
-        {
-          "size17": "48",
-          "available": true
-        },
-        {
-          "size18": "49",
-          "available": true
-        }
-      ],
-      "stock": "",
-      "single-item-service": "",
-      "touch-approved": "",
-      "rating": {
-        "rate": "",
-        "count": ""
+    "care-instructions": "Machine wash cold with like colors. Do not bleach. Tumble dry low. Do not iron. Do not dry clean.",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      },
+      {
+        "size19": "50",
+        "available": true
       }
-    },
-    {
-      "id": 3,
-      "gallery": [
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        },
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        },
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        },
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        }
-      ],
-      "brand": "",
-      "title": "",
-      "price": "",
-      "description": "",
-      "category": "",
-      "material": "",
-      "size": [
-        {
-          "size1": "32",
-          "available": true
-        },
-        {
-          "size2": "33",
-          "available": true
-        },
-        {
-          "size3": "34",
-          "available": true
-        },
-        {
-          "size4": "35",
-          "available": true
-        },
-        {
-          "size5": "36",
-          "available": true
-        },
-        {
-          "size6": "37",
-          "available": true
-        },
-        {
-          "size7": "38",
-          "available": true
-        },
-        {
-          "size8": "39",
-          "available": true
-        },
-        {
-          "size9": "40",
-          "available": true
-        },
-        {
-          "size10": "41",
-          "available": true
-        },
-        {
-          "size11": "42",
-          "available": true
-        },
-        {
-          "size12": "43",
-          "available": true
-        },
-        {
-          "size13": "44",
-          "available": true
-        },
-        {
-          "size14": "45",
-          "available": true
-        },
-        {
-          "size15": "46",
-          "available": true
-        },
-        {
-          "size16": "47",
-          "available": true
-        },
-        {
-          "size17": "48",
-          "available": true
-        },
-        {
-          "size18": "49",
-          "available": true
-        }
-      ],
-      "stock": "",
-      "single-item-service": "",
-      "touch-approved": "",
-      "rating": {
-        "rate": "",
-        "count": ""
-      }
-    },
-    {
-      "id": 5,
-      "gallery": [
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        },
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        },
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        },
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        }
-      ],
-      "brand": "",
-      "title": "",
-      "price": "",
-      "description": "",
-      "category": "",
-      "material": "",
-      "size": [
-        {
-          "size1": "32",
-          "available": true
-        },
-        {
-          "size2": "33",
-          "available": true
-        },
-        {
-          "size3": "34",
-          "available": true
-        },
-        {
-          "size4": "35",
-          "available": true
-        },
-        {
-          "size5": "36",
-          "available": true
-        },
-        {
-          "size6": "37",
-          "available": true
-        },
-        {
-          "size7": "38",
-          "available": true
-        },
-        {
-          "size8": "39",
-          "available": true
-        },
-        {
-          "size9": "40",
-          "available": true
-        },
-        {
-          "size10": "41",
-          "available": true
-        },
-        {
-          "size11": "42",
-          "available": true
-        },
-        {
-          "size12": "43",
-          "available": true
-        },
-        {
-          "size13": "44",
-          "available": true
-        },
-        {
-          "size14": "45",
-          "available": true
-        },
-        {
-          "size15": "46",
-          "available": true
-        },
-        {
-          "size16": "47",
-          "available": true
-        },
-        {
-          "size17": "48",
-          "available": true
-        },
-        {
-          "size18": "49",
-          "available": true
-        }
-      ],
-      "stock": "",
-      "single-item-service": "",
-      "touch-approved": "",
-      "rating": {
-        "rate": "",
-        "count": ""
-      }
-    },
-    {
-      "id": 2,
-      "gallery": [
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        },
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        },
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        },
-        {
-          "image-name": "",
-          "image_url": "",
-          "alt_text": ""
-        }
-      ],
-      "brand": "",
-      "title": "",
-      "price": "",
-      "description": "",
-      "category": "",
-      "material": "",
-      "size": [
-        {
-          "size1": "32",
-          "available": true
-        },
-        {
-          "size2": "33",
-          "available": true
-        },
-        {
-          "size3": "34",
-          "available": true
-        },
-        {
-          "size4": "35",
-          "available": true
-        },
-        {
-          "size5": "36",
-          "available": true
-        },
-        {
-          "size6": "37",
-          "available": true
-        },
-        {
-          "size7": "38",
-          "available": true
-        },
-        {
-          "size8": "39",
-          "available": true
-        },
-        {
-          "size9": "40",
-          "available": true
-        },
-        {
-          "size10": "41",
-          "available": true
-        },
-        {
-          "size11": "42",
-          "available": true
-        },
-        {
-          "size12": "43",
-          "available": true
-        },
-        {
-          "size13": "44",
-          "available": true
-        },
-        {
-          "size14": "45",
-          "available": true
-        },
-        {
-          "size15": "46",
-          "available": true
-        },
-        {
-          "size16": "47",
-          "available": true
-        },
-        {
-          "size17": "48",
-          "available": true
-        },
-        {
-          "size18": "49",
-          "available": true
-        }
-      ],
-      "stock": "",
-      "single-item-service": "",
-      "touch-approved": "",
-      "rating": {
-        "rate": "",
-        "count": ""
-      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.4/5",
+      "count": "971"
     }
+  },
+  {
+    "id": 2,
+    "gallery": [
+      {
+        "image-name": "Nike One Seamless Front",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/ecad0afe-f673-49fe-9b21-780df1aa6294/W+NK+DF+ONE+HR+TIGHT+USEAM.png",
+        "alt_text": "model wearing Nike One Seamless front view, showing the high-rise fit and the seamless constructionf Front, showing the high-rise fit and the seamless construction"
+      },
+      {
+        "image-name": "Nike One Seamless Front front view",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/0c7d4721-e392-4b54-9b72-24f7464064a8/W+NK+DF+ONE+HR+TIGHT+USEAM.png",
+        "alt_text": "close up front view of the Nike One Seamless, showing the high-rise fit and the seamless construction"
+      },
+      {
+        "image-name": "Nike One Seamless Front back view",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/d139b4bb-1d70-491b-95f7-bc3a84f2ad26/W+NK+DF+ONE+HR+TIGHT+USEAM.png",
+        "alt_text": "back view of the Nike One Seamless, showing the high-rise fit and the seamless construction"
+      },
+      {
+        "image-name": "Nike One Seamless Front stretch",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/3b8d4206-182e-4aad-b76b-0636639bc3ef/W+NK+DF+ONE+HR+TIGHT+USEAM.png",
+        "alt_text": ""
+      }
+    ],
+    "brand": "Nike",
+    "title": "Nike One Seamless Front",
+    "price": "379.90,-",
+    "description": "Klar til træning eller til at slappe af – disse One-leggings er altid klar til dig. Det mellemkraftige, silkebløde materiale følger kroppens bevægelser og tørrer hurtigt. Den manglende søm foran giver en behagelig pasform, der hjælper med at holde materialet på plads.",
+    "category": "Leggings",
+    "material": {
+      "talje": "80% polyester, 20% elastan",
+      "Kilefor": "100% polyester",
+      "Vask": "Maskinvask"
+    },
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      },
+      {
+        "size19": "50",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.2/5",
+      "count": "34"
+    }
+  },
+  {
+    "id": 3,
+    "gallery": [
+      {
+        "image-name": "",
+        "image_url": "",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "",
+        "alt_text": ""
+      }
+    ],
+    "brand": "",
+    "title": "",
+    "price": "",
+    "description": "",
+    "category": "",
+    "material": "",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": "",
+    "single-item-service": "",
+    "touch-approved": "",
+    "rating": {
+      "rate": "",
+      "count": ""
+    }
+  },
+  {
+    "id": 5,
+    "gallery": [
+      {
+        "image-name": "",
+        "image_url": "",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "",
+        "alt_text": ""
+      }
+    ],
+    "brand": "",
+    "title": "",
+    "price": "",
+    "description": "",
+    "category": "",
+    "material": "",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": "",
+    "single-item-service": "",
+    "touch-approved": "",
+    "rating": {
+      "rate": "",
+      "count": ""
+    }
+  },
+  {
+    "id": 2,
+    "gallery": [
+      {
+        "image-name": "",
+        "image_url": "",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "",
+        "alt_text": ""
+      }
+    ],
+    "brand": "",
+    "title": "",
+    "price": "",
+    "description": "",
+    "category": "",
+    "material": "",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": "",
+    "single-item-service": "",
+    "touch-approved": "",
+    "rating": {
+      "rate": "",
+      "count": ""
+    }
+  }
 ]
