@@ -5,34 +5,35 @@
       {
         "image-name": "Lululemon pink leggings",
         "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IYOS_074028_1?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
-        "alt_text": "model wearing the Align Pant in pink, showing the high-rise fit and the soft, buttery fabric"
+        "alt_text": "Model iført Align No Line™ high-rise buks i lyserød, viser høj talje og blødt, smøragtigt materiale"
       },
       {
         "image-name": "Lululemon pink leggings front view",
         "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IYOS_074028_2?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
-        "alt_text": "front view of the Align Pant in pink, showing the high-rise fit and the soft, buttery fabric"
+        "alt_text": "Forfra af Align-buksen i lyserød, viser høj talje og blødt, smøragtigt materiale"
       },
       {
         "image-name": "Lululemon pink leggings back view",
         "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IYOS_074028_3?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
-        "alt_text": "back view of the Align Pant in pink, showing the high-rise fit and the soft, buttery fabric"
+        "alt_text": "Bagfra af Align-buksen i lyserød, viser høj talje og blødt, smøragtigt materiale"
       },
       {
         "image-name": "Lululemon pink leggings waistband close up",
         "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IYOS_074028_4?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
-        "alt_text": "close up of the waistband of the Align Pant in pink, showing the high-rise fit and the soft, buttery fabric"
+        "alt_text": "Nærbillede af linningen på Align-buksen i lyserød, viser høj talje og det bløde materiale"
       }
     ],
     "brand": "Lululemon",
     "title": "Lululemon Align No Line™ High-Rise Pant 20",
     "price": "696.00,-",
-    "description": "The Align No Line™ High-Rise Pant 20 is designed for yoga and everyday wear, featuring a high-rise fit and buttery-soft fabric that feels like a second skin. With its seamless construction and four-way stretch, it offers maximum comfort and freedom of movement. The pant is perfect for those who want to move freely and feel comfortable all day long.",
-    "category": "Leggings",
+    "color": "Lyserød",
+    "description": "Align No Line™ High-Rise Pant 20 er designet til yoga og hverdagsbrug og har en høj talje og et smørblødt stof, der føles som en anden hud. Med sin sømløse konstruktion og fire-vejs stretch giver den maksimal komfort og bevægelsesfrihed. Buksen er perfekt til dem, der ønsker at bevæge sig frit og føle sig godt tilpas hele dagen.",
+    "category": "Leggings/Yogabukser",
     "material": {
       "body": "81% Nylon, 19% Lycra Elastane",
       "lining": "90% Nylon, 10% Lycra Elastane"
     },
-    "care-instructions": "Machine wash cold with like colors. Do not bleach. Tumble dry low. Do not iron. Do not dry clean.",
+    "care": "Maskinvask koldt med lignende farver. Må ikke bleges. Tørretumbling ved lav varme. Må ikke stryges. Må ikke renses.",
     "size": [
       {
         "size1": "32",
@@ -104,10 +105,6 @@
       },
       {
         "size18": "49",
-        "available": true
-      },
-      {
-        "size19": "50",
         "available": true
       }
     ],
@@ -123,36 +120,34 @@
     "id": 2,
     "gallery": [
       {
-        "image-name": "Nike One Seamless Front",
-        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/ecad0afe-f673-49fe-9b21-780df1aa6294/W+NK+DF+ONE+HR+TIGHT+USEAM.png",
-        "alt_text": "model wearing Nike One Seamless front view, showing the high-rise fit and the seamless constructionf Front, showing the high-rise fit and the seamless construction"
+        "image-name": "Essential folded yoga pants front view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/folded_yoga_pants_Jet_black_cloud_essential_6.jpg?v=1763035941&width=1000",
+        "alt_text": "Essential folded yoga pants i Jet black/cloud set forfra, viser den høje foldbare talje og det bløde materiale"
       },
       {
-        "image-name": "Nike One Seamless Front front view",
-        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/0c7d4721-e392-4b54-9b72-24f7464064a8/W+NK+DF+ONE+HR+TIGHT+USEAM.png",
-        "alt_text": "close up front view of the Nike One Seamless, showing the high-rise fit and the seamless construction"
+        "image-name": "Essential folded yoga pants back side view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/folded_yoga_pants_Jet_black_cloud_essential_13.jpg?v=1763035941&width=2000",
+        "alt_text": "Essential folded yoga pants i Jet black/cloud set bagfra siden, viser den høje foldbare talje og det bløde materiale"
       },
       {
-        "image-name": "Nike One Seamless Front back view",
-        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/d139b4bb-1d70-491b-95f7-bc3a84f2ad26/W+NK+DF+ONE+HR+TIGHT+USEAM.png",
-        "alt_text": "back view of the Nike One Seamless, showing the high-rise fit and the seamless construction"
+        "image-name": "Essential folded yoga pants back view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/folded_yoga_pants_Jet_black_cloud_essential_11.jpg?v=1763035941&width=2000",
+        "alt_text": "Essential folded yoga pants i Jet black/cloud set bagfra, viser den høje foldbare talje og det bløde materiale"
       },
       {
-        "image-name": "Nike One Seamless Front stretch",
-        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/3b8d4206-182e-4aad-b76b-0636639bc3ef/W+NK+DF+ONE+HR+TIGHT+USEAM.png",
-        "alt_text": ""
+        "image-name": "Essential folded yoga pants close up view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/folded_yoga_pants_Jet_black_cloud_essential_7.jpg?v=1763035941&width=1000",
+        "alt_text": "Essential folded yoga pants i Jet black/cloud nærbillede, viser den høje foldbare talje og det bløde materiale"
       }
     ],
-    "brand": "Nike",
-    "title": "Nike One Seamless Front",
-    "price": "379.90,-",
-    "description": "Klar til træning eller til at slappe af – disse One-leggings er altid klar til dig. Det mellemkraftige, silkebløde materiale følger kroppens bevægelser og tørrer hurtigt. Den manglende søm foran giver en behagelig pasform, der hjælper med at holde materialet på plads.",
-    "category": "Leggings",
-    "material": {
-      "talje": "80% polyester, 20% elastan",
-      "Kilefor": "100% polyester",
-      "Vask": "Maskinvask"
-    },
+    "brand": "Design by Si",
+    "title": "Essential folded yoga pants - Jet black/cloud",
+    "price": "319.00,-",
+    "color": "Black/White",
+    "description": "Disse sorte yogabukser med hvid foldetalje forener bevægelsesfrihed med et stilrent design. Det bløde, elastiske materiale giver maksimal komfort, mens den kontrastfarvede talje tilføjer et frisk og sporty udtryk. Pasformen følger kroppens naturlige linjer og skaber en elegant silhuet, uanset om du bruger dem til træning eller afslappede hverdage. Den høje, foldbare talje giver fleksibilitet og støtte, perfekt til yoga, pilates eller loungebrug. Et tidløst valg, hvor funktion møder feminin minimalisme. Bukserne er designet med tanken om at de skulle matches med vores Prosper tank top I Cloud.",
+    "category": "Leggings/Yogabukser",
+    "material": "75% Nylon 25% Elastan",
+    "care": "Vask ved lav temperatur, maks. 30 grader. Vask på vrangen. Må ikke tørretumbles",
     "size": [
       {
         "size1": "32",
@@ -224,10 +219,6 @@
       },
       {
         "size18": "49",
-        "available": true
-      },
-      {
-        "size19": "50",
         "available": true
       }
     ],
@@ -235,40 +226,41 @@
     "single-item-service": false,
     "touch-approved": true,
     "rating": {
-      "rate": "4.2/5",
-      "count": "34"
+      "rate": "Ikke angivet",
+      "count": "Ikke angivet"
     }
   },
   {
     "id": 3,
     "gallery": [
       {
-        "image-name": "",
-        "image_url": "",
-        "alt_text": ""
+        "image-name": "Adistar 4 løbesko side view",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/97635fb2e38447eab6263214f1dcbdb3_9366/Adistar_4_lobesko_Lilla_JR0286_01_00_standard.jpg",
+        "alt_text": "Adistar 4 løbesko i Ice Lavender / Zero Metalic / Halo Mint set fra siden, viser det lette og støttende design"
       },
       {
-        "image-name": "",
-        "image_url": "",
-        "alt_text": ""
+        "image-name": "Adistar 4 løbesko over view",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/6acdd7a1519b4aef9022c78837340bad_9366/Adistar_4_lobesko_Lilla_JR0286_02_standard.jpg",
+        "alt_text": "Adistar 4 løbesko i Ice Lavender / Zero Metalic / Halo Mint set ovenfra, viser det lette og støttende design"
       },
       {
-        "image-name": "",
-        "image_url": "",
-        "alt_text": ""
+        "image-name": "Adistar 4 løbesko sole view",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/e31b8172bb93420d8c154d0460bb5836_9366/Adistar_4_lobesko_Lilla_JR0286_03_standard.jpg",
+        "alt_text": "Adistar 4 Løbesko i Ice Lavender / Zero Metalic / Halo Mint set fra undersiden for at vise sålen, der giver fremragende greb og støtte"
       },
       {
-        "image-name": "",
-        "image_url": "",
-        "alt_text": ""
+        "image-name": "Adistar 4 løbesko reflections view",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/36711aa2e38649938038fe7c09731a18_9366/Adistar_4_lobesko_Lilla_JR0286_01_03_hover_standard.jpg",
+        "alt_text": "Adistar 4 Løbesko i Ice Lavender / Zero Metalic / Halo Mint set i mørket for at vise de reflekterende detaljer, der forbedrer synligheden under løb i svagt lys"
       }
     ],
-    "brand": "",
-    "title": "",
-    "price": "",
-    "description": "",
-    "category": "",
-    "material": "",
+    "brand": "Adidas",
+    "title": "Adistar 4 løbesko",
+    "price": "1099.00,-",
+    "color": "Multi",
+    "description": "Disse adidas-løbesko er designet til længere løb i jævnt, moderat tempo og er skabt til at opretholde komforten under træningen. REPETITOR-mellemsålen bevarer en let fornemmelse og giver samtidig maksimal støddæmpning med returenergi og stabilitet til længere løbeture. Den holdbare ydersål er designet til træning på lange distancer.",
+    "category": "Løbesko",
+    "material": "Stødabsoberende matrialle og gummisål",
     "size": [
       {
         "size1": "32",
@@ -343,44 +335,159 @@
         "available": true
       }
     ],
-    "stock": "",
-    "single-item-service": "",
-    "touch-approved": "",
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
     "rating": {
-      "rate": "",
-      "count": ""
+      "rate": "4.5/5",
+      "count": "33"
+    }
+  },
+  {
+    "id": 4,
+    "gallery": [
+      {
+        "image-name": "Stabil 16 Indoor Sko set fra siden",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/39ffcfabc5fa413e83d3f19574d7813f_9366/Stabil_16_Indoor_Sko_Pink_JR9540_01_00_standard.jpg",
+        "alt_text": "Stabil 16 Indoor Sko set fra siden, viser det lette og støttende design, der er ideelt til indendørs sport som håndbold, volleyball og indendørshockey"
+      },
+      {
+        "image-name": "Stabil 16 Indoor Sko set fra oven",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/2620427fd7c14915a89b8d4400992474_9366/Stabil_16_Indoor_Sko_Pink_JR9540_02_standard_hover.jpg",
+        "alt_text": "Stabil 16 Indoor Sko set fra over, viser det lette og støttende design, der er ideelt til indendørs sport som håndbold, volleyball og indendørshockey"
+      },
+      {
+        "image-name": "Stabil 16 Indoor Sko set fra undersiden",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/761bf4050d224d06b36389f819227cd7_9366/Stabil_16_Indoor_Sko_Pink_JR9540_03_standard.jpg",
+        "alt_text": "Stabil 16 Indoor Sko set fra sålen, viser det lette og støttende design, der er ideelt til indendørs sport som håndbold, volleyball og indendørshockey"
+      },
+      {
+        "image-name": "Stabil 16 Indoor Sko fra indersiden",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/ac7c39e122ff4f08851f79a37a4ab032_9366/Stabil_16_Indoor_Sko_Pink_JR9540_06_standard.jpg",
+        "alt_text": "Stabil 16 Indoor Sko set fra indersiden, viser det lette og støttende design, der er ideelt til indendørs sport som håndbold, volleyball og indendørshockey"
+      }
+    ],
+    "brand": "Adidas",
+    "title": "Stabil 16 Indoor Sko",
+    "price": "1299.00,-",
+    "color": "Multi",
+    "description": "Disse sko fra adidas er pakket med innovativ teknologi, der presser dig til at præstere i sport, som håndbold, volleyball og indendørshockey. En adidas BOOST-indsats i mellemsålen giver komfort og returenergi, så du kan holde dig kørende, mens konstruktionen omkring skoen giver den stabilitet, du har brug for, til intenst spil. Mesh-zoner i overdelen øger åndbarheden, og det bløde for holder foden komfortabelt på plads. Signaturdetaljer såsom det forstærkede tåområde hylder originalen, mens et nyt trækkraftmønster hjælper dig med at skifte retning på et øjeblik. Sammen giver disse funktioner dig mulighed for at genopdage din styrke og bruge din energi til at gå efter sejren. Dette produkt indeholder mindst 20 % genanvendte materialer. Ved at genbruge materialer, der allerede er blevet skabt, hjælper vi med at reducere spild og vores afhængighed af begrænsede ressourcer, og reducerer vores produkters aftryk.",
+    "category": "Indesko",
+    "material": "Indeholder mindst 20 % genanvendt indhold",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": true,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.8/5",
+      "count": "14"
     }
   },
   {
     "id": 5,
     "gallery": [
       {
-        "image-name": "",
-        "image_url": "",
-        "alt_text": ""
+        "image-name": "Prosper tank top front view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/tank_top_Cloud_prosper_4.jpg?v=1763035092&width=1000",
+        "alt_text": "Prosper tank top i Cloud set forfra, viser det enkle og minimalistiske design, der gør den nem at style med andre styles"
       },
       {
-        "image-name": "",
-        "image_url": "",
-        "alt_text": ""
+        "image-name": "Prosper tank top back view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/tank_top_Cloud_prosper_7.jpg?v=1763035092&width=1000",
+        "alt_text": "Prosper tank top i Cloud set bagfra, viser det enkle og minimalistiske design, der gør den nem at style med andre styles"
       },
       {
-        "image-name": "",
-        "image_url": "",
-        "alt_text": ""
+        "image-name": "Prosper tank top side view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/tank_top_Cloud_prosper_6.jpg?v=1763035092&width=1000",
+        "alt_text": "Prosper tank top i Cloud set fra siden, viser det enkle og minimalistiske design, der gør den nem at style med andre styles"
       },
       {
-        "image-name": "",
-        "image_url": "",
-        "alt_text": ""
+        "image-name": "Prosper tank top close up view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/tank_top_Cloud_prosper_5.jpg?v=1763035092&width=1000",
+        "alt_text": "Prosper tank top i Cloud nærbillede, viser det enkle og minimalistiske design, der gør den nem at style med andre styles."
       }
     ],
-    "brand": "",
-    "title": "",
-    "price": "",
-    "description": "",
-    "category": "",
-    "material": "",
+    "brand": "Design by Si",
+    "title": "Prosper tank top - Cloud",
+    "price": "279.00,-",
+    "color": "Hvid",
+    "description": "Prosper tank toppen er den perfekte blanding af komfort og moderne stil. Den enkle, minimalistiske design gør den super nem at style med andre styles fra hele vores hjemmeside, og den elastiske pasform sikrer, at du føler dig godt tilpas hele dagen. Toppen har udtagelige indlæg, som giver mulighed for at tilpasse pasformen og opnå den ønskede støtte. Den indre silikonekant sørger for, at tube toppen bliver på plads, uanset hvad du laver. Perfekt både til træning og som en del af dit hverdagsoutfit.",
+    "category": "Tank top",
+    "material": "75% Nylon og 25% Elastan",
+    "care": "Vask ved lav temperatur, maks. 30 grader. Vask på vrangen. Må ikke tørretumbles",
     "size": [
       {
         "size1": "32",
@@ -455,16 +562,16 @@
         "available": true
       }
     ],
-    "stock": "",
-    "single-item-service": "",
-    "touch-approved": "",
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
     "rating": {
-      "rate": "",
-      "count": ""
+      "rate": "5/5",
+      "count": "1"
     }
   },
   {
-    "id": 2,
+    "id": 6,
     "gallery": [
       {
         "image-name": "",
@@ -490,9 +597,11 @@
     "brand": "",
     "title": "",
     "price": "",
+    "color": "",
     "description": "",
     "category": "",
     "material": "",
+    "care": "",
     "size": [
       {
         "size1": "32",
@@ -575,4 +684,5 @@
       "count": ""
     }
   }
+
 ]
