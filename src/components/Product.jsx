@@ -1,6 +1,31 @@
 import { Link } from "react-router";
 import styles from "./product.module.css";
 
+function getColor(color) {
+  if (color === "Lyserød") {
+    return "#FF3FC5";
+  } else if (color === "Sort") {
+    return "#000";
+  } else if (color === "Sort/hvid") {
+    return "linear-gradient(90deg, #000 50%, #fff 50%)";
+  } else if (color === "Multi") {
+    return "conic-gradient(from 180deg at 50% 50%, #00AC06 0deg, #07F 121.15384697914124deg, #DF2FE2 242.30769395828247deg, #9443EA 360deg)";
+  } else if (color === "Hvid") {
+    return "#ffffff";
+  } else if (color === "Blå") {
+    return "#0077FF";
+  } else if (color === "Orange") {
+    return "#FF5900";
+  } else if (color === "Grøn") {
+    return "#00AC06";
+  } else if (color === "Lilla") {
+    return "#9444EA";
+  } else {
+    // Hvis farven ikke findes i listen, returneres en neutral grå
+    return "#ccc";
+  }
+}
+
 export default function product({ product }) {
   return (
     <Link to={`/products/${product.id}`} className={styles.cardLink}>
@@ -17,7 +42,12 @@ export default function product({ product }) {
         <p className={styles.price}>{product.price}</p>
         <section className={styles.hoverInfo}>
           <div className={styles.ratingStarsAmount}>stars</div>
-          <div className={styles.colorsAmount}>colors</div>
+          <div className={styles.colorsAmount}>
+            <div
+              className={styles.colorCircle}
+              style={{ background: getColor(product.color) }}
+            ></div>
+          </div>
         </section>
       </article>
     </Link>

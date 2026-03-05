@@ -85,3 +85,10 @@
 .card:hover .hoverInfo {
   display: flex;
 }
+
+.colorCircle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #e2e2e2; /* Denne linje gør hvid synlig */
+}
