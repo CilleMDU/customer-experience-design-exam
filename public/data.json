@@ -797,11 +797,13 @@
   },
   {
     "id": 8,
-    "gallery": {
+    "gallery": [
+      {
       "image-name": "Ankle Sock 2-Pack",
       "image_url": "https://www.planetnusa.com/cdn/shop/files/AnkleSock_White_e351d4d0-bc02-4e1b-988c-c47552f4c2d2.png?v=1760092893&width=2100",
       "alt_text": "Ankle Sock 2-Pack i hvid, viser det lave snit og det bløde materiale, der er designet til komfort og ydeevne"
-    },
+    }
+  ],
     "brand": "Planet Nusa",
     "title": "Ankle Sock 2-Pack",
     "price": "119.00,-",
@@ -1228,33 +1230,33 @@
     "id": 12,
     "gallery": [
       {
-        "image-name": "BeCalm Mid-Rise Wide-Leg Pant model",
-        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5JMDS_1179_1?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
-        "alt_text": "BeCalm Mid-Rise Wide-Leg Pant i blå, viser det luksuriøse og komfortable design, der er lavet til daglig brug og afslapning"
+        "image-name": "Softstreme Pintuck High-Rise Wide-Leg Pant model",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IOWS_1179_1?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": ""
       },
       {
-        "image-name": "BeCalm Mid-Rise Wide-Leg Pant front view",
-        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5JMDS_1179_2?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
-        "alt_text": "BeCalm Mid-Rise Wide-Leg Pant i blå, viser det luksuriøse og komfortable design, der er lavet til daglig brug og afslapning"
+        "image-name": "Softstreme Pintuck High-Rise Wide-Leg Pant front view",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IOWS_1179_2?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": ""
       },
       {
-        "image-name": "BeCalm Mid-Rise Wide-Leg Pant back view",
-        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5JMDS_1179_3?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
-        "alt_text": "BeCalm Mid-Rise Wide-Leg Pant i blå, viser det luksuriøse og komfortable design, der er lavet til daglig brug og afslapning"
+        "image-name": "Softstreme Pintuck High-Rise Wide-Leg Pant back view",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IOWS_1179_3?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": ""
       },
       {
-        "image-name": "BeCalm Mid-Rise Wide-Leg Pant pant close up view",
-        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5JMDS_1179_6?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "image-name": "Softstreme Pintuck High-Rise Wide-Leg Pant pant leg close up view",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IOWS_1179_8?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
         "alt_text": ""
       }
     ],
     "brand": "Lululemon",
-    "title": "BeCalm Mid-Rise Wide-Leg Pant",
-    "price": "631.50,-",
+    "title": "Softstreme Pintuck High-Rise Wide-Leg Pant",
+    "price": "823.00,-",
     "color": "Blå",
-    "description": "Denne opdaterede version af vores BeCalm-stof bevarer den luksuriøst draperede fornemmelse, som du elsker, og er blevet redesignet for at reducere fnuller. Den giver også et lidt mere glansfuldt udseende.",
+    "description": "Føl det for at tro det. Disse brede bukser har en fløjlsagtig berøring, som er umulig at modstå, plus kant-detaljer og en flad taljekant, som gør dem nemme at klædes op eller ned.",
     "category": "Sweatpants",
-    "material": "90% genanvendt polyester og 10% elastan i lommer. 95% modal og 5% elastan i resten af bukserne.",
+    "material": "Selve bukserne er lavet af 53% genanvendt polyester, 38% modal, og 9% elastan. Lommer er 100% bomuld.",
     "care": "Kold maskinevask med lignende farver. Må ikke bleges. Tørretumbles ved lav varme. Må ikke dry cleanes.",
     "size": [
       {
@@ -1334,8 +1336,8 @@
     "single-item-service": false,
     "touch-approved": true,
     "rating": {
-      "rate": "",
-      "count": ""
+      "rate": "4.2/5",
+      "count": "37"
     }
   },
   {
@@ -1456,6 +1458,234 @@
     "id": 14,
     "gallery": [
       {
+        "image-name": "Active Flow Bike Shorts product image",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active_flow-bike_shorts-river-packshot-1.jpg?v=1734437671&width=990",
+        "alt_text": "Active Flow Bike Shorts, viser det slanke og sporty design, der er perfekt til træning eller som en del af dit hverdagsoutfit"
+      },
+      {
+        "image-name": "Active Flow Bike Shorts front view",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active_flow-bike_shorts-river-studio-2.jpg?v=1734437647&width=990",
+        "alt_text": "Active Flow Bike Shorts set fra fronten, viser det slanke og sporty design, der er perfekt til træning eller som en del af dit hverdagsoutfit"
+      },
+      {
+        "image-name": "Active Flow Bike Shorts back view",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active_flow-bike_shorts-river-studio-3.jpg?v=1734437652&width=990",
+        "alt_text": "Active Flow Bike Shorts set fra baksiden, viser det slanke og sporty design, der er perfekt til træning eller som en del af dit hverdagsoutfit"
+      },
+      {
+        "image-name": "Active Flow Bike Shorts side view",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active_flow-bike_shorts-river-studio-1.jpg?v=1734437642&width=990",
+        "alt_text": "Active Flow Bike Shorts set fra siden, viser det slanke og sporty design, der er perfekt til træning eller som en del af dit hverdagsoutfit"
+      }
+    ],
+    "brand": "Organic Basics",
+    "title": "Active Flow Bike Shorts",
+    "price": "379.00,-",
+    "color": "Grøn",
+    "description": "At træne har aldrig set så godt ud! Kom ud og bevæg dig med disse cykelshorts som har en slank finish og skyfarvet kantbånd til et retro twist.",
+    "category": "Shorts",
+    "material": "83% genbrugt nylon og 17% elastan",
+    "care": "Maskinevask på 30 grader med lignende farver. Lav tørretumbling. Må ikke bleges. Strygning ved lav temperatur. Må ikke dry cleanes.",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.5/5",
+      "count": "72"
+    }
+  },
+  {
+    "id": 15,
+    "gallery": [
+      {
+        "image-name": "A-Line Side-Pleat Tennis Skirt model",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW8AS5S_074045_1?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "A-Line Side-Pleat Tennis Skirt på modellen, viser det minimalistiske og elegante design, der er perfekt til tennisbanen eller som en del af dit sporty hverdagslook"
+      },
+      {
+        "image-name": "A-Line Side-Pleat Tennis Skirt front view",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW8AS5S_074045_2?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "A-Line Side-Pleat Tennis Skirt front view, viser det minimalistiske og elegante design, der er perfekt til tennisbanen eller som en del af dit sporty hverdagslook"
+      },
+      {
+        "image-name": "A-Line Side-Pleat Tennis Skirt back view",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW8AS5S_074045_3?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "A-Line Side-Pleat Tennis Skirt back view, viser det minimalistiske og elegante design, der er perfekt til tennisbanen eller som en del af dit sporty hverdagslook"
+      },
+      {
+        "image-name": "A-Line Side-Pleat Tennis Skirt secret pocket close up",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW8AS5S_074045_6?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "A-Line Side-Pleat Tennis Skirt tæt på, viser den hemmelige lomme i det indvendige lag, der er perfekt til opbevaring af genstande under spillet"
+      }
+    ],
+    "brand": "Lululemon",
+    "title": "A-Line Side-Pleat Tennis Skirt",
+    "price": "501.50,-",
+    "color": "Grøn",
+    "description": "Enkelhed virker. Denne minimalistiske A-line tenniskjole er lavet af svedalignende, hurtigt tørrende stof og har en indbygget shorts-liner for ekstra selvtillid på banen.",
+    "category": "Nederdele",
+    "material": "Selve nederleden er lavet af 86% genanvendeligt polyester og 14% elastan, mens at back lining er 69% nylon og 31% elastan, front lining er 87% nylon og 13% elastan, og taljen er 84% genanvendeligt polyester og 16% elastan.",
+    "care": "Kold maskinevask med lignende farver. Må ikke bleges. Tørretumbles ved lav varme. Må ikke dry cleanes.",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.5/5",
+      "count": "8"
+    }
+  },
+  {
+    "id": 16,
+    "gallery": [
+      {
         "image-name": "",
         "image_url": "",
         "alt_text": ""
@@ -1566,4 +1796,5 @@
       "count": ""
     }
   }
+
 ]
