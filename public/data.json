@@ -1172,22 +1172,22 @@
       {
         "image-name": "Softstreme Pintuck High-Rise Wide-Leg Pant model",
         "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IOWS_1179_1?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
-        "alt_text": ""
+        "alt_text": "Softstreme Pintuck High-Rise Wide-Leg Pant set på en model, viser det brede bukser design med fløjlsagtig berøring og kant-detaljer, der gør dem nemme at klædes op eller ned"
       },
       {
         "image-name": "Softstreme Pintuck High-Rise Wide-Leg Pant front view",
         "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IOWS_1179_2?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
-        "alt_text": ""
+        "alt_text": "Softstreme Pintuck High-Rise Wide-Leg Pant set fra fronten, viser det brede bukser design med fløjlsagtig berøring og kant-detaljer, der gør dem nemme at klædes op eller ned"
       },
       {
         "image-name": "Softstreme Pintuck High-Rise Wide-Leg Pant back view",
         "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IOWS_1179_3?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
-        "alt_text": ""
+        "alt_text": "Softstreme Pintuck High-Rise Wide-Leg Pant set fra bagsiden, viser det brede bukser design med fløjlsagtig berøring og kant-detaljer, der gør dem nemme at klædes op eller ned"
       },
       {
         "image-name": "Softstreme Pintuck High-Rise Wide-Leg Pant pant leg close up view",
         "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IOWS_1179_8?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
-        "alt_text": ""
+        "alt_text": "Softstreme Pintuck High-Rise Wide-Leg Pant set tæt på anklen, viser det brede bukser design med fløjlsagtig berøring og kant-detaljer, der gør dem nemme at klædes op eller ned"
       }
     ],
     "brand": "Lululemon",
@@ -2034,6 +2034,199 @@
     "rating": {
       "rate": "4.8/5",
       "count": "66"
+    }
+  },
+  {
+    "id": 21,
+    "gallery": [
+      {
+        "image-name": "Wunder Train Padded Gloves product image",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LU9CU7S_074056_1?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Wunder Train Padded Gloves, viser det polstrede og understøttende design, der hjælper med at beskytte dine hænder under træning, samtidig med at det giver dig et sikkert greb om vægte og træningsudstyr"
+      },
+      {
+        "image-name": "Wunder Train Padded Gloves label close up",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LU9CU7S_074056_2?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Wunder Train Padded Gloves tæt på label."
+      }
+    ],
+    "brand": "Lululemon",
+    "title": "Wunder Train Padded Gloves",
+    "price": "244.50,-",
+    "color": "Blå",
+    "description": "Knus personlige rekorder i komfort. Fra kradsninger til pull-ups, disse polstrede, understøttende handsker hjælper med at beskytte dine hænder, mens du træner.",
+    "category": "Handsker",
+    "material": "Kold maskinevask seperat. Tørres flat. Må ikke bleges. Må ikke stryges. Må ikke dry cleanes.",
+    "care": "Selve produktet består af 77% nylin of 23% elastan, mens håndfladen er lavet af 100% polyester og liningen er lavet af 53% genadvent polyester, 43% elaston og 4% elastan.",
+    "size": [
+      {
+        "size1": "S",
+        "available": true
+      },
+      {
+        "size2": "M",
+        "available": true
+      },
+      {
+        "size3": "L",
+        "available": true
+      },
+      {
+        "size4": "XL",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": true,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.2/5",
+      "count": "16"
+    }
+  },
+  {
+    "id": 22,
+    "gallery": [
+      {
+        "image-name": "NikeCourt Premier Double-Wide product image",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/4ef3913f-9833-4ae3-9046-106650fb581e/NK+TENNIS+PREMIER+DB+WBS+2+PK.png",
+        "alt_text": "NikeCourt Premier Double-Wide, viser det klassiske og funktionelle design, der er perfekt til at holde dine hænder tørre under intense tenniskampe, med et dobbeltlag af svedeabsorberende materiale for ekstra komfort og beskyttelse"
+      }
+    ],
+    "brand": "Nike",
+    "title": "NikeCourt Premier Double-Wide",
+    "price": "149.90,-",
+    "color": "Hvid",
+    "description": "NikeCourt Premier Double-Wide-tennissvedbåndene er fremstillet i elastisk, absorberende materiale, som giver en behagelig pasform og en fremragende hjælp til at holde dine hænder tørre.",
+    "category": "Svedbånd",
+    "material": "Ikke angivet",
+    "care": "Ikke angivet",
+    "size": [
+      {
+        "size1": "One size",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "5/5",
+      "count": "1"
+    }
+  },
+  {
+    "id": 23,
+    "gallery": [
+      {
+        "image-name": "Tætsiddende kort T-shirt front view",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/832723ba-403f-422c-9670-fc80feda164a/W+NSW+SS+MD+TEE.png",
+        "alt_text": "Tætsiddende kort T-shirt set fra fronten, viser det tætsiddende og let elastiske design, der er perfekt til et poleret hverdagslook"
+      },
+      {
+        "image-name": "Tætsiddende kort T-shirt back view",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/4085fc66-6955-4ba9-a725-7a4af2a2aefe/W+NSW+SS+MD+TEE.png",
+        "alt_text": "Tætsiddende kort T-shirt set fra bagsiden, viser det tætsiddende og let elastiske design, der er perfekt til et poleret hverdagslook"
+      },
+      {
+        "image-name": "Tætsiddende kort T-shirt model front view",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/47747c91-a0b1-4393-abed-af3fd80b4b3a/W+NSW+SS+MD+TEE.png",
+        "alt_text": "Tætsiddende kort T-shirt set fra fronten på modellen, viser det tætsiddende og let elastiske design, der er perfekt til et poleret hverdagslook"
+      },
+      {
+        "image-name": "Tætsiddende kort T-shirt model back view",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/13040888-6d6f-4c95-8c86-698ab9111536/W+NSW+SS+MD+TEE.png",
+        "alt_text": "Tætsiddende kort T-shirt set fra bagsiden på modellen, viser det tætsiddende og let elastiske design, der er perfekt til et poleret hverdagslook"
+      }
+    ],
+    "brand": "Nike",
+    "title": "Tætsiddende kort T-shirt",
+    "price": "249.90,-",
+    "color": "Grøn",
+    "description": "Denne croptop er tætsiddende og let elastisk og er perfekt til et poleret hverdagslook.",
+    "category": "T-shirts",
+    "material": "Ikke angivet",
+    "care": "Ikke angivet",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.3/5",
+      "count": "3"
     }
   }
 ]
