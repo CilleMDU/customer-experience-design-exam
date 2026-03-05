@@ -41,7 +41,7 @@ export default function product({ product }) {
         <h2 className={styles.title}>{product.title}</h2>
         <p className={styles.price}>{product.price}</p>
         <section className={styles.hoverInfo}>
-          <div className={styles.ratingStarsAmount}>stars</div>
+          <div className={styles.ratingStarsAmount}></div>
           <div className={styles.colorsAmount}>
             <div
               className={styles.colorCircle}
