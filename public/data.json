@@ -143,7 +143,7 @@
     "brand": "Design by Si",
     "title": "Essential folded yoga pants - Jet black/cloud",
     "price": "319.00,-",
-    "color": "Black/White",
+    "color": "Sort/hvid",
     "description": "Disse sorte yogabukser med hvid foldetalje forener bevægelsesfrihed med et stilrent design. Det bløde, elastiske materiale giver maksimal komfort, mens den kontrastfarvede talje tilføjer et frisk og sporty udtryk. Pasformen følger kroppens naturlige linjer og skaber en elegant silhuet, uanset om du bruger dem til træning eller afslappede hverdage. Den høje, foldbare talje giver fleksibilitet og støtte, perfekt til yoga, pilates eller loungebrug. Et tidløst valg, hvor funktion møder feminin minimalisme. Bukserne er designet med tanken om at de skulle matches med vores Prosper tank top I Cloud.",
     "category": "Leggings/Yogabukser",
     "material": "75% Nylon 25% Elastan",
@@ -574,34 +574,34 @@
     "id": 6,
     "gallery": [
       {
-        "image-name": "",
-        "image_url": "",
-        "alt_text": ""
+        "image-name": "Homerun1 Power Sports Bra product image",
+        "image_url": "https://www.planetnusa.com/cdn/shop/files/Homerun_Blue.png?v=1760427762&width=2100",
+        "alt_text": "Homerun1 Power Sports Bra"
       },
       {
-        "image-name": "",
-        "image_url": "",
-        "alt_text": ""
+        "image-name": "Homerun1 Power Sports Bra front view",
+        "image_url": "https://www.planetnusa.com/cdn/shop/products/060421_PLANETNUSA1124.jpg?v=1760427762&width=1512",
+        "alt_text": "Homerun1 Power Sports Bra set forfra, viser det tætte og støttende design, der er lavet til bevægelse"
       },
       {
-        "image-name": "",
-        "image_url": "",
-        "alt_text": ""
+        "image-name": "Homerun1 Power Sports Bra side view",
+        "image_url": "https://www.planetnusa.com/cdn/shop/products/060421_PLANETNUSA1145.jpg?v=1760427762&width=1512",
+        "alt_text": "Homerun1 Power Sports Bra set fra siden, viser det tætte og støttende design, der er lavet til bevægelse"
       },
       {
-        "image-name": "",
-        "image_url": "",
-        "alt_text": ""
+        "image-name": "Homerun1 Power Sports Bra model",
+        "image_url": "https://www.planetnusa.com/cdn/shop/products/060421_PLANETNUSA1072.jpg?v=1760427762&width=1512",
+        "alt_text": "Homerun1 Power Sports Bra set på en model, viser det tætte og støttende design, der er lavet til bevægelse"
       }
     ],
-    "brand": "",
-    "title": "",
-    "price": "",
-    "color": "",
-    "description": "",
-    "category": "",
-    "material": "",
-    "care": "",
+    "brand": "Planet Nusa",
+    "title": "Homerun1 Power Sports Bra",
+    "price": "475.00,-",
+    "color": "Blå",
+    "description": "Det er en homerun hver. eneste. gang. Homerun1 er den vægtløse sportsbh, der stadig holder alt præcis, hvor det skal være. Tæt, støttende og lavet til bevægelse – den slags bh, du stoler på under dine svedigste vandreture, dine hurtigste løb, eller når du hopper lige i havet bagefter.",
+    "category": "Sports BH",
+    "material": "78% genanvendt polyamid og 22% elastan",
+    "care": "30 graders vask på vrangen. Må ikke tørretumbles",
     "size": [
       {
         "size1": "32",
@@ -676,13 +676,332 @@
         "available": true
       }
     ],
-    "stock": "",
-    "single-item-service": "",
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "5/5",
+      "count": "2"
+    }
+  },
+  {
+    "id": 7,
+    "gallery": [
+      {
+        "image-name": "",
+        "image_url": "https://www.planetnusa.com/cdn/shop/files/LS2Air_OrangeBlack.png?v=1764760345&width=2100",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "https://www.planetnusa.com/cdn/shop/files/ORANGEBLACK.png?v=1764760345&width=1512",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "https://www.planetnusa.com/cdn/shop/products/1_6f8058b9-bb14-429b-97ee-6f3c154435a8.jpg?v=1764760345&width=2100",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "https://www.planetnusa.com/cdn/shop/files/221006_PLANETNUSA5657.jpg?v=1764760345&width=1512",
+        "alt_text": ""
+      }
+    ],
+    "brand": "Planet Nusa",
+    "title": "LS2 Air Long Sleeve",
+    "price": "560.00,-",
+    "color": "Orange",
+    "description": "En langærmet, der føles som luft og bevæger sig som en anden hud. Elsket af vores fællesskab, LS2 Air handler om lethed, åndbarhed og komfort—afsluttet med blød rynkning og et print af planeter over det hele for et dristigt, men feminint touch.",
+    "category": "Bluser",
+    "material": "87% genbrugt polyester, 13% elastan",
+    "care": "Vask ved lav temperatur, maks. 30 grader. Må ikke tørretumbles",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "5/5",
+      "count": "2"
+    }
+  },
+  {
+    "id": 8,
+    "gallery": {
+      "image-name": "",
+      "image_url": "https://www.planetnusa.com/cdn/shop/files/AnkleSock_White_e351d4d0-bc02-4e1b-988c-c47552f4c2d2.png?v=1760092893&width=2100",
+      "alt_text": ""
+    },
+    "brand": "Planet Nusa",
+    "title": "Ankle Sock 2-Pack",
+    "price": "119.00,-",
+    "color": "Hvid",
+    "description": "Lav skæring, høj ydeevne. Vores Ankelstrømper er hverdagens MVP'er, designet til at blive på plads, ånde let og hjælpe dig igennem træning, gåture eller afslappende dage på sofaen. Slank pasform. Ingen irritation. Maksimal komfort.",
+    "category": "Sokker",
+    "material": "70% genbrugt polyamide, 22% polyamide & 8% elastan.",
+    "care": "Vask ved lav temperatur, maks. 30 grader. Må ikke tørretumbles.",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
     "touch-approved": "",
     "rating": {
-      "rate": "",
-      "count": ""
+      "rate": "5/5",
+      "count": "1"
+    }
+  },
+  {
+    "id": 9,
+    "gallery": [
+      {
+        "image-name": "",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active-track_jacket-pink-packshot-1_51f7e025-f300-4bcc-adbe-ebc0e378c365.jpg?v=1739211260",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active-track_jacket-pink-studio-2.jpg?v=1739211259",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active-track_jacket-pink-studio-2.jpg?v=1739211259",
+        "alt_text": ""
+      }
+    ],
+    "brand": "Organic Basics",
+    "title": "Recycled Nylon Track Jacket",
+    "price": "699.00,-",
+    "color": "Multi",
+    "description": "",
+    "category": "Løbejakker",
+    "material": "88% genbrugt nylon og 12% elastan",
+    "care": "Kold maskinevask sammen med farvet tøj. Vask på vrangen. Må ikke bleges. Lav tørretumbling. Strygning ved lav temperatur. Må ikke dry cleanes.",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": false,
+    "rating": {
+      "rate": "4.9/5",
+      "count": "30"
     }
   }
-
 ]
