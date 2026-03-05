@@ -800,11 +800,13 @@
   },
   {
     "id": 8,
-    "gallery": {
-      "image-name": "",
-      "image_url": "https://www.planetnusa.com/cdn/shop/files/AnkleSock_White_e351d4d0-bc02-4e1b-988c-c47552f4c2d2.png?v=1760092893&width=2100",
-      "alt_text": ""
-    },
+    "gallery": [
+      {
+        "image-name": "",
+        "image_url": "https://www.planetnusa.com/cdn/shop/files/AnkleSock_White_e351d4d0-bc02-4e1b-988c-c47552f4c2d2.png?v=1760092893&width=2100",
+        "alt_text": ""
+      }
+    ],
     "brand": "Planet Nusa",
     "title": "Ankle Sock 2-Pack",
     "price": "119.00,-",
