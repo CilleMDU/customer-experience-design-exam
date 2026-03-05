@@ -1,0 +1,1007 @@
+[
+  {
+    "id": 1,
+    "gallery": [
+      {
+        "image-name": "Lululemon pink leggings",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IYOS_074028_1?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Model iført Align No Line™ high-rise buks i lyserød, viser høj talje og blødt, smøragtigt materiale"
+      },
+      {
+        "image-name": "Lululemon pink leggings front view",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IYOS_074028_2?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Forfra af Align-buksen i lyserød, viser høj talje og blødt, smøragtigt materiale"
+      },
+      {
+        "image-name": "Lululemon pink leggings back view",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IYOS_074028_3?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Bagfra af Align-buksen i lyserød, viser høj talje og blødt, smøragtigt materiale"
+      },
+      {
+        "image-name": "Lululemon pink leggings waistband close up",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IYOS_074028_4?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Nærbillede af linningen på Align-buksen i lyserød, viser høj talje og det bløde materiale"
+      }
+    ],
+    "brand": "Lululemon",
+    "title": "Lululemon Align No Line™ High-Rise Pant 20",
+    "price": "696.00,-",
+    "color": "Lyserød",
+    "description": "Align No Line™ High-Rise Pant 20 er designet til yoga og hverdagsbrug og har en høj talje og et smørblødt stof, der føles som en anden hud. Med sin sømløse konstruktion og fire-vejs stretch giver den maksimal komfort og bevægelsesfrihed. Buksen er perfekt til dem, der ønsker at bevæge sig frit og føle sig godt tilpas hele dagen.",
+    "category": "Leggings/Yogabukser",
+    "material": {
+      "body": "81% Nylon, 19% Lycra Elastane",
+      "lining": "90% Nylon, 10% Lycra Elastane"
+    },
+    "care": "Maskinvask koldt med lignende farver. Må ikke bleges. Tørretumbling ved lav varme. Må ikke stryges. Må ikke renses.",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.4/5",
+      "count": "971"
+    }
+  },
+  {
+    "id": 2,
+    "gallery": [
+      {
+        "image-name": "Essential folded yoga pants front view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/folded_yoga_pants_Jet_black_cloud_essential_6.jpg?v=1763035941&width=1000",
+        "alt_text": "Essential folded yoga pants i Jet black/cloud set forfra, viser den høje foldbare talje og det bløde materiale"
+      },
+      {
+        "image-name": "Essential folded yoga pants back side view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/folded_yoga_pants_Jet_black_cloud_essential_13.jpg?v=1763035941&width=2000",
+        "alt_text": "Essential folded yoga pants i Jet black/cloud set bagfra siden, viser den høje foldbare talje og det bløde materiale"
+      },
+      {
+        "image-name": "Essential folded yoga pants back view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/folded_yoga_pants_Jet_black_cloud_essential_11.jpg?v=1763035941&width=2000",
+        "alt_text": "Essential folded yoga pants i Jet black/cloud set bagfra, viser den høje foldbare talje og det bløde materiale"
+      },
+      {
+        "image-name": "Essential folded yoga pants close up view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/folded_yoga_pants_Jet_black_cloud_essential_7.jpg?v=1763035941&width=1000",
+        "alt_text": "Essential folded yoga pants i Jet black/cloud nærbillede, viser den høje foldbare talje og det bløde materiale"
+      }
+    ],
+    "brand": "Design by Si",
+    "title": "Essential folded yoga pants - Jet black/cloud",
+    "price": "319.00,-",
+    "color": "Sort/hvid",
+    "description": "Disse sorte yogabukser med hvid foldetalje forener bevægelsesfrihed med et stilrent design. Det bløde, elastiske materiale giver maksimal komfort, mens den kontrastfarvede talje tilføjer et frisk og sporty udtryk. Pasformen følger kroppens naturlige linjer og skaber en elegant silhuet, uanset om du bruger dem til træning eller afslappede hverdage. Den høje, foldbare talje giver fleksibilitet og støtte, perfekt til yoga, pilates eller loungebrug. Et tidløst valg, hvor funktion møder feminin minimalisme. Bukserne er designet med tanken om at de skulle matches med vores Prosper tank top I Cloud.",
+    "category": "Leggings/Yogabukser",
+    "material": "75% Nylon 25% Elastan",
+    "care": "Vask ved lav temperatur, maks. 30 grader. Vask på vrangen. Må ikke tørretumbles",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "Ikke angivet",
+      "count": "Ikke angivet"
+    }
+  },
+  {
+    "id": 3,
+    "gallery": [
+      {
+        "image-name": "Adistar 4 løbesko side view",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/97635fb2e38447eab6263214f1dcbdb3_9366/Adistar_4_lobesko_Lilla_JR0286_01_00_standard.jpg",
+        "alt_text": "Adistar 4 løbesko i Ice Lavender / Zero Metalic / Halo Mint set fra siden, viser det lette og støttende design"
+      },
+      {
+        "image-name": "Adistar 4 løbesko over view",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/6acdd7a1519b4aef9022c78837340bad_9366/Adistar_4_lobesko_Lilla_JR0286_02_standard.jpg",
+        "alt_text": "Adistar 4 løbesko i Ice Lavender / Zero Metalic / Halo Mint set ovenfra, viser det lette og støttende design"
+      },
+      {
+        "image-name": "Adistar 4 løbesko sole view",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/e31b8172bb93420d8c154d0460bb5836_9366/Adistar_4_lobesko_Lilla_JR0286_03_standard.jpg",
+        "alt_text": "Adistar 4 Løbesko i Ice Lavender / Zero Metalic / Halo Mint set fra undersiden for at vise sålen, der giver fremragende greb og støtte"
+      },
+      {
+        "image-name": "Adistar 4 løbesko reflections view",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/36711aa2e38649938038fe7c09731a18_9366/Adistar_4_lobesko_Lilla_JR0286_01_03_hover_standard.jpg",
+        "alt_text": "Adistar 4 Løbesko i Ice Lavender / Zero Metalic / Halo Mint set i mørket for at vise de reflekterende detaljer, der forbedrer synligheden under løb i svagt lys"
+      }
+    ],
+    "brand": "Adidas",
+    "title": "Adistar 4 løbesko",
+    "price": "1099.00,-",
+    "color": "Multi",
+    "description": "Disse adidas-løbesko er designet til længere løb i jævnt, moderat tempo og er skabt til at opretholde komforten under træningen. REPETITOR-mellemsålen bevarer en let fornemmelse og giver samtidig maksimal støddæmpning med returenergi og stabilitet til længere løbeture. Den holdbare ydersål er designet til træning på lange distancer.",
+    "category": "Løbesko",
+    "material": "Stødabsoberende matrialle og gummisål",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.5/5",
+      "count": "33"
+    }
+  },
+  {
+    "id": 4,
+    "gallery": [
+      {
+        "image-name": "Stabil 16 Indoor Sko set fra siden",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/39ffcfabc5fa413e83d3f19574d7813f_9366/Stabil_16_Indoor_Sko_Pink_JR9540_01_00_standard.jpg",
+        "alt_text": "Stabil 16 Indoor Sko set fra siden, viser det lette og støttende design, der er ideelt til indendørs sport som håndbold, volleyball og indendørshockey"
+      },
+      {
+        "image-name": "Stabil 16 Indoor Sko set fra oven",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/2620427fd7c14915a89b8d4400992474_9366/Stabil_16_Indoor_Sko_Pink_JR9540_02_standard_hover.jpg",
+        "alt_text": "Stabil 16 Indoor Sko set fra over, viser det lette og støttende design, der er ideelt til indendørs sport som håndbold, volleyball og indendørshockey"
+      },
+      {
+        "image-name": "Stabil 16 Indoor Sko set fra undersiden",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/761bf4050d224d06b36389f819227cd7_9366/Stabil_16_Indoor_Sko_Pink_JR9540_03_standard.jpg",
+        "alt_text": "Stabil 16 Indoor Sko set fra sålen, viser det lette og støttende design, der er ideelt til indendørs sport som håndbold, volleyball og indendørshockey"
+      },
+      {
+        "image-name": "Stabil 16 Indoor Sko fra indersiden",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/ac7c39e122ff4f08851f79a37a4ab032_9366/Stabil_16_Indoor_Sko_Pink_JR9540_06_standard.jpg",
+        "alt_text": "Stabil 16 Indoor Sko set fra indersiden, viser det lette og støttende design, der er ideelt til indendørs sport som håndbold, volleyball og indendørshockey"
+      }
+    ],
+    "brand": "Adidas",
+    "title": "Stabil 16 Indoor Sko",
+    "price": "1299.00,-",
+    "color": "Multi",
+    "description": "Disse sko fra adidas er pakket med innovativ teknologi, der presser dig til at præstere i sport, som håndbold, volleyball og indendørshockey. En adidas BOOST-indsats i mellemsålen giver komfort og returenergi, så du kan holde dig kørende, mens konstruktionen omkring skoen giver den stabilitet, du har brug for, til intenst spil. Mesh-zoner i overdelen øger åndbarheden, og det bløde for holder foden komfortabelt på plads. Signaturdetaljer såsom det forstærkede tåområde hylder originalen, mens et nyt trækkraftmønster hjælper dig med at skifte retning på et øjeblik. Sammen giver disse funktioner dig mulighed for at genopdage din styrke og bruge din energi til at gå efter sejren. Dette produkt indeholder mindst 20 % genanvendte materialer. Ved at genbruge materialer, der allerede er blevet skabt, hjælper vi med at reducere spild og vores afhængighed af begrænsede ressourcer, og reducerer vores produkters aftryk.",
+    "category": "Indesko",
+    "material": "Indeholder mindst 20 % genanvendt indhold",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": true,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.8/5",
+      "count": "14"
+    }
+  },
+  {
+    "id": 5,
+    "gallery": [
+      {
+        "image-name": "Prosper tank top front view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/tank_top_Cloud_prosper_4.jpg?v=1763035092&width=1000",
+        "alt_text": "Prosper tank top i Cloud set forfra, viser det enkle og minimalistiske design, der gør den nem at style med andre styles"
+      },
+      {
+        "image-name": "Prosper tank top back view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/tank_top_Cloud_prosper_7.jpg?v=1763035092&width=1000",
+        "alt_text": "Prosper tank top i Cloud set bagfra, viser det enkle og minimalistiske design, der gør den nem at style med andre styles"
+      },
+      {
+        "image-name": "Prosper tank top side view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/tank_top_Cloud_prosper_6.jpg?v=1763035092&width=1000",
+        "alt_text": "Prosper tank top i Cloud set fra siden, viser det enkle og minimalistiske design, der gør den nem at style med andre styles"
+      },
+      {
+        "image-name": "Prosper tank top close up view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/tank_top_Cloud_prosper_5.jpg?v=1763035092&width=1000",
+        "alt_text": "Prosper tank top i Cloud nærbillede, viser det enkle og minimalistiske design, der gør den nem at style med andre styles."
+      }
+    ],
+    "brand": "Design by Si",
+    "title": "Prosper tank top - Cloud",
+    "price": "279.00,-",
+    "color": "Hvid",
+    "description": "Prosper tank toppen er den perfekte blanding af komfort og moderne stil. Den enkle, minimalistiske design gør den super nem at style med andre styles fra hele vores hjemmeside, og den elastiske pasform sikrer, at du føler dig godt tilpas hele dagen. Toppen har udtagelige indlæg, som giver mulighed for at tilpasse pasformen og opnå den ønskede støtte. Den indre silikonekant sørger for, at tube toppen bliver på plads, uanset hvad du laver. Perfekt både til træning og som en del af dit hverdagsoutfit.",
+    "category": "Tank top",
+    "material": "75% Nylon og 25% Elastan",
+    "care": "Vask ved lav temperatur, maks. 30 grader. Vask på vrangen. Må ikke tørretumbles",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "5/5",
+      "count": "1"
+    }
+  },
+  {
+    "id": 6,
+    "gallery": [
+      {
+        "image-name": "Homerun1 Power Sports Bra product image",
+        "image_url": "https://www.planetnusa.com/cdn/shop/files/Homerun_Blue.png?v=1760427762&width=2100",
+        "alt_text": "Homerun1 Power Sports Bra"
+      },
+      {
+        "image-name": "Homerun1 Power Sports Bra front view",
+        "image_url": "https://www.planetnusa.com/cdn/shop/products/060421_PLANETNUSA1124.jpg?v=1760427762&width=1512",
+        "alt_text": "Homerun1 Power Sports Bra set forfra, viser det tætte og støttende design, der er lavet til bevægelse"
+      },
+      {
+        "image-name": "Homerun1 Power Sports Bra side view",
+        "image_url": "https://www.planetnusa.com/cdn/shop/products/060421_PLANETNUSA1145.jpg?v=1760427762&width=1512",
+        "alt_text": "Homerun1 Power Sports Bra set fra siden, viser det tætte og støttende design, der er lavet til bevægelse"
+      },
+      {
+        "image-name": "Homerun1 Power Sports Bra model",
+        "image_url": "https://www.planetnusa.com/cdn/shop/products/060421_PLANETNUSA1072.jpg?v=1760427762&width=1512",
+        "alt_text": "Homerun1 Power Sports Bra set på en model, viser det tætte og støttende design, der er lavet til bevægelse"
+      }
+    ],
+    "brand": "Planet Nusa",
+    "title": "Homerun1 Power Sports Bra",
+    "price": "475.00,-",
+    "color": "Blå",
+    "description": "Det er en homerun hver. eneste. gang. Homerun1 er den vægtløse sportsbh, der stadig holder alt præcis, hvor det skal være. Tæt, støttende og lavet til bevægelse – den slags bh, du stoler på under dine svedigste vandreture, dine hurtigste løb, eller når du hopper lige i havet bagefter.",
+    "category": "Sports BH",
+    "material": "78% genanvendt polyamid og 22% elastan",
+    "care": "30 graders vask på vrangen. Må ikke tørretumbles",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "5/5",
+      "count": "2"
+    }
+  },
+  {
+    "id": 7,
+    "gallery": [
+      {
+        "image-name": "",
+        "image_url": "https://www.planetnusa.com/cdn/shop/files/LS2Air_OrangeBlack.png?v=1764760345&width=2100",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "https://www.planetnusa.com/cdn/shop/files/ORANGEBLACK.png?v=1764760345&width=1512",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "https://www.planetnusa.com/cdn/shop/products/1_6f8058b9-bb14-429b-97ee-6f3c154435a8.jpg?v=1764760345&width=2100",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "https://www.planetnusa.com/cdn/shop/files/221006_PLANETNUSA5657.jpg?v=1764760345&width=1512",
+        "alt_text": ""
+      }
+    ],
+    "brand": "Planet Nusa",
+    "title": "LS2 Air Long Sleeve",
+    "price": "560.00,-",
+    "color": "Orange",
+    "description": "En langærmet, der føles som luft og bevæger sig som en anden hud. Elsket af vores fællesskab, LS2 Air handler om lethed, åndbarhed og komfort—afsluttet med blød rynkning og et print af planeter over det hele for et dristigt, men feminint touch.",
+    "category": "Bluser",
+    "material": "87% genbrugt polyester, 13% elastan",
+    "care": "Vask ved lav temperatur, maks. 30 grader. Må ikke tørretumbles",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "5/5",
+      "count": "2"
+    }
+  },
+  {
+    "id": 8,
+    "gallery": {
+      "image-name": "",
+      "image_url": "https://www.planetnusa.com/cdn/shop/files/AnkleSock_White_e351d4d0-bc02-4e1b-988c-c47552f4c2d2.png?v=1760092893&width=2100",
+      "alt_text": ""
+    },
+    "brand": "Planet Nusa",
+    "title": "Ankle Sock 2-Pack",
+    "price": "119.00,-",
+    "color": "Hvid",
+    "description": "Lav skæring, høj ydeevne. Vores Ankelstrømper er hverdagens MVP'er, designet til at blive på plads, ånde let og hjælpe dig igennem træning, gåture eller afslappende dage på sofaen. Slank pasform. Ingen irritation. Maksimal komfort.",
+    "category": "Sokker",
+    "material": "70% genbrugt polyamide, 22% polyamide & 8% elastan.",
+    "care": "Vask ved lav temperatur, maks. 30 grader. Må ikke tørretumbles.",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": "",
+    "rating": {
+      "rate": "5/5",
+      "count": "1"
+    }
+  },
+  {
+    "id": 9,
+    "gallery": [
+      {
+        "image-name": "",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active-track_jacket-pink-packshot-1_51f7e025-f300-4bcc-adbe-ebc0e378c365.jpg?v=1739211260",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active-track_jacket-pink-studio-2.jpg?v=1739211259",
+        "alt_text": ""
+      },
+      {
+        "image-name": "",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active-track_jacket-pink-studio-2.jpg?v=1739211259",
+        "alt_text": ""
+      }
+    ],
+    "brand": "Organic Basics",
+    "title": "Recycled Nylon Track Jacket",
+    "price": "699.00,-",
+    "color": "Multi",
+    "description": "",
+    "category": "Løbejakker",
+    "material": "88% genbrugt nylon og 12% elastan",
+    "care": "Kold maskinevask sammen med farvet tøj. Vask på vrangen. Må ikke bleges. Lav tørretumbling. Strygning ved lav temperatur. Må ikke dry cleanes.",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": false,
+    "rating": {
+      "rate": "4.9/5",
+      "count": "30"
+    }
+  }
+]
