@@ -814,81 +814,21 @@
     "care": "Vask ved lav temperatur, maks. 30 grader. Må ikke tørretumbles.",
     "size": [
       {
-        "size1": "32",
+        "size1": "36 - 40",
         "available": true
       },
       {
-        "size2": "33",
+        "size2": "41 - 44",
         "available": true
       },
       {
-        "size3": "34",
-        "available": true
-      },
-      {
-        "size4": "35",
-        "available": true
-      },
-      {
-        "size5": "36",
-        "available": true
-      },
-      {
-        "size6": "37",
-        "available": true
-      },
-      {
-        "size7": "38",
-        "available": true
-      },
-      {
-        "size8": "39",
-        "available": true
-      },
-      {
-        "size9": "40",
-        "available": true
-      },
-      {
-        "size10": "41",
-        "available": true
-      },
-      {
-        "size11": "42",
-        "available": true
-      },
-      {
-        "size12": "43",
-        "available": true
-      },
-      {
-        "size13": "44",
-        "available": true
-      },
-      {
-        "size14": "45",
-        "available": true
-      },
-      {
-        "size15": "46",
-        "available": true
-      },
-      {
-        "size16": "47",
-        "available": true
-      },
-      {
-        "size17": "48",
-        "available": true
-      },
-      {
-        "size18": "49",
+        "size3": "45 - 48",
         "available": true
       }
     ],
     "stock": true,
     "single-item-service": false,
-    "touch-approved": "",
+    "touch-approved": true,
     "rating": {
       "rate": "5/5",
       "count": "1"
@@ -1686,34 +1626,34 @@
     "id": 16,
     "gallery": [
       {
-        "image-name": "",
-        "image_url": "",
-        "alt_text": ""
+        "image-name": "Motion wrap bluse - Espresso model",
+        "image_url": "https://designbysi.dk/cdn/shop/files/Motion_wrap_blouse_brown_18.jpg?v=1739271746&width=1000",
+        "alt_text": "Motion wrap bluse - Espresso på modellen, viser det elegante og alsidige design, der kan styles på flere måder for både hverdagsbrug og særlige anledninger"
       },
       {
-        "image-name": "",
-        "image_url": "",
-        "alt_text": ""
+        "image-name": "Motion wrap bluse - Espresso side view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/Motion_wrap_blouse_brown_11.jpg?v=1750755430&width=2000",
+        "alt_text": "Motion wrap bluse - Espresso set fra siden, viser det elegante og alsidige design, der kan styles på flere måder for både hverdagsbrug og særlige anledninger"
       },
       {
-        "image-name": "",
-        "image_url": "",
-        "alt_text": ""
+        "image-name": "Motion wrap bluse - Espresso back view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/Motion_wrap_blouse_brown_12.jpg?v=1750755430&width=1000",
+        "alt_text": "Motion wrap bluse - Espresso set bagfra, viser det elegante og alsidige design, der kan styles på flere måder for både hverdagsbrug og særlige anledninger"
       },
       {
-        "image-name": "",
-        "image_url": "",
-        "alt_text": ""
+        "image-name": "Motion wrap bluse - Espresso front view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/Motion_wrap_blouse_brown_19.jpg?v=1750755430&width=1000",
+        "alt_text": "Motion wrap bluse - Espresso set fra fronten, viser det elegante og alsidige design, der kan styles på flere måder for både hverdagsbrug og særlige anledninger"
       }
     ],
-    "brand": "",
-    "title": "",
-    "price": "",
-    "color": "",
-    "description": "",
-    "category": "",
-    "material": "",
-    "care": "",
+    "brand": "Design by Si",
+    "title": "Motion wrap bluse - Espresso",
+    "price": "279.00,-",
+    "color": "Brun",
+    "description": "Vores Wrap Blouse kombinerer feminin elegance med en afslappet pasform, der gør den perfekt til både hverdagsbrug og særlige anledninger. Den smigrende slå-om-effekt fremhæver taljen, mens de bløde, lette materialer sikrer maksimal komfort. Med sine lange ærmer og delikate bindebånd kan blusen styles på flere måder – både løst og figursyet. Uanset om du matcher den med jeans for et casual look eller en nederdel for en sofistikeret stil, er denne wrap blouse et alsidigt must-have i garderoben.",
+    "category": "Tynde jakker",
+    "material": "94% Micromodal 6% Elastin",
+    "care": "Kan vaskes ved 30°, ikke egnet til tørretumbler",
     "size": [
       {
         "size1": "32",
@@ -1788,13 +1728,312 @@
         "available": true
       }
     ],
-    "stock": "",
-    "single-item-service": "",
-    "touch-approved": "",
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
     "rating": {
-      "rate": "",
-      "count": ""
+      "rate": "5.5/5",
+      "count": "1"
+    }
+  },
+  {
+    "id": 17,
+    "gallery": [
+      {
+        "image-name": "Crossover Headband front view",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW9GETS_033454_1?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Crossover Headband set forfra, viser det alsidige design, der kan bæres med krydsningen foran eller bag, og det svedeabsorberende stof, der hjælper dig med at føle dig frisk og tør under træning"
+      },
+      {
+        "image-name": "Crossover Headband back view",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW9GETS_033454_2?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Crossover Headband set bagfra, viser det alsidige design, der kan bæres med krydsningen foran eller bag, og det svedeabsorberende stof, der hjælper dig med at føle dig frisk og tør under træning"
+      }
+    ],
+    "brand": "Lululemon",
+    "title": "Crossover Headband",
+    "price": "141.50,-",
+    "color": "Hvid",
+    "description": "Tæm din manke i varme studier. Dette pandebånd kan bæres med krydsningen foran eller bag og er lavet af svedeabsobernde stof for at hjælpe dig med at føle dig frisk og tør.",
+    "category": "Pandebånd",
+    "material": "78% nylon og 22% elastan",
+    "care": "Kold vask med lignende farver. Må ikke bleges. Tørretumbles ved lav varme. Må ikke dry cleanes.",
+    "size": [
+      {
+        "size1": "One size",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service":false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "3.7/5",
+      "count": "27"
+    }
+  },
+  {
+    "id": 18,
+    "gallery": [
+      {
+        "image-name": "Uplifting Scrunchie Big Bow product image",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW9DN2S_0002_1?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Uplifting Scrunchie Big Bow, viser det søde og funktionelle design, der tilføjer et strejf af stil til dine lokker, samtidig med at det holder dem sikkert på plads under træning eller i hverdagen"
+      },
+      {
+        "image-name": "Uplifting Scrunchie Big Bow in hair",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW9DN2S_0002_2?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Uplifting Scrunchie Big Bow i håret på en model, viser det søde og funktionelle design, der tilføjer et strejf af stil til dine lokker, samtidig med at det holder dem sikkert på plads under træning eller i hverdagen"
+      }
+    ],
+    "brand": "Lululemon",
+    "title": "Uplifting Scrunchie Big Bow",
+    "price": "103.00,-",
+    "color": "Hvid",
+    "description": "Tilføj noget kærlighed til dine lokker. Denne scrunchie har en sløjfe du kan binde så stor (eller lille) som du vil.",
+    "category": "Elastikker",
+    "material": "86% genanvendt polyester og 14% elastan",
+    "care": "Vaskes med lignende farver. Lav tørretumbling. Må ikke bleges. Må ikke stryges. Må ikke dry cleanes.",
+    "size": [
+      {
+        "size1": "One size",
+        "available": true
+      }
+    ],
+    "stock": "true",
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.6/5",
+      "count": "76"
+    }
+  },
+  {
+    "id": 19,
+    "gallery": [
+      {
+        "image-name": "Terrex Xperior CLIMACOOL+ T-shirt product image",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/a32103c3cb644f898986a0fa65c72afa_9366/Terrex_Xperior_CLIMACOOL_T-shirt_Bla_KD4856_01_laydown.jpg",
+        "alt_text": "Terrex Xperior CLIMACOOL+ T-shirt, viser det sporty og funktionelle design, der er perfekt til trail-løb eller outdoor-eventyr, med avanceret Climacool+-teknologi for at holde dig kølig og tør under lange distancer"
+      },
+      {
+        "image-name": "Terrex Xperior CLIMACOOL+ T-shirt front view",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/9a74bff1a8cf4ab2864786f822bccb00_9366/Terrex_Xperior_CLIMACOOL_T-shirt_Bla_KD4856_21_model.jpg",
+        "alt_text": "Terrex Xperior CLIMACOOL+ T-shirt set fra fronten, viser det sporty og funktionelle design, der er perfekt til trail-løb eller outdoor-eventyr, med avanceret Climacool+-teknologi for at holde dig kølig og tør under lange distancer"
+      },
+      {
+        "image-name": "Terrex Xperior CLIMACOOL+ T-shirt back view",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/592b880640ad42738a515a97ad9c07e1_9366/Terrex_Xperior_CLIMACOOL_T-shirt_Bla_KD4856_23_hover_model.jpg",
+        "alt_text": "Terrex Xperior CLIMACOOL+ T-shirt set fra bagsiden, viser det sporty og funktionelle design, der er perfekt til trail-løb eller outdoor-eventyr, med avanceret Climacool+-teknologi for at holde dig kølig og tør under lange distancer"
+      },
+      {
+        "image-name": "Terrex Xperior CLIMACOOL+ T-shirt close up back view",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/d94f7923b5994493a9392b9dc653d078_9366/Terrex_Xperior_CLIMACOOL_T-shirt_Bla_KD4856_41_detail.jpg",
+        "alt_text": "Terrex Xperior CLIMACOOL+ T-shirt tæt på bagsiden, viser det mesh-stof, der giver ekstra ventilation og hjælper med at holde dig kølig under træning"
+      }
+    ],
+    "brand": "Adidas",
+    "title": "Terrex Xperior CLIMACOOL+ T-shirt",
+    "price": "499.00,-",
+    "color": "Blå",
+    "description": "Hvis du er trail-løber eller outdoor-eventyrer, der leder efter udstyr til at klare de lange distancer, behøver du ikke lede længere end adidas Terrex Xperior Climacool+ T-shirten. Denne sportstop er designet til at holde dig kølig og tør, og er fremstillet med avanceret Climacool+-teknologi, der transporterer og fordeler sved med hurtigtørrende fibre,så huden føles frisk. Den er fremstillet af let, køligt stof og har en normal pasform, der sidder perfekt og giver dig fuld fokus på din præstation. Denne T-shirt er fremstillet med svedtransporterende materialer i områder med høj svedproduktion og er udstyret med Polygiene StayFresh-lugtkontrolteknologi, så du kan holde dig frisk og selvsikker kilometer efter kilometer. Og med et Terrex-trykt logo på venstre bryst, der tilføjer et strejf af stil til dit trail-klare look, er dette smarte sæt konstrueret til at understøtte alle dine bevægelser.",
+    "category": "T-shirts",
+    "material": "100% genanvendt polyester",
+    "care": "Vaskes i 30 grader på et skåneprogram. Må ikke tørretumbles. Må ikke bleges. Klattes med koldt strygejern. Må ikke dry cleanes.",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "5/5",
+      "count": "1"
+    }
+  },
+  {
+    "id": 20,
+    "gallery": [
+      {
+        "image-name": "Essentials French Terry joggingbukser model",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/783560772b984f7a93c7ed223de0a2f1_9366/Essentials_French_Terry_joggingbukser_Pink_JD1525_25_model.jpg",
+        "alt_text": "Essentials French Terry joggingbukser på modellen, viser det bløde og komfortable design, der er perfekt til afslapning derhjemme eller løb af ærinder i weekenden"
+      },
+      {
+        "image-name": "Essentials French Terry joggingbukser front view",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/6b83b776c0ff4a7799622e1fab95132f_9366/Essentials_French_Terry_joggingbukser_Pink_JD1525_21_model.jpg",
+        "alt_text": "Essentials French Terry joggingbukser set fra fronten, viser det bløde og komfortable design, der er perfekt til afslapning derhjemme eller løb af ærinder i weekenden"
+      },
+      {
+        "image-name": "Essentials French Terry joggingbukser back view",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/7216f90e36b149bf91c0ebe35d393b5e_9366/Essentials_French_Terry_joggingbukser_Pink_JD1525_23_hover_model.jpg",
+        "alt_text": "Essentials French Terry joggingbukser set fra bagsiden, viser det bløde og komfortable design, der er perfekt til afslapning derhjemme eller løb af ærinder i weekenden"
+      },
+      {
+        "image-name": "Essentials French Terry joggingbukser ankle close up",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/a6962359834643328fcc81cc1f5b9213_9366/Essentials_French_Terry_joggingbukser_Pink_JD1525_42_detail.jpg",
+        "alt_text": "Essentials French Terry joggingbukser tæt på anklen, viser den tætsiddence elastik ved anklen, der giver en moderne og stilfuld pasform, samtidig med at den holder bukserne på plads under bevægelse"
+      }
+    ],
+    "brand": "Adidas",
+    "title": "Essentials French Terry joggingbukser",
+    "price": "291.85,-",
+    "color": "Lysersrød",
+    "description": "Når du tager disse joggingbukser fra adidas på, kan du se, hvorfor den bløde komfort fra isoli er svær at slå. Den løse og afslappede silhuet passer til stort set alt i dit klædeskab og giver bevægelsesfrihed. Disse joggingbukser hjælper med at holde dig godt tilpas uden at gå på kompromis med stilen, uanset om du slapper af derhjemme eller løber ærinder i weekenden.",
+    "category": "Sweatpants",
+    "material": "Better Cotton bomuld",
+    "care": "Vaskes i 30 grader på et skåneprogram. Må ikke tørretumbles. Må ikke bleges. Klattes med koldt strygejern. Må ikke dry cleanes",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.8/5",
+      "count": "66"
     }
   }
-
 ]
