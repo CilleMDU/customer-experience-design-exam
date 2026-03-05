@@ -1,10 +1,34 @@
 .card {
-  background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
+  display: flex;
+  width: 386px;
+  padding: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  background: var(--primary-color-light);
+}
+
+.imageArea {
+  height: 540px;
+  align-self: stretch;
+}
+
+.imageArea img {
+  width: 370px;
+  height: 540px;
+  flex-shrink: 0;
+}
+
+.brandName {
+  color: #000;
+
+  /* desktop-card-brand */
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 3.6px;
 }
 
 .card:hover {
@@ -26,23 +50,37 @@
   padding: 1rem 0;
 }
 
-.info {
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
 .title {
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: #1a1a1a;
-  margin: 0;
+  color: #000;
+
+  /* desktop-card-title */
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.2px;
 }
 
 .price {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #27ae60;
-  margin: 0;
+  color: #000;
+
+  /* desktop-card-price */
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.92px;
+}
+
+.hoverInfo {
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  display: none;
+}
+
+.card:hover .hoverInfo {
+  display: flex;
 }
