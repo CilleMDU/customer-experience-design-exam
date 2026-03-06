@@ -21,6 +21,7 @@ nav a {
   padding: 0.5rem 1rem;
   border-radius: 4px;
   transition: background-color 0.3s ease;
+  font-size: var(--body-text-big-font-size);
 }
 
 nav a:hover {

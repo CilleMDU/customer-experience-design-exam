@@ -10,20 +10,20 @@ import navbarLogo from "../assets/navbar-logo.svg";
 export default function NavigationBar() {
   return (
     <nav className={styles.NavigationBar}>
+      <img src={navbarLogo} alt="logo" />
+
       <div className={styles.pages}>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/products">Produkter</NavLink>
         <NavLink to="/about">Om os</NavLink>
       </div>
       <div className={styles.ikoner}>
-        <img src={shoppingBag} alt="Indkøbskurv" />
-        <img src={hjerteIkon} alt="favoritter" />
-        <img src={profilIkon} alt="profil" />
-        <img src={searchIkon} alt="søge funktion" />
         <img src={darkmodeIkon} alt="darkmode knap" />
+        <img src={searchIkon} alt="søge funktion" />
+        <img src={profilIkon} alt="profil" />
+        <img src={hjerteIkon} alt="favoritter" />
+        <img src={shoppingBag} alt="Indkøbskurv" />
       </div>
-
-      <img src={navbarLogo} alt="logo" />
     </nav>
   );
 }
