@@ -1,21 +1,21 @@
 :root {
   /* Colors light */
   --primary-color-light: #ffffff;
-  --secondary-color-light-turqouise: #38A495;
-  --seconndary-color-light-pink: #E66A9D;
-  --accent-color-light-yellow: #FFD678;
+  --secondary-color-light-turqouise: #38a495;
+  --seconndary-color-light-pink: #e66a9d;
+  --accent-color-light-yellow: #ffd678;
   --text-color-light: #151515;
 
   /* Colors dark */
-  --primary-color-dark: #5D2F54;
-  --secondary-color-dark-turqouise: #65BDAB;
-  --secondary-color-dark-pink: #D3628A;
-  --accent-color-dark-yellow: #E9DB89;
-  --text-color-dark: #E4E4E4;
+  --primary-color-dark: #5d2f54;
+  --secondary-color-dark-turqouise: #65bdab;
+  --secondary-color-dark-pink: #d3628a;
+  --accent-color-dark-yellow: #e9db89;
+  --text-color-dark: #e4e4e4;
 
   /* Fonts */
-  --title-font-font-family: 'Sue Ellen Francisco', cursive;
-  --text-font-family: 'work-sans', sans-serif;
+  --title-font-font-family: "Sue Ellen Francisco", cursive;
+  --text-font-family: "work-sans", sans-serif;
 
   /* Font sizes */
   --title-font-size: 6rem;
@@ -36,4 +36,41 @@
 /* rem 10px=1rem */
 html {
   font-size: 62.5%;
+}
+
+.heroSection {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  overflow: hidden; /* ligesom at bruge clip content i. figma */
+}
+
+.heroBg {
+  display: block;
+  width: 100vw;
+  max-width: none; /* gør at den ikke bliver max width ligesom heroSection */
+  height: auto;
+}
+
+.heroLogo {
+  position: absolute;
+  top: 10rem;
+  left: 70%;
+  width: 50rem;
+  height: auto;
+  z-index: 2;
+}
+
+/* Divideren der er efter hero section lige inden productgrid */
+.heroDivider {
+  position: absolute;
+  left: 0; /* alting sat til 0 for at den går fra kant til kant */
+  right: 0;
+  bottom: 0;
+  height: 80px;
+  background: var(--seconndary-color-light-pink);
+  z-index: 3;
 }
