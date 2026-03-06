@@ -29,10 +29,7 @@
     "color": "Lyserød",
     "description": "Align No Line™ High-Rise Pant 20 er designet til yoga og hverdagsbrug og har en høj talje og et smørblødt stof, der føles som en anden hud. Med sin sømløse konstruktion og fire-vejs stretch giver den maksimal komfort og bevægelsesfrihed. Buksen er perfekt til dem, der ønsker at bevæge sig frit og føle sig godt tilpas hele dagen.",
     "category": "Leggings/Yogabukser",
-    "material": {
-      "body": "81% Nylon, 19% Lycra Elastane",
-      "lining": "90% Nylon, 10% Lycra Elastane"
-    },
+    "material": "81% Nylon, 19% Lycra Elastane med 90% nylan og 10% elastan i linningen",
     "care": "Maskinvask koldt med lignende farver. Må ikke bleges. Tørretumbling ved lav varme. Må ikke stryges. Må ikke renses.",
     "size": [
       {
@@ -688,24 +685,24 @@
     "id": 7,
     "gallery": [
       {
-        "image-name": "",
+        "image-name": "LS2 Air Long Sleeve product image",
         "image_url": "https://www.planetnusa.com/cdn/shop/files/LS2Air_OrangeBlack.png?v=1764760345&width=2100",
-        "alt_text": ""
+        "alt_text": "LS2 Air Long Sleeve i orange og sort, viser det luftige og komfortable design, der er lavet til bevægelse"
       },
       {
-        "image-name": "",
+        "image-name": "LS2 Air Long Sleeve front view",
         "image_url": "https://www.planetnusa.com/cdn/shop/files/ORANGEBLACK.png?v=1764760345&width=1512",
-        "alt_text": ""
+        "alt_text": "LS2 Air Long Sleeve i orange og sort, viser det luftige og komfortable design, der er lavet til bevægelse"
       },
       {
-        "image-name": "",
+        "image-name": "LS2 Air Long Sleeve back view",
         "image_url": "https://www.planetnusa.com/cdn/shop/products/1_6f8058b9-bb14-429b-97ee-6f3c154435a8.jpg?v=1764760345&width=2100",
-        "alt_text": ""
+        "alt_text": "LS2 Air Long Sleeve i orange og sort, viser det luftige og komfortable design, der er lavet til bevægelse"
       },
       {
-        "image-name": "",
+        "image-name": "LS2 Air Long Sleeve model",
         "image_url": "https://www.planetnusa.com/cdn/shop/files/221006_PLANETNUSA5657.jpg?v=1764760345&width=1512",
-        "alt_text": ""
+        "alt_text": "LS2 Air Long Sleeve i orange og sort, viser det luftige og komfortable design, der er lavet til bevægelse"
       }
     ],
     "brand": "Planet Nusa",
@@ -802,11 +799,11 @@
     "id": 8,
     "gallery": [
       {
-        "image-name": "",
-        "image_url": "https://www.planetnusa.com/cdn/shop/files/AnkleSock_White_e351d4d0-bc02-4e1b-988c-c47552f4c2d2.png?v=1760092893&width=2100",
-        "alt_text": ""
-      }
-    ],
+      "image-name": "Ankle Sock 2-Pack",
+      "image_url": "https://www.planetnusa.com/cdn/shop/files/AnkleSock_White_e351d4d0-bc02-4e1b-988c-c47552f4c2d2.png?v=1760092893&width=2100",
+      "alt_text": "Ankle Sock 2-Pack i hvid, viser det lave snit og det bløde materiale, der er designet til komfort og ydeevne"
+    }
+  ],
     "brand": "Planet Nusa",
     "title": "Ankle Sock 2-Pack",
     "price": "119.00,-",
@@ -817,81 +814,21 @@
     "care": "Vask ved lav temperatur, maks. 30 grader. Må ikke tørretumbles.",
     "size": [
       {
-        "size1": "32",
+        "size1": "36 - 40",
         "available": true
       },
       {
-        "size2": "33",
+        "size2": "41 - 44",
         "available": true
       },
       {
-        "size3": "34",
-        "available": true
-      },
-      {
-        "size4": "35",
-        "available": true
-      },
-      {
-        "size5": "36",
-        "available": true
-      },
-      {
-        "size6": "37",
-        "available": true
-      },
-      {
-        "size7": "38",
-        "available": true
-      },
-      {
-        "size8": "39",
-        "available": true
-      },
-      {
-        "size9": "40",
-        "available": true
-      },
-      {
-        "size10": "41",
-        "available": true
-      },
-      {
-        "size11": "42",
-        "available": true
-      },
-      {
-        "size12": "43",
-        "available": true
-      },
-      {
-        "size13": "44",
-        "available": true
-      },
-      {
-        "size14": "45",
-        "available": true
-      },
-      {
-        "size15": "46",
-        "available": true
-      },
-      {
-        "size16": "47",
-        "available": true
-      },
-      {
-        "size17": "48",
-        "available": true
-      },
-      {
-        "size18": "49",
+        "size3": "45 - 48",
         "available": true
       }
     ],
     "stock": true,
     "single-item-service": false,
-    "touch-approved": "",
+    "touch-approved": true,
     "rating": {
       "rate": "5/5",
       "count": "1"
@@ -901,26 +838,26 @@
     "id": 9,
     "gallery": [
       {
-        "image-name": "",
+        "image-name": "Recycled Nylon Track Jacket product image",
         "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active-track_jacket-pink-packshot-1_51f7e025-f300-4bcc-adbe-ebc0e378c365.jpg?v=1739211260",
-        "alt_text": ""
+        "alt_text": "Recycled Nylon Track Jacket front view, viser det lette og sporty design, der er perfekt til opvarmning, nedkøling eller lag-på-lag"
       },
       {
-        "image-name": "",
+        "image-name": "Recycled Nylon Track Jacket front view",
         "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active-track_jacket-pink-studio-2.jpg?v=1739211259",
-        "alt_text": ""
+        "alt_text": "Recycled Nylon Track Jacket front view, viser det lette og sporty design, der er perfekt til opvarmning, nedkøling eller lag-på-lag"
       },
       {
-        "image-name": "",
-        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active-track_jacket-pink-studio-2.jpg?v=1739211259",
-        "alt_text": ""
+        "image-name": "Recycled Nylon Track Jacket model",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active-track_jacket-pink-studio-6.jpg?v=1739211261&width=990",
+        "alt_text": "Recycled Nylon Track Jacket på modellen, viser det lette og sporty design, der er perfekt til opvarmning, nedkøling eller lag-på-lag"
       }
     ],
     "brand": "Organic Basics",
     "title": "Recycled Nylon Track Jacket",
     "price": "699.00,-",
     "color": "Multi",
-    "description": "",
+    "description": "Denne trackjakke med høj krave bringer retro sporty stil ind i din daglige rutine. Fremstillet af letvægts genanvendt stof og kontrastpiping, er den velegnet til opvarmning, nedkøling eller lag-på-lag, når du er på farten",
     "category": "Løbejakker",
     "material": "88% genbrugt nylon og 12% elastan",
     "care": "Kold maskinevask sammen med farvet tøj. Vask på vrangen. Må ikke bleges. Lav tørretumbling. Strygning ved lav temperatur. Må ikke dry cleanes.",
@@ -1004,6 +941,1292 @@
     "rating": {
       "rate": "4.9/5",
       "count": "30"
+    }
+  },
+  {
+    "id": 10,
+    "gallery": [
+      {
+        "image-name": "Active Flow Tank Top product image",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active_flow-tank_top-canyon_pink-packshot-1.jpg?v=1734601136&width=990",
+        "alt_text": "Active Flow Tank Top, viser det slanke og sporty design, der er perfekt til træning eller som en del af dit hverdagsoutfit"
+      },
+      {
+        "image-name": "Active Flow Tank Top front view",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active_flow-tank_top-canyon_pink-studio-1.jpg?v=1734601130&width=990",
+        "alt_text": "Active Flow Tank Top set fra fronten, viser det slanke og sporty design, der er perfekt til træning eller som en del af dit hverdagsoutfit"
+      },
+      {
+        "image-name": "Active Flow Tank Top back view",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active_flow-tank_top-canyon_pink-studio-2.jpg?v=1734601133&width=990",
+        "alt_text": "Active Flow Tank Top set bagfra, viser det slanke og sporty design, der er perfekt til træning eller som en del af dit hverdagsoutfit"
+      }
+    ],
+    "brand": "Organic Basics",
+    "title": "Active Flow Tank Top",
+    "price": "479.00,-",
+    "color": "Lyserød",
+    "description": "En tanktop, der matcher din energi! Gør træningen sjov i Active Flow Tank Top, der har en slank finish og skyfarvet kantbånd til et retro twist",
+    "category": "Tank top",
+    "material": "83% genbrugt nylongarn og 17% elastan",
+    "care": "Kold maskinevask sammen med farvet tøj. Vask på vrangen. Må ikke bleges. Lav tørretumbling. Strygning ved lav temperatur. Må ikke dry cleanes.",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.7/5",
+      "count": "53"
+    }
+  },
+  {
+    "id": 11,
+    "gallery": [
+      {
+        "image-name": "Sportswear Phoenix Fleece Hoodie front view",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/be78d734-6e1e-41d8-8bb3-bea1380a56f6/W+NSW+PHNX+FLC+OS+PO+HOODIE+PL.png",
+        "alt_text": "Sportswear Phoenix Fleece Hoodie set forfra, viser det klassiske hættetrøje design med moderne detaljer, der giver en komfortabel og stilfuld pasform"
+      },
+      {
+        "image-name": "Sportswear Phoenix Fleece Hoodie back view",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/969d964f-4b6a-4b2f-9993-9ac272fa27b3/W+NSW+PHNX+FLC+OS+PO+HOODIE+PL.png",
+        "alt_text": "Sportswear Phoenix Fleece Hoodie set bagfra, viser det klassiske hættetrøje design med moderne detaljer, der giver en komfortabel og stilfuld pasform"
+      },
+      {
+        "image-name": "Sportswear Phoenix Fleece Hoodie close up view",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/fe483197-1dd4-4bb9-afc7-93d7d52988f3/W+NSW+PHNX+FLC+OS+PO+HOODIE+PL.png",
+        "alt_text": "Sportswear Phoenix Fleece Hoodie tæt på, viser detaljerne i hætten og designet"
+      },
+      {
+        "image-name": "Sportswear Phoenix Fleece Hoodie model",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/a6c7463c-0c04-434a-8e04-3b8513bfa04e/W+NSW+PHNX+FLC+OS+PO+HOODIE+PL.png",
+        "alt_text": "Sportswear Phoenix Fleece Hoodie modellen viser det klassiske hættetrøje design med moderne detaljer, der giver en komfortabel og stilfuld pasform"
+      }
+    ],
+    "brand": "Nike",
+    "title": "Sportswear Phoenix Fleece Hoodie",
+    "price": "479.90,-",
+    "color": "Sort",
+    "description": "Mød vores bud på nyt luksuriøst loungewear, der er designet med stil, komfort og alsidighed i tankerne. Denne klassiske hættetrøje hjælper dig med at holde dig godt tilpas hele dagen takket være mellemvægtig fleece, der føles blød, men struktureret. Plus, overdimensionerede detaljer (som højere ribkant og overdimensioneret pasform) giver dig et moderne snit",
+    "category": "Hoodies",
+    "material": "Polyesteren i denne polyesterfleece med 80% bomuld/20% er fremstillet i 100% genanvendt polyester",
+    "care": "Ikke angivet. Tjek label for plejeinstruktioner ved ankomst.",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": false,
+    "rating": {
+      "rate": "4.5/5",
+      "count": "22"
+    }
+  },
+  {
+    "id": 12,
+    "gallery": [
+      {
+        "image-name": "Softstreme Pintuck High-Rise Wide-Leg Pant model",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IOWS_1179_1?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Softstreme Pintuck High-Rise Wide-Leg Pant set på en model, viser det brede bukser design med fløjlsagtig berøring og kant-detaljer, der gør dem nemme at klædes op eller ned"
+      },
+      {
+        "image-name": "Softstreme Pintuck High-Rise Wide-Leg Pant front view",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IOWS_1179_2?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Softstreme Pintuck High-Rise Wide-Leg Pant set fra fronten, viser det brede bukser design med fløjlsagtig berøring og kant-detaljer, der gør dem nemme at klædes op eller ned"
+      },
+      {
+        "image-name": "Softstreme Pintuck High-Rise Wide-Leg Pant back view",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IOWS_1179_3?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Softstreme Pintuck High-Rise Wide-Leg Pant set fra bagsiden, viser det brede bukser design med fløjlsagtig berøring og kant-detaljer, der gør dem nemme at klædes op eller ned"
+      },
+      {
+        "image-name": "Softstreme Pintuck High-Rise Wide-Leg Pant pant leg close up view",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW5IOWS_1179_8?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Softstreme Pintuck High-Rise Wide-Leg Pant set tæt på anklen, viser det brede bukser design med fløjlsagtig berøring og kant-detaljer, der gør dem nemme at klædes op eller ned"
+      }
+    ],
+    "brand": "Lululemon",
+    "title": "Softstreme Pintuck High-Rise Wide-Leg Pant",
+    "price": "823.00,-",
+    "color": "Blå",
+    "description": "Føl det for at tro det. Disse brede bukser har en fløjlsagtig berøring, som er umulig at modstå, plus kant-detaljer og en flad taljekant, som gør dem nemme at klædes op eller ned.",
+    "category": "Sweatpants",
+    "material": "Selve bukserne er lavet af 53% genanvendt polyester, 38% modal, og 9% elastan. Lommer er 100% bomuld.",
+    "care": "Kold maskinevask med lignende farver. Må ikke bleges. Tørretumbles ved lav varme. Må ikke dry cleanes.",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.2/5",
+      "count": "37"
+    }
+  },
+  {
+    "id": 13,
+    "gallery": [
+      {
+        "image-name": "Dri-FIT 2-i-1-shorts med mellemhøj talje model",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/201a4fff-7c7a-4559-b57b-bb1669ed3aca/W+NK+ONE+DF+MR+3IN+2N1+SHORT.png",
+        "alt_text": "Dri-FIT 2-i-1-shorts med mellemhøj talje set på en model, viser det tætsiddende indvendige lag og det løse ydre lag, der giver komfort og bevægelsesfrihed"
+      },
+      {
+        "image-name": "Dri-FIT 2-i-1-shorts med mellemhøj talje back view",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/e973f908-bf8d-4480-8f0f-f57096b105c6/W+NK+ONE+DF+MR+3IN+2N1+SHORT.png",
+        "alt_text": "Dri-FIT 2-i-1-shorts med mellemhøj talje set bagfra, viser det tætsiddende indvendige lag og det løse ydre lag, der giver komfort og bevægelsesfrihed"
+      },
+      {
+        "image-name": "Dri-FIT 2-i-1-shorts med mellemhøj talje side view",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/671c4bb1-af3f-4264-92ce-3d3524efcea9/W+NK+ONE+DF+MR+3IN+2N1+SHORT.png",
+        "alt_text": "Dri-FIT 2-i-1-shorts med mellemhøj talje set fra siden, viser det tætsiddende indvendige lag og det løse ydre lag, der giver komfort og bevægelsesfrihed"
+      },
+      {
+        "image-name": "Dri-FIT 2-i-1-shorts med mellemhøj talje secret pocket close up",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/3c5ee0d5-659d-4f0d-ac32-c0745309719e/W+NK+ONE+DF+MR+3IN+2N1+SHORT.png",
+        "alt_text": "Dri-FIT 2-i-1-shorts med mellemhøj talje tæt på, viser den hemmelige lomme i det indvendige lag, der er perfekt til opbevaring af telefonen under træning"
+      }
+    ],
+    "brand": "Nike",
+    "title": "Dri-FIT 2-i-1-shorts med mellemhøj talje",
+    "price": "329.90,-",
+    "color": "Blå",
+    "description": "Disse shorts er skabt til alt det, du laver – fra lange gåture til HIIT til at løbe ærinder. Deres superglatte, ultrabløde vævede materiale er afbalanceret med svedtransporterende teknologi, så du har ultimativ komfort og føler dig tør, mens du træner. Det tætsiddende indvendige lag hjælper med at forhindre hudirritation, så du kan presse dig selv med kompromisløs tildækning.",
+    "category": "Shorts",
+    "material": "Genanvedelig polyester",
+    "care": "Ikke angivet. Tjek label for plejeinstruktioner ved ankomst.",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4/5",
+      "count": "5"
+    }
+  },
+  {
+    "id": 14,
+    "gallery": [
+      {
+        "image-name": "Active Flow Bike Shorts product image",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active_flow-bike_shorts-river-packshot-1.jpg?v=1734437671&width=990",
+        "alt_text": "Active Flow Bike Shorts, viser det slanke og sporty design, der er perfekt til træning eller som en del af dit hverdagsoutfit"
+      },
+      {
+        "image-name": "Active Flow Bike Shorts front view",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active_flow-bike_shorts-river-studio-2.jpg?v=1734437647&width=990",
+        "alt_text": "Active Flow Bike Shorts set fra fronten, viser det slanke og sporty design, der er perfekt til træning eller som en del af dit hverdagsoutfit"
+      },
+      {
+        "image-name": "Active Flow Bike Shorts back view",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active_flow-bike_shorts-river-studio-3.jpg?v=1734437652&width=990",
+        "alt_text": "Active Flow Bike Shorts set fra baksiden, viser det slanke og sporty design, der er perfekt til træning eller som en del af dit hverdagsoutfit"
+      },
+      {
+        "image-name": "Active Flow Bike Shorts side view",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active_flow-bike_shorts-river-studio-1.jpg?v=1734437642&width=990",
+        "alt_text": "Active Flow Bike Shorts set fra siden, viser det slanke og sporty design, der er perfekt til træning eller som en del af dit hverdagsoutfit"
+      }
+    ],
+    "brand": "Organic Basics",
+    "title": "Active Flow Bike Shorts",
+    "price": "379.00,-",
+    "color": "Grøn",
+    "description": "At træne har aldrig set så godt ud! Kom ud og bevæg dig med disse cykelshorts som har en slank finish og skyfarvet kantbånd til et retro twist.",
+    "category": "Shorts",
+    "material": "83% genbrugt nylon og 17% elastan",
+    "care": "Maskinevask på 30 grader med lignende farver. Lav tørretumbling. Må ikke bleges. Strygning ved lav temperatur. Må ikke dry cleanes.",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.5/5",
+      "count": "72"
+    }
+  },
+  {
+    "id": 15,
+    "gallery": [
+      {
+        "image-name": "A-Line Side-Pleat Tennis Skirt model",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW8AS5S_074045_1?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "A-Line Side-Pleat Tennis Skirt på modellen, viser det minimalistiske og elegante design, der er perfekt til tennisbanen eller som en del af dit sporty hverdagslook"
+      },
+      {
+        "image-name": "A-Line Side-Pleat Tennis Skirt front view",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW8AS5S_074045_2?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "A-Line Side-Pleat Tennis Skirt front view, viser det minimalistiske og elegante design, der er perfekt til tennisbanen eller som en del af dit sporty hverdagslook"
+      },
+      {
+        "image-name": "A-Line Side-Pleat Tennis Skirt back view",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW8AS5S_074045_3?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "A-Line Side-Pleat Tennis Skirt back view, viser det minimalistiske og elegante design, der er perfekt til tennisbanen eller som en del af dit sporty hverdagslook"
+      },
+      {
+        "image-name": "A-Line Side-Pleat Tennis Skirt secret pocket close up",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW8AS5S_074045_6?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "A-Line Side-Pleat Tennis Skirt tæt på, viser den hemmelige lomme i det indvendige lag, der er perfekt til opbevaring af genstande under spillet"
+      }
+    ],
+    "brand": "Lululemon",
+    "title": "A-Line Side-Pleat Tennis Skirt",
+    "price": "501.50,-",
+    "color": "Grøn",
+    "description": "Enkelhed virker. Denne minimalistiske A-line tenniskjole er lavet af svedalignende, hurtigt tørrende stof og har en indbygget shorts-liner for ekstra selvtillid på banen.",
+    "category": "Nederdele",
+    "material": "Selve nederleden er lavet af 86% genanvendeligt polyester og 14% elastan, mens at back lining er 69% nylon og 31% elastan, front lining er 87% nylon og 13% elastan, og taljen er 84% genanvendeligt polyester og 16% elastan.",
+    "care": "Kold maskinevask med lignende farver. Må ikke bleges. Tørretumbles ved lav varme. Må ikke dry cleanes.",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.5/5",
+      "count": "8"
+    }
+  },
+  {
+    "id": 16,
+    "gallery": [
+      {
+        "image-name": "Motion wrap bluse - Espresso model",
+        "image_url": "https://designbysi.dk/cdn/shop/files/Motion_wrap_blouse_brown_18.jpg?v=1739271746&width=1000",
+        "alt_text": "Motion wrap bluse - Espresso på modellen, viser det elegante og alsidige design, der kan styles på flere måder for både hverdagsbrug og særlige anledninger"
+      },
+      {
+        "image-name": "Motion wrap bluse - Espresso side view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/Motion_wrap_blouse_brown_11.jpg?v=1750755430&width=2000",
+        "alt_text": "Motion wrap bluse - Espresso set fra siden, viser det elegante og alsidige design, der kan styles på flere måder for både hverdagsbrug og særlige anledninger"
+      },
+      {
+        "image-name": "Motion wrap bluse - Espresso back view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/Motion_wrap_blouse_brown_12.jpg?v=1750755430&width=1000",
+        "alt_text": "Motion wrap bluse - Espresso set bagfra, viser det elegante og alsidige design, der kan styles på flere måder for både hverdagsbrug og særlige anledninger"
+      },
+      {
+        "image-name": "Motion wrap bluse - Espresso front view",
+        "image_url": "https://designbysi.dk/cdn/shop/files/Motion_wrap_blouse_brown_19.jpg?v=1750755430&width=1000",
+        "alt_text": "Motion wrap bluse - Espresso set fra fronten, viser det elegante og alsidige design, der kan styles på flere måder for både hverdagsbrug og særlige anledninger"
+      }
+    ],
+    "brand": "Design by Si",
+    "title": "Motion wrap bluse - Espresso",
+    "price": "279.00,-",
+    "color": "Brun",
+    "description": "Vores Wrap Blouse kombinerer feminin elegance med en afslappet pasform, der gør den perfekt til både hverdagsbrug og særlige anledninger. Den smigrende slå-om-effekt fremhæver taljen, mens de bløde, lette materialer sikrer maksimal komfort. Med sine lange ærmer og delikate bindebånd kan blusen styles på flere måder – både løst og figursyet. Uanset om du matcher den med jeans for et casual look eller en nederdel for en sofistikeret stil, er denne wrap blouse et alsidigt must-have i garderoben.",
+    "category": "Tynde jakker",
+    "material": "94% Micromodal 6% Elastin",
+    "care": "Kan vaskes ved 30°, ikke egnet til tørretumbler",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "5.5/5",
+      "count": "1"
+    }
+  },
+  {
+    "id": 17,
+    "gallery": [
+      {
+        "image-name": "Crossover Headband front view",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW9GETS_033454_1?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Crossover Headband set forfra, viser det alsidige design, der kan bæres med krydsningen foran eller bag, og det svedeabsorberende stof, der hjælper dig med at føle dig frisk og tør under træning"
+      },
+      {
+        "image-name": "Crossover Headband back view",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW9GETS_033454_2?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Crossover Headband set bagfra, viser det alsidige design, der kan bæres med krydsningen foran eller bag, og det svedeabsorberende stof, der hjælper dig med at føle dig frisk og tør under træning"
+      }
+    ],
+    "brand": "Lululemon",
+    "title": "Crossover Headband",
+    "price": "141.50,-",
+    "color": "Hvid",
+    "description": "Tæm din manke i varme studier. Dette pandebånd kan bæres med krydsningen foran eller bag og er lavet af svedeabsobernde stof for at hjælpe dig med at føle dig frisk og tør.",
+    "category": "Pandebånd",
+    "material": "78% nylon og 22% elastan",
+    "care": "Kold vask med lignende farver. Må ikke bleges. Tørretumbles ved lav varme. Må ikke dry cleanes.",
+    "size": [
+      {
+        "size1": "One size",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service":false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "3.7/5",
+      "count": "27"
+    }
+  },
+  {
+    "id": 18,
+    "gallery": [
+      {
+        "image-name": "Uplifting Scrunchie Big Bow product image",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW9DN2S_0002_1?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Uplifting Scrunchie Big Bow, viser det søde og funktionelle design, der tilføjer et strejf af stil til dine lokker, samtidig med at det holder dem sikkert på plads under træning eller i hverdagen"
+      },
+      {
+        "image-name": "Uplifting Scrunchie Big Bow in hair",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LW9DN2S_0002_2?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Uplifting Scrunchie Big Bow i håret på en model, viser det søde og funktionelle design, der tilføjer et strejf af stil til dine lokker, samtidig med at det holder dem sikkert på plads under træning eller i hverdagen"
+      }
+    ],
+    "brand": "Lululemon",
+    "title": "Uplifting Scrunchie Big Bow",
+    "price": "103.00,-",
+    "color": "Hvid",
+    "description": "Tilføj noget kærlighed til dine lokker. Denne scrunchie har en sløjfe du kan binde så stor (eller lille) som du vil.",
+    "category": "Elastikker",
+    "material": "86% genanvendt polyester og 14% elastan",
+    "care": "Vaskes med lignende farver. Lav tørretumbling. Må ikke bleges. Må ikke stryges. Må ikke dry cleanes.",
+    "size": [
+      {
+        "size1": "One size",
+        "available": true
+      }
+    ],
+    "stock": "true",
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.6/5",
+      "count": "76"
+    }
+  },
+  {
+    "id": 19,
+    "gallery": [
+      {
+        "image-name": "Terrex Xperior CLIMACOOL+ T-shirt product image",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/a32103c3cb644f898986a0fa65c72afa_9366/Terrex_Xperior_CLIMACOOL_T-shirt_Bla_KD4856_01_laydown.jpg",
+        "alt_text": "Terrex Xperior CLIMACOOL+ T-shirt, viser det sporty og funktionelle design, der er perfekt til trail-løb eller outdoor-eventyr, med avanceret Climacool+-teknologi for at holde dig kølig og tør under lange distancer"
+      },
+      {
+        "image-name": "Terrex Xperior CLIMACOOL+ T-shirt front view",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/9a74bff1a8cf4ab2864786f822bccb00_9366/Terrex_Xperior_CLIMACOOL_T-shirt_Bla_KD4856_21_model.jpg",
+        "alt_text": "Terrex Xperior CLIMACOOL+ T-shirt set fra fronten, viser det sporty og funktionelle design, der er perfekt til trail-løb eller outdoor-eventyr, med avanceret Climacool+-teknologi for at holde dig kølig og tør under lange distancer"
+      },
+      {
+        "image-name": "Terrex Xperior CLIMACOOL+ T-shirt back view",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/592b880640ad42738a515a97ad9c07e1_9366/Terrex_Xperior_CLIMACOOL_T-shirt_Bla_KD4856_23_hover_model.jpg",
+        "alt_text": "Terrex Xperior CLIMACOOL+ T-shirt set fra bagsiden, viser det sporty og funktionelle design, der er perfekt til trail-løb eller outdoor-eventyr, med avanceret Climacool+-teknologi for at holde dig kølig og tør under lange distancer"
+      },
+      {
+        "image-name": "Terrex Xperior CLIMACOOL+ T-shirt close up back view",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/d94f7923b5994493a9392b9dc653d078_9366/Terrex_Xperior_CLIMACOOL_T-shirt_Bla_KD4856_41_detail.jpg",
+        "alt_text": "Terrex Xperior CLIMACOOL+ T-shirt tæt på bagsiden, viser det mesh-stof, der giver ekstra ventilation og hjælper med at holde dig kølig under træning"
+      }
+    ],
+    "brand": "Adidas",
+    "title": "Terrex Xperior CLIMACOOL+ T-shirt",
+    "price": "499.00,-",
+    "color": "Blå",
+    "description": "Hvis du er trail-løber eller outdoor-eventyrer, der leder efter udstyr til at klare de lange distancer, behøver du ikke lede længere end adidas Terrex Xperior Climacool+ T-shirten. Denne sportstop er designet til at holde dig kølig og tør, og er fremstillet med avanceret Climacool+-teknologi, der transporterer og fordeler sved med hurtigtørrende fibre,så huden føles frisk. Den er fremstillet af let, køligt stof og har en normal pasform, der sidder perfekt og giver dig fuld fokus på din præstation. Denne T-shirt er fremstillet med svedtransporterende materialer i områder med høj svedproduktion og er udstyret med Polygiene StayFresh-lugtkontrolteknologi, så du kan holde dig frisk og selvsikker kilometer efter kilometer. Og med et Terrex-trykt logo på venstre bryst, der tilføjer et strejf af stil til dit trail-klare look, er dette smarte sæt konstrueret til at understøtte alle dine bevægelser.",
+    "category": "T-shirts",
+    "material": "100% genanvendt polyester",
+    "care": "Vaskes i 30 grader på et skåneprogram. Må ikke tørretumbles. Må ikke bleges. Klattes med koldt strygejern. Må ikke dry cleanes.",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "5/5",
+      "count": "1"
+    }
+  },
+  {
+    "id": 20,
+    "gallery": [
+      {
+        "image-name": "Essentials French Terry joggingbukser model",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/783560772b984f7a93c7ed223de0a2f1_9366/Essentials_French_Terry_joggingbukser_Pink_JD1525_25_model.jpg",
+        "alt_text": "Essentials French Terry joggingbukser på modellen, viser det bløde og komfortable design, der er perfekt til afslapning derhjemme eller løb af ærinder i weekenden"
+      },
+      {
+        "image-name": "Essentials French Terry joggingbukser front view",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/6b83b776c0ff4a7799622e1fab95132f_9366/Essentials_French_Terry_joggingbukser_Pink_JD1525_21_model.jpg",
+        "alt_text": "Essentials French Terry joggingbukser set fra fronten, viser det bløde og komfortable design, der er perfekt til afslapning derhjemme eller løb af ærinder i weekenden"
+      },
+      {
+        "image-name": "Essentials French Terry joggingbukser back view",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/7216f90e36b149bf91c0ebe35d393b5e_9366/Essentials_French_Terry_joggingbukser_Pink_JD1525_23_hover_model.jpg",
+        "alt_text": "Essentials French Terry joggingbukser set fra bagsiden, viser det bløde og komfortable design, der er perfekt til afslapning derhjemme eller løb af ærinder i weekenden"
+      },
+      {
+        "image-name": "Essentials French Terry joggingbukser ankle close up",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/a6962359834643328fcc81cc1f5b9213_9366/Essentials_French_Terry_joggingbukser_Pink_JD1525_42_detail.jpg",
+        "alt_text": "Essentials French Terry joggingbukser tæt på anklen, viser den tætsiddence elastik ved anklen, der giver en moderne og stilfuld pasform, samtidig med at den holder bukserne på plads under bevægelse"
+      }
+    ],
+    "brand": "Adidas",
+    "title": "Essentials French Terry joggingbukser",
+    "price": "291.85,-",
+    "color": "Lysersrød",
+    "description": "Når du tager disse joggingbukser fra adidas på, kan du se, hvorfor den bløde komfort fra isoli er svær at slå. Den løse og afslappede silhuet passer til stort set alt i dit klædeskab og giver bevægelsesfrihed. Disse joggingbukser hjælper med at holde dig godt tilpas uden at gå på kompromis med stilen, uanset om du slapper af derhjemme eller løber ærinder i weekenden.",
+    "category": "Sweatpants",
+    "material": "Better Cotton bomuld",
+    "care": "Vaskes i 30 grader på et skåneprogram. Må ikke tørretumbles. Må ikke bleges. Klattes med koldt strygejern. Må ikke dry cleanes",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.8/5",
+      "count": "66"
+    }
+  },
+  {
+    "id": 21,
+    "gallery": [
+      {
+        "image-name": "Wunder Train Padded Gloves product image",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LU9CU7S_074056_1?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Wunder Train Padded Gloves, viser det polstrede og understøttende design, der hjælper med at beskytte dine hænder under træning, samtidig med at det giver dig et sikkert greb om vægte og træningsudstyr"
+      },
+      {
+        "image-name": "Wunder Train Padded Gloves label close up",
+        "image_url": "https://images.lululemon.com/is/image/lululemon/LU9CU7S_074056_2?wid=1080&op_usm=0.5,2,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+        "alt_text": "Wunder Train Padded Gloves tæt på label."
+      }
+    ],
+    "brand": "Lululemon",
+    "title": "Wunder Train Padded Gloves",
+    "price": "244.50,-",
+    "color": "Blå",
+    "description": "Knus personlige rekorder i komfort. Fra kradsninger til pull-ups, disse polstrede, understøttende handsker hjælper med at beskytte dine hænder, mens du træner.",
+    "category": "Handsker",
+    "material": "Kold maskinevask seperat. Tørres flat. Må ikke bleges. Må ikke stryges. Må ikke dry cleanes.",
+    "care": "Selve produktet består af 77% nylin of 23% elastan, mens håndfladen er lavet af 100% polyester og liningen er lavet af 53% genadvent polyester, 43% elaston og 4% elastan.",
+    "size": [
+      {
+        "size1": "S",
+        "available": true
+      },
+      {
+        "size2": "M",
+        "available": true
+      },
+      {
+        "size3": "L",
+        "available": true
+      },
+      {
+        "size4": "XL",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": true,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.2/5",
+      "count": "16"
+    }
+  },
+  {
+    "id": 22,
+    "gallery": [
+      {
+        "image-name": "NikeCourt Premier Double-Wide product image",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/4ef3913f-9833-4ae3-9046-106650fb581e/NK+TENNIS+PREMIER+DB+WBS+2+PK.png",
+        "alt_text": "NikeCourt Premier Double-Wide, viser det klassiske og funktionelle design, der er perfekt til at holde dine hænder tørre under intense tenniskampe, med et dobbeltlag af svedeabsorberende materiale for ekstra komfort og beskyttelse"
+      }
+    ],
+    "brand": "Nike",
+    "title": "NikeCourt Premier Double-Wide",
+    "price": "149.90,-",
+    "color": "Hvid",
+    "description": "NikeCourt Premier Double-Wide-tennissvedbåndene er fremstillet i elastisk, absorberende materiale, som giver en behagelig pasform og en fremragende hjælp til at holde dine hænder tørre.",
+    "category": "Svedbånd",
+    "material": "Ikke angivet",
+    "care": "Ikke angivet",
+    "size": [
+      {
+        "size1": "One size",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "5/5",
+      "count": "1"
+    }
+  },
+  {
+    "id": 23,
+    "gallery": [
+      {
+        "image-name": "Tætsiddende kort T-shirt front view",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/832723ba-403f-422c-9670-fc80feda164a/W+NSW+SS+MD+TEE.png",
+        "alt_text": "Tætsiddende kort T-shirt set fra fronten, viser det tætsiddende og let elastiske design, der er perfekt til et poleret hverdagslook"
+      },
+      {
+        "image-name": "Tætsiddende kort T-shirt back view",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/4085fc66-6955-4ba9-a725-7a4af2a2aefe/W+NSW+SS+MD+TEE.png",
+        "alt_text": "Tætsiddende kort T-shirt set fra bagsiden, viser det tætsiddende og let elastiske design, der er perfekt til et poleret hverdagslook"
+      },
+      {
+        "image-name": "Tætsiddende kort T-shirt model front view",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/47747c91-a0b1-4393-abed-af3fd80b4b3a/W+NSW+SS+MD+TEE.png",
+        "alt_text": "Tætsiddende kort T-shirt set fra fronten på modellen, viser det tætsiddende og let elastiske design, der er perfekt til et poleret hverdagslook"
+      },
+      {
+        "image-name": "Tætsiddende kort T-shirt model back view",
+        "image_url": "https://static.nike.com/a/images/t_web_pdp_535_v2/f_auto/13040888-6d6f-4c95-8c86-698ab9111536/W+NSW+SS+MD+TEE.png",
+        "alt_text": "Tætsiddende kort T-shirt set fra bagsiden på modellen, viser det tætsiddende og let elastiske design, der er perfekt til et poleret hverdagslook"
+      }
+    ],
+    "brand": "Nike",
+    "title": "Tætsiddende kort T-shirt",
+    "price": "249.90,-",
+    "color": "Grøn",
+    "description": "Denne croptop er tætsiddende og let elastisk og er perfekt til et poleret hverdagslook.",
+    "category": "T-shirts",
+    "material": "Ikke angivet",
+    "care": "Ikke angivet",
+    "size": [
+      {
+        "size1": "32",
+        "available": true
+      },
+      {
+        "size2": "33",
+        "available": true
+      },
+      {
+        "size3": "34",
+        "available": true
+      },
+      {
+        "size4": "35",
+        "available": true
+      },
+      {
+        "size5": "36",
+        "available": true
+      },
+      {
+        "size6": "37",
+        "available": true
+      },
+      {
+        "size7": "38",
+        "available": true
+      },
+      {
+        "size8": "39",
+        "available": true
+      },
+      {
+        "size9": "40",
+        "available": true
+      },
+      {
+        "size10": "41",
+        "available": true
+      },
+      {
+        "size11": "42",
+        "available": true
+      },
+      {
+        "size12": "43",
+        "available": true
+      },
+      {
+        "size13": "44",
+        "available": true
+      },
+      {
+        "size14": "45",
+        "available": true
+      },
+      {
+        "size15": "46",
+        "available": true
+      },
+      {
+        "size16": "47",
+        "available": true
+      },
+      {
+        "size17": "48",
+        "available": true
+      },
+      {
+        "size18": "49",
+        "available": true
+      }
+    ],
+    "stock": true,
+    "single-item-service": false,
+    "touch-approved": true,
+    "rating": {
+      "rate": "4.3/5",
+      "count": "3"
     }
   }
 ]
