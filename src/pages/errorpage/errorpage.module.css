@@ -1,21 +1,21 @@
 :root {
   /* Colors light */
   --primary-color-light: #ffffff;
-  --secondary-color-light-turqouise: #38A495;
-  --seconndary-color-light-pink: #E66A9D;
-  --accent-color-light-yellow: #FFD678;
+  --secondary-color-light-turqouise: #38a495;
+  --seconndary-color-light-pink: #e66a9d;
+  --accent-color-light-yellow: #ffd678;
   --text-color-light: #151515;
 
   /* Colors dark */
-  --primary-color-dark: #5D2F54;
-  --secondary-color-dark-turqouise: #65BDAB;
-  --secondary-color-dark-pink: #D3628A;
-  --accent-color-dark-yellow: #E9DB89;
-  --text-color-dark: #E4E4E4;
+  --primary-color-dark: #5d2f54;
+  --secondary-color-dark-turqouise: #65bdab;
+  --secondary-color-dark-pink: #d3628a;
+  --accent-color-dark-yellow: #e9db89;
+  --text-color-dark: #e4e4e4;
 
   /* Fonts */
-  --title-font-font-family: 'Sue Ellen Francisco', cursive;
-  --text-font-family: 'work-sans', sans-serif;
+  --title-font-font-family: "Sue Ellen Francisco", cursive;
+  --text-font-family: "work-sans", sans-serif;
 
   /* Font sizes */
   --title-font-size: 6rem;
@@ -30,10 +30,20 @@
   --bold-font-weight: 700;
   --medium-font-weight: 500;
   --light-font-weight: 300;
-  --semi-bodl-font-weight: 600;
+  --semi-bold-font-weight: 600;
 }
 
 /* rem 10px=1rem */
 html {
   font-size: 62.5%;
+}
+
+h1 {
+  font-style: var(--title-font-font-family);
+  font-size: var(--title-font-size);
+}
+
+p {
+  font-style: var(--text-font-family);
+  font-size: var(--under-titles-font-size);
 }
