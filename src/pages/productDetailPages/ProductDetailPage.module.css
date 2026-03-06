@@ -5,6 +5,7 @@
   --seconndary-color-light-pink: #E66A9D;
   --accent-color-light-yellow: #FFD678;
   --text-color-light: #151515;
+  --brand-color-light: rgb(175, 175, 175);
 
   /* Colors dark */
   --primary-color-dark: #5D2F54;
@@ -20,6 +21,7 @@
   /* Font sizes */
   --title-font-size: 6rem;
   --under-titles-font-size: 3rem;
+  --brand-font-size: 2.2rem;
   --text-font-size: 1.6rem;
   --menu-and-options-font-size: 2.4rem;
   --button-and-price-font-size: 4.2rem;
@@ -30,7 +32,8 @@
   --bold-font-weight: 700;
   --medium-font-weight: 500;
   --light-font-weight: 300;
-  --semi-bodl-font-weight: 600;
+  --extra-light-font-weight: 200;
+  --semi-bold-font-weight: 600;
 }
 
 /* rem 10px=1rem */
@@ -47,6 +50,50 @@ html {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.gallery {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  overflow-y: auto;
+  max-height: 600px;
+  padding: 1rem;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  background-color: #ecf0f1;
+  padding: 0.5rem;
+  border: 3px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.thumbnail:hover {
+  border-color: var(--secondary-color-light-turqouise);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail.active {
+  border-color: var(--secondary-color-light-turqouise);
+  box-shadow: 0 0 0 2px var(--secondary-color-light-turqouise);
+}
+
+.mainImageContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .info {
@@ -75,4 +122,29 @@ html {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+p {
+  font-family: var(--text-font-family);
+  font-size: var(--text-font-size);
+  font-weight: var(--normal-font-weight);
+}
+
+h2 {
+  font-family: var(--title-font-font-family);
+  font-size: var(--title-font-size);
+  font-weight: var(--bold-font-weight);
+}
+
+h4 {
+  font-family: var(--text-font-family);
+  font-size: var(--brand-font-size);
+  font-weight: var(--extra-light-font-weight);
+  color: var(--brand-color-light);
+}
+
+span {
+  font-family: var(--text-font-family);
+  font-size: var(--text-font-size);
+  font-weight: var(--medium-font-weight);
 }
