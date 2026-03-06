@@ -16,6 +16,7 @@ function App() {
         <Route path="/products" element={<ProductPage />} />
         <Route path="/products/:id" element={<ProductDetailPage />} />
         <Route path="*" element={<ErrorPage />} />
+        <Route path="/Om os" element={<About />} />
       </Routes>
       <FooterBar />
     </>
