@@ -2,11 +2,14 @@ export default function ErrorPage() {
   return (
     <>
       <header>
-        <h1>Error Page</h1>
+        <h1>404 - Error</h1>
       </header>
       <main>
-        <h2>Welcome to the Error Page</h2>
-        <p>This is the main error page of the application</p>
+        <h2>Åh nej... denne side findes ikke</h2>
+        <p>
+          Klik på logoet, så kommer du tilbage til startsiden igen, fortsat god
+          shopping!
+        </p>
       </main>
     </>
   );

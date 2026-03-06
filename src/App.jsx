@@ -7,7 +7,6 @@ import ProductDetailPage from "./pages/productDetailPages/productDetailPage";
 import ErrorPage from "./pages/errorpage/errorpage";
 import About from "./pages/about/about";
 
-
 function App() {
   return (
     <>
@@ -16,7 +15,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/products" element={<ProductPage />} />
         <Route path="/products/:id" element={<ProductDetailPage />} />
-        <Route path="*" element={<h1>404 - Not Found</h1>} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
       <FooterBar />
     </>
