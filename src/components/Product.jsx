@@ -1,5 +1,8 @@
 import { Link } from "react-router";
 import styles from "./product.module.css";
+import inactiveHeart from "../assets/inactive-heart.svg";
+import hoveredHeart from "../assets/hovered-heart.svg";
+import activeHeart from "../assets/hjerte-smil.svg";
 
 function getColor(color) {
   if (color === "Lyserød") {
