@@ -40,3 +40,12 @@ nav a.active {
   gap: 0 40px;
   flex-wrap: wrap;
 }
+
+.ikoner {
+  display: flex;
+  width: 240px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
