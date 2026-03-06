@@ -6,11 +6,12 @@ export default function ProductDetailPage() {
   const params = useParams();
   const productId = Number(params.id);
   const [product, setProduct] = useState({});
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
     async function fetchProducts() {
       const url =
-        "https://raw.githubusercontent.com/cederdorff/race/refs/heads/master/data/webshop/products.json";
+        "../../public/data.json";
       const response = await fetch(url);
       const products = await response.json();
       console.log(products);
@@ -18,36 +19,54 @@ export default function ProductDetailPage() {
       const productToDisplay = products.find((p) => p.id === productId);
       console.log(productToDisplay);
       setProduct(productToDisplay);
+      setCurrentImageIndex(0);
     }
     fetchProducts();
   }, [productId]);
 
+  const handleThumbnailClick = (index) => {
+    setCurrentImageIndex(index);
+  };
+
   return (
     <>
-      <header>
-        <h1>{product.title}</h1>
-        <h2>{product.category}</h2>
-      </header>
       <main>
         <section className={styles.cards}>
-          <img
-            src={product.image}
-            alt={product.title}
-            className={styles.image}
-          />
+          <div className={styles.gallery}>
+            <div className={styles.thumbnails}>
+              {product.gallery?.map((image, index) => (
+                <img
+                  key={index}
+                  src={image.image_url}
+                  alt={image.alt_text}
+                  className={`${styles.thumbnail} ${
+                    index === currentImageIndex ? styles.active : ""
+                  }`}
+                  onClick={() => handleThumbnailClick(index)}
+                />
+              ))}
+            </div>
+            <div className={styles.mainImageContainer}>
+              <img
+                src={product.gallery?.[currentImageIndex]?.image_url}
+                alt={product.gallery?.[currentImageIndex]?.alt_text}
+                className={styles.image}
+              />
+            </div>
+          </div>
           <div className={styles.info}>
-            <h4 className="product-category-detail">{product.category}</h4>
+            <h4 className="product-brand-detail">{product.brand}</h4>
             <h2 className="product-title-detail">{product.title}</h2>
+            <p className="product-price-detail">{product.price}</p>
             <p className="product-rating-detail">
-              ⭐ {product.rating?.rate}/5{" "}
+              ⭐ {product.rating?.rate}{" "}
               <a href="#">({product.rating?.count})</a>
             </p>
             <p className="product-description-detail">{product.description}</p>
-            <p className="product-price-detail">DKK {product.price}</p>
             <span
-              className={`product-stock ${product.inStock ? "in-stock" : "out-of-stock"}`}
+              className={`product-stock ${product.stock ? "in-stock" : "out-of-stock"}`}
             >
-              {product.inStock ? "På lager" : "Udsolgt"}
+              {product.stock ? "På lager" : "Udsolgt"}
             </span>
             <button className={styles.button}>
               Læg i kurv<a href="#"></a>
