@@ -1,0 +1,46 @@
+/*footer*/
+.footer {
+  background-color: var(--secondary-color-light-turqouise);
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+}
+
+.h3 {
+  color: #ffffff;
+  font-style: var(--title-font-font-family);
+  font-size: var(--header2-font-size);
+  font-weight: var(--normal-font-weight);
+}
+
+.footerIndhold {
+  font-style: var(--text-font-family);
+  font-size: var(--body-text-font-size);
+  color: #ffffff;
+  display: flex;
+  gap: 24rem;
+  line-height: 2.5rem;
+  padding: 1rem;
+}
+
+/* følg os sektion */
+.follow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.ikoner {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1rem;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-style: var(--title-font-font-family);
+  font-size: var(--moms-font-size);
+}
