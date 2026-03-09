@@ -38,6 +38,12 @@ html {
   font-size: 62.5%;
 }
 
+:root {
+  --service-text-width: 40%;
+  --service-image-width: 60%;
+  --service-image-height: 70vh;
+}
+
 .heroSection {
   position: relative;
   left: 50%;
@@ -73,4 +79,145 @@ html {
   height: 80px;
   background: var(--seconndary-color-light-pink);
   z-index: 3;
+}
+
+.singleItemServiceTitle {
+  font-family: var(--title-font-font-family, "Sue Ellen Francisco"), cursive;
+  color: var(--seconndary-color-light-pink);
+  font-size: 64px;
+  margin: 0 0 1.6rem 0;
+}
+
+.singleItemServiceText {
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.singleItemService {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 2rem 2rem 4rem 2rem;
+}
+.singleItemService {
+  display: flex;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 2rem 2rem 4rem 2rem;
+  min-height: var(--service-image-height);
+}
+
+.serviceText {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.serviceText {
+  width: var(--service-text-width);
+  flex: 0 0 var(--service-text-width);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.etBen {
+  width: 70%;
+  height: auto;
+  flex-shrink: 0;
+  display: block;
+}
+.etBen {
+  width: var(--service-image-width);
+  flex: 0 0 var(--service-image-width);
+  display: block;
+  height: var(--service-image-height);
+  object-fit: cover;
+}
+
+.uterus {
+  position: absolute;
+  left: 75%;
+  top: 112%;
+}
+
+.socialProof {
+  margin-left: 1.2%;
+  display: flex;
+  flex-direction: row;
+}
+
+.socialProofCard {
+  border-right: var(--seconndary-color-light-pink) 9px solid;
+  padding-right: 2rem;
+  margin-right: 10%;
+}
+
+.socialProofCard:last-child {
+  border-right: none;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.rating1 {
+  display: flex;
+  width: 345px;
+  align-items: center;
+}
+
+.rating2 {
+  display: flex;
+  width: 345px;
+  align-items: center;
+}
+
+.rating3 {
+  display: flex;
+  width: 345px;
+  align-items: center;
+}
+
+.udtalelese1 {
+  font-family: var(--text-font-family, "work-sans"), sans-serif;
+  font-size: 24px;
+  width: 55%;
+}
+
+.udtalelese2 {
+  font-family: var(--text-font-family, "work-sans"), sans-serif;
+  font-size: 24px;
+  width: 60%;
+}
+
+.udtalelese3 {
+  font-family: var(--text-font-family, "work-sans"), sans-serif;
+  font-size: 24px;
+  width: 60%;
+}
+
+.navn1 {
+  font-family: var(--text-font-family, "work-sans"), sans-serif;
+  display: flex;
+  justify-content: right;
+  margin-right: 45%;
+  font-size: 24px;
+}
+
+.navn2 {
+  font-family: var(--text-font-family, "work-sans"), sans-serif;
+  display: flex;
+  justify-content: right;
+  margin-right: 45%;
+  font-size: 24px;
+}
+
+.navn3 {
+  font-family: var(--text-font-family, "work-sans"), sans-serif;
+  display: flex;
+  justify-content: right;
+  margin-right: 45%;
+  font-size: 24px;
 }
