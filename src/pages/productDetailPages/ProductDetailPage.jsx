@@ -63,7 +63,7 @@ export default function ProductDetailPage() {
             <h2 className={styles.title}>{product.title}</h2>
             <p className={styles.price}>{product.price}</p>
             <SizeSelector sizes={product.sizes} onSelect={handleSizeSelect} />
-            <p className="product-description-detail">{product.description}</p>
+            <p className={styles.description}>{product.description}</p>
             <button className={styles.buyButton}>
               Læg i kurv<a href="#"></a>
             </button>

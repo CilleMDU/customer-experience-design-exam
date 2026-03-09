@@ -132,7 +132,7 @@ html {
   color: var(--text-color-light);
 }
 
-p {
+.description {
   font-size: var(--body-text-font-size);
   font-family: var(--text-font-family);
   color: var(--text-color-light);

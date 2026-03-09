@@ -38,12 +38,12 @@ html {
   font-size: 62.5%;
 }
 
-h1 {
+.h2 {
   font-style: var(--title-font-font-family);
   font-size: var(--title-font-size);
 }
 
-p {
+.p {
   font-style: var(--text-font-family);
   font-size: var(--under-titles-font-size);
 }

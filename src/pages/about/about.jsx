@@ -3,10 +3,10 @@ import heroLogo from "../../assets/logo-hero-section.svg";
 export default function About() {
   return (
     <>
-      <main>
+      <main className={styles.main}>
         <div>
-          <h2>Uniquely Her som brand</h2>
-          <p>
+          <h2 className={styles.h2}>Uniquely Her som brand</h2>
+          <p className={styles.p}>
             Uniquely Her stræber efter at inkluderer og omfavne kvinder i alle
             de former og farver de kommer i. Træningstøj skal være noget kvinder
             kan bruge når de vil svede, gøre rent, slappe af eller som et
