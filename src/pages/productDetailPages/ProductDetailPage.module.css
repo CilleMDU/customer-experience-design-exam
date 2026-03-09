@@ -31,6 +31,7 @@
   --mobile-detail-brand-font-size: 1.6rem;
   --mobile-card-brand-font-size: 1.4rem;
   --tiny-titles-font-size: 1.8rem;
+  --stock-and-rating-font-size: 1.4rem;
 
   /* Font thickness */
   --normal-font-weight: 400;
@@ -57,12 +58,9 @@ html {
 .cards {
   display: flex;
   justify-content: center;
-  gap: 1rem;
-  background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  border-radius: 12px;
+  gap: 2rem;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin: 1rem;
 }
 
 .gallery {
@@ -78,6 +76,7 @@ html {
   overflow-y: auto;
   max-height: 600px;
   padding: 1rem;
+  border-radius: 1rem;
 }
 
 .thumbnail {
@@ -119,11 +118,19 @@ html {
 }
 
 .image {
-  width: 800px;
-  height: 600px;
+  display: block;
+  width: 80rem;
+  height: 60rem;
   object-fit: contain;
-  background-color: #ecf0f1;
   padding: 2rem;
+  border-radius: 1rem;
+}
+
+.touchIcon {
+  width: 13rem;
+  height: 13rem;
+  position: absolute;
+  right: 2.5rem;
 }
 
 .title {
@@ -152,9 +159,16 @@ html {
   color: var(--text-color-light);
 }
 
+.buyAndFave {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
 .buyButton {
   display: flex;
-  width: 35vw;
+  width: 100%;
   border: none;
   padding: 1.2rem 5rem;
   flex-direction: column;
@@ -175,9 +189,19 @@ html {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
+.favoriteIcon {
+  background: none;
+  border: none;
+}
+
+.faveActivity {
+  width: 4rem;
+  height: 4rem;
+}
+
 .serviceButton {
   display: flex;
-  width: 32vw;
+  width: 100%;
   border: 0.2rem solid var(--secondary-color-light-turqouise);
   padding: 0.8rem 5rem;
   flex-direction: column;
@@ -241,10 +265,104 @@ html {
   display: flex;
   flex-direction: column;
   font-family: var(--text-font-family);
+  font-size: var(--stock-and-rating-font-size);
+  color: var(--text-color-light);
+  gap: 1rem;
+}
+
+.stockCircle {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  border: 1px solid #e2e2e2;
+}
+
+.stock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .rating {
   display: flex;
-  display: row;
+  flex-direction: row;
   align-items: center;
+  gap: 0.5rem;
+}
+
+.star {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.minReturn,
+.return {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--text-font-family);
+  font-size: var(--stock-and-rating-font-size);
+  color: var(--text-color-light);
+}
+
+.careAndMaterials {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border-top: 1px solid #e2e2e2;
+}
+
+.careAndMate {
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.careAndMateDrop {
+  width: 100%;
+  padding: 1.2rem;
+  background-color: var(--primary-color-light);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--text-font-family);
+  font-size: var(--body-text-font-size);
+  color: var(--text-color-light);
+  font-weight: var(--semi-bold-font-weight);
+  transition: background-color 0.3s ease;
+}
+
+.careAndMateDrop:hover {
+  background-color: #f5f5f5;
+}
+
+.iconOpen {
+  transform: rotate(180deg);
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.iconClosed {
+  transform: rotate(0deg);
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.careAndMateContent {
+  padding: 1.2rem;
+  background-color: #fafafa;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 1000px;
+  }
 }

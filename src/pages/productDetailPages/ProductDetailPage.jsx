@@ -1,14 +1,27 @@
 import styles from "./ProductDetailPage.module.css";
 import { useParams } from "react-router";
-import { useEffect, useState } from "react";
+import { useEffect, useState} from "react";
 import SizeSelector from "../../components/SizeSelector";
 import informationBtn from "../../assets/information-btn.svg"
+import starIcon from "../../assets/star.svg"
+import touchIcon from "../../assets/touch-approved-badge.svg"
+import truckIcon from "../../assets/truck.svg"
+import packageIcon from "../../assets/package.svg"
+import inactiveHeart from "../../assets/inactive-heart.svg";
+import activeHeart from "../../assets/hjerte-smil.svg";
 
 export default function ProductDetailPage() {
   const params = useParams();
   const productId = Number(params.id);
   const [product, setProduct] = useState({});
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [materialOpen, setMaterialOpen] = useState(false);
+  const [careOpen, setCareOpen] = useState(false);
+  const [isFavorited, setIsFavorited] = useState(false);
+
+  function toggleFavorite() {
+    setIsFavorited(!isFavorited);
+  }
 
   useEffect(() => {
     async function fetchProducts() {
@@ -60,6 +73,15 @@ export default function ProductDetailPage() {
     }
   }
 
+  function getStockColor(stock){
+    if (stock === true){
+      return "#00AC06"
+    }
+    else if (stock === false){
+      return "#FF5900"
+    }
+  }
+
   return (
     <>
       <main>
@@ -87,6 +109,11 @@ export default function ProductDetailPage() {
             </div>
           </div>
           <div className={styles.info}>
+            <div>
+              {product["touch-approved"] && (
+                <img src={touchIcon} alt="touch approved" className={styles.touchIcon}/>
+                )}
+            </div>
             <h4 className={styles.brand}>{product.brand}</h4>
             <h2 className={styles.title}>{product.title}</h2>
             <p className={styles.price}>{product.price}</p>
@@ -100,32 +127,91 @@ export default function ProductDetailPage() {
             <SizeSelector sizes={product.sizes} onSelect={handleSizeSelect} />
             <p className={styles.description}>{product.description}</p>
             <div className={styles.buttons}>
-              <button className={styles.buyButton}>
+              <div className={styles.buyAndFave}>
+                <button className={styles.buyButton}>
                 Læg i kurv<a href="#"></a>
               </button>
+              <button className={styles.favoriteIcon} onClick={toggleFavorite}>
+              <img
+                src={isFavorited ? activeHeart : inactiveHeart}
+                alt="favorit"
+                className={styles.faveActivity}
+              />
+             </button>
+              </div>
               <div className={styles.serviceAndInformation}>
                 {product["single-item-service"] && (
                   <button className={styles.serviceButton}>
                     Single Item Service
                   </button>
                 )}
-                <img
+                {product["single-item-service"] && (
+                  <img
                   src={informationBtn}
                   alt="informationsknap angående single item service"
                   className={styles.informationBtn}
                 />
+                )}
               </div>
             </div>
             <div className={styles.ratingAndStock}>
               <div className={styles.rating}>
-                ⭐ {product.rating?.rate}{" "}
-                <a href="#">({product.rating?.count})</a>
+                <img src={starIcon} alt={product.rating?.rate} className={styles.star}/>
+              <div className={styles.rate}>
+                {product.rating?.rate}{" "}
               </div>
-              <span
-                className={`product-stock ${product.stock ? "in-stock" : "out-of-stock"}`}
-              >
-                {product.stock ? "På lager" : "Udsolgt"}
-              </span>
+              <a href="#">({product.rating?.count})</a>
+              </div>
+              <div className={styles.stock}>
+                <div
+                className={styles.stockCircle}
+                style={{ background: getStockColor(product.stock) }}
+                ></div>
+                <span
+                 className={`product-stock ${product.stock ? "in-stock" : "out-of-stock"}`}
+               >
+                 {product.stock ? "På lager" : "Udsolgt"}
+               </span>
+              </div>
+              <div className={styles.return}>
+                <img src={packageIcon} alt="pakke ikon" />
+                <p>100 dages returret</p>
+              </div>
+              <div className={styles.minReturn
+              }>
+                <img src={truckIcon} alt="lastbils ikon" />
+                <p>Gratis retur ved køb over 399kr</p>
+              </div>
+            </div>
+            <div className={styles.careAndMaterials}>
+              <div className={styles.careAndMate}>
+                <button 
+                  className={styles.careAndMateDrop}
+                  onClick={() => setMaterialOpen(!materialOpen)}
+                >
+                  <span>Materiale</span>
+                  <span className={materialOpen ? styles.iconOpen : styles.iconClosed}>▼</span>
+                </button>
+                {materialOpen && (
+                  <div className={styles.careAndMateContent}>
+                    <p>{product.material}</p>
+                  </div>
+                )}
+              </div>
+              <div className={styles.careAndMate}>
+                <button 
+                  className={styles.careAndMateDrop}
+                  onClick={() => setCareOpen(!careOpen)}
+                >
+                  <span>Pleje</span>
+                  <span className={careOpen ? styles.iconOpen : styles.iconClosed}>▼</span>
+                </button>
+                {careOpen && (
+                  <div className={styles.careAndMateContent}>
+                    <p>{product.care}</p>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </section>
