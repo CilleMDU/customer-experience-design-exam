@@ -30,7 +30,7 @@
   --body-text-font-size: 1.6rem;
   --mobile-detail-brand-font-size: 1.6rem;
   --mobile-card-brand-font-size: 1.4rem;
-  --moms-font-size: 1.2rem;
+  --tiny-titles-font-size: 1.8rem;
 
   /* Font thickness */
   --normal-font-weight: 400;
@@ -114,7 +114,7 @@ html {
   margin: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 2rem;
   color: #1a1a1a;
 }
 
@@ -156,7 +156,7 @@ html {
   display: flex;
   width: 35vw;
   border: none;
-  padding: 0.8rem 5rem;
+  padding: 1.2rem 5rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -167,6 +167,7 @@ html {
   font-family: var(--text-font-family);
   font-size: var(--body-text-big-font-size);
   font-weight: var(--normal-font-weight);
+  transition: all 0.3s ease;
 }
 
 .buyButton:hover {
@@ -176,22 +177,74 @@ html {
 
 .serviceButton {
   display: flex;
-  width: 35vw;
-  border: none;
+  width: 32vw;
+  border: 0.2rem solid var(--secondary-color-light-turqouise);
   padding: 0.8rem 5rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 1rem;
-  stroke: none;
-  background: var(--secondary-color-light-turqouise);
-  color: var(--primary-color-light);
+  color: var(--secondary-color-light-turqouise);
+  background-color: var(--primary-color-light);
   font-family: var(--text-font-family);
-  font-size: var(--body-text-big-font-size);
+  font-size: var(--body-text-font-size);
   font-weight: var(--normal-font-weight);
+  transition: all 0.3s ease;
 }
 
 .serviceButton:hover {
   cursor: pointer;
+  background-color: var(--secondary-color-light-turqouise);
+  color: var(--primary-color-light);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.informationBtn {
+  width: 3rem;
+  height: 3rem;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  transition: all 0.3s ease
+}
+
+
+.informationBtn:hover {
+  content: url(../../assets/information-btn-hover.svg);
+}
+
+.serviceAndInformation {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.colorCircle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #e2e2e2; /* Denne linje gør hvid synlig */
+}
+
+.colorTitle {
+  font-family: var(--text-font-family);
+  font-size: var(--tiny-titles-font-size);
+  color: var(--text-color-light);
+}
+
+.ratingAndStock {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--text-font-family);
+}
+
+.rating {
+  display: flex;
+  display: row;
+  align-items: center;
 }

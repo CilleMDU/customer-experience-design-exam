@@ -2,6 +2,7 @@ import styles from "./ProductDetailPage.module.css";
 import { useParams } from "react-router";
 import { useEffect, useState } from "react";
 import SizeSelector from "../../components/SizeSelector";
+import informationBtn from "../../assets/information-btn.svg"
 
 export default function ProductDetailPage() {
   const params = useParams();
@@ -31,6 +32,33 @@ export default function ProductDetailPage() {
   const handleSizeSelect = (size) => {
     console.log("Selected size:", size);
   };
+
+  function getColor(color) {
+    if (color === "Lyserød") {
+      return "#FF3FC5";
+    } else if (color === "Sort") {
+      return "#000";
+    } else if (color === "Sort/hvid") {
+      return "linear-gradient(90deg, #000 50%, #fff 50%)";
+    } else if (color === "Multi") {
+      return "conic-gradient(from 180deg at 50% 50%, #00AC06 0deg, #07F 121.15384697914124deg, #DF2FE2 242.30769395828247deg, #9443EA 360deg)";
+    } else if (color === "Hvid") {
+      return "#ffffff";
+    } else if (color === "Blå") {
+      return "#0077FF";
+    } else if (color === "Orange") {
+      return "#FF5900";
+    } else if (color === "Grøn") {
+      return "#00AC06";
+    } else if (color === "Lilla") {
+      return "#9444EA";
+    } else if (color === "Brun") {
+      return "#562b00";
+    } else {
+      // Hvis farven ikke findes i listen, returneres en neutral grå
+      return "#ccc";
+    }
+  }
 
   return (
     <>
@@ -62,25 +90,43 @@ export default function ProductDetailPage() {
             <h4 className={styles.brand}>{product.brand}</h4>
             <h2 className={styles.title}>{product.title}</h2>
             <p className={styles.price}>{product.price}</p>
+            <div classnName={styles.colors}>
+              <p className={styles.colorTitle}>Farver</p>
+              <div
+                className={styles.colorCircle}
+                style={{ background: getColor(product.color) }}
+              ></div>
+            </div>
             <SizeSelector sizes={product.sizes} onSelect={handleSizeSelect} />
             <p className={styles.description}>{product.description}</p>
-            <button className={styles.buyButton}>
-              Læg i kurv<a href="#"></a>
-            </button>
-            {product["single-item-service"] && (
-              <button className={styles.serviceButton}>
-                Single Item Service
+            <div className={styles.buttons}>
+              <button className={styles.buyButton}>
+                Læg i kurv<a href="#"></a>
               </button>
-            )}
-            <p className="product-rating-detail">
-              ⭐ {product.rating?.rate}{" "}
-              <a href="#">({product.rating?.count})</a>
+              <div className={styles.serviceAndInformation}>
+                {product["single-item-service"] && (
+                  <button className={styles.serviceButton}>
+                    Single Item Service
+                  </button>
+                )}
+                <img
+                  src={informationBtn}
+                  alt="informationsknap angående single item service"
+                  className={styles.informationBtn}
+                />
+              </div>
+            </div>
+            <div className={styles.ratingAndStock}>
+              <div className={styles.rating}>
+                ⭐ {product.rating?.rate}{" "}
+                <a href="#">({product.rating?.count})</a>
+              </div>
               <span
                 className={`product-stock ${product.stock ? "in-stock" : "out-of-stock"}`}
               >
                 {product.stock ? "På lager" : "Udsolgt"}
               </span>
-            </p>
+            </div>
           </div>
         </section>
       </main>
