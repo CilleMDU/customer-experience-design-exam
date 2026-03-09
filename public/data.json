@@ -799,11 +799,11 @@
     "id": 8,
     "gallery": [
       {
-      "image-name": "Ankle Sock 2-Pack",
-      "image_url": "https://www.planetnusa.com/cdn/shop/files/AnkleSock_White_e351d4d0-bc02-4e1b-988c-c47552f4c2d2.png?v=1760092893&width=2100",
-      "alt_text": "Ankle Sock 2-Pack i hvid, viser det lave snit og det bløde materiale, der er designet til komfort og ydeevne"
-    }
-  ],
+        "image-name": "Ankle Sock 2-Pack",
+        "image_url": "https://www.planetnusa.com/cdn/shop/files/AnkleSock_White_e351d4d0-bc02-4e1b-988c-c47552f4c2d2.png?v=1760092893&width=2100",
+        "alt_text": "Ankle Sock 2-Pack i hvid, viser det lave snit og det bløde materiale, der er designet til komfort og ydeevne"
+      }
+    ],
     "brand": "Planet Nusa",
     "title": "Ankle Sock 2-Pack",
     "price": "119.00,-",
@@ -1765,7 +1765,7 @@
       }
     ],
     "stock": true,
-    "single-item-service":false,
+    "single-item-service": false,
     "touch-approved": true,
     "rating": {
       "rate": "3.7/5",
@@ -1949,7 +1949,7 @@
     "brand": "Adidas",
     "title": "Essentials French Terry joggingbukser",
     "price": "291.85,-",
-    "color": "Lysersrød",
+    "color": "Lyserød",
     "description": "Når du tager disse joggingbukser fra adidas på, kan du se, hvorfor den bløde komfort fra isoli er svær at slå. Den løse og afslappede silhuet passer til stort set alt i dit klædeskab og giver bevægelsesfrihed. Disse joggingbukser hjælper med at holde dig godt tilpas uden at gå på kompromis med stilen, uanset om du slapper af derhjemme eller løber ærinder i weekenden.",
     "category": "Sweatpants",
     "material": "Better Cotton bomuld",

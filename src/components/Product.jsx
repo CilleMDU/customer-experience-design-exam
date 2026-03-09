@@ -23,6 +23,8 @@ function getColor(color) {
     return "#00AC06";
   } else if (color === "Lilla") {
     return "#9444EA";
+  } else if (color === "Brun") {
+    return "#562b00";
   } else {
     // Hvis farven ikke findes i listen, returneres en neutral grå
     return "#ccc";
