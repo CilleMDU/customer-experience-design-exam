@@ -1,14 +1,18 @@
 import styles from "./ProductDetailPage.module.css";
 import { useParams } from "react-router";
-import { useEffect, useState } from "react";
+import { useEffect, useState} from "react";
 import SizeSelector from "../../components/SizeSelector";
 import informationBtn from "../../assets/information-btn.svg"
+import starIcon from "../../assets/star.svg"
+import touchIcon from "../../assets/touch-approved-badge.svg"
 
 export default function ProductDetailPage() {
   const params = useParams();
   const productId = Number(params.id);
   const [product, setProduct] = useState({});
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [materialOpen, setMaterialOpen] = useState(false);
+  const [careOpen, setCareOpen] = useState(false);
 
   useEffect(() => {
     async function fetchProducts() {
@@ -60,6 +64,15 @@ export default function ProductDetailPage() {
     }
   }
 
+  function getStockColor(stock){
+    if (stock === true){
+      return "#00AC06"
+    }
+    else if (stock === false){
+      return "#FF5900"
+    }
+  }
+
   return (
     <>
       <main>
@@ -87,6 +100,11 @@ export default function ProductDetailPage() {
             </div>
           </div>
           <div className={styles.info}>
+            <div>
+              {product["touch-approved"] && (
+                <img src={touchIcon} alt="touch approved" className={styles.touchIcon}/>
+                )}
+            </div>
             <h4 className={styles.brand}>{product.brand}</h4>
             <h2 className={styles.title}>{product.title}</h2>
             <p className={styles.price}>{product.price}</p>
@@ -109,23 +127,64 @@ export default function ProductDetailPage() {
                     Single Item Service
                   </button>
                 )}
-                <img
+                {product["single-item-service"] && (
+                  <img
                   src={informationBtn}
                   alt="informationsknap angående single item service"
                   className={styles.informationBtn}
                 />
+                )}
               </div>
             </div>
             <div className={styles.ratingAndStock}>
               <div className={styles.rating}>
-                ⭐ {product.rating?.rate}{" "}
-                <a href="#">({product.rating?.count})</a>
+                <img src={starIcon} alt={product.rating?.rate} className={styles.star}/>
+              <div className={styles.rate}>
+                {product.rating?.rate}{" "}
               </div>
+              <a href="#">({product.rating?.count})</a>
+              </div>
+              <div className={styles.stock}>
+                <div
+                className={styles.stockCircle}
+                style={{ background: getStockColor(product.stock) }}
+              ></div>
               <span
                 className={`product-stock ${product.stock ? "in-stock" : "out-of-stock"}`}
               >
                 {product.stock ? "På lager" : "Udsolgt"}
               </span>
+              </div>
+            </div>
+            <div className={styles.careAndMaterials}>
+              <div className={styles.section}>
+                <button 
+                  className={styles.sectionHeader}
+                  onClick={() => setMaterialOpen(!materialOpen)}
+                >
+                  <span>Materiale</span>
+                  <span className={materialOpen ? styles.iconOpen : styles.iconClosed}>▼</span>
+                </button>
+                {materialOpen && (
+                  <div className={styles.sectionContent}>
+                    <p>{product.material}</p>
+                  </div>
+                )}
+              </div>
+              <div className={styles.section}>
+                <button 
+                  className={styles.sectionHeader}
+                  onClick={() => setCareOpen(!careOpen)}
+                >
+                  <span>Pleje</span>
+                  <span className={careOpen ? styles.iconOpen : styles.iconClosed}>▼</span>
+                </button>
+                {careOpen && (
+                  <div className={styles.sectionContent}>
+                    <p>{product.care}</p>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </section>
