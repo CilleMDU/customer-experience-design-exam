@@ -1,30 +1,35 @@
 :root {
   /* Colors light */
   --primary-color-light: #ffffff;
-  --secondary-color-light-turqouise: #38A495;
-  --seconndary-color-light-pink: #E66A9D;
-  --accent-color-light-yellow: #FFD678;
+  --secondary-color-light-turqouise: #38a495;
+  --seconndary-color-light-pink: #e66a9d;
+  --accent-color-light-yellow: #ffd678;
   --text-color-light: #151515;
-  --brand-color-light: rgb(175, 175, 175);
 
   /* Colors dark */
-  --primary-color-dark: #5D2F54;
-  --secondary-color-dark-turqouise: #65BDAB;
-  --secondary-color-dark-pink: #D3628A;
-  --accent-color-dark-yellow: #E9DB89;
-  --text-color-dark: #E4E4E4;
+  --primary-color-dark: #5d2f54;
+  --secondary-color-dark-turqouise: #65bdab;
+  --secondary-color-dark-pink: #d3628a;
+  --accent-color-dark-yellow: #e9db89;
+  --text-color-dark: #e4e4e4;
 
   /* Fonts */
-  --title-font-font-family: 'Sue Ellen Francisco', cursive;
-  --text-font-family: 'work-sans', sans-serif;
+  --title-font-font-family: "Sue Ellen Francisco", cursive;
+  --text-font-family: "work-sans", sans-serif;
 
   /* Font sizes */
-  --title-font-size: 6rem;
-  --under-titles-font-size: 3rem;
-  --brand-font-size: 2.2rem;
-  --text-font-size: 1.6rem;
-  --menu-and-options-font-size: 2.4rem;
-  --button-and-price-font-size: 4.2rem;
+  --display-title-font-size: 12.8rem;
+  --header2-display-font-size: 6.4rem;
+  --mobile-header1-display-font-size: 3.2rem;
+  --desktop-detail-title-font-size: 3.2rem;
+  --desktop-card-price-font-size: 2.4rem;
+  --detail-price-font-size: 2.4rem;
+  --header2-font-size: 2.4rem;
+  --desktop-card-title-font-size: 2.4rem;
+  --body-text-big-font-size: 2.4rem;
+  --body-text-font-size: 1.6rem;
+  --mobile-detail-brand-font-size: 1.6rem;
+  --mobile-card-brand-font-size: 1.4rem;
   --moms-font-size: 1.2rem;
 
   /* Font thickness */
@@ -32,8 +37,16 @@
   --bold-font-weight: 700;
   --medium-font-weight: 500;
   --light-font-weight: 300;
-  --extra-light-font-weight: 200;
   --semi-bold-font-weight: 600;
+
+  /* Line heights */
+  --work-sans-line-height: normal;
+  --sue-ellen-francisco-line-height: 150%;
+
+  /* Letter spacing */
+  --card-title-letter-spacing: 1px;
+  --card-price-letter-spacing: 2px;
+  --card-brand-letter-spacing: 3.5px;
 }
 
 /* rem 10px=1rem */
@@ -113,38 +126,48 @@ html {
   padding: 2rem;
 }
 
-.button {
-  background-color: #27ae60;
-  color: white;
-  border: none;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-p {
-  font-family: var(--text-font-family);
-  font-size: var(--text-font-size);
-  font-weight: var(--normal-font-weight);
-}
 
 h2 {
+  font-size: var(--desktop-detail-title-font-size);
   font-family: var(--title-font-font-family);
-  font-size: var(--title-font-size);
-  font-weight: var(--bold-font-weight);
+  color: var(--text-color-light);
+  letter-spacing: var(--card-title-letter-spacing);
 }
 
-h4 {
+
+p {
+  font-size: var(--body-text-font-size);
   font-family: var(--text-font-family);
-  font-size: var(--brand-font-size);
-  font-weight: var(--extra-light-font-weight);
-  color: var(--brand-color-light);
 }
 
-span {
-  font-family: var(--text-font-family);
-  font-size: var(--text-font-size);
-  font-weight: var(--medium-font-weight);
+.sizeButtons {
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  gap: 0.8rem;
+  width: fit-content;
+}
+
+.sizeButton {
+width: 4rem;
+height: 4rem;
+padding: 0.8rem;
+justify-content: center;
+align-items: center;
+aspect-ratio: 1/1;
+border-radius: 1rem;
+border: 0.05rem solid #8E8E8E;
+background: #FFFFFF;
+font-family: var(--text-font-family);
+font-weight: var(--normal-font-weight);
+cursor: pointer;
+}
+
+.sizeButton:hover {
+  border: 0.3rem solid var(--secondary-color-light-turqouise);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sizeButton.active {
+  background-color: var(--secondary-color-light-turqouise);
+  color: #FFFFFF;
 }
