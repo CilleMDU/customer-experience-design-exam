@@ -5,6 +5,10 @@ import SizeSelector from "../../components/SizeSelector";
 import informationBtn from "../../assets/information-btn.svg"
 import starIcon from "../../assets/star.svg"
 import touchIcon from "../../assets/touch-approved-badge.svg"
+import truckIcon from "../../assets/truck.svg"
+import packageIcon from "../../assets/package.svg"
+import inactiveHeart from "../../assets/inactive-heart.svg";
+import activeHeart from "../../assets/hjerte-smil.svg";
 
 export default function ProductDetailPage() {
   const params = useParams();
@@ -13,6 +17,11 @@ export default function ProductDetailPage() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [materialOpen, setMaterialOpen] = useState(false);
   const [careOpen, setCareOpen] = useState(false);
+  const [isFavorited, setIsFavorited] = useState(false);
+
+  function toggleFavorite() {
+    setIsFavorited(!isFavorited);
+  }
 
   useEffect(() => {
     async function fetchProducts() {
@@ -118,9 +127,18 @@ export default function ProductDetailPage() {
             <SizeSelector sizes={product.sizes} onSelect={handleSizeSelect} />
             <p className={styles.description}>{product.description}</p>
             <div className={styles.buttons}>
-              <button className={styles.buyButton}>
+              <div className={styles.buyAndFave}>
+                <button className={styles.buyButton}>
                 Læg i kurv<a href="#"></a>
               </button>
+              <button className={styles.favoriteIcon} onClick={toggleFavorite}>
+              <img
+                src={isFavorited ? activeHeart : inactiveHeart}
+                alt="favorit"
+                className={styles.faveActivity}
+              />
+             </button>
+              </div>
               <div className={styles.serviceAndInformation}>
                 {product["single-item-service"] && (
                   <button className={styles.serviceButton}>
@@ -148,39 +166,48 @@ export default function ProductDetailPage() {
                 <div
                 className={styles.stockCircle}
                 style={{ background: getStockColor(product.stock) }}
-              ></div>
-              <span
-                className={`product-stock ${product.stock ? "in-stock" : "out-of-stock"}`}
-              >
-                {product.stock ? "På lager" : "Udsolgt"}
-              </span>
+                ></div>
+                <span
+                 className={`product-stock ${product.stock ? "in-stock" : "out-of-stock"}`}
+               >
+                 {product.stock ? "På lager" : "Udsolgt"}
+               </span>
+              </div>
+              <div className={styles.return}>
+                <img src={packageIcon} alt="pakke ikon" />
+                <p>100 dages returret</p>
+              </div>
+              <div className={styles.minReturn
+              }>
+                <img src={truckIcon} alt="lastbils ikon" />
+                <p>Gratis retur ved køb over 399kr</p>
               </div>
             </div>
             <div className={styles.careAndMaterials}>
-              <div className={styles.section}>
+              <div className={styles.careAndMate}>
                 <button 
-                  className={styles.sectionHeader}
+                  className={styles.careAndMateDrop}
                   onClick={() => setMaterialOpen(!materialOpen)}
                 >
                   <span>Materiale</span>
                   <span className={materialOpen ? styles.iconOpen : styles.iconClosed}>▼</span>
                 </button>
                 {materialOpen && (
-                  <div className={styles.sectionContent}>
+                  <div className={styles.careAndMateContent}>
                     <p>{product.material}</p>
                   </div>
                 )}
               </div>
-              <div className={styles.section}>
+              <div className={styles.careAndMate}>
                 <button 
-                  className={styles.sectionHeader}
+                  className={styles.careAndMateDrop}
                   onClick={() => setCareOpen(!careOpen)}
                 >
                   <span>Pleje</span>
                   <span className={careOpen ? styles.iconOpen : styles.iconClosed}>▼</span>
                 </button>
                 {careOpen && (
-                  <div className={styles.sectionContent}>
+                  <div className={styles.careAndMateContent}>
                     <p>{product.care}</p>
                   </div>
                 )}
