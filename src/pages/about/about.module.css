@@ -1,1 +1,27 @@
+main {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  padding: 20px;
+  align-items: center;
+  gap: 100px;
+}
 
+h2 {
+  color: var(--secondary-color-light-pink);
+}
+
+p {
+  width: 621px;
+  flex-shrink: 0;
+  font-family: var(--text-font-family);
+  font-size: var(--body-text-font-size);
+  line-height: 150%;
+}
+
+.heroLogo {
+  width: 500px;
+  height: auto;
+  display: block;
+  max-width: none;
+}
