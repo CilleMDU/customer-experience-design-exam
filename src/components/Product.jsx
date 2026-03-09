@@ -3,6 +3,7 @@ import styles from "./product.module.css";
 import inactiveHeart from "../assets/inactive-heart.svg";
 import hoveredHeart from "../assets/hovered-heart.svg";
 import activeHeart from "../assets/hjerte-smil.svg";
+import { useState } from "react";
 
 function getColor(color) {
   if (color === "Lyserød") {
@@ -30,29 +31,44 @@ function getColor(color) {
 }
 
 export default function product({ product }) {
+  const [isFavorited, setIsFavorited] = useState(false);
+
+  function toggleFavorite() {
+    setIsFavorited(!isFavorited);
+  }
   return (
-    <Link to={`/products/${product.id}`} className={styles.cardLink}>
+    <div className={styles.cardLink}>
       <article className={styles.card}>
         <figure className={styles.imageArea}>
-          <img
-            src={product.gallery?.[0]?.image_url}
-            alt={product.gallery?.[0]?.alt_text}
-            className={styles.image}
-          />
+          <Link to={`/products/${product.id}`}>
+            <img
+              src={product.gallery?.[0]?.image_url}
+              alt={product.gallery?.[0]?.alt_text}
+              className={styles.image}
+            />
+          </Link>
+          <button className={styles.favoriteIcon} onClick={toggleFavorite}>
+            <img
+              src={isFavorited ? activeHeart : inactiveHeart}
+              alt="favorit"
+            />
+          </button>
         </figure>
-        <span className={styles.brandName}>{product.brand}</span>
-        <h2 className={styles.title}>{product.title}</h2>
-        <p className={styles.price}>{product.price}</p>
-        <section className={styles.hoverInfo}>
-          <div className={styles.ratingStarsAmount}></div>
-          <div className={styles.colorsAmount}>
-            <div
-              className={styles.colorCircle}
-              style={{ background: getColor(product.color) }}
-            ></div>
-          </div>
-        </section>
+        <Link to={`/products/${product.id}`}>
+          <span className={styles.brandName}>{product.brand}</span>
+          <h2 className={styles.title}>{product.title}</h2>
+          <p className={styles.price}>{product.price}</p>
+          <section className={styles.hoverInfo}>
+            <div className={styles.ratingStarsAmount}></div>
+            <div className={styles.colorsAmount}>
+              <div
+                className={styles.colorCircle}
+                style={{ background: getColor(product.color) }}
+              ></div>
+            </div>
+          </section>
+        </Link>
       </article>
-    </Link>
+    </div>
   );
 }
