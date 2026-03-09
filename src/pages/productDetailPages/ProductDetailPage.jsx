@@ -7,8 +7,6 @@ export default function ProductDetailPage() {
   const productId = Number(params.id);
   const [product, setProduct] = useState({});
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [selectSize, setSelectSizeIndex] = useState(0);
-  const [showAllSizes, setShowAllSizes] = useState(false);
 
   useEffect(() => {
     async function fetchProducts() {
@@ -22,7 +20,6 @@ export default function ProductDetailPage() {
       console.log(productToDisplay);
       setProduct(productToDisplay);
       setCurrentImageIndex(0);
-      setSelectSizeIndex(0);
     }
     fetchProducts();
   }, [productId]);
@@ -30,14 +27,6 @@ export default function ProductDetailPage() {
   const handleThumbnailClick = (index) => {
     setCurrentImageIndex(index);
   };
-
-  const handleSizeClick = (index) => {
-    setSelectSizeIndex(index);
-    setShowAllSizes(false);
-  };
-
-  const currentRow = Math.floor(selectSize / 6);
-  const visibleSizes = product.size?.slice(currentRow * 6, (currentRow + 1) * 6) || [];
 
   return (
     <>
@@ -69,26 +58,6 @@ export default function ProductDetailPage() {
             <h4 className="product-brand-detail">{product.brand}</h4>
             <h2 className="product-title-detail">{product.title}</h2>
             <p className="product-price-detail">{product.price}</p>
-            <div className={styles.size}>
-              <p className="product-size-detail">Størrelse</p>
-              <div className={styles.sizeButtons}>
-                {product.size?.map((sizeObj, index) => {
-                  const sizeKey = Object.keys(sizeObj).find(key => key.startsWith('size'));
-                  const size = sizeObj[sizeKey];
-                  return (
-                    <button
-                      key={index}
-                      className={`${styles.sizeButton} ${
-                        index === selectSize ? styles.active : ""
-                      }`}
-                      onClick={() => handleSizeClick(index)}
-                    >
-                      {size}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
             <p className="product-rating-detail">
               ⭐ {product.rating?.rate}{" "}
               <a href="#">({product.rating?.count})</a>
