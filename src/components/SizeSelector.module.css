@@ -1,0 +1,70 @@
+.sizeSelector {
+  position: relative;
+  width: fit-content;
+}
+
+.selectorButton {
+  font-size: 1.6rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 200px;
+  gap: 0.5rem;
+}
+
+.selectorButton:hover {
+  border-color: #999;
+}
+
+.arrow {
+  font-size: 0.8rem;
+  margin-left: auto;
+}
+
+.sizeOptions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  margin-top: -1px;
+  z-index: 10;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sizeOption {
+  padding: 1rem;
+  font-size: 1.6rem;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.2s ease;
+}
+
+.sizeOption:last-child {
+  border-bottom: none;
+  border-radius: 0 0 8px 8px;
+}
+
+.sizeOption:hover:not(.disabled) {
+  background-color: #f9f9f9;
+}
+
+.sizeOption.selected {
+  background-color: #38a495;
+  color: #ffffff;
+}
+
+.sizeOption.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  color: #999;
+}

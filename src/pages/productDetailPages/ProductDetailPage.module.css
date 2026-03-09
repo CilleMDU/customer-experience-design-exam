@@ -126,48 +126,72 @@ html {
   padding: 2rem;
 }
 
-
-h2 {
+.title {
   font-size: var(--desktop-detail-title-font-size);
   font-family: var(--title-font-font-family);
   color: var(--text-color-light);
-  letter-spacing: var(--card-title-letter-spacing);
 }
-
 
 p {
   font-size: var(--body-text-font-size);
   font-family: var(--text-font-family);
+  color: var(--text-color-light);
 }
 
-.sizeButtons {
-  display: grid;
-  grid-template-columns: repeat(6,1fr);
-  gap: 0.8rem;
-  width: fit-content;
+.brand {
+  font-size: var(--body-text-font-size);
+  font-family: var(--text-font-family);
+  color: var(--text-color-light);
+  font-weight: var(--light-font-weight);
 }
 
-.sizeButton {
-width: 4rem;
-height: 4rem;
-padding: 0.8rem;
-justify-content: center;
-align-items: center;
-aspect-ratio: 1/1;
-border-radius: 1rem;
-border: 0.05rem solid #8E8E8E;
-background: #FFFFFF;
-font-family: var(--text-font-family);
-font-weight: var(--normal-font-weight);
-cursor: pointer;
+.price {
+  font-size: var(--detail-price-font-size);
+  font-family: var(--text-font-family);
+  font-weight: var(--bold-font-weight);
+  color: var(--text-color-light);
 }
 
-.sizeButton:hover {
-  border: 0.3rem solid var(--secondary-color-light-turqouise);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+.buyButton {
+  display: flex;
+  width: 35vw;
+  border: none;
+  padding: 0.8rem 5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  stroke: none;
+  background: var(--seconndary-color-light-pink);
+  color: var(--primary-color-light);
+  font-family: var(--text-font-family);
+  font-size: var(--body-text-big-font-size);
+  font-weight: var(--normal-font-weight);
 }
 
-.sizeButton.active {
-  background-color: var(--secondary-color-light-turqouise);
-  color: #FFFFFF;
+.buyButton:hover {
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.serviceButton {
+  display: flex;
+  width: 35vw;
+  border: none;
+  padding: 0.8rem 5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  stroke: none;
+  background: var(--secondary-color-light-turqouise);
+  color: var(--primary-color-light);
+  font-family: var(--text-font-family);
+  font-size: var(--body-text-big-font-size);
+  font-weight: var(--normal-font-weight);
+}
+
+.serviceButton:hover {
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }

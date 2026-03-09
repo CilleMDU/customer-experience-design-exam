@@ -1,6 +1,7 @@
 import styles from "./ProductDetailPage.module.css";
 import { useParams } from "react-router";
 import { useEffect, useState } from "react";
+import SizeSelector from "../../components/SizeSelector";
 
 export default function ProductDetailPage() {
   const params = useParams();
@@ -10,8 +11,7 @@ export default function ProductDetailPage() {
 
   useEffect(() => {
     async function fetchProducts() {
-      const url =
-        "../../public/data.json";
+      const url = "../../public/data.json";
       const response = await fetch(url);
       const products = await response.json();
       console.log(products);
@@ -26,6 +26,10 @@ export default function ProductDetailPage() {
 
   const handleThumbnailClick = (index) => {
     setCurrentImageIndex(index);
+  };
+
+  const handleSizeSelect = (size) => {
+    console.log("Selected size:", size);
   };
 
   return (
@@ -55,22 +59,28 @@ export default function ProductDetailPage() {
             </div>
           </div>
           <div className={styles.info}>
-            <h4 className="product-brand-detail">{product.brand}</h4>
-            <h2 className="product-title-detail">{product.title}</h2>
-            <p className="product-price-detail">{product.price}</p>
+            <h4 className={styles.brand}>{product.brand}</h4>
+            <h2 className={styles.title}>{product.title}</h2>
+            <p className={styles.price}>{product.price}</p>
+            <SizeSelector sizes={product.sizes} onSelect={handleSizeSelect} />
+            <p className="product-description-detail">{product.description}</p>
+            <button className={styles.buyButton}>
+              Læg i kurv<a href="#"></a>
+            </button>
+            {product["single-item-service"] && (
+              <button className={styles.serviceButton}>
+                Single Item Service
+              </button>
+            )}
             <p className="product-rating-detail">
               ⭐ {product.rating?.rate}{" "}
               <a href="#">({product.rating?.count})</a>
+              <span
+                className={`product-stock ${product.stock ? "in-stock" : "out-of-stock"}`}
+              >
+                {product.stock ? "På lager" : "Udsolgt"}
+              </span>
             </p>
-            <p className="product-description-detail">{product.description}</p>
-            <span
-              className={`product-stock ${product.stock ? "in-stock" : "out-of-stock"}`}
-            >
-              {product.stock ? "På lager" : "Udsolgt"}
-            </span>
-            <button className={styles.button}>
-              Læg i kurv<a href="#"></a>
-            </button>
           </div>
         </section>
       </main>
