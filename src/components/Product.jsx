@@ -55,7 +55,7 @@ export default function product({ product }) {
             />
           </button>
         </figure>
-        <Link to={`/products/${product.id}`}>
+        <Link to={`/products/${product.id}`} className={styles.Link}>
           <span className={styles.brandName}>{product.brand}</span>
           <h2 className={styles.title}>{product.title}</h2>
           <p className={styles.price}>{product.price}</p>

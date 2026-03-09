@@ -1,5 +1,6 @@
-* {
+.Link {
   text-decoration: none;
+  width: 100%;
 }
 .card {
   display: flex;
