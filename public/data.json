@@ -31,77 +31,77 @@
     "category": "Leggings/Yogabukser",
     "material": "81% Nylon, 19% Lycra Elastane med 90% nylan og 10% elastan i linningen",
     "care": "Maskinvask koldt med lignende farver. Må ikke bleges. Tørretumbling ved lav varme. Må ikke stryges. Må ikke renses.",
-    "size": [
+    "sizes": [
       {
-        "size1": "32",
+        "size": 32,
         "available": true
       },
       {
-        "size2": "33",
+        "size": 33,
         "available": true
       },
       {
-        "size3": "34",
+        "size": 34,
         "available": true
       },
       {
-        "size4": "35",
+        "size": 35,
         "available": true
       },
       {
-        "size5": "36",
+        "size": 36,
         "available": true
       },
       {
-        "size6": "37",
+        "size": 37,
         "available": true
       },
       {
-        "size7": "38",
+        "size": 38,
         "available": true
       },
       {
-        "size8": "39",
+        "size": 39,
         "available": true
       },
       {
-        "size9": "40",
+        "size": 40,
         "available": true
       },
       {
-        "size10": "41",
+        "size": 41,
         "available": true
       },
       {
-        "size11": "42",
+        "size": 42,
         "available": true
       },
       {
-        "size12": "43",
+        "size": 43,
         "available": true
       },
       {
-        "size13": "44",
+        "size": 44,
         "available": true
       },
       {
-        "size14": "45",
+        "size": 45,
         "available": true
       },
       {
-        "size15": "46",
+        "size": 46,
         "available": true
       },
       {
-        "size16": "47",
+        "size": 47,
         "available": true
       },
       {
-        "size17": "48",
+        "size": 48,
         "available": true
       },
       {
-        "size18": "49",
+        "size": 49,
         "available": true
       }
     ],
@@ -145,77 +145,77 @@
     "category": "Leggings/Yogabukser",
     "material": "75% Nylon 25% Elastan",
     "care": "Vask ved lav temperatur, maks. 30 grader. Vask på vrangen. Må ikke tørretumbles",
-    "size": [
+    "sizes": [
       {
-        "size1": "32",
+        "size": 32,
         "available": true
       },
       {
-        "size2": "33",
+        "size": 33,
         "available": true
       },
       {
-        "size3": "34",
+        "size": 34,
         "available": true
       },
       {
-        "size4": "35",
+        "size": 35,
         "available": true
       },
       {
-        "size5": "36",
+        "size": 36,
         "available": true
       },
       {
-        "size6": "37",
+        "size": 37,
         "available": true
       },
       {
-        "size7": "38",
+        "size": 38,
         "available": true
       },
       {
-        "size8": "39",
+        "size": 39,
         "available": true
       },
       {
-        "size9": "40",
+        "size": 40,
         "available": true
       },
       {
-        "size10": "41",
+        "size": 41,
         "available": true
       },
       {
-        "size11": "42",
+        "size": 42,
         "available": true
       },
       {
-        "size12": "43",
+        "size": 43,
         "available": true
       },
       {
-        "size13": "44",
+        "size": 44,
         "available": true
       },
       {
-        "size14": "45",
+        "size": 45,
         "available": true
       },
       {
-        "size15": "46",
+        "size": 46,
         "available": true
       },
       {
-        "size16": "47",
+        "size": 47,
         "available": true
       },
       {
-        "size17": "48",
+        "size": 48,
         "available": true
       },
       {
-        "size18": "49",
+        "size": 49,
         "available": true
       }
     ],
@@ -258,77 +258,77 @@
     "description": "Disse adidas-løbesko er designet til længere løb i jævnt, moderat tempo og er skabt til at opretholde komforten under træningen. REPETITOR-mellemsålen bevarer en let fornemmelse og giver samtidig maksimal støddæmpning med returenergi og stabilitet til længere løbeture. Den holdbare ydersål er designet til træning på lange distancer.",
     "category": "Løbesko",
     "material": "Stødabsoberende matrialle og gummisål",
-    "size": [
+    "sizes": [
       {
-        "size1": "32",
+        "size": 32,
         "available": true
       },
       {
-        "size2": "33",
+        "size": 33,
         "available": true
       },
       {
-        "size3": "34",
+        "size": 34,
         "available": true
       },
       {
-        "size4": "35",
+        "size": 35,
         "available": true
       },
       {
-        "size5": "36",
+        "size": 36,
         "available": true
       },
       {
-        "size6": "37",
+        "size": 37,
         "available": true
       },
       {
-        "size7": "38",
+        "size": 38,
         "available": true
       },
       {
-        "size8": "39",
+        "size": 39,
         "available": true
       },
       {
-        "size9": "40",
+        "size": 40,
         "available": true
       },
       {
-        "size10": "41",
+        "size": 41,
         "available": true
       },
       {
-        "size11": "42",
+        "size": 42,
         "available": true
       },
       {
-        "size12": "43",
+        "size": 43,
         "available": true
       },
       {
-        "size13": "44",
+        "size": 44,
         "available": true
       },
       {
-        "size14": "45",
+        "size": 45,
         "available": true
       },
       {
-        "size15": "46",
+        "size": 46,
         "available": true
       },
       {
-        "size16": "47",
+        "size": 47,
         "available": true
       },
       {
-        "size17": "48",
+        "size": 48,
         "available": true
       },
       {
-        "size18": "49",
+        "size": 49,
         "available": true
       }
     ],
@@ -371,77 +371,77 @@
     "description": "Disse sko fra adidas er pakket med innovativ teknologi, der presser dig til at præstere i sport, som håndbold, volleyball og indendørshockey. En adidas BOOST-indsats i mellemsålen giver komfort og returenergi, så du kan holde dig kørende, mens konstruktionen omkring skoen giver den stabilitet, du har brug for, til intenst spil. Mesh-zoner i overdelen øger åndbarheden, og det bløde for holder foden komfortabelt på plads. Signaturdetaljer såsom det forstærkede tåområde hylder originalen, mens et nyt trækkraftmønster hjælper dig med at skifte retning på et øjeblik. Sammen giver disse funktioner dig mulighed for at genopdage din styrke og bruge din energi til at gå efter sejren. Dette produkt indeholder mindst 20 % genanvendte materialer. Ved at genbruge materialer, der allerede er blevet skabt, hjælper vi med at reducere spild og vores afhængighed af begrænsede ressourcer, og reducerer vores produkters aftryk.",
     "category": "Indesko",
     "material": "Indeholder mindst 20 % genanvendt indhold",
-    "size": [
+    "sizes": [
       {
-        "size1": "32",
+        "size": 32,
         "available": true
       },
       {
-        "size2": "33",
+        "size": 33,
         "available": true
       },
       {
-        "size3": "34",
+        "size": 34,
         "available": true
       },
       {
-        "size4": "35",
+        "size": 35,
         "available": true
       },
       {
-        "size5": "36",
+        "size": 36,
         "available": true
       },
       {
-        "size6": "37",
+        "size": 37,
         "available": true
       },
       {
-        "size7": "38",
+        "size": 38,
         "available": true
       },
       {
-        "size8": "39",
+        "size": 39,
         "available": true
       },
       {
-        "size9": "40",
+        "size": 40,
         "available": true
       },
       {
-        "size10": "41",
+        "size": 41,
         "available": true
       },
       {
-        "size11": "42",
+        "size": 42,
         "available": true
       },
       {
-        "size12": "43",
+        "size": 43,
         "available": true
       },
       {
-        "size13": "44",
+        "size": 44,
         "available": true
       },
       {
-        "size14": "45",
+        "size": 45,
         "available": true
       },
       {
-        "size15": "46",
+        "size": 46,
         "available": true
       },
       {
-        "size16": "47",
+        "size": 47,
         "available": true
       },
       {
-        "size17": "48",
+        "size": 48,
         "available": true
       },
       {
-        "size18": "49",
+        "size": 49,
         "available": true
       }
     ],
@@ -485,77 +485,77 @@
     "category": "Tank top",
     "material": "75% Nylon og 25% Elastan",
     "care": "Vask ved lav temperatur, maks. 30 grader. Vask på vrangen. Må ikke tørretumbles",
-    "size": [
+    "sizes": [
       {
-        "size1": "32",
+        "size": 32,
         "available": true
       },
       {
-        "size2": "33",
+        "size": 33,
         "available": true
       },
       {
-        "size3": "34",
+        "size": 34,
         "available": true
       },
       {
-        "size4": "35",
+        "size": 35,
         "available": true
       },
       {
-        "size5": "36",
+        "size": 36,
         "available": true
       },
       {
-        "size6": "37",
+        "size": 37,
         "available": true
       },
       {
-        "size7": "38",
+        "size": 38,
         "available": true
       },
       {
-        "size8": "39",
+        "size": 39,
         "available": true
       },
       {
-        "size9": "40",
+        "size": 40,
         "available": true
       },
       {
-        "size10": "41",
+        "size": 41,
         "available": true
       },
       {
-        "size11": "42",
+        "size": 42,
         "available": true
       },
       {
-        "size12": "43",
+        "size": 43,
         "available": true
       },
       {
-        "size13": "44",
+        "size": 44,
         "available": true
       },
       {
-        "size14": "45",
+        "size": 45,
         "available": true
       },
       {
-        "size15": "46",
+        "size": 46,
         "available": true
       },
       {
-        "size16": "47",
+        "size": 47,
         "available": true
       },
       {
-        "size17": "48",
+        "size": 48,
         "available": true
       },
       {
-        "size18": "49",
+        "size": 49,
         "available": true
       }
     ],
@@ -599,77 +599,77 @@
     "category": "Sports BH",
     "material": "78% genanvendt polyamid og 22% elastan",
     "care": "30 graders vask på vrangen. Må ikke tørretumbles",
-    "size": [
+    "sizes": [
       {
-        "size1": "32",
+        "size": 32,
         "available": true
       },
       {
-        "size2": "33",
+        "size": 33,
         "available": true
       },
       {
-        "size3": "34",
+        "size": 34,
         "available": true
       },
       {
-        "size4": "35",
+        "size": 35,
         "available": true
       },
       {
-        "size5": "36",
+        "size": 36,
         "available": true
       },
       {
-        "size6": "37",
+        "size": 37,
         "available": true
       },
       {
-        "size7": "38",
+        "size": 38,
         "available": true
       },
       {
-        "size8": "39",
+        "size": 39,
         "available": true
       },
       {
-        "size9": "40",
+        "size": 40,
         "available": true
       },
       {
-        "size10": "41",
+        "size": 41,
         "available": true
       },
       {
-        "size11": "42",
+        "size": 42,
         "available": true
       },
       {
-        "size12": "43",
+        "size": 43,
         "available": true
       },
       {
-        "size13": "44",
+        "size": 44,
         "available": true
       },
       {
-        "size14": "45",
+        "size": 45,
         "available": true
       },
       {
-        "size15": "46",
+        "size": 46,
         "available": true
       },
       {
-        "size16": "47",
+        "size": 47,
         "available": true
       },
       {
-        "size17": "48",
+        "size": 48,
         "available": true
       },
       {
-        "size18": "49",
+        "size": 49,
         "available": true
       }
     ],
@@ -713,77 +713,77 @@
     "category": "Bluser",
     "material": "87% genbrugt polyester, 13% elastan",
     "care": "Vask ved lav temperatur, maks. 30 grader. Må ikke tørretumbles",
-    "size": [
+    "sizes": [
       {
-        "size1": "32",
+        "size": 32,
         "available": true
       },
       {
-        "size2": "33",
+        "size": 33,
         "available": true
       },
       {
-        "size3": "34",
+        "size": 34,
         "available": true
       },
       {
-        "size4": "35",
+        "size": 35,
         "available": true
       },
       {
-        "size5": "36",
+        "size": 36,
         "available": true
       },
       {
-        "size6": "37",
+        "size": 37,
         "available": true
       },
       {
-        "size7": "38",
+        "size": 38,
         "available": true
       },
       {
-        "size8": "39",
+        "size": 39,
         "available": true
       },
       {
-        "size9": "40",
+        "size": 40,
         "available": true
       },
       {
-        "size10": "41",
+        "size": 41,
         "available": true
       },
       {
-        "size11": "42",
+        "size": 42,
         "available": true
       },
       {
-        "size12": "43",
+        "size": 43,
         "available": true
       },
       {
-        "size13": "44",
+        "size": 44,
         "available": true
       },
       {
-        "size14": "45",
+        "size": 45,
         "available": true
       },
       {
-        "size15": "46",
+        "size": 46,
         "available": true
       },
       {
-        "size16": "47",
+        "size": 47,
         "available": true
       },
       {
-        "size17": "48",
+        "size": 48,
         "available": true
       },
       {
-        "size18": "49",
+        "size": 49,
         "available": true
       }
     ],
@@ -812,7 +812,7 @@
     "category": "Sokker",
     "material": "70% genbrugt polyamide, 22% polyamide & 8% elastan.",
     "care": "Vask ved lav temperatur, maks. 30 grader. Må ikke tørretumbles.",
-    "size": [
+    "sizes": [
       {
         "size1": "36 - 40",
         "available": true
@@ -861,77 +861,77 @@
     "category": "Løbejakker",
     "material": "88% genbrugt nylon og 12% elastan",
     "care": "Kold maskinevask sammen med farvet tøj. Vask på vrangen. Må ikke bleges. Lav tørretumbling. Strygning ved lav temperatur. Må ikke dry cleanes.",
-    "size": [
+    "sizes": [
       {
-        "size1": "32",
+        "size": 32,
         "available": true
       },
       {
-        "size2": "33",
+        "size": 33,
         "available": true
       },
       {
-        "size3": "34",
+        "size": 34,
         "available": true
       },
       {
-        "size4": "35",
+        "size": 35,
         "available": true
       },
       {
-        "size5": "36",
+        "size": 36,
         "available": true
       },
       {
-        "size6": "37",
+        "size": 37,
         "available": true
       },
       {
-        "size7": "38",
+        "size": 38,
         "available": true
       },
       {
-        "size8": "39",
+        "size": 39,
         "available": true
       },
       {
-        "size9": "40",
+        "size": 40,
         "available": true
       },
       {
-        "size10": "41",
+        "size": 41,
         "available": true
       },
       {
-        "size11": "42",
+        "size": 42,
         "available": true
       },
       {
-        "size12": "43",
+        "size": 43,
         "available": true
       },
       {
-        "size13": "44",
+        "size": 44,
         "available": true
       },
       {
-        "size14": "45",
+        "size": 45,
         "available": true
       },
       {
-        "size15": "46",
+        "size": 46,
         "available": true
       },
       {
-        "size16": "47",
+        "size": 47,
         "available": true
       },
       {
-        "size17": "48",
+        "size": 48,
         "available": true
       },
       {
-        "size18": "49",
+        "size": 49,
         "available": true
       }
     ],
@@ -970,77 +970,77 @@
     "category": "Tank top",
     "material": "83% genbrugt nylongarn og 17% elastan",
     "care": "Kold maskinevask sammen med farvet tøj. Vask på vrangen. Må ikke bleges. Lav tørretumbling. Strygning ved lav temperatur. Må ikke dry cleanes.",
-    "size": [
+    "sizes": [
       {
-        "size1": "32",
+        "size": 32,
         "available": true
       },
       {
-        "size2": "33",
+        "size": 33,
         "available": true
       },
       {
-        "size3": "34",
+        "size": 34,
         "available": true
       },
       {
-        "size4": "35",
+        "size": 35,
         "available": true
       },
       {
-        "size5": "36",
+        "size": 36,
         "available": true
       },
       {
-        "size6": "37",
+        "size": 37,
         "available": true
       },
       {
-        "size7": "38",
+        "size": 38,
         "available": true
       },
       {
-        "size8": "39",
+        "size": 39,
         "available": true
       },
       {
-        "size9": "40",
+        "size": 40,
         "available": true
       },
       {
-        "size10": "41",
+        "size": 41,
         "available": true
       },
       {
-        "size11": "42",
+        "size": 42,
         "available": true
       },
       {
-        "size12": "43",
+        "size": 43,
         "available": true
       },
       {
-        "size13": "44",
+        "size": 44,
         "available": true
       },
       {
-        "size14": "45",
+        "size": 45,
         "available": true
       },
       {
-        "size15": "46",
+        "size": 46,
         "available": true
       },
       {
-        "size16": "47",
+        "size": 47,
         "available": true
       },
       {
-        "size17": "48",
+        "size": 48,
         "available": true
       },
       {
-        "size18": "49",
+        "size": 49,
         "available": true
       }
     ],
@@ -1084,77 +1084,77 @@
     "category": "Hoodies",
     "material": "Polyesteren i denne polyesterfleece med 80% bomuld/20% er fremstillet i 100% genanvendt polyester",
     "care": "Ikke angivet. Tjek label for plejeinstruktioner ved ankomst.",
-    "size": [
+    "sizes": [
       {
-        "size1": "32",
+        "size": 32,
         "available": true
       },
       {
-        "size2": "33",
+        "size": 33,
         "available": true
       },
       {
-        "size3": "34",
+        "size": 34,
         "available": true
       },
       {
-        "size4": "35",
+        "size": 35,
         "available": true
       },
       {
-        "size5": "36",
+        "size": 36,
         "available": true
       },
       {
-        "size6": "37",
+        "size": 37,
         "available": true
       },
       {
-        "size7": "38",
+        "size": 38,
         "available": true
       },
       {
-        "size8": "39",
+        "size": 39,
         "available": true
       },
       {
-        "size9": "40",
+        "size": 40,
         "available": true
       },
       {
-        "size10": "41",
+        "size": 41,
         "available": true
       },
       {
-        "size11": "42",
+        "size": 42,
         "available": true
       },
       {
-        "size12": "43",
+        "size": 43,
         "available": true
       },
       {
-        "size13": "44",
+        "size": 44,
         "available": true
       },
       {
-        "size14": "45",
+        "size": 45,
         "available": true
       },
       {
-        "size15": "46",
+        "size": 46,
         "available": true
       },
       {
-        "size16": "47",
+        "size": 47,
         "available": true
       },
       {
-        "size17": "48",
+        "size": 48,
         "available": true
       },
       {
-        "size18": "49",
+        "size": 49,
         "available": true
       }
     ],
@@ -1198,77 +1198,77 @@
     "category": "Sweatpants",
     "material": "Selve bukserne er lavet af 53% genanvendt polyester, 38% modal, og 9% elastan. Lommer er 100% bomuld.",
     "care": "Kold maskinevask med lignende farver. Må ikke bleges. Tørretumbles ved lav varme. Må ikke dry cleanes.",
-    "size": [
+    "sizes": [
       {
-        "size1": "32",
+        "size": 32,
         "available": true
       },
       {
-        "size2": "33",
+        "size": 33,
         "available": true
       },
       {
-        "size3": "34",
+        "size": 34,
         "available": true
       },
       {
-        "size4": "35",
+        "size": 35,
         "available": true
       },
       {
-        "size5": "36",
+        "size": 36,
         "available": true
       },
       {
-        "size6": "37",
+        "size": 37,
         "available": true
       },
       {
-        "size7": "38",
+        "size": 38,
         "available": true
       },
       {
-        "size8": "39",
+        "size": 39,
         "available": true
       },
       {
-        "size9": "40",
+        "size": 40,
         "available": true
       },
       {
-        "size10": "41",
+        "size": 41,
         "available": true
       },
       {
-        "size11": "42",
+        "size": 42,
         "available": true
       },
       {
-        "size12": "43",
+        "size": 43,
         "available": true
       },
       {
-        "size13": "44",
+        "size": 44,
         "available": true
       },
       {
-        "size14": "45",
+        "size": 45,
         "available": true
       },
       {
-        "size15": "46",
+        "size": 46,
         "available": true
       },
       {
-        "size16": "47",
+        "size": 47,
         "available": true
       },
       {
-        "size17": "48",
+        "size": 48,
         "available": true
       },
       {
-        "size18": "49",
+        "size": 49,
         "available": true
       }
     ],
@@ -1312,77 +1312,77 @@
     "category": "Shorts",
     "material": "Genanvedelig polyester",
     "care": "Ikke angivet. Tjek label for plejeinstruktioner ved ankomst.",
-    "size": [
+    "sizes": [
       {
-        "size1": "32",
+        "size": 32,
         "available": true
       },
       {
-        "size2": "33",
+        "size": 33,
         "available": true
       },
       {
-        "size3": "34",
+        "size": 34,
         "available": true
       },
       {
-        "size4": "35",
+        "size": 35,
         "available": true
       },
       {
-        "size5": "36",
+        "size": 36,
         "available": true
       },
       {
-        "size6": "37",
+        "size": 37,
         "available": true
       },
       {
-        "size7": "38",
+        "size": 38,
         "available": true
       },
       {
-        "size8": "39",
+        "size": 39,
         "available": true
       },
       {
-        "size9": "40",
+        "size": 40,
         "available": true
       },
       {
-        "size10": "41",
+        "size": 41,
         "available": true
       },
       {
-        "size11": "42",
+        "size": 42,
         "available": true
       },
       {
-        "size12": "43",
+        "size": 43,
         "available": true
       },
       {
-        "size13": "44",
+        "size": 44,
         "available": true
       },
       {
-        "size14": "45",
+        "size": 45,
         "available": true
       },
       {
-        "size15": "46",
+        "size": 46,
         "available": true
       },
       {
-        "size16": "47",
+        "size": 47,
         "available": true
       },
       {
-        "size17": "48",
+        "size": 48,
         "available": true
       },
       {
-        "size18": "49",
+        "size": 49,
         "available": true
       }
     ],
@@ -1426,77 +1426,77 @@
     "category": "Shorts",
     "material": "83% genbrugt nylon og 17% elastan",
     "care": "Maskinevask på 30 grader med lignende farver. Lav tørretumbling. Må ikke bleges. Strygning ved lav temperatur. Må ikke dry cleanes.",
-    "size": [
+    "sizes": [
       {
-        "size1": "32",
+        "size": 32,
         "available": true
       },
       {
-        "size2": "33",
+        "size": 33,
         "available": true
       },
       {
-        "size3": "34",
+        "size": 34,
         "available": true
       },
       {
-        "size4": "35",
+        "size": 35,
         "available": true
       },
       {
-        "size5": "36",
+        "size": 36,
         "available": true
       },
       {
-        "size6": "37",
+        "size": 37,
         "available": true
       },
       {
-        "size7": "38",
+        "size": 38,
         "available": true
       },
       {
-        "size8": "39",
+        "size": 39,
         "available": true
       },
       {
-        "size9": "40",
+        "size": 40,
         "available": true
       },
       {
-        "size10": "41",
+        "size": 41,
         "available": true
       },
       {
-        "size11": "42",
+        "size": 42,
         "available": true
       },
       {
-        "size12": "43",
+        "size": 43,
         "available": true
       },
       {
-        "size13": "44",
+        "size": 44,
         "available": true
       },
       {
-        "size14": "45",
+        "size": 45,
         "available": true
       },
       {
-        "size15": "46",
+        "size": 46,
         "available": true
       },
       {
-        "size16": "47",
+        "size": 47,
         "available": true
       },
       {
-        "size17": "48",
+        "size": 48,
         "available": true
       },
       {
-        "size18": "49",
+        "size": 49,
         "available": true
       }
     ],
@@ -1540,77 +1540,77 @@
     "category": "Nederdele",
     "material": "Selve nederleden er lavet af 86% genanvendeligt polyester og 14% elastan, mens at back lining er 69% nylon og 31% elastan, front lining er 87% nylon og 13% elastan, og taljen er 84% genanvendeligt polyester og 16% elastan.",
     "care": "Kold maskinevask med lignende farver. Må ikke bleges. Tørretumbles ved lav varme. Må ikke dry cleanes.",
-    "size": [
+    "sizes": [
       {
-        "size1": "32",
+        "size": 32,
         "available": true
       },
       {
-        "size2": "33",
+        "size": 33,
         "available": true
       },
       {
-        "size3": "34",
+        "size": 34,
         "available": true
       },
       {
-        "size4": "35",
+        "size": 35,
         "available": true
       },
       {
-        "size5": "36",
+        "size": 36,
         "available": true
       },
       {
-        "size6": "37",
+        "size": 37,
         "available": true
       },
       {
-        "size7": "38",
+        "size": 38,
         "available": true
       },
       {
-        "size8": "39",
+        "size": 39,
         "available": true
       },
       {
-        "size9": "40",
+        "size": 40,
         "available": true
       },
       {
-        "size10": "41",
+        "size": 41,
         "available": true
       },
       {
-        "size11": "42",
+        "size": 42,
         "available": true
       },
       {
-        "size12": "43",
+        "size": 43,
         "available": true
       },
       {
-        "size13": "44",
+        "size": 44,
         "available": true
       },
       {
-        "size14": "45",
+        "size": 45,
         "available": true
       },
       {
-        "size15": "46",
+        "size": 46,
         "available": true
       },
       {
-        "size16": "47",
+        "size": 47,
         "available": true
       },
       {
-        "size17": "48",
+        "size": 48,
         "available": true
       },
       {
-        "size18": "49",
+        "size": 49,
         "available": true
       }
     ],
@@ -1654,77 +1654,77 @@
     "category": "Tynde jakker",
     "material": "94% Micromodal 6% Elastin",
     "care": "Kan vaskes ved 30°, ikke egnet til tørretumbler",
-    "size": [
+    "sizes": [
       {
-        "size1": "32",
+        "size": 32,
         "available": true
       },
       {
-        "size2": "33",
+        "size": 33,
         "available": true
       },
       {
-        "size3": "34",
+        "size": 34,
         "available": true
       },
       {
-        "size4": "35",
+        "size": 35,
         "available": true
       },
       {
-        "size5": "36",
+        "size": 36,
         "available": true
       },
       {
-        "size6": "37",
+        "size": 37,
         "available": true
       },
       {
-        "size7": "38",
+        "size": 38,
         "available": true
       },
       {
-        "size8": "39",
+        "size": 39,
         "available": true
       },
       {
-        "size9": "40",
+        "size": 40,
         "available": true
       },
       {
-        "size10": "41",
+        "size": 41,
         "available": true
       },
       {
-        "size11": "42",
+        "size": 42,
         "available": true
       },
       {
-        "size12": "43",
+        "size": 43,
         "available": true
       },
       {
-        "size13": "44",
+        "size": 44,
         "available": true
       },
       {
-        "size14": "45",
+        "size": 45,
         "available": true
       },
       {
-        "size15": "46",
+        "size": 46,
         "available": true
       },
       {
-        "size16": "47",
+        "size": 47,
         "available": true
       },
       {
-        "size17": "48",
+        "size": 48,
         "available": true
       },
       {
-        "size18": "49",
+        "size": 49,
         "available": true
       }
     ],
@@ -1758,7 +1758,7 @@
     "category": "Pandebånd",
     "material": "78% nylon og 22% elastan",
     "care": "Kold vask med lignende farver. Må ikke bleges. Tørretumbles ved lav varme. Må ikke dry cleanes.",
-    "size": [
+    "sizes": [
       {
         "size1": "One size",
         "available": true
@@ -1794,7 +1794,7 @@
     "category": "Elastikker",
     "material": "86% genanvendt polyester og 14% elastan",
     "care": "Vaskes med lignende farver. Lav tørretumbling. Må ikke bleges. Må ikke stryges. Må ikke dry cleanes.",
-    "size": [
+    "sizes": [
       {
         "size1": "One size",
         "available": true
@@ -1840,77 +1840,77 @@
     "category": "T-shirts",
     "material": "100% genanvendt polyester",
     "care": "Vaskes i 30 grader på et skåneprogram. Må ikke tørretumbles. Må ikke bleges. Klattes med koldt strygejern. Må ikke dry cleanes.",
-    "size": [
+    "sizes": [
       {
-        "size1": "32",
+        "size": 32,
         "available": true
       },
       {
-        "size2": "33",
+        "size": 33,
         "available": true
       },
       {
-        "size3": "34",
+        "size": 34,
         "available": true
       },
       {
-        "size4": "35",
+        "size": 35,
         "available": true
       },
       {
-        "size5": "36",
+        "size": 36,
         "available": true
       },
       {
-        "size6": "37",
+        "size": 37,
         "available": true
       },
       {
-        "size7": "38",
+        "size": 38,
         "available": true
       },
       {
-        "size8": "39",
+        "size": 39,
         "available": true
       },
       {
-        "size9": "40",
+        "size": 40,
         "available": true
       },
       {
-        "size10": "41",
+        "size": 41,
         "available": true
       },
       {
-        "size11": "42",
+        "size": 42,
         "available": true
       },
       {
-        "size12": "43",
+        "size": 43,
         "available": true
       },
       {
-        "size13": "44",
+        "size": 44,
         "available": true
       },
       {
-        "size14": "45",
+        "size": 45,
         "available": true
       },
       {
-        "size15": "46",
+        "size": 46,
         "available": true
       },
       {
-        "size16": "47",
+        "size": 47,
         "available": true
       },
       {
-        "size17": "48",
+        "size": 48,
         "available": true
       },
       {
-        "size18": "49",
+        "size": 49,
         "available": true
       }
     ],
@@ -1954,77 +1954,77 @@
     "category": "Sweatpants",
     "material": "Better Cotton bomuld",
     "care": "Vaskes i 30 grader på et skåneprogram. Må ikke tørretumbles. Må ikke bleges. Klattes med koldt strygejern. Må ikke dry cleanes",
-    "size": [
+    "sizes": [
       {
-        "size1": "32",
+        "size": 32,
         "available": true
       },
       {
-        "size2": "33",
+        "size": 33,
         "available": true
       },
       {
-        "size3": "34",
+        "size": 34,
         "available": true
       },
       {
-        "size4": "35",
+        "size": 35,
         "available": true
       },
       {
-        "size5": "36",
+        "size": 36,
         "available": true
       },
       {
-        "size6": "37",
+        "size": 37,
         "available": true
       },
       {
-        "size7": "38",
+        "size": 38,
         "available": true
       },
       {
-        "size8": "39",
+        "size": 39,
         "available": true
       },
       {
-        "size9": "40",
+        "size": 40,
         "available": true
       },
       {
-        "size10": "41",
+        "size": 41,
         "available": true
       },
       {
-        "size11": "42",
+        "size": 42,
         "available": true
       },
       {
-        "size12": "43",
+        "size": 43,
         "available": true
       },
       {
-        "size13": "44",
+        "size": 44,
         "available": true
       },
       {
-        "size14": "45",
+        "size": 45,
         "available": true
       },
       {
-        "size15": "46",
+        "size": 46,
         "available": true
       },
       {
-        "size16": "47",
+        "size": 47,
         "available": true
       },
       {
-        "size17": "48",
+        "size": 48,
         "available": true
       },
       {
-        "size18": "49",
+        "size": 49,
         "available": true
       }
     ],
@@ -2058,7 +2058,7 @@
     "category": "Handsker",
     "material": "Kold maskinevask seperat. Tørres flat. Må ikke bleges. Må ikke stryges. Må ikke dry cleanes.",
     "care": "Selve produktet består af 77% nylin of 23% elastan, mens håndfladen er lavet af 100% polyester og liningen er lavet af 53% genadvent polyester, 43% elaston og 4% elastan.",
-    "size": [
+    "sizes": [
       {
         "size1": "S",
         "available": true
@@ -2101,7 +2101,7 @@
     "category": "Svedbånd",
     "material": "Ikke angivet",
     "care": "Ikke angivet",
-    "size": [
+    "sizes": [
       {
         "size1": "One size",
         "available": true
@@ -2147,77 +2147,77 @@
     "category": "T-shirts",
     "material": "Ikke angivet",
     "care": "Ikke angivet",
-    "size": [
+    "sizes": [
       {
-        "size1": "32",
+        "size": 32,
         "available": true
       },
       {
-        "size2": "33",
+        "size": 33,
         "available": true
       },
       {
-        "size3": "34",
+        "size": 34,
         "available": true
       },
       {
-        "size4": "35",
+        "size": 35,
         "available": true
       },
       {
-        "size5": "36",
+        "size": 36,
         "available": true
       },
       {
-        "size6": "37",
+        "size": 37,
         "available": true
       },
       {
-        "size7": "38",
+        "size": 38,
         "available": true
       },
       {
-        "size8": "39",
+        "size": 39,
         "available": true
       },
       {
-        "size9": "40",
+        "size": 40,
         "available": true
       },
       {
-        "size10": "41",
+        "size": 41,
         "available": true
       },
       {
-        "size11": "42",
+        "size": 42,
         "available": true
       },
       {
-        "size12": "43",
+        "size": 43,
         "available": true
       },
       {
-        "size13": "44",
+        "size": 44,
         "available": true
       },
       {
-        "size14": "45",
+        "size": 45,
         "available": true
       },
       {
-        "size15": "46",
+        "size": 46,
         "available": true
       },
       {
-        "size16": "47",
+        "size": 47,
         "available": true
       },
       {
-        "size17": "48",
+        "size": 48,
         "available": true
       },
       {
-        "size18": "49",
+        "size": 49,
         "available": true
       }
     ],

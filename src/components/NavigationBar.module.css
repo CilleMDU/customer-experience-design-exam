@@ -1,0 +1,52 @@
+/* Navigations bar */
+nav {
+  background-color: var(--primary-color-light);
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 4px 0 #e66a9d;
+  /* alle elementer centreres */
+  display: flex;
+  width: auto;
+  padding: 20px 24px;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav a {
+  /*farven og styling af overskrifterne i navbar*/
+  color: var(--text-color-light);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-size: var(--body-text-big-font-size);
+}
+
+nav a:hover {
+  background-color: var(--secondary-color-light-pink);
+}
+
+/* aktiv tilstand så vi kan se hvilken side der er aktiv */
+nav a.active {
+  background-color: #618fbd;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 0 40px;
+  flex-wrap: wrap;
+}
+
+.ikoner {
+  display: flex;
+  width: 240px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
