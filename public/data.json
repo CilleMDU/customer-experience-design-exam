@@ -333,7 +333,7 @@
       }
     ],
     "stock": true,
-    "single-item-service": false,
+    "single-item-service": true,
     "touch-approved": true,
     "rating": {
       "rate": "4.5/5",
