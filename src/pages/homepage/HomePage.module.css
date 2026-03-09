@@ -141,83 +141,115 @@ html {
 .uterus {
   position: absolute;
   left: 75%;
-  top: 112%;
+  top: 185%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
 }
 
 .socialProof {
   margin-left: 1.2%;
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .socialProofCard {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  align-items: flex-start;
+  text-align: left;
+  flex: 1;
+  padding: 0 2rem;
   border-right: var(--seconndary-color-light-pink) 9px solid;
-  padding-right: 2rem;
-  margin-right: 10%;
+  justify-content: space-between;
+  min-height: 30rem;
 }
 
 .socialProofCard:last-child {
   border-right: none;
-  padding-right: 0;
-  margin-right: 0;
+  padding-right: 2rem;
 }
 
 .rating1 {
   display: flex;
   width: 345px;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .rating2 {
   display: flex;
   width: 345px;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .rating3 {
   display: flex;
   width: 345px;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .udtalelese1 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
   font-size: 24px;
-  width: 55%;
+  width: 75%;
+  line-height: 150%;
+  min-height: 8rem;
 }
 
 .udtalelese2 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
   font-size: 24px;
-  width: 60%;
+  width: 75%;
+  line-height: 150%;
+  min-height: 8rem;
 }
 
 .udtalelese3 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
   font-size: 24px;
-  width: 60%;
+  width: 75%;
+  line-height: 150%;
+  min-height: 8rem;
 }
 
 .navn1 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
   display: flex;
-  justify-content: right;
-  margin-right: 45%;
+  justify-content: flex-end;
   font-size: 24px;
+  margin: 0;
+  width: 75%;
 }
 
 .navn2 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
   display: flex;
-  justify-content: right;
-  margin-right: 45%;
+  justify-content: flex-end;
   font-size: 24px;
+  margin: 0;
+  width: 75%;
 }
 
 .navn3 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
   display: flex;
-  justify-content: right;
-  margin-right: 45%;
+  justify-content: flex-end;
   font-size: 24px;
+  margin: 0;
+  width: 75%;
+}
+
+.productShowcase {
+  padding: 2rem;
+  width: 100%;
+}
+
+.productShowcaseGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  width: 100%;
 }
