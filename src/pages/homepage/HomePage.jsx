@@ -1,9 +1,11 @@
 import heroLogo from "../../assets/logo-hero-section.svg";
 import heroBg from "../../assets/hero-section-background.svg";
 import etBen from "../../assets/etben.svg";
-import uterus from "../../assets/uterus.svg";
+import uterus from "../../assets/uterus1.svg";
 import rating from "../../assets/rating.svg";
 import styles from "./HomePage.module.css";
+import { useEffect, useState } from "react";
+import Product from "../../components/Product";
 
 export default function HomePage() {
   return (
@@ -16,7 +18,10 @@ export default function HomePage() {
         </section>
       </header>
       <main>
-        <section>. . . .</section>
+        <section className={styles.productShowcase}>
+          <InlineProductGrid />{" "}
+          {/* <kalder funktion med productgrid med tre cards /> */}
+        </section>
         <section className={styles.singleItemService}>
           <div className={styles.serviceText}>
             <h1 className={styles.singleItemServiceTitle}>
@@ -60,5 +65,27 @@ export default function HomePage() {
         </section>
       </main>
     </>
+  );
+}
+
+function InlineProductGrid() {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    async function fetchProducts() {
+      const response = await fetch("../public/data.json");
+      const data = await response.json();
+      setProducts(data);
+    }
+    fetchProducts();
+  }, []);
+
+  return (
+    <div className={styles.productShowcaseGrid}>
+      {/* tager produkter fra json fil starter fra indeks 0 og slutter FØR indeks 3 */}
+      {products.slice(0, 3).map((product) => (
+        <Product key={product.id} product={product} />
+      ))}
+    </div>
   );
 }

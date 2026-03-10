@@ -30,7 +30,8 @@
   --body-text-font-size: 1.6rem;
   --mobile-detail-brand-font-size: 1.6rem;
   --mobile-card-brand-font-size: 1.4rem;
-  --moms-font-size: 1.2rem;
+  --tiny-titles-font-size: 1.8rem;
+  --stock-and-rating-font-size: 1.4rem;
 
   /* Font thickness */
   --normal-font-weight: 400;
@@ -57,12 +58,9 @@ html {
 .cards {
   display: flex;
   justify-content: center;
-  gap: 1rem;
-  background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  border-radius: 12px;
+  gap: 2rem;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin: 1rem;
 }
 
 .gallery {
@@ -78,6 +76,7 @@ html {
   overflow-y: auto;
   max-height: 600px;
   padding: 1rem;
+  border-radius: 1rem;
 }
 
 .thumbnail {
@@ -114,28 +113,41 @@ html {
   margin: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 2rem;
   color: #1a1a1a;
 }
 
 .image {
-  width: 800px;
-  height: 600px;
+  display: block;
+  width: 80rem;
+  height: 60rem;
   object-fit: contain;
-  background-color: #ecf0f1;
   padding: 2rem;
+  border-radius: 1rem;
+}
+
+.touchIcon {
+  width: 13rem;
+  height: 13rem;
+  position: absolute;
+  right: 2.5rem;
 }
 
 .title {
   font-size: var(--desktop-detail-title-font-size);
   font-family: var(--title-font-font-family);
   color: var(--text-color-light);
+  display: inline-block;
+  max-width: 20ch;
+  overflow-wrap: normal;
+  white-space: normal;
 }
 
 .description {
   font-size: var(--body-text-font-size);
   font-family: var(--text-font-family);
   color: var(--text-color-light);
+  line-height: 2.5rem;
 }
 
 .brand {
@@ -152,11 +164,18 @@ html {
   color: var(--text-color-light);
 }
 
+.buyAndFave {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
 .buyButton {
   display: flex;
-  width: 35vw;
+  width: 100%;
   border: none;
-  padding: 0.8rem 5rem;
+  padding: 1.2rem 5rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -167,6 +186,7 @@ html {
   font-family: var(--text-font-family);
   font-size: var(--body-text-big-font-size);
   font-weight: var(--normal-font-weight);
+  transition: all 0.3s ease;
 }
 
 .buyButton:hover {
@@ -174,24 +194,196 @@ html {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
+.favoriteIcon {
+  background: none;
+  border: none;
+}
+
+.faveActivity {
+  width: 4rem;
+  height: 4rem;
+}
+
 .serviceButton {
   display: flex;
-  width: 35vw;
-  border: none;
+  width: 100%;
+  border: 0.2rem solid var(--secondary-color-light-turqouise);
   padding: 0.8rem 5rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 1rem;
-  stroke: none;
-  background: var(--secondary-color-light-turqouise);
-  color: var(--primary-color-light);
+  color: var(--secondary-color-light-turqouise);
+  background-color: var(--primary-color-light);
   font-family: var(--text-font-family);
-  font-size: var(--body-text-big-font-size);
+  font-size: var(--body-text-font-size);
   font-weight: var(--normal-font-weight);
+  transition: all 0.3s ease;
 }
 
 .serviceButton:hover {
   cursor: pointer;
+  background-color: var(--secondary-color-light-turqouise);
+  color: var(--primary-color-light);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.informationBtn {
+  width: 3rem;
+  height: 3rem;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  transition: all 0.3s ease
+}
+
+
+.informationBtn:hover {
+  content: url(../../assets/information-btn-hover.svg);
+}
+
+.serviceAndInformation {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.colorCircle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #e2e2e2; /* Denne linje gør hvid synlig */
+}
+
+.colorTitle {
+  font-family: var(--text-font-family);
+  font-size: var(--tiny-titles-font-size);
+  color: var(--text-color-light);
+  margin-bottom: 1rem;
+}
+
+.ratingAndStock {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--text-font-family);
+  font-size: var(--stock-and-rating-font-size);
+  color: var(--text-color-light);
+  gap: 1rem;
+}
+
+.stockCircle {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  border: 1px solid #e2e2e2;
+}
+
+.stock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.star {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.minReturn,
+.return {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--text-font-family);
+  font-size: var(--stock-and-rating-font-size);
+  color: var(--text-color-light);
+}
+
+.careAndMaterials {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border-top: 1px solid #e2e2e2;
+}
+
+.careAndMate {
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.careAndMateDrop {
+  width: 100%;
+  padding: 1.2rem;
+  background-color: var(--primary-color-light);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--text-font-family);
+  font-size: var(--tiny-titles-font-size);
+  color: var(--text-color-light);
+  font-weight: var(--normal-font-weight);
+  transition: background-color 0.3s ease;
+}
+
+.careAndMateDrop:hover {
+  background-color: #f5f5f5;
+}
+
+.iconOpen {
+  transform: rotate(180deg);
+  display: inline-block;
+  transition: transform 0.3s ease;
+  color: var(--seconndary-color-light-pink);
+}
+
+.iconClosed {
+  transform: rotate(0deg);
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.careAndMateContent {
+  padding: 1.2rem;
+  background-color: #fafafa;
+  animation: slideDown 0.3s ease;
+  font-family: var(--text-font-family);
+  font-size: var(--body-text-font-size);
+  color: var(--text-color-light);
+  font-weight: var(--normal-font-weight);
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 1000px;
+  }
+}
+
+.toastContainer {
+  display: flex;
+  background: transparent !important;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none !important;
+  padding: 0 !important;
+  border: none !important;
 }

@@ -1,8 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   /* Colors light */
   --primary-color-light: #ffffff;
   --secondary-color-light-turqouise: #38a495;
-  --seconndary-color-light-pink: #e66a9d;
+  --secondary-color-light-pink: #e66a9d;
   --accent-color-light-yellow: #ffd678;
   --text-color-light: #151515;
 
@@ -18,11 +24,18 @@
   --text-font-family: "work-sans", sans-serif;
 
   /* Font sizes */
-  --title-font-size: 6rem;
-  --under-titles-font-size: 3rem;
-  --text-font-size: 1.6rem;
-  --menu-and-options-font-size: 2.4rem;
-  --button-and-price-font-size: 4.2rem;
+  --display-title-font-size: 12.8rem;
+  --header2-display-font-size: 6.4rem;
+  --mobile-header1-display-font-size: 3.2rem;
+  --desktop-detail-title-font-size: 3.2rem;
+  --desktop-card-price-font-size: 2.4rem;
+  --detail-price-font-size: 2.4rem;
+  --header2-font-size: 2.4rem;
+  --desktop-card-title-font-size: 2.4rem;
+  --body-text-big-font-size: 2.4rem;
+  --body-text-font-size: 1.6rem;
+  --mobile-detail-brand-font-size: 1.6rem;
+  --mobile-card-brand-font-size: 1.4rem;
   --moms-font-size: 1.2rem;
 
   /* Font thickness */
@@ -31,19 +44,49 @@
   --medium-font-weight: 500;
   --light-font-weight: 300;
   --semi-bold-font-weight: 600;
-}
 
+  /* Line heights */
+  --work-sans-line-height: normal;
+  --sue-ellen-francisco-line-height: 150%;
+
+  /* Letter spacing */
+  --card-title-letter-spacing: 1px;
+  --card-price-letter-spacing: 2px;
+  --card-brand-letter-spacing: 3.5px;
+}
 /* rem 10px=1rem */
 html {
   font-size: 62.5%;
 }
 
-.h2 {
-  font-style: var(--title-font-font-family);
-  font-size: var(--title-font-size);
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4vw;
+}
+
+.h1 {
+  font-family: var(--title-font-font-family);
+  font-size: var(--display-title-font-size);
+  color: var(--text-color-light);
+  font-weight: var(--light-font-weight);
 }
 
 .p {
-  font-style: var(--text-font-family);
-  font-size: var(--under-titles-font-size);
+  font-family: var(--text-font-family);
+  font-size: var(--body-text-big-font-size);
+  line-height: 200%;
+}
+
+.uterus {
+  width: 50vw;
+  height: auto;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10vh;
 }

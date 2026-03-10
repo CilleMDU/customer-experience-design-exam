@@ -3,8 +3,14 @@
   --primary-color-light: #ffffff;
   --secondary-color-light-turqouise: #38a495;
   --seconndary-color-light-pink: #e66a9d;
-  --accent-color-light-yellow: #ffd678;
-  --text-color-light: #151515;
+  --accent-color-light-yellow:
+    #ff.udtalelese1 {font-family: var(--text-font-family, "work-sans"),
+    sans-serif; font-size: 1.5vw; width: 85vw; line-height: 150%;} .udtalelese2
+      {font-family: var(--text-font-family, "work-sans"),
+    sans-serif; font-size: 1.5vw; width: 85vw; line-height: 150%;} .udtalelese3
+      {font-family: var(--text-font-family, "work-sans"),
+    sans-serif; font-size: 1.5vw; width: 85vw;
+      line-height: 150%;}-light: #151515;
 
   /* Colors dark */
   --primary-color-dark: #5d2f54;
@@ -39,15 +45,15 @@ html {
 }
 
 :root {
-  --service-text-width: 40%;
-  --service-image-width: 60%;
+  --service-text-width: 40vw;
+  --service-image-width: 60vw;
   --service-image-height: 70vh;
 }
 
 .heroSection {
   position: relative;
-  left: 50%;
-  right: 50%;
+  left: 50vw;
+  right: 50vw;
   margin-left: -50vw;
   margin-right: -50vw;
   width: 100vw;
@@ -63,9 +69,9 @@ html {
 
 .heroLogo {
   position: absolute;
-  top: 10rem;
-  left: 70%;
-  width: 50rem;
+  top: 16vw;
+  left: 65vw;
+  width: 30vw;
   height: auto;
   z-index: 2;
 }
@@ -76,7 +82,7 @@ html {
   left: 0; /* alting sat til 0 for at den går fra kant til kant */
   right: 0;
   bottom: 0;
-  height: 80px;
+  height: 3vh;
   background: var(--seconndary-color-light-pink);
   z-index: 3;
 }
@@ -84,13 +90,13 @@ html {
 .singleItemServiceTitle {
   font-family: var(--title-font-font-family, "Sue Ellen Francisco"), cursive;
   color: var(--seconndary-color-light-pink);
-  font-size: 64px;
-  margin: 0 0 1.6rem 0;
+  font-size: 5vw;
+  margin: 0 0 2vh 0;
 }
 
 .singleItemServiceText {
   font-family: "Work Sans";
-  font-size: 24px;
+  font-size: 2vw;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -101,21 +107,16 @@ html {
   align-items: flex-start;
   gap: 2rem;
   padding: 2rem 2rem 4rem 2rem;
+  margin-bottom: 4vw;
 }
 .singleItemService {
   display: flex;
   align-items: stretch;
-  gap: 2rem;
-  padding: 2rem 2rem 4rem 2rem;
+  gap: 2vw;
+  padding: 8vh 8vw;
   min-height: var(--service-image-height);
 }
 
-.serviceText {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
 .serviceText {
   width: var(--service-text-width);
   flex: 0 0 var(--service-text-width);
@@ -124,12 +125,6 @@ html {
   justify-content: flex-start;
 }
 
-.etBen {
-  width: 70%;
-  height: auto;
-  flex-shrink: 0;
-  display: block;
-}
 .etBen {
   width: var(--service-image-width);
   flex: 0 0 var(--service-image-width);
@@ -140,84 +135,119 @@ html {
 
 .uterus {
   position: absolute;
-  left: 75%;
-  top: 112%;
+  left: 75vw;
+  top: 205%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
 }
 
 .socialProof {
-  margin-left: 1.2%;
+  margin-left: 0;
   display: flex;
   flex-direction: row;
+  width: 100%;
+  margin-bottom: 6vw;
+  padding: 6vh 8vw;
 }
 
 .socialProofCard {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vh;
+  align-items: flex-start;
+  text-align: left;
+  flex: 1;
+  padding: 0 2vw;
   border-right: var(--seconndary-color-light-pink) 9px solid;
-  padding-right: 2rem;
-  margin-right: 10%;
+  justify-content: space-between;
+  min-height: 25vh;
 }
 
+/*gør at det sidste af cardsne ikke har border*/
 .socialProofCard:last-child {
   border-right: none;
-  padding-right: 0;
-  margin-right: 0;
+  padding-right: 2rem;
 }
 
 .rating1 {
   display: flex;
-  width: 345px;
+  width: 90%;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .rating2 {
   display: flex;
-  width: 345px;
+  width: 90%;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .rating3 {
   display: flex;
-  width: 345px;
+  width: 90%;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .udtalelese1 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
-  font-size: 24px;
-  width: 55%;
+  font-size: 1.4vw;
+  width: 85%;
+  line-height: 150%;
 }
 
 .udtalelese2 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
-  font-size: 24px;
-  width: 60%;
+  font-size: 1.4vw;
+  width: 85%;
+  line-height: 150%;
 }
 
 .udtalelese3 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
-  font-size: 24px;
-  width: 60%;
+  font-size: 1.4vw;
+  width: 85%;
+  line-height: 150%;
 }
 
 .navn1 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
   display: flex;
-  justify-content: right;
-  margin-right: 45%;
-  font-size: 24px;
+  justify-content: flex-end;
+  font-size: 1.4vw;
+  margin: 0;
+  width: 85%;
 }
 
 .navn2 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
   display: flex;
-  justify-content: right;
-  margin-right: 45%;
-  font-size: 24px;
+  justify-content: flex-end;
+  font-size: 1.4vw;
+  margin: 0;
+  width: 85%;
 }
 
 .navn3 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
   display: flex;
-  justify-content: right;
-  margin-right: 45%;
-  font-size: 24px;
+  justify-content: flex-end;
+  font-size: 1.4vw;
+  margin: 0;
+  width: 85%;
+}
+
+.productShowcase {
+  padding: 8vh 8vw;
+  width: 100%;
+}
+
+.productShowcaseGrid {
+  display: grid;
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /*laver tre kolonner hvor der kan være cards og 1fr definerer hvor meget plads hver card skal bruge så 1fr, så bruger de lige meget*/
+  gap: 2vw;
+  width: 100%;
 }
