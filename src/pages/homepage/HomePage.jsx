@@ -19,7 +19,8 @@ export default function HomePage() {
       </header>
       <main>
         <section className={styles.productShowcase}>
-          <InlineProductGrid />
+          <InlineProductGrid />{" "}
+          {/* <kalder funktion med productgrid med tre cards /> */}
         </section>
         <section className={styles.singleItemService}>
           <div className={styles.serviceText}>
@@ -81,6 +82,7 @@ function InlineProductGrid() {
 
   return (
     <div className={styles.productShowcaseGrid}>
+      {/* tager produkter fra json fil starter fra indeks 0 og slutter FØR indeks 3 */}
       {products.slice(0, 3).map((product) => (
         <Product key={product.id} product={product} />
       ))}
