@@ -11,6 +11,7 @@ export default function ProductGrid() {
   const [selectedBrand, setSelectedBrand] = useState("all");
   const [selectedColor, setSelectedColor] = useState("all");
   const [selectedSize, setSelectedSize] = useState("all");
+  const [touchApprovedOnly, setTouchApprovedOnly] = useState(false);
 
   useEffect(() => {
     async function fetchProducts() {
@@ -48,6 +49,8 @@ export default function ProductGrid() {
       selectedCategory === "all" || product.category === selectedCategory;
     const matchesStockFilter =
       inStockOnly === false || product.inStock === true;
+    const matchesTouchApprovedFilter =
+      touchApprovedOnly === false || product["touch-approved"] === true;
     const matchesSelectedSize =
       selectedSize === "all" ||
       product.sizes?.some(
@@ -60,6 +63,7 @@ export default function ProductGrid() {
     return (
       matchesSelectedCategory &&
       matchesStockFilter &&
+      matchesTouchApprovedFilter &&
       matchesSelectedSize &&
       matchesSelectedBrand &&
       matchesSelectedColor
@@ -82,6 +86,7 @@ export default function ProductGrid() {
     setSelectedColor("all");
     setSelectedSize("all");
     setInStockOnly(false);
+    setTouchApprovedOnly(false);
     setSortBy("none");
   }
 
@@ -183,7 +188,9 @@ export default function ProductGrid() {
               key={size}
               type="button"
               className={`${styles.sizeButton} ${selectedSize === size ? styles.activeSizeButton : ""}`}
-              onClick={() => setSelectedSize(size)}
+              onClick={() =>
+                setSelectedSize(selectedSize === size ? "all" : size)
+              }
               aria-pressed={selectedSize === size}
             >
               {size}
@@ -196,7 +203,9 @@ export default function ProductGrid() {
               key={brand}
               type="button"
               className={`${styles.brandButton} ${selectedBrand === brand ? styles.activeBrandButton : ""}`}
-              onClick={() => setSelectedBrand(brand)}
+              onClick={() =>
+                setSelectedBrand(selectedBrand === brand ? "all" : brand)
+              }
               aria-pressed={selectedBrand === brand}
             >
               {brand}
@@ -215,6 +224,17 @@ export default function ProductGrid() {
               {color}
             </button>
           ))}
+        </div>
+        <div className={styles.touchApprovedSection}>
+          <label htmlFor="touch-approved-filter">
+            <input
+              id="touch-approved-boolean"
+              type="checkbox"
+              checked={touchApprovedOnly}
+              onChange={(event) => setTouchApprovedOnly(event.target.checked)}
+            />
+            Touch Approved
+          </label>
         </div>
 
         <div className={styles.showOrRemove}>
