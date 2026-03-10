@@ -3,8 +3,14 @@
   --primary-color-light: #ffffff;
   --secondary-color-light-turqouise: #38a495;
   --seconndary-color-light-pink: #e66a9d;
-  --accent-color-light-yellow: #ffd678;
-  --text-color-light: #151515;
+  --accent-color-light-yellow:
+    #ff.udtalelese1 {font-family: var(--text-font-family, "work-sans"),
+    sans-serif; font-size: 1.5vw; width: 85vw; line-height: 150%;} .udtalelese2
+      {font-family: var(--text-font-family, "work-sans"),
+    sans-serif; font-size: 1.5vw; width: 85vw; line-height: 150%;} .udtalelese3
+      {font-family: var(--text-font-family, "work-sans"),
+    sans-serif; font-size: 1.5vw; width: 85vw;
+      line-height: 150%;}-light: #151515;
 
   /* Colors dark */
   --primary-color-dark: #5d2f54;
@@ -39,15 +45,15 @@ html {
 }
 
 :root {
-  --service-text-width: 40%;
-  --service-image-width: 60%;
+  --service-text-width: 40vw;
+  --service-image-width: 60vw;
   --service-image-height: 70vh;
 }
 
 .heroSection {
   position: relative;
-  left: 50%;
-  right: 50%;
+  left: 50vw;
+  right: 50vw;
   margin-left: -50vw;
   margin-right: -50vw;
   width: 100vw;
@@ -64,7 +70,7 @@ html {
 .heroLogo {
   position: absolute;
   top: 16vw;
-  left: 65%;
+  left: 65vw;
   width: 30vw;
   height: auto;
   z-index: 2;
@@ -112,12 +118,6 @@ html {
 }
 
 .serviceText {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.serviceText {
   width: var(--service-text-width);
   flex: 0 0 var(--service-text-width);
   display: flex;
@@ -135,13 +135,13 @@ html {
 
 .uterus {
   position: absolute;
-  left: 75%;
+  left: 75vw;
   top: 205%;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
 }
 
 .socialProof {
-  margin-left: 1.2%;
+  margin-left: 0;
   display: flex;
   flex-direction: row;
   width: 100%;
