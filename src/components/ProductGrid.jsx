@@ -1,6 +1,6 @@
 import styles from "./ProductGrid.module.css";
 import { useEffect, useState } from "react";
-import Product from "./product";
+import Product from "./Product";
 
 export default function ProductGrid() {
   const [products, setProducts] = useState([]);
