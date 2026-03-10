@@ -137,12 +137,17 @@ html {
   font-size: var(--desktop-detail-title-font-size);
   font-family: var(--title-font-font-family);
   color: var(--text-color-light);
+  display: inline-block;
+  max-width: 20ch;
+  overflow-wrap: normal;
+  white-space: normal;
 }
 
 .description {
   font-size: var(--body-text-font-size);
   font-family: var(--text-font-family);
   color: var(--text-color-light);
+  line-height: 2.5rem;
 }
 
 .brand {
@@ -259,6 +264,7 @@ html {
   font-family: var(--text-font-family);
   font-size: var(--tiny-titles-font-size);
   color: var(--text-color-light);
+  margin-bottom: 1rem;
 }
 
 .ratingAndStock {
@@ -328,9 +334,9 @@ html {
   justify-content: space-between;
   align-items: center;
   font-family: var(--text-font-family);
-  font-size: var(--body-text-font-size);
+  font-size: var(--tiny-titles-font-size);
   color: var(--text-color-light);
-  font-weight: var(--semi-bold-font-weight);
+  font-weight: var(--normal-font-weight);
   transition: background-color 0.3s ease;
 }
 
@@ -342,6 +348,7 @@ html {
   transform: rotate(180deg);
   display: inline-block;
   transition: transform 0.3s ease;
+  color: var(--seconndary-color-light-pink);
 }
 
 .iconClosed {
@@ -354,6 +361,10 @@ html {
   padding: 1.2rem;
   background-color: #fafafa;
   animation: slideDown 0.3s ease;
+  font-family: var(--text-font-family);
+  font-size: var(--body-text-font-size);
+  color: var(--text-color-light);
+  font-weight: var(--normal-font-weight);
 }
 
 @keyframes slideDown {
@@ -365,4 +376,14 @@ html {
     opacity: 1;
     max-height: 1000px;
   }
+}
+
+.toastContainer {
+  display: flex;
+  background: transparent !important;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none !important;
+  padding: 0 !important;
+  border: none !important;
 }

@@ -10,7 +10,9 @@ import navbarLogo from "../assets/navbar-logo.svg";
 export default function NavigationBar() {
   return (
     <nav className={styles.NavigationBar}>
-      <img src={navbarLogo} alt="logo" />
+      <a href="/" className={styles.logoLink}>
+        <img src={navbarLogo} alt="logo" />
+      </a>
 
       <div className={styles.pages}>
         <NavLink to="/">Home</NavLink>
