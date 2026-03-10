@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router";
 import NavigationBar from "./components/NavigationBar";
 import FooterBar from "./components/FooterBar";
-import HomePage from "./pages/homepage/homepage";
-import ProductPage from "./pages/productPage/productPage";
+import HomePage from "./pages/homepage/HomePage";
+import ProductPage from "./pages/productPage/ProductPage";
 import ProductDetailPage from "./pages/productDetailPages/ProductDetailPage";
 import ErrorPage from "./pages/errorpage/errorpage";
 import About from "./pages/about/about";
