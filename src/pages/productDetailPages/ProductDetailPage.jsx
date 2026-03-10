@@ -3,6 +3,7 @@ import { useParams } from "react-router";
 import { useEffect, useState } from "react";
 import SizeSelector from "../../components/SizeSelector";
 import SISPopUp from "../../components/SISPopUp";
+import SpecialBuy from "../../components/SpecialBuy"
 import informationBtn from "../../assets/information-btn.svg";
 import starIcon from "../../assets/star.svg";
 import touchIcon from "../../assets/touch-approved-badge.svg";
@@ -21,6 +22,7 @@ export default function ProductDetailPage() {
   const [materialOpen, setMaterialOpen] = useState(false);
   const [careOpen, setCareOpen] = useState(false);
   const [isFavorited, setIsFavorited] = useState(false);
+  const [specialBuyOpen, setSpecialBuyOpen] = useState(false);
   const [sisPopUpOpen, setSISPopUpOpen] = useState(false);
   const buyNotify = () => {
     toast(
@@ -169,7 +171,8 @@ export default function ProductDetailPage() {
               </div>
               <div className={styles.serviceAndInformation}>
                 {product["single-item-service"] && (
-                  <button className={styles.serviceButton}>
+                  <button onClick={() => setSpecialBuyOpen(true)}
+                  className={styles.serviceButton}>
                     Single Item Service
                   </button>
                 )}
@@ -177,11 +180,6 @@ export default function ProductDetailPage() {
                   <button
                     onClick={() => setSISPopUpOpen(true)}
                     className={styles.informationBtnWrapper}
-                    style={{
-                      background: "none",
-                      border: "none",
-                      cursor: "pointer",
-                    }}
                   >
                     <img
                       src={informationBtn}
@@ -265,6 +263,7 @@ export default function ProductDetailPage() {
           </div>
         </section>
       </main>
+      <SpecialBuy isOpen={specialBuyOpen} onClose={() => setSpecialBuyOpen(false)}/>
       <SISPopUp isOpen={sisPopUpOpen} onClose={() => setSISPopUpOpen(false)} />
     </>
   );
