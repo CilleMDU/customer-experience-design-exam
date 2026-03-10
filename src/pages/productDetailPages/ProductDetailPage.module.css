@@ -233,9 +233,13 @@ html {
   height: 3rem;
   aspect-ratio: 1/1;
   cursor: pointer;
-  transition: all 0.3s ease
+  transition: all 0.3s ease;
 }
 
+.informationBtnWrapper {
+  border: none;
+  background-color: transparent;
+}
 
 .informationBtn:hover {
   content: url(../../assets/information-btn-hover.svg);
