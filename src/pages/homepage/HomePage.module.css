@@ -63,9 +63,9 @@ html {
 
 .heroLogo {
   position: absolute;
-  top: 10rem;
+  top: 5vh;
   left: 70%;
-  width: 50rem;
+  width: 20vw;
   height: auto;
   z-index: 2;
 }
@@ -76,7 +76,7 @@ html {
   left: 0; /* alting sat til 0 for at den går fra kant til kant */
   right: 0;
   bottom: 0;
-  height: 80px;
+  height: 3vh;
   background: var(--seconndary-color-light-pink);
   z-index: 3;
 }
@@ -84,13 +84,13 @@ html {
 .singleItemServiceTitle {
   font-family: var(--title-font-font-family, "Sue Ellen Francisco"), cursive;
   color: var(--seconndary-color-light-pink);
-  font-size: 64px;
-  margin: 0 0 1.6rem 0;
+  font-size: 5vw;
+  margin: 0 0 2vh 0;
 }
 
 .singleItemServiceText {
   font-family: "Work Sans";
-  font-size: 24px;
+  font-size: 2vw;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -105,8 +105,8 @@ html {
 .singleItemService {
   display: flex;
   align-items: stretch;
-  gap: 2rem;
-  padding: 2rem 2rem 4rem 2rem;
+  gap: 2vw;
+  padding: 4vh 2vw;
   min-height: var(--service-image-height);
 }
 
@@ -141,7 +141,7 @@ html {
 .uterus {
   position: absolute;
   left: 75%;
-  top: 185%;
+  top: 192%;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
 }
 
@@ -150,19 +150,20 @@ html {
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin-bottom: 6vw;
 }
 
 .socialProofCard {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 2vh;
   align-items: flex-start;
   text-align: left;
   flex: 1;
-  padding: 0 2rem;
+  padding: 0 2vw;
   border-right: var(--seconndary-color-light-pink) 9px solid;
   justify-content: space-between;
-  min-height: 30rem;
+  min-height: 35vh;
 }
 
 .socialProofCard:last-child {
@@ -172,84 +173,78 @@ html {
 
 .rating1 {
   display: flex;
-  width: 345px;
+  width: 90%;
   align-items: center;
   justify-content: flex-start;
 }
 
 .rating2 {
   display: flex;
-  width: 345px;
+  width: 90%;
   align-items: center;
   justify-content: flex-start;
 }
 
 .rating3 {
   display: flex;
-  width: 345px;
+  width: 90%;
   align-items: center;
   justify-content: flex-start;
 }
 
 .udtalelese1 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
-  font-size: 24px;
-  width: 75%;
+  font-size: 1.8vw;
+  width: 85%;
   line-height: 150%;
-  min-height: 8rem;
 }
 
 .udtalelese2 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
-  font-size: 24px;
-  width: 75%;
+  font-size: 1.8vw;
+  width: 85%;
   line-height: 150%;
-  min-height: 8rem;
 }
 
 .udtalelese3 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
-  font-size: 24px;
-  width: 75%;
+  font-size: 1.8vw;
+  width: 85%;
   line-height: 150%;
-  min-height: 8rem;
 }
 
 .navn1 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
   display: flex;
-  justify-content: flex-end;
-  font-size: 24px;
+  justify-content: flex-start;
+  font-size: 1.8vw;
   margin: 0;
-  width: 75%;
 }
 
 .navn2 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
   display: flex;
-  justify-content: flex-end;
-  font-size: 24px;
+  justify-content: flex-start;
+  font-size: 1.8vw;
   margin: 0;
-  width: 75%;
 }
 
 .navn3 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
   display: flex;
-  justify-content: flex-end;
-  font-size: 24px;
+  justify-content: flex-start;
+  font-size: 1.8vw;
   margin: 0;
-  width: 75%;
 }
 
 .productShowcase {
-  padding: 2rem;
+  padding: 4vh 2vw;
   width: 100%;
 }
 
 .productShowcaseGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 2vw;
   width: 100%;
 }
