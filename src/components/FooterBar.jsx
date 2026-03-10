@@ -1,6 +1,6 @@
 import styles from "./FooterBar.module.css";
-import facebookIkon from "../assets/facebook-ikon.svg";
-import instagramIkon from "../assets/instagram-ikon.svg";
+import facebookIkon from "../assets/facebook-Ikon.svg";
+import instagramIkon from "../assets/instagram-Ikon.svg";
 import tiktokIkon from "../assets/tiktok-ikon.svg";
 
 export default function FooterBar() {

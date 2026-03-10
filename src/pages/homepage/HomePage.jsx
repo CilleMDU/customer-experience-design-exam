@@ -1,6 +1,6 @@
 import heroLogo from "../../assets/logo-hero-section.svg";
 import heroBg from "../../assets/hero-section-background.svg";
-import etBen from "../../assets/etben.svg";
+import etBen from "../../assets/etBen.svg";
 import uterus from "../../assets/uterus1.svg";
 import rating from "../../assets/rating.svg";
 import styles from "./HomePage.module.css";
