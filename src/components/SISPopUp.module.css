@@ -1,14 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
   /* Colors light */
   --primary-color-light: #ffffff;
   --secondary-color-light-turqouise: #38a495;
-  --secondary-color-light-pink: #e66a9d;
+  --seconndary-color-light-pink: #e66a9d;
   --accent-color-light-yellow: #ffd678;
   --text-color-light: #151515;
 
@@ -36,7 +30,8 @@
   --body-text-font-size: 1.6rem;
   --mobile-detail-brand-font-size: 1.6rem;
   --mobile-card-brand-font-size: 1.4rem;
-  --moms-font-size: 1.2rem;
+  --tiny-titles-font-size: 1.8rem;
+  --stock-and-rating-font-size: 1.4rem;
 
   /* Font thickness */
   --normal-font-weight: 400;
@@ -54,60 +49,64 @@
   --card-price-letter-spacing: 2px;
   --card-brand-letter-spacing: 3.5px;
 }
-/* rem 10px=1rem */
-html {
-  font-size: 62.5%;
-}
 
-/* Navigations bar */
-nav {
-  background-color: var(--primary-color-light);
-  padding: 1rem 2rem;
-  box-shadow: 0 4px 4px 0 #e66a9d;
-  /* alle elementer centreres */
-  display: flex;
-  width: auto;
-  padding: 20px 24px;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
+.overlay {
+  position: fixed;
   top: 0;
-  z-index: 100;
-}
-
-nav a {
-  /*farven og styling af links/ overskrifterne i navbar*/
-  color: var(--text-color-light);
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-  font-size: var(--body-text-font-size);
-  font-family: var(--text-font-family);
-}
-
-/* når man hover på links i navbaren, vil teksten skifte farve,
- og den lyserøde baggrund bliver på indtil man skfiter side igen, så man kan se active state*/
-.pages a:hover,
-.pages a:focus {
-  background-color: var(--secondary-color-light-pink);
-  color: #ffffff;
-}
-
-.pages {
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center;
-  gap: 0 40px;
-  flex-wrap: wrap;
+  z-index: 999;
+  transform: scale(0.8);
+  opacity: 0;
+  animation: popupIn 0.3s forwards;
 }
 
-.ikoner {
-  display: flex;
-  width: 240px;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
+.popup {
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.3);
+  max-width: 65rem;
+  text-align: center;
+}
+
+
+@keyframes popupIn {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.titleAndClose {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: var(--title-font-font-family);
+    font-size: 4.5rem;
+    color: var(--secondary-color-light-turqouise);
+}
+
+.closeBtn {
+    border: none;
+    background: none;
+    height: 1.6rem;
+    width: 1.6rem;
+    cursor: pointer;
+}
+
+.closeBtn img:hover {
+    content: url(../assets/closebtnHover.svg);
+}
+
+.text {
+    font-family: var(--text-font-family);
+    font-size: var(--body-text-font-size);
 }

@@ -1,14 +1,17 @@
 import styles from "./ProductDetailPage.module.css";
 import { useParams } from "react-router";
-import { useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import SizeSelector from "../../components/SizeSelector";
-import informationBtn from "../../assets/information-btn.svg"
-import starIcon from "../../assets/star.svg"
-import touchIcon from "../../assets/touch-approved-badge.svg"
-import truckIcon from "../../assets/truck.svg"
-import packageIcon from "../../assets/package.svg"
+import SISPopUp from "../../components/SISPopUp";
+import informationBtn from "../../assets/information-btn.svg";
+import starIcon from "../../assets/star.svg";
+import touchIcon from "../../assets/touch-approved-badge.svg";
+import truckIcon from "../../assets/truck.svg";
+import packageIcon from "../../assets/package.svg";
 import inactiveHeart from "../../assets/inactive-heart.svg";
 import activeHeart from "../../assets/hjerte-smil.svg";
+import { ToastContainer, toast } from "react-toastify";
+import toastIcon from "../../assets/added-to-cart.svg";
 
 export default function ProductDetailPage() {
   const params = useParams();
@@ -18,6 +21,24 @@ export default function ProductDetailPage() {
   const [materialOpen, setMaterialOpen] = useState(false);
   const [careOpen, setCareOpen] = useState(false);
   const [isFavorited, setIsFavorited] = useState(false);
+  const [sisPopUpOpen, setSISPopUpOpen] = useState(false);
+  const buyNotify = () => {
+    toast(
+      <div className={styles.toastContent}>
+        <img
+          src={toastIcon}
+          alt="tilføjet til kurven"
+          className={styles.toasterImg}
+        />
+      </div>,
+      {
+        position: "top-right",
+        autoClose: 5000,
+        closeButton: false,
+        hideProgressBar: true,
+      },
+    );
+  };
 
   function toggleFavorite() {
     setIsFavorited(!isFavorited);
@@ -73,12 +94,11 @@ export default function ProductDetailPage() {
     }
   }
 
-  function getStockColor(stock){
-    if (stock === true){
-      return "#00AC06"
-    }
-    else if (stock === false){
-      return "#FF5900"
+  function getStockColor(stock) {
+    if (stock === true) {
+      return "#00AC06";
+    } else if (stock === false) {
+      return "#FF5900";
     }
   }
 
@@ -111,8 +131,12 @@ export default function ProductDetailPage() {
           <div className={styles.info}>
             <div>
               {product["touch-approved"] && (
-                <img src={touchIcon} alt="touch approved" className={styles.touchIcon}/>
-                )}
+                <img
+                  src={touchIcon}
+                  alt="touch approved"
+                  className={styles.touchIcon}
+                />
+              )}
             </div>
             <h4 className={styles.brand}>{product.brand}</h4>
             <h2 className={styles.title}>{product.title}</h2>
@@ -128,16 +152,20 @@ export default function ProductDetailPage() {
             <p className={styles.description}>{product.description}</p>
             <div className={styles.buttons}>
               <div className={styles.buyAndFave}>
-                <button className={styles.buyButton}>
-                Læg i kurv<a href="#"></a>
-              </button>
-              <button className={styles.favoriteIcon} onClick={toggleFavorite}>
-              <img
-                src={isFavorited ? activeHeart : inactiveHeart}
-                alt="favorit"
-                className={styles.faveActivity}
-              />
-             </button>
+                <button onClick={buyNotify} className={styles.buyButton}>
+                  Læg i kurv
+                </button>
+                <ToastContainer toastClassName={styles.toastContainer} />
+                <button
+                  className={styles.favoriteIcon}
+                  onClick={toggleFavorite}
+                >
+                  <img
+                    src={isFavorited ? activeHeart : inactiveHeart}
+                    alt="favorit"
+                    className={styles.faveActivity}
+                  />
+                </button>
               </div>
               <div className={styles.serviceAndInformation}>
                 {product["single-item-service"] && (
@@ -146,51 +174,68 @@ export default function ProductDetailPage() {
                   </button>
                 )}
                 {product["single-item-service"] && (
-                  <img
-                  src={informationBtn}
-                  alt="informationsknap angående single item service"
-                  className={styles.informationBtn}
-                />
+                  <button
+                    onClick={() => setSISPopUpOpen(true)}
+                    className={styles.informationBtnWrapper}
+                    style={{
+                      background: "none",
+                      border: "none",
+                      cursor: "pointer",
+                    }}
+                  >
+                    <img
+                      src={informationBtn}
+                      alt="informationsknap angående single item service"
+                      className={styles.informationBtn}
+                    />
+                  </button>
                 )}
               </div>
             </div>
             <div className={styles.ratingAndStock}>
               <div className={styles.rating}>
-                <img src={starIcon} alt={product.rating?.rate} className={styles.star}/>
-              <div className={styles.rate}>
-                {product.rating?.rate}{" "}
-              </div>
-              <a href="#">({product.rating?.count})</a>
+                <img
+                  src={starIcon}
+                  alt={product.rating?.rate}
+                  className={styles.star}
+                />
+                <div className={styles.rate}>{product.rating?.rate} </div>
+                <a href="#">({product.rating?.count})</a>
               </div>
               <div className={styles.stock}>
                 <div
-                className={styles.stockCircle}
-                style={{ background: getStockColor(product.stock) }}
+                  className={styles.stockCircle}
+                  style={{ background: getStockColor(product.stock) }}
                 ></div>
                 <span
-                 className={`product-stock ${product.stock ? "in-stock" : "out-of-stock"}`}
-               >
-                 {product.stock ? "På lager" : "Udsolgt"}
-               </span>
+                  className={`product-stock ${product.stock ? "in-stock" : "out-of-stock"}`}
+                >
+                  {product.stock ? "På lager" : "Udsolgt"}
+                </span>
               </div>
               <div className={styles.return}>
                 <img src={packageIcon} alt="pakke ikon" />
                 <p>100 dages returret</p>
               </div>
-              <div className={styles.minReturn
-              }>
+              <div className={styles.minReturn}>
                 <img src={truckIcon} alt="lastbils ikon" />
                 <p>Gratis retur ved køb over 399kr</p>
               </div>
             </div>
             <div className={styles.careAndMaterials}>
               <div className={styles.careAndMate}>
-                <button 
+                <button
                   className={styles.careAndMateDrop}
                   onClick={() => setMaterialOpen(!materialOpen)}
                 >
                   <span>Materiale</span>
-                  <span className={materialOpen ? styles.iconOpen : styles.iconClosed}>▼</span>
+                  <span
+                    className={
+                      materialOpen ? styles.iconOpen : styles.iconClosed
+                    }
+                  >
+                    ▼
+                  </span>
                 </button>
                 {materialOpen && (
                   <div className={styles.careAndMateContent}>
@@ -199,12 +244,16 @@ export default function ProductDetailPage() {
                 )}
               </div>
               <div className={styles.careAndMate}>
-                <button 
+                <button
                   className={styles.careAndMateDrop}
                   onClick={() => setCareOpen(!careOpen)}
                 >
                   <span>Pleje</span>
-                  <span className={careOpen ? styles.iconOpen : styles.iconClosed}>▼</span>
+                  <span
+                    className={careOpen ? styles.iconOpen : styles.iconClosed}
+                  >
+                    ▼
+                  </span>
                 </button>
                 {careOpen && (
                   <div className={styles.careAndMateContent}>
@@ -216,6 +265,7 @@ export default function ProductDetailPage() {
           </div>
         </section>
       </main>
+      <SISPopUp isOpen={sisPopUpOpen} onClose={() => setSISPopUpOpen(false)} />
     </>
   );
 }
