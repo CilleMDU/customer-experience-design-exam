@@ -109,6 +109,7 @@
 
 .sizeOption:hover:not(.disabled) {
   border: 0.1rem solid var(--secondary-color-light-turqouise);
+  border-radius: 0.4rem;
 }
 
 .sizeOption.selected {
@@ -120,4 +121,30 @@
   opacity: 0.5;
   cursor: not-allowed;
   color: #999;
+}
+
+:global(.dark-mode) {
+  .selectorButton {
+    background-color: var(--primary-color-dark);
+    color: var(--text-color-dark);
+    border-color: var(--text-color-dark);
+  }
+
+  .selectorButton:hover {
+    border-color: var(--secondary-color-dark-turqouise)
+  }
+
+  .sizeOptions {
+    border-color: var(--secondary-color-dark-pink);
+  }
+
+  .sizeOption {
+    background-color: var(--text-color-dark);
+    border-bottom: 0.1rem solid #cccccc;
+  }
+
+  .sizeOption.selected {
+    background-color: var(--secondary-color-dark-pink);
+    color: var(--text-color-dark);
+  }
 }

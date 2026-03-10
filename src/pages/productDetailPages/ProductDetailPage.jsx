@@ -198,7 +198,7 @@ export default function ProductDetailPage() {
                   className={styles.star}
                 />
                 <div className={styles.rate}>{product.rating?.rate} </div>
-                <a href="#">({product.rating?.count})</a>
+                <a href="error">({product.rating?.count})</a>
               </div>
               <div className={styles.stock}>
                 <div

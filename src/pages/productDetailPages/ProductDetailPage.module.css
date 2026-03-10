@@ -155,6 +155,7 @@ html {
   font-family: var(--text-font-family);
   color: var(--text-color-light);
   font-weight: var(--light-font-weight);
+  letter-spacing: 0.1rem;
 }
 
 .price {
@@ -197,6 +198,7 @@ html {
 .favoriteIcon {
   background: none;
   border: none;
+  cursor: pointer;
 }
 
 .faveActivity {
@@ -216,8 +218,9 @@ html {
   color: var(--secondary-color-light-turqouise);
   background-color: var(--primary-color-light);
   font-family: var(--text-font-family);
-  font-size: var(--body-text-font-size);
-  font-weight: var(--normal-font-weight);
+  font-size: 2rem;
+  font-weight: var(--medium-font-weight);
+  letter-spacing: 0.25rem;
   transition: all 0.3s ease;
 }
 
@@ -390,4 +393,69 @@ html {
   box-shadow: none !important;
   padding: 0 !important;
   border: none !important;
+}
+
+:global(.dark-mode) {
+  .touchIcon {
+    content: url(../../assets/touchApproveDark.svg);
+  }
+
+  .thumbnail {
+    background-color: var(--text-color-dark);
+  }
+
+  .colorCircle,
+  .stockCircle {
+    border-color: var(--primary-color-dark);
+  }
+
+  .serviceButton {
+    background-color: transparent;
+    color: var(--secondary-color-dark-turqouise);
+    border-color: var(--secondary-color-dark-turqouise);
+  }
+
+  .serviceButton:hover {
+    background-color: var(--secondary-color-dark-turqouise);
+    color: var(--text-color-dark);
+  }
+
+  .title {
+    color: var(--text-color-dark);
+    letter-spacing: 0.3rem;
+  }
+
+  .brand {
+    color: var(--text-color-dark);
+  }
+
+  .careAndMateDrop {
+    background-color: var(--primary-color-dark);
+    color: var(--text-color-dark);
+  }
+
+  .careAndMateDrop:hover {
+    background-color: #532a4b;
+  }
+
+  .careAndMateContent {
+    background-color: #532a4b;
+  }
+
+  .iconOpen {
+    color: var(--secondary-color-dark-pink);
+  }
+
+  .ratingAndStock {
+    color: var(--text-color-dark);
+  }
+
+  .rating a {
+    color: rgb(132, 132, 240);
+  }
+
+  .buyButton {
+    background-color: var(--secondary-color-dark-pink);
+    color: var(--text-color-dark);
+  }
 }

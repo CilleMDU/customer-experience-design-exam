@@ -82,7 +82,7 @@ nav a {
   padding: 0.5rem 1rem;
   border-radius: 4px;
   transition: background-color 0.3s ease;
-  font-size: var(--body-text-font-size);
+  font-size: var(--body-text-big-font-size);
   font-family: var(--text-font-family);
 }
 
@@ -108,7 +108,7 @@ nav a {
   width: 240px;
   justify-content: flex-end;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
   flex-shrink: 0;
 }
 
@@ -120,4 +120,20 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+:global(.dark-mode) {
+  .darkmodeButton img {
+    content: url(../assets/lightmode.svg);
+  }
+  .pages a:hover,
+  .pages a:focus {
+    background-color: var(--secondary-color-dark-pink);
+  }
+}
+
+.logo {
+  width: 20rem;
+  align-items: center;
+  padding-top: 1rem;
 }
