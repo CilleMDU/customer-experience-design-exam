@@ -4,7 +4,7 @@ export function ProductManagement() {
   return (
     <div className={styles.productManagement}>
       <button className={styles.sortButton}>
-        <p>Sorting</p>
+        <p>Sorter efter</p>
         <div className={styles.sortIcon}>
           <svg
             xmlns="http://www.w3.org/2000/svg"

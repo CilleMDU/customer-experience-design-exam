@@ -6,7 +6,7 @@ import style from "./ProductPage.module.css";
 export default function ProductPage() {
   return (
     <>
-      <header className={style.header}>
+      <header className={style.ProductPage_header}>
         <ProductManagement />
       </header>
       <main>
