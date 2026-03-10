@@ -1,6 +1,6 @@
 {
   "name": "customer-experience-design-exam",
-  "base": "/customer-experience-design-exam",
+  "base": "/customer-experience-design-exam/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
