@@ -46,8 +46,8 @@ html {
 
 :root {
   --service-text-width: 40vw;
-  --service-image-width: 60vw;
-  --service-image-height: 70vh;
+  --service-image-width: 50vw;
+  --service-image-height: 60vh;
 }
 
 .heroSection {
@@ -90,13 +90,13 @@ html {
 .singleItemServiceTitle {
   font-family: var(--title-font-font-family, "Sue Ellen Francisco"), cursive;
   color: var(--seconndary-color-light-pink);
-  font-size: 5vw;
+  font-size: 4vw;
   margin: 0 0 2vh 0;
 }
 
 .singleItemServiceText {
   font-family: "Work Sans";
-  font-size: 2vw;
+  font-size: 1.6vw;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -145,8 +145,8 @@ html {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin-bottom: 6vw;
-  padding: 6vh 8vw;
+  margin-bottom: 4vw;
+  padding: 4vh 8vw;
 }
 
 .socialProofCard {
@@ -156,7 +156,7 @@ html {
   align-items: flex-start;
   text-align: left;
   flex: 1;
-  padding: 0 2vw;
+  padding: 0 7vw;
   border-right: var(--seconndary-color-light-pink) 9px solid;
   justify-content: space-between;
   min-height: 25vh;
