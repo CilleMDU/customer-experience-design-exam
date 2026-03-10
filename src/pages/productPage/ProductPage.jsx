@@ -1,11 +1,10 @@
+import FooterBar from "../../components/FooterBar";
 import ProductGrid from "../../components/ProductGrid";
+// import styles from "./ProductPage.module.css";
 
 export default function ProductPage() {
   return (
     <>
-      <header>
-        <h1>Products</h1>
-      </header>
       <main>
         <ProductGrid />
       </main>

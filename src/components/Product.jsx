@@ -31,7 +31,7 @@ function getColor(color) {
   }
 }
 
-export default function product({ product }) {
+export default function Product({ product }) {
   const [isFavorited, setIsFavorited] = useState(false);
 
   function toggleFavorite() {
