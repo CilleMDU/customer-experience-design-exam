@@ -63,9 +63,9 @@ html {
 
 .heroLogo {
   position: absolute;
-  top: 5vh;
-  left: 70%;
-  width: 20vw;
+  top: 16vw;
+  left: 65%;
+  width: 30vw;
   height: auto;
   z-index: 2;
 }
@@ -101,12 +101,13 @@ html {
   align-items: flex-start;
   gap: 2rem;
   padding: 2rem 2rem 4rem 2rem;
+  margin-bottom: 4vw;
 }
 .singleItemService {
   display: flex;
   align-items: stretch;
   gap: 2vw;
-  padding: 4vh 2vw;
+  padding: 8vh 8vw;
   min-height: var(--service-image-height);
 }
 
@@ -125,12 +126,6 @@ html {
 }
 
 .etBen {
-  width: 70%;
-  height: auto;
-  flex-shrink: 0;
-  display: block;
-}
-.etBen {
   width: var(--service-image-width);
   flex: 0 0 var(--service-image-width);
   display: block;
@@ -141,7 +136,7 @@ html {
 .uterus {
   position: absolute;
   left: 75%;
-  top: 192%;
+  top: 205%;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
 }
 
@@ -151,21 +146,23 @@ html {
   flex-direction: row;
   width: 100%;
   margin-bottom: 6vw;
+  padding: 6vh 8vw;
 }
 
 .socialProofCard {
   display: flex;
   flex-direction: column;
-  gap: 2vh;
+  gap: 1.2vh;
   align-items: flex-start;
   text-align: left;
   flex: 1;
   padding: 0 2vw;
   border-right: var(--seconndary-color-light-pink) 9px solid;
   justify-content: space-between;
-  min-height: 35vh;
+  min-height: 25vh;
 }
 
+/*gør at det sidste af cardsne ikke har border*/
 .socialProofCard:last-child {
   border-right: none;
   padding-right: 2rem;
@@ -194,21 +191,21 @@ html {
 
 .udtalelese1 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
-  font-size: 1.8vw;
+  font-size: 1.4vw;
   width: 85%;
   line-height: 150%;
 }
 
 .udtalelese2 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
-  font-size: 1.8vw;
+  font-size: 1.4vw;
   width: 85%;
   line-height: 150%;
 }
 
 .udtalelese3 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
-  font-size: 1.8vw;
+  font-size: 1.4vw;
   width: 85%;
   line-height: 150%;
 }
@@ -216,35 +213,41 @@ html {
 .navn1 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
   display: flex;
-  justify-content: flex-start;
-  font-size: 1.8vw;
+  justify-content: flex-end;
+  font-size: 1.4vw;
   margin: 0;
+  width: 85%;
 }
 
 .navn2 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
   display: flex;
-  justify-content: flex-start;
-  font-size: 1.8vw;
+  justify-content: flex-end;
+  font-size: 1.4vw;
   margin: 0;
+  width: 85%;
 }
 
 .navn3 {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
   display: flex;
-  justify-content: flex-start;
-  font-size: 1.8vw;
+  justify-content: flex-end;
+  font-size: 1.4vw;
   margin: 0;
+  width: 85%;
 }
 
 .productShowcase {
-  padding: 4vh 2vw;
+  padding: 8vh 8vw;
   width: 100%;
 }
 
 .productShowcaseGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /*laver tre kolonner hvor der kan være cards og 1fr definerer hvor meget plads hver card skal bruge så 1fr, så bruger de lige meget*/
   gap: 2vw;
   width: 100%;
 }
