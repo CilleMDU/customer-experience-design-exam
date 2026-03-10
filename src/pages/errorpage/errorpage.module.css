@@ -1,49 +1,31 @@
-:root {
-  /* Colors light */
-  --primary-color-light: #ffffff;
-  --secondary-color-light-turqouise: #38a495;
-  --seconndary-color-light-pink: #e66a9d;
-  --accent-color-light-yellow: #ffd678;
-  --text-color-light: #151515;
-
-  /* Colors dark */
-  --primary-color-dark: #5d2f54;
-  --secondary-color-dark-turqouise: #65bdab;
-  --secondary-color-dark-pink: #d3628a;
-  --accent-color-dark-yellow: #e9db89;
-  --text-color-dark: #e4e4e4;
-
-  /* Fonts */
-  --title-font-font-family: "Sue Ellen Francisco", cursive;
-  --text-font-family: "work-sans", sans-serif;
-
-  /* Font sizes */
-  --title-font-size: 6rem;
-  --under-titles-font-size: 3rem;
-  --text-font-size: 1.6rem;
-  --menu-and-options-font-size: 2.4rem;
-  --button-and-price-font-size: 4.2rem;
-  --moms-font-size: 1.2rem;
-
-  /* Font thickness */
-  --normal-font-weight: 400;
-  --bold-font-weight: 700;
-  --medium-font-weight: 500;
-  --light-font-weight: 300;
-  --semi-bold-font-weight: 600;
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4vw;
 }
 
-/* rem 10px=1rem */
-html {
-  font-size: 62.5%;
-}
-
-.h2 {
-  font-style: var(--title-font-font-family);
-  font-size: var(--title-font-size);
+.h1 {
+  font-family: var(--title-font-font-family);
+  font-size: var(--display-title-font-size);
+  color: var(--text-color-light);
+  font-weight: var(--light-font-weight);
 }
 
 .p {
-  font-style: var(--text-font-family);
-  font-size: var(--under-titles-font-size);
+  font-family: var(--text-font-family);
+  font-size: var(--body-text-big-font-size);
+  line-height: 200%;
+}
+
+.uterus {
+  width: 50vw;
+  height: auto;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10vh;
 }
