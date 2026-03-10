@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import styles from "./product.module.css";
+import styles from "./Product.module.css";
 import inactiveHeart from "../assets/inactive-heart.svg";
 import activeHeart from "../assets/hjerte-smil.svg";
 import { useState } from "react";
