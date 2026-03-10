@@ -6,8 +6,11 @@ import profilIkon from "../assets/profile-icon.svg";
 import searchIkon from "../assets/search-icon.svg";
 import darkmodeIkon from "../assets/darkmode-icon.svg";
 import navbarLogo from "../assets/navbar-logo.svg";
+import { useDarkMode } from "../hooks/useDarkMode.jsx";
 
 export default function NavigationBar() {
+  const { isDark, setIsDark } = useDarkMode();
+
   return (
     <nav className={styles.NavigationBar}>
       <a href="/" className={styles.logoLink}>
@@ -20,7 +23,13 @@ export default function NavigationBar() {
         <NavLink to="/about">Om os</NavLink>
       </div>
       <div className={styles.ikoner}>
-        <img src={darkmodeIkon} alt="darkmode knap" />
+        <button
+          onClick={() => setIsDark(!isDark)}
+          className={styles.darkmodeButton}
+          aria-label="Toggle dark mode"
+        >
+          <img src={darkmodeIkon} alt="darkmode knap" />
+        </button>
         <img src={searchIkon} alt="søge funktion" />
         <img src={profilIkon} alt="profil" />
         <img src={hjerteIkon} alt="favoritter" />
