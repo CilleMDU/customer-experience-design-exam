@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./SISPopUp.module.css";
-import closeBtn from "../assets/closebtn.svg"
+import closeBtn from "../assets/closebtn.svg";
 
 export default function SISPopUp({ isOpen, onClose }) {
   if (!isOpen) return null;
@@ -15,12 +15,14 @@ export default function SISPopUp({ isOpen, onClose }) {
           </button>
         </div>
         <p className={styles.text}>
-          Vi er ikke alle bygget ens og det er ikke alle der har brug for to sko eller to handsker, derfor
-          giver Uniquely Her dig muligheden for, at købe diverse produkter
-          enkeltvis i stedet for som sæt til halvpris + fragt. 
+          Vi er ikke alle bygget ens og det er ikke alle der har brug for to sko
+          eller to handsker, derfor giver Uniquely Her dig muligheden for, at
+          købe diverse produkter enkeltvis i stedet for som sæt til halvpris +
+          fragt.
           <br />
-          Den eneste forskel er at emballagen vil blive vores special designet emballage
-          skabt til præcist dette formål. Samme retur police gælder stadigvæk.
+          Den eneste forskel er at emballagen vil blive vores special designet
+          emballage skabt til præcist dette formål. Samme retur police gælder
+          stadigvæk.
           <br />
           <br />
           Det eneste du skal gøre er at klikke på Special Bestillinger, her er
