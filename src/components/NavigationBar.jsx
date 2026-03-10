@@ -14,7 +14,7 @@ export default function NavigationBar() {
   return (
     <nav className={styles.NavigationBar}>
       <a href="/" className={styles.logoLink}>
-        <img src={navbarLogo} alt="logo" />
+        <img src={navbarLogo} alt="logo" className={styles.logo}/>
       </a>
 
       <div className={styles.pages}>

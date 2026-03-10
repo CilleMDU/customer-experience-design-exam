@@ -86,12 +86,15 @@
 .titleAndClose {
     display: flex;
     justify-content: space-between;
+    border-bottom: solid 0.2rem var(--secondary-color-light-turqouise);
+    line-height: 10rem;
 }
 
 .title {
     font-family: var(--title-font-font-family);
     font-size: 4.5rem;
     color: var(--text-color-light);
+    letter-spacing: 0.3rem;
 }
 
 .closeBtn {
@@ -112,4 +115,27 @@
     text-align: left;
     line-height: 2.5rem;
     margin-top: 1rem;
+}
+
+:global(.dark-mode) {
+  .popup {
+    background-color: var(--primary-color-dark);
+    color: var(--text-color-dark);
+  }
+
+  .titleAndClose {
+    border-bottom: 0.2rem solid var(--secondary-color-dark-turqouise);
+  }
+
+  .title {
+    color: var(--text-color-dark);
+  }
+
+  .closeBtn img {
+    content: url("../assets/closePopupDark.svg");
+  }
+
+  .closeBtn img:hover {
+    content: url("../assets/closePopupDarkHover.svg");
+  }
 }

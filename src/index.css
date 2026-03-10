@@ -59,3 +59,28 @@
 html {
   font-size: 62.5%;
 }
+
+html.dark-mode {
+  body {
+    background-color: var(--primary-color-dark);
+  }
+
+  nav {
+    background-color: var(--primary-color-dark);
+    box-shadow: 0 4px 4px 0 var(--secondary-color-dark-pink);
+  }
+
+  nav a {
+    color: var(--text-color-dark);
+  }
+
+  footer {
+    background-color: var(--primary-color-dark);
+    color: var(--text-color-dark);
+    box-shadow: 0 -4px 4px 0 var(--secondary-color-dark-pink);
+  }
+
+  p {
+    color: var(--text-color-dark);
+  }
+}
