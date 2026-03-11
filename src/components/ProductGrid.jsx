@@ -79,15 +79,40 @@ export default function ProductGrid() {
     );
   });
 
+  // Create a copy for sorting to avoid mutating the original array
+  const sortedProducts = [...filteredProducts];
+
+  // Helper function to parse price string to number
+  const parsePrice = (priceString) => {
+    if (typeof priceString === "string") {
+      return parseFloat(priceString.replace(/[^\d.,]/g, "").replace(",", "."));
+    }
+    return parseFloat(priceString) || 0;
+  };
+
   if (sortBy === "price-asc") {
-    filteredProducts.sort((a, b) => a.price - b.price);
+    sortedProducts.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
   } else if (sortBy === "price-desc") {
-    filteredProducts.sort((a, b) => b.price - a.price);
+    sortedProducts.sort((a, b) => parsePrice(b.price) - parsePrice(a.price));
   } else if (sortBy === "rating-desc") {
-    filteredProducts.sort(
+    sortedProducts.sort(
       (a, b) => (b.rating?.rate ?? 0) - (a.rating?.rate ?? 0),
     );
   }
+
+  // Get the current sort label for display
+  const getSortLabel = () => {
+    switch (sortBy) {
+      case "price-asc":
+        return "Pris: Laveste først";
+      case "price-desc":
+        return "Pris: Højeste først";
+      case "rating-desc":
+        return "Bedste rating";
+      default:
+        return "Sorter efter";
+    }
+  };
 
   function resetFilters() {
     setSelectedCategory("all");
@@ -130,7 +155,7 @@ export default function ProductGrid() {
     <>
       <div className={styles.productPageHeader}>
         <p className={styles.resultCount}>
-          {filteredProducts.length} produkter fundet
+          {sortedProducts.length} produkter fundet
         </p>
         <div className={styles.productManagement}>
           <div></div>
@@ -142,7 +167,7 @@ export default function ProductGrid() {
               aria-expanded={isSortMenuOpen}
               aria-controls="sort-menu"
             >
-              <p>Sorter efter</p>
+              <p>{getSortLabel()}</p>
               <div className={styles.sortIcon}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -176,18 +201,6 @@ export default function ProductGrid() {
                 role="listbox"
                 aria-label="Sorteringsmuligheder"
               >
-                <button
-                  type="button"
-                  className={`${styles.sortOption} ${sortBy === "none" ? styles.activeSortOption : ""}`}
-                  onClick={() => {
-                    setSortBy("none");
-                    setIsSortMenuOpen(false);
-                  }}
-                  role="option"
-                  aria-selected={sortBy === "none"}
-                >
-                  Standard
-                </button>
                 <button
                   type="button"
                   className={`${styles.sortOption} ${sortBy === "price-asc" ? styles.activeSortOption : ""}`}
@@ -532,7 +545,7 @@ export default function ProductGrid() {
       </aside>
 
       <section className={styles.grid} aria-label="Product list">
-        {filteredProducts.map((product) => (
+        {sortedProducts.map((product) => (
           <Product key={product.id} product={product} />
         ))}
       </section>
