@@ -270,6 +270,7 @@ export default function ProductGrid() {
       <button
         className={`${styles.overlay} ${isFilterMenuOpen ? styles.overlayVisible : ""}`}
         type="button"
+        title="overlay"
         onClick={() => setIsFilterMenuOpen(false)}
       ></button>
 
