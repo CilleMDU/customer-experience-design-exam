@@ -3,7 +3,7 @@ import { useParams } from "react-router";
 import { useEffect, useState } from "react";
 import SizeSelector from "../../components/SizeSelector";
 import SISPopUp from "../../components/SISPopUp";
-import SpecialBuy from "../../components/SpecialBuy"
+import SpecialBuy from "../../components/SpecialBuy";
 import informationBtn from "../../assets/information-btn-hover.svg";
 import starIcon from "../../assets/star.svg";
 import touchIcon from "../../assets/touch-approved-badge.svg";
@@ -63,6 +63,19 @@ export default function ProductDetailPage() {
     setCurrentImageIndex(index);
   };
 
+  const handleThumbnailKeyDown = (e, index) => {
+    if (e.key === "ArrowRight" && index < product.gallery?.length - 1) {
+      setCurrentImageIndex(index + 1);
+      e.preventDefault();
+    } else if (e.key === "ArrowLeft" && index > 0) {
+      setCurrentImageIndex(index - 1);
+      e.preventDefault();
+    } else if (e.key === "Enter" || e.key === " ") {
+      setCurrentImageIndex(index);
+      e.preventDefault();
+    }
+  };
+
   const handleSizeSelect = (size) => {
     console.log("Selected size:", size);
   };
@@ -107,23 +120,36 @@ export default function ProductDetailPage() {
       <main>
         <section className={styles.cards}>
           <div className={styles.gallery}>
-            <div className={styles.thumbnails}>
+            <div
+              className={styles.thumbnails}
+              role="group"
+              aria-label="Produktbilleder"
+            >
               {product.gallery?.map((image, index) => (
-                <img
+                <button
                   key={index}
                   src={image.image_url}
-                  alt={image.alt_text}
                   className={`${styles.thumbnail} ${
                     index === currentImageIndex ? styles.active : ""
                   }`}
                   onClick={() => handleThumbnailClick(index)}
-                />
+                  onKeyDown={(e) => handleThumbnailKeyDown(e, index)}
+                  aria-label={`Billede ${index + 1} af ${product.gallery?.length}`}
+                  aria-pressed={index === currentImageIndex}
+                  aria-controls="main-product-image"
+                >
+                  <img src={image.image_url} alt="" aria-hidden="true" />
+                </button>
               ))}
             </div>
             <div className={styles.mainImageContainer}>
               <img
+                id="main-product-image"
                 src={product.gallery?.[currentImageIndex]?.image_url}
-                alt={product.gallery?.[currentImageIndex]?.alt_text}
+                alt={
+                  product.gallery?.[currentImageIndex]?.alt_text ||
+                  `${product.title}`
+                }
                 className={styles.image}
               />
             </div>
@@ -158,7 +184,12 @@ export default function ProductDetailPage() {
                 <ToastContainer toastClassName={styles.toastContainer} />
                 <button
                   className={styles.like}
-                  title="like"
+                  aria-label={
+                    isFavorited
+                      ? "Fjern fra favoritter"
+                      : "Tilføj til favoritter"
+                  }
+                  aria-pressed={isFavorited}
                   onClick={toggleFavorite}
                 >
                   <span
@@ -181,10 +212,12 @@ export default function ProductDetailPage() {
                   <button
                     onClick={() => setSISPopUpOpen(true)}
                     className={styles.informationBtnWrapper}
+                    aria-label="Information om Single Item Service"
                   >
                     <img
                       src={informationBtn}
-                      alt="informationsknap angående single item service"
+                      alt=""
+                      aria-hidden="true"
                       className={styles.informationBtn}
                     />
                   </button>
@@ -195,11 +228,17 @@ export default function ProductDetailPage() {
               <div className={styles.rating}>
                 <img
                   src={starIcon}
-                  alt={product.rating?.rate}
+                  alt=""
+                  aria-hidden="true"
                   className={styles.star}
                 />
                 <div className={styles.rate}>{product.rating?.rate} </div>
-                <a href="../errorpage/errorpage">({product.rating?.count})</a>
+                <a
+                  href="../errorpage/errorpage"
+                  aria-label={`${product.rating?.count} anmeldelser`}
+                >
+                  ({product.rating?.count})
+                </a>
               </div>
               <div className={styles.stock}>
                 <div
@@ -226,18 +265,24 @@ export default function ProductDetailPage() {
                 <button
                   className={styles.careAndMateDrop}
                   onClick={() => setMaterialOpen(!materialOpen)}
+                  aria-expanded={materialOpen}
+                  aria-controls="material-content"
                 >
                   <span>Materiale</span>
                   <span
                     className={
                       materialOpen ? styles.iconOpen : styles.iconClosed
                     }
+                    aria-hidden="true"
                   >
                     ▼
                   </span>
                 </button>
                 {materialOpen && (
-                  <div className={styles.careAndMateContent}>
+                  <div
+                    className={styles.careAndMateContent}
+                    id="material-content"
+                  >
                     <p>{product.material}</p>
                   </div>
                 )}
@@ -246,16 +291,19 @@ export default function ProductDetailPage() {
                 <button
                   className={styles.careAndMateDrop}
                   onClick={() => setCareOpen(!careOpen)}
+                  aria-expanded={careOpen}
+                  aria-controls="care-content"
                 >
                   <span>Pleje</span>
                   <span
                     className={careOpen ? styles.iconOpen : styles.iconClosed}
+                    aria-hidden="true"
                   >
                     ▼
                   </span>
                 </button>
                 {careOpen && (
-                  <div className={styles.careAndMateContent}>
+                  <div className={styles.careAndMateContent} id="care-content">
                     <p>{product.care}</p>
                   </div>
                 )}

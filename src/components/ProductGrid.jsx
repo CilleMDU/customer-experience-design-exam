@@ -5,6 +5,7 @@ import Product from "./Product";
 export default function ProductGrid() {
   const [products, setProducts] = useState([]);
   const [isFilterMenuOpen, setIsFilterMenuOpen] = useState(false);
+  const [isSortMenuOpen, setIsSortMenuOpen] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [inStockOnly, setInStockOnly] = useState(false);
   const [sortBy, setSortBy] = useState("none");
@@ -34,11 +35,6 @@ export default function ProductGrid() {
     }
     fetchProducts();
   }, []);
-
-  // Finder alle unikke kategorier i json
-  const categories = [
-    ...new Set(products.map((product) => product.category)),
-  ].sort();
 
   // Finder alle unikke brands (f.eks. Nike, Adidas, Puma)
   const brands = [...new Set(products.map((product) => product.brand))].sort();
@@ -138,37 +134,104 @@ export default function ProductGrid() {
         </p>
         <div className={styles.productManagement}>
           <div></div>
-          <button className={styles.sortButton}>
-            <p>Sorter efter</p>
-            <div className={styles.sortIcon}>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="12"
-                height="7"
-                viewBox="0 0 12 7"
-                fill="none"
+          <div className={styles.sortContainer}>
+            <button
+              className={styles.sortButton}
+              aria-label="Sorter produkter"
+              onClick={() => setIsSortMenuOpen(!isSortMenuOpen)}
+              aria-expanded={isSortMenuOpen}
+              aria-controls="sort-menu"
+            >
+              <p>Sorter efter</p>
+              <div className={styles.sortIcon}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="7"
+                  viewBox="0 0 12 7"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <line
+                    y1="-0.5"
+                    x2="8.48528"
+                    y2="-0.5"
+                    transform="matrix(-0.707107 0.707107 0.707107 0.707107 12 0.707031)"
+                    stroke="#151515"
+                  />
+                  <line
+                    x1="0.353553"
+                    y1="0.353478"
+                    x2="6.35355"
+                    y2="6.35348"
+                    stroke="#151515"
+                  />
+                </svg>
+              </div>
+            </button>
+            {isSortMenuOpen && (
+              <div
+                className={styles.sortMenu}
+                id="sort-menu"
+                role="listbox"
+                aria-label="Sorteringsmuligheder"
               >
-                <line
-                  y1="-0.5"
-                  x2="8.48528"
-                  y2="-0.5"
-                  transform="matrix(-0.707107 0.707107 0.707107 0.707107 12 0.707031)"
-                  stroke="#151515"
-                />
-                <line
-                  x1="0.353553"
-                  y1="0.353478"
-                  x2="6.35355"
-                  y2="6.35348"
-                  stroke="#151515"
-                />
-              </svg>
-            </div>
-          </button>
+                <button
+                  type="button"
+                  className={`${styles.sortOption} ${sortBy === "none" ? styles.activeSortOption : ""}`}
+                  onClick={() => {
+                    setSortBy("none");
+                    setIsSortMenuOpen(false);
+                  }}
+                  role="option"
+                  aria-selected={sortBy === "none"}
+                >
+                  Standard
+                </button>
+                <button
+                  type="button"
+                  className={`${styles.sortOption} ${sortBy === "price-asc" ? styles.activeSortOption : ""}`}
+                  onClick={() => {
+                    setSortBy("price-asc");
+                    setIsSortMenuOpen(false);
+                  }}
+                  role="option"
+                  aria-selected={sortBy === "price-asc"}
+                >
+                  Pris: Laveste først
+                </button>
+                <button
+                  type="button"
+                  className={`${styles.sortOption} ${sortBy === "price-desc" ? styles.activeSortOption : ""}`}
+                  onClick={() => {
+                    setSortBy("price-desc");
+                    setIsSortMenuOpen(false);
+                  }}
+                  role="option"
+                  aria-selected={sortBy === "price-desc"}
+                >
+                  Pris: Højeste først
+                </button>
+                <button
+                  type="button"
+                  className={`${styles.sortOption} ${sortBy === "rating-desc" ? styles.activeSortOption : ""}`}
+                  onClick={() => {
+                    setSortBy("rating-desc");
+                    setIsSortMenuOpen(false);
+                  }}
+                  role="option"
+                  aria-selected={sortBy === "rating-desc"}
+                >
+                  Bedste rating
+                </button>
+              </div>
+            )}
+          </div>
           <button
             className={styles.filterButton}
             type="button"
             onClick={() => setIsFilterMenuOpen(true)}
+            aria-label="Åbn filtreringspanel"
           >
             <p>Filtrering</p>
             <div className={styles.filterIcon}>
@@ -178,6 +241,7 @@ export default function ProductGrid() {
                 height="16"
                 viewBox="0 0 16 16"
                 fill="none"
+                aria-hidden="true"
               >
                 <path
                   d="M14.1663 7.9996H5.92967M3.02234 7.9996H1.83301M3.02234 7.9996C3.02234 7.61415 3.17546 7.24449 3.44801 6.97194C3.72057 6.69939 4.09023 6.54627 4.47567 6.54627C4.86112 6.54627 5.23078 6.69939 5.50334 6.97194C5.77589 7.24449 5.92901 7.61415 5.92901 7.9996C5.92901 8.38505 5.77589 8.75471 5.50334 9.02726C5.23078 9.29982 4.86112 9.45294 4.47567 9.45294C4.09023 9.45294 3.72057 9.29982 3.44801 9.02726C3.17546 8.75471 3.02234 8.38505 3.02234 7.9996ZM14.1663 12.4043H10.3343M10.3343 12.4043C10.3343 12.7898 10.1809 13.1599 9.90824 13.4325C9.63562 13.7051 9.26588 13.8583 8.88034 13.8583C8.49489 13.8583 8.12523 13.7045 7.85268 13.4319C7.58013 13.1594 7.42701 12.7897 7.42701 12.4043M10.3343 12.4043C10.3343 12.0187 10.1809 11.6493 9.90824 11.3767C9.63562 11.1041 9.26588 10.9509 8.88034 10.9509C8.49489 10.9509 8.12523 11.1041 7.85268 11.3766C7.58013 11.6492 7.42701 12.0188 7.42701 12.4043M7.42701 12.4043H1.83301M14.1663 3.59493H12.0963M9.18901 3.59493H1.83301M9.18901 3.59493C9.18901 3.20949 9.34213 2.83983 9.61468 2.56727C9.88723 2.29472 10.2569 2.1416 10.6423 2.1416C10.8332 2.1416 11.0222 2.17919 11.1985 2.25223C11.3748 2.32527 11.535 2.43232 11.67 2.56727C11.805 2.70223 11.912 2.86244 11.985 3.03877C12.0581 3.21509 12.0957 3.40408 12.0957 3.59493C12.0957 3.78579 12.0581 3.97478 11.985 4.1511C11.912 4.32743 11.805 4.48764 11.67 4.6226C11.535 4.75755 11.3748 4.8646 11.1985 4.93764C11.0222 5.01068 10.8332 5.04827 10.6423 5.04827C10.2569 5.04827 9.88723 4.89515 9.61468 4.6226C9.34213 4.35004 9.18901 3.98038 9.18901 3.59493Z"
@@ -199,13 +263,17 @@ export default function ProductGrid() {
       <aside
         id="filter-drawer"
         className={`${styles.drawer} ${isFilterMenuOpen ? styles.drawerOpen : ""}`}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="filter-drawer-title"
       >
         <div className={styles.drawerHeader}>
-          <h2>Filtrer</h2>
+          <h2 id="filter-drawer-title">Filtrer</h2>
           <button
             type="button"
             className={styles.closeFilterButton}
             onClick={() => setIsFilterMenuOpen(false)}
+            aria-label="Luk filtreringspanel"
           >
             <svg
               width="16"
@@ -227,6 +295,8 @@ export default function ProductGrid() {
           <button
             className={styles.filterHeader}
             onClick={() => toggleSection("sizes")}
+            aria-expanded={openSection.sizes}
+            aria-controls="sizes-filter-content"
           >
             <span>Størrelse</span>
 
@@ -239,6 +309,7 @@ export default function ProductGrid() {
               viewBox="0 0 12 7"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
             >
               <line
                 x1="11.6464"
@@ -258,7 +329,12 @@ export default function ProductGrid() {
           </button>
 
           {openSection.sizes && (
-            <div className={styles.sizesFilterSection}>
+            <div
+              className={styles.sizesFilterSection}
+              id="sizes-filter-content"
+              role="group"
+              aria-label="Størrelse filter"
+            >
               {sizes.map((size) => (
                 <button
                   key={size}
@@ -280,6 +356,8 @@ export default function ProductGrid() {
           <button
             className={styles.filterHeader}
             onClick={() => toggleSection("brands")}
+            aria-expanded={openSection.brands}
+            aria-controls="brands-filter-content"
           >
             <span>Mærke</span>
 
@@ -292,6 +370,7 @@ export default function ProductGrid() {
               viewBox="0 0 12 7"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
             >
               <line
                 x1="11.6464"
@@ -311,7 +390,12 @@ export default function ProductGrid() {
           </button>
 
           {openSection.brands && (
-            <div className={styles.brandsFilterSection}>
+            <div
+              className={styles.brandsFilterSection}
+              id="brands-filter-content"
+              role="group"
+              aria-label="Mærke filter"
+            >
               {brands.map((brand) => (
                 <button
                   key={brand}
@@ -327,7 +411,8 @@ export default function ProductGrid() {
                     <img
                       className={`${styles.flower} ${selectedBrand === brand ? styles.activeFlowerCheckbox : ""}`}
                       src="../src/assets/flower-pink.svg"
-                      alt="active"
+                      alt=""
+                      aria-hidden="true"
                     />
                   </div>
                 </button>
@@ -340,6 +425,8 @@ export default function ProductGrid() {
           <button
             className={styles.filterHeader}
             onClick={() => toggleSection("colors")}
+            aria-expanded={openSection.colors}
+            aria-controls="colors-filter-content"
           >
             <span>Farve</span>
 
@@ -352,6 +439,7 @@ export default function ProductGrid() {
               viewBox="0 0 12 7"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
             >
               <line
                 x1="11.6464"
@@ -371,7 +459,12 @@ export default function ProductGrid() {
           </button>
 
           {openSection.colors && (
-            <div className={styles.colorsFilterSection}>
+            <div
+              className={styles.colorsFilterSection}
+              id="colors-filter-content"
+              role="group"
+              aria-label="Farve filter"
+            >
               {colors.map((color) => (
                 <button
                   key={color}
@@ -386,6 +479,7 @@ export default function ProductGrid() {
                     <div
                       className={styles.colorCircle}
                       style={{ background: getColor(color) }}
+                      aria-hidden="true"
                     ></div>
                     {color}
                   </div>
@@ -393,7 +487,8 @@ export default function ProductGrid() {
                     <img
                       className={`${styles.flower} ${selectedColor === color ? styles.activeFlowerCheckbox : ""}`}
                       src="../src/assets/flower-pink.svg"
-                      alt="active"
+                      alt=""
+                      aria-hidden="true"
                     />
                   </div>
                 </button>
@@ -408,10 +503,11 @@ export default function ProductGrid() {
             htmlFor="touch-approved-filter"
           >
             <input
-              id="touch-approved-boolean"
+              id="touch-approved-filter"
               type="checkbox"
               checked={touchApprovedOnly}
               onChange={(event) => setTouchApprovedOnly(event.target.checked)}
+              aria-label="Vis kun Touch Approved produkter"
             />
             Touch Approved
           </label>

@@ -34,7 +34,8 @@ function getColor(color) {
 export default function Product({ product }) {
   const [isFavorited, setIsFavorited] = useState(false);
 
-  function toggleFavorite() {
+  function toggleFavorite(e) {
+    e.preventDefault();
     setIsFavorited(!isFavorited);
   }
   return (
@@ -48,23 +49,38 @@ export default function Product({ product }) {
               className={styles.image}
             />
           </Link>
-          <button className={styles.favoriteIcon} onClick={toggleFavorite}>
+          <button
+            className={styles.favoriteIcon}
+            onClick={toggleFavorite}
+            aria-label={
+              isFavorited ? "Fjern fra favoritter" : "Tilføj til favoritter"
+            }
+            aria-pressed={isFavorited}
+          >
             <img
               src={isFavorited ? activeHeart : inactiveHeart}
-              alt="favorit"
+              alt=""
+              aria-hidden="true"
             />
           </button>
         </figure>
         <Link to={`/products/${product.id}`} className={styles.Link}>
           <span className={styles.brandName}>{product.brand}</span>
           <h2 className={styles.title}>{product.title}</h2>
-          <p className={styles.price}>{product.price}</p>
-          <section className={styles.hoverInfo}>
-            <div className={styles.ratingStarsAmount}></div>
-            <div className={styles.colorsAmount}>
+          <p className={styles.price}>{product.price} kr.</p>
+          <section className={styles.hoverInfo} aria-label="Produkt detaljer">
+            <div
+              className={styles.ratingStarsAmount}
+              aria-label={`Rating: ${product.rating?.rate || 0} ud af 5 stjerner`}
+            ></div>
+            <div
+              className={styles.colorsAmount}
+              aria-label={`Farve: ${product.color}`}
+            >
               <div
                 className={styles.colorCircle}
                 style={{ background: getColor(product.color) }}
+                aria-hidden="true"
               ></div>
             </div>
           </section>
