@@ -5,54 +5,10 @@
 }
 
 :root {
-  /* Colors light */
-  --primary-color-light: #ffffff;
-  --secondary-color-light-turqouise: #38a495;
-  --secondary-color-light-pink: #e66a9d;
-  --accent-color-light-yellow: #ffd678;
-  --text-color-light: #151515;
-
   /* Colors dark */
   --primary-color-dark: #5d2f54;
-  --secondary-color-dark-turqouise: #65bdab;
   --secondary-color-dark-pink: #d3628a;
-  --accent-color-dark-yellow: #e9db89;
   --text-color-dark: #e4e4e4;
-
-  /* Fonts */
-  --title-font-font-family: "Sue Ellen Francisco", cursive;
-  --text-font-family: "work-sans", sans-serif;
-
-  /* Font sizes */
-  --display-title-font-size: 12.8rem;
-  --header2-display-font-size: 6.4rem;
-  --mobile-header1-display-font-size: 3.2rem;
-  --desktop-detail-title-font-size: 3.2rem;
-  --desktop-card-price-font-size: 2.4rem;
-  --detail-price-font-size: 2.4rem;
-  --header2-font-size: 2.4rem;
-  --desktop-card-title-font-size: 2.4rem;
-  --body-text-big-font-size: 2.4rem;
-  --body-text-font-size: 1.6rem;
-  --mobile-detail-brand-font-size: 1.6rem;
-  --mobile-card-brand-font-size: 1.4rem;
-  --moms-font-size: 1.2rem;
-
-  /* Font thickness */
-  --normal-font-weight: 400;
-  --bold-font-weight: 700;
-  --medium-font-weight: 500;
-  --light-font-weight: 300;
-  --semi-bold-font-weight: 600;
-
-  /* Line heights */
-  --work-sans-line-height: normal;
-  --sue-ellen-francisco-line-height: 150%;
-
-  /* Letter spacing */
-  --card-title-letter-spacing: 1px;
-  --card-price-letter-spacing: 2px;
-  --card-brand-letter-spacing: 3.5px;
 }
 
 /* rem 10px=1rem */
