@@ -7,7 +7,6 @@
 
 .productManagement {
   display: flex;
-  padding: 8px;
   justify-content: flex-end;
   align-items: flex-start;
   gap: 8px;
@@ -26,6 +25,7 @@
   border: none;
   font-family: var(--text-font-family);
   font-size: var(--body-text-font-size);
+  cursor: pointer;
 }
 
 .filterIcon {
@@ -46,6 +46,7 @@
   border: none;
   font-family: var(--text-font-family);
   font-size: var(--body-text-font-size);
+  cursor: pointer;
 }
 
 .overlay {
@@ -77,10 +78,18 @@
   transition: transform 0.25s ease;
   width: min(360px, 88vw);
   z-index: 111;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
 }
 
 .drawerOpen {
   transform: translateX(0);
+}
+
+.showOrRemove {
+  display: flex;
+  gap: 1.6rem;
 }
 
 .resetButton {
@@ -89,16 +98,271 @@
   padding: 8px;
   border-radius: 80px;
   border: 0.15rem solid var(--accent-2, #940200);
-  background: none;
+  background: white;
   justify-content: center;
   align-items: center;
   align-self: stretch;
-  color: var(--accent-2);
+  cursor: pointer;
 
   /* body-text-big */
   font-family: var(--text-font-family);
-  font-size: 24px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 36px */
+  color: var(--accent-2, #940200);
+}
+
+.showAllButton {
+  display: flex;
+  width: 100%;
+  padding: 8px;
+  border-radius: 80px;
+  border: none;
+  background: var(--accent-2, #940200);
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  cursor: pointer;
+
+  /* body-text-big */
+  font-family: var(--text-font-family);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  color: white;
+}
+
+.drawerHeader {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: var(--text, #151515);
+
+  /* body-text-big */
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 36px */
+}
+
+.closeFilterButton {
+  height: 1.6rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.resultCount {
+  font-family: var(--text-font-family);
+  font-size: var(--body-text-font-size);
+}
+
+.productPageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0.8rem 2rem 0.8rem;
+}
+
+.sizesFilterSection {
+  display: flex;
+  padding: 8px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.sizeButton {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+  border: 0.5px solid #8e8e8e;
+  background: var(--Filling, #fff);
+  color: #151515;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.sizeButton:hover {
+  background: #efefef;
+  cursor: pointer;
+}
+
+.activeSizeButton {
+  background: #efefef;
+  cursor: pointer;
+}
+
+.brandsFilterSection {
+  display: flex;
+  width: 100%;
+  padding: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.brandButton {
+  display: flex;
+  width: 100%;
+  height: 27px;
+  padding: 4px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 4px;
+  background: var(--primary, #fff);
+  color: var(--text, #151515);
+  border: 0.5px solid var(--text, #151515);
+  cursor: pointer;
+
+  /* body-text */
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.brandButton:hover {
+  background: #efefef;
+  cursor: pointer;
+}
+
+.activeBrandButton {
+  background: #efefef;
+  cursor: pointer;
+}
+
+.flowerCheckbox {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  padding: 2px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 0.5px solid var(--text, #151515);
+  background: var(--primary, #fff);
+}
+
+.flower {
+  display: none;
+}
+
+.activeFlowerCheckbox {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.colorsFilterSection {
+  display: flex;
+  width: 100%;
+  padding: 8px;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.colorButton {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  color: var(--text, #151515);
+  border-radius: 4px;
+  border: 0.5px solid var(--text, #151515);
+  background: var(--primary, #fff);
+  padding: 4px;
+  cursor: pointer;
+
+  /* body-text */
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.colorButton:hover {
+  background: #efefef;
+  cursor: pointer;
+}
+
+.activeColorButton {
+  background: #efefef;
+  cursor: pointer;
+}
+
+.color {
+  display: flex;
+  padding: 4px 0;
+  align-items: center;
+  gap: 8px;
+}
+
+.colorCircle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #e2e2e2; /* Denne linje gør hvid synlig */
+}
+
+.filterHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px 0;
+  cursor: pointer;
+}
+
+.chevron {
+  transition: transform 0.2s ease;
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
+}
+
+.touchApprovedSection {
+  display: flex;
+  width: 100%;
+  padding: 4px;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.touchApprovedArea {
+  display: flex;
+  gap: 8px;
+  color: var(--text, #151515);
+
+  /* body-text */
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
 }
