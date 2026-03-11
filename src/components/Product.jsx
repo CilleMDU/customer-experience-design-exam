@@ -66,7 +66,7 @@ export default function Product({ product }) {
         </figure>
         <Link to={`/products/${product.id}`} className={styles.Link}>
           <span className={styles.brandName}>{product.brand}</span>
-          <h2 className={styles.title}>{product.title}</h2>
+          <h2 className={styles.titleProduct}>{product.title}</h2>
           <p className={styles.price}>{product.price} kr.</p>
           <section className={styles.hoverInfo} aria-label="Produkt detaljer">
             <div
