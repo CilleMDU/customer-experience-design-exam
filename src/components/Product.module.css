@@ -4,16 +4,16 @@
 }
 .card {
   display: flex;
-  padding: 8px;
+  padding: 0.8rem;
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
+  gap: 0.8rem;
   background: var(--primary-color-light);
   position: relative;
 }
 
 .imageArea {
-  height: 540px;
+  height: 54rem;
   width: 100%;
   align-self: stretch;
   overflow: hidden;
@@ -26,11 +26,11 @@
 }
 
 .favoriteIcon {
-  width: 41px;
-  height: 40px;
+  width: 4.1rem;
+  height: 4rem;
   position: absolute;
-  right: 24px;
-  top: 24px;
+  right: 2.4rem;
+  top: 2.4rem;
   background: none;
   border: none;
 }
@@ -40,16 +40,16 @@
 
   /* desktop-card-brand */
   font-family: "Work Sans";
-  font-size: 20px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  letter-spacing: 3.6px;
+  letter-spacing: 0.36rem;
 }
 
 .card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-0.4rem);
+  box-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.12);
 }
 
 .cardLink {
@@ -60,7 +60,7 @@
 
 .image {
   width: 100%;
-  height: 200px;
+  height: 20rem;
   object-fit: contain;
   background-color: #ecf0f1;
   padding: 1rem 0;
@@ -71,11 +71,11 @@
 
   /* desktop-card-title */
   font-family: "Work Sans";
-  font-size: 24px;
+  font-size: 2.4rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  letter-spacing: 1.2px;
+  letter-spacing: 0.12rem;
 }
 
 .price {
@@ -83,7 +83,7 @@
 
   /* desktop-card-price */
   font-family: "Work Sans";
-  font-size: 24px;
+  font-size: 2.4rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -105,8 +105,8 @@
 }
 
 .colorCircle {
-  width: 24px;
-  height: 24px;
+  width: 2.4rem;
+  height: 2.4rem;
   border-radius: 50%;
-  border: 1px solid #e2e2e2; /* Denne linje gør hvid synlig */
+  border: 0.1rem solid #e2e2e2; /* Denne linje gør hvid synlig */
 }

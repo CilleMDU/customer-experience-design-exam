@@ -23,7 +23,7 @@ html.dark-mode {
 
   nav {
     background-color: var(--primary-color-dark);
-    box-shadow: 0 4px 4px 0 var(--secondary-color-dark-pink);
+    box-shadow: 0 0.4rem 0.4rem 0 var(--secondary-color-dark-pink);
   }
 
   nav a {
@@ -33,7 +33,7 @@ html.dark-mode {
   footer {
     background-color: var(--primary-color-dark);
     color: var(--text-color-dark);
-    box-shadow: 0 -4px 4px 0 var(--secondary-color-dark-pink);
+    box-shadow: 0 -0.4rem 0.4rem 0 var(--secondary-color-dark-pink);
   }
 
   p {
