@@ -46,7 +46,7 @@ export default function ProductDetailPage() {
 
   useEffect(() => {
     async function fetchProducts() {
-      const url = "../../public/data.json";
+      const url = "/data.json";
       const response = await fetch(url);
       const products = await response.json();
       console.log(products);
