@@ -25,6 +25,7 @@
   border: none;
   font-family: var(--text-font-family);
   font-size: var(--body-text-font-size);
+  cursor: pointer;
 }
 
 .filterIcon {
@@ -45,6 +46,7 @@
   border: none;
   font-family: var(--text-font-family);
   font-size: var(--body-text-font-size);
+  cursor: pointer;
 }
 
 .overlay {
@@ -76,6 +78,9 @@
   transition: transform 0.25s ease;
   width: min(360px, 88vw);
   z-index: 111;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
 }
 
 .drawerOpen {
@@ -97,6 +102,7 @@
   justify-content: center;
   align-items: center;
   align-self: stretch;
+  cursor: pointer;
 
   /* body-text-big */
   font-family: var(--text-font-family);
@@ -117,6 +123,7 @@
   justify-content: center;
   align-items: center;
   align-self: stretch;
+  cursor: pointer;
 
   /* body-text-big */
   font-family: var(--text-font-family);
@@ -131,12 +138,21 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+  color: var(--text, #151515);
+
+  /* body-text-big */
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 36px */
 }
 
 .closeFilterButton {
   height: 1.6rem;
   background: none;
   border: none;
+  cursor: pointer;
 }
 
 .resultCount {
@@ -179,14 +195,17 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  cursor: pointer;
 }
 
 .sizeButton:hover {
   background: #efefef;
+  cursor: pointer;
 }
 
 .activeSizeButton {
   background: #efefef;
+  cursor: pointer;
 }
 
 .brandsFilterSection {
@@ -210,6 +229,7 @@
   background: var(--primary, #fff);
   color: var(--text, #151515);
   border: 0.5px solid var(--text, #151515);
+  cursor: pointer;
 
   /* body-text */
   font-family: "Work Sans";
@@ -221,10 +241,12 @@
 
 .brandButton:hover {
   background: #efefef;
+  cursor: pointer;
 }
 
 .activeBrandButton {
   background: #efefef;
+  cursor: pointer;
 }
 
 .flowerCheckbox {
@@ -268,6 +290,7 @@
   border: 0.5px solid var(--text, #151515);
   background: var(--primary, #fff);
   padding: 4px;
+  cursor: pointer;
 
   /* body-text */
   font-family: "Work Sans";
@@ -279,10 +302,12 @@
 
 .colorButton:hover {
   background: #efefef;
+  cursor: pointer;
 }
 
 .activeColorButton {
   background: #efefef;
+  cursor: pointer;
 }
 
 .color {
@@ -297,4 +322,47 @@
   height: 16px;
   border-radius: 50%;
   border: 1px solid #e2e2e2; /* Denne linje gør hvid synlig */
+}
+
+.filterHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px 0;
+  cursor: pointer;
+}
+
+.chevron {
+  transition: transform 0.2s ease;
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
+}
+
+.touchApprovedSection {
+  display: flex;
+  width: 100%;
+  padding: 4px;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.touchApprovedArea {
+  display: flex;
+  gap: 8px;
+  color: var(--text, #151515);
+
+  /* body-text */
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
 }

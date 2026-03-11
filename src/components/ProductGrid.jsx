@@ -12,6 +12,19 @@ export default function ProductGrid() {
   const [selectedColor, setSelectedColor] = useState("all");
   const [selectedSize, setSelectedSize] = useState("all");
   const [touchApprovedOnly, setTouchApprovedOnly] = useState(false);
+  const [openSection, setOpenSection] = useState({
+    sizes: false,
+    brands: false,
+    colors: false,
+    price: true,
+  });
+
+  function toggleSection(section) {
+    setOpenSection((prev) => ({
+      ...prev,
+      [section]: !prev[section],
+    }));
+  }
 
   useEffect(() => {
     async function fetchProducts() {
@@ -209,73 +222,191 @@ export default function ProductGrid() {
           </button>
         </div>
         <div className={styles.priceFilterSection}></div>
-        <div className={styles.sizesFilterSection}>
-          {sizes.map((size) => (
-            <button
-              key={size}
-              type="button"
-              className={`${styles.sizeButton} ${selectedSize === size ? styles.activeSizeButton : ""}`}
-              onClick={() =>
-                setSelectedSize(selectedSize === size ? "all" : size)
-              }
-              aria-pressed={selectedSize === size}
+
+        <div className={styles.filterSection}>
+          <button
+            className={styles.filterHeader}
+            onClick={() => toggleSection("sizes")}
+          >
+            <span>Størrelse</span>
+
+            <svg
+              className={`${styles.chevron} ${
+                openSection.sizes ? styles.chevronOpen : ""
+              }`}
+              width="12"
+              height="7"
+              viewBox="0 0 12 7"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              {size}
-            </button>
-          ))}
+              <line
+                x1="11.6464"
+                y1="6.35355"
+                x2="5.64645"
+                y2="0.353553"
+                stroke="#151515"
+              />
+              <line
+                y1="-0.5"
+                x2="8.48528"
+                y2="-0.5"
+                transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 0 6)"
+                stroke="#151515"
+              />
+            </svg>
+          </button>
+
+          {openSection.sizes && (
+            <div className={styles.sizesFilterSection}>
+              {sizes.map((size) => (
+                <button
+                  key={size}
+                  type="button"
+                  className={`${styles.sizeButton} ${selectedSize === size ? styles.activeSizeButton : ""}`}
+                  onClick={() =>
+                    setSelectedSize(selectedSize === size ? "all" : size)
+                  }
+                  aria-pressed={selectedSize === size}
+                >
+                  {size}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
-        <div className={styles.brandsFilterSection}>
-          {brands.map((brand) => (
-            <button
-              key={brand}
-              type="button"
-              className={`${styles.brandButton} ${selectedBrand === brand ? styles.activeBrandButton : ""}`}
-              onClick={() =>
-                setSelectedBrand(selectedBrand === brand ? "all" : brand)
-              }
-              aria-pressed={selectedBrand === brand}
+
+        <div className={styles.filterSection}>
+          <button
+            className={styles.filterHeader}
+            onClick={() => toggleSection("brands")}
+          >
+            <span>Mærke</span>
+
+            <svg
+              className={`${styles.chevron} ${
+                openSection.brands ? styles.chevronOpen : ""
+              }`}
+              width="12"
+              height="7"
+              viewBox="0 0 12 7"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              {brand}
-              <div className={styles.flowerCheckbox}>
-                <img
-                  className={`${styles.flower} ${selectedBrand === brand ? styles.activeFlowerCheckbox : ""}`}
-                  src="../src/assets/flower-pink.svg"
-                  alt="active"
-                />
-              </div>
-            </button>
-          ))}
+              <line
+                x1="11.6464"
+                y1="6.35355"
+                x2="5.64645"
+                y2="0.353553"
+                stroke="#151515"
+              />
+              <line
+                y1="-0.5"
+                x2="8.48528"
+                y2="-0.5"
+                transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 0 6)"
+                stroke="#151515"
+              />
+            </svg>
+          </button>
+
+          {openSection.brands && (
+            <div className={styles.brandsFilterSection}>
+              {brands.map((brand) => (
+                <button
+                  key={brand}
+                  type="button"
+                  className={`${styles.brandButton} ${selectedBrand === brand ? styles.activeBrandButton : ""}`}
+                  onClick={() =>
+                    setSelectedBrand(selectedBrand === brand ? "all" : brand)
+                  }
+                  aria-pressed={selectedBrand === brand}
+                >
+                  {brand}
+                  <div className={styles.flowerCheckbox}>
+                    <img
+                      className={`${styles.flower} ${selectedBrand === brand ? styles.activeFlowerCheckbox : ""}`}
+                      src="../src/assets/flower-pink.svg"
+                      alt="active"
+                    />
+                  </div>
+                </button>
+              ))}
+            </div>
+          )}
         </div>
-        <div className={styles.colorsFilterSection}>
-          {colors.map((color) => (
-            <button
-              key={color}
-              type="button"
-              className={`${styles.colorButton} ${selectedColor === color ? styles.activecolorButton : ""}`}
-              onClick={() =>
-                setSelectedColor(selectedColor === color ? "all" : color)
-              }
-              aria-pressed={selectedColor === color}
+
+        <div className={styles.filterSection}>
+          <button
+            className={styles.filterHeader}
+            onClick={() => toggleSection("colors")}
+          >
+            <span>Farve</span>
+
+            <svg
+              className={`${styles.chevron} ${
+                openSection.colors ? styles.chevronOpen : ""
+              }`}
+              width="12"
+              height="7"
+              viewBox="0 0 12 7"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <div className={styles.color}>
-                <div
-                  className={styles.colorCircle}
-                  style={{ background: getColor(color) }}
-                ></div>
-                {color}
-              </div>
-              <div className={styles.flowerCheckbox}>
-                <img
-                  className={`${styles.flower} ${selectedColor === color ? styles.activeFlowerCheckbox : ""}`}
-                  src="../src/assets/flower-pink.svg"
-                  alt="active"
-                />
-              </div>
-            </button>
-          ))}
+              <line
+                x1="11.6464"
+                y1="6.35355"
+                x2="5.64645"
+                y2="0.353553"
+                stroke="#151515"
+              />
+              <line
+                y1="-0.5"
+                x2="8.48528"
+                y2="-0.5"
+                transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 0 6)"
+                stroke="#151515"
+              />
+            </svg>
+          </button>
+
+          {openSection.colors && (
+            <div className={styles.colorsFilterSection}>
+              {colors.map((color) => (
+                <button
+                  key={color}
+                  type="button"
+                  className={`${styles.colorButton} ${selectedColor === color ? styles.activecolorButton : ""}`}
+                  onClick={() =>
+                    setSelectedColor(selectedColor === color ? "all" : color)
+                  }
+                  aria-pressed={selectedColor === color}
+                >
+                  <div className={styles.color}>
+                    <div
+                      className={styles.colorCircle}
+                      style={{ background: getColor(color) }}
+                    ></div>
+                    {color}
+                  </div>
+                  <div className={styles.flowerCheckbox}>
+                    <img
+                      className={`${styles.flower} ${selectedColor === color ? styles.activeFlowerCheckbox : ""}`}
+                      src="../src/assets/flower-pink.svg"
+                      alt="active"
+                    />
+                  </div>
+                </button>
+              ))}
+            </div>
+          )}
         </div>
+
         <div className={styles.touchApprovedSection}>
-          <label htmlFor="touch-approved-filter">
+          <label
+            className={styles.touchApprovedArea}
+            htmlFor="touch-approved-filter"
+          >
             <input
               id="touch-approved-boolean"
               type="checkbox"
