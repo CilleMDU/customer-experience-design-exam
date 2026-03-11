@@ -127,7 +127,7 @@ html {
 }
 
 /* Styler produkt titlen */
-.title {
+.titleItem {
   font-size: var(--desktop-detail-title-font-size);
   font-family: var(--title-font-font-family);
   color: var(--text-color-light);
@@ -135,6 +135,7 @@ html {
   max-width: 20ch;
   overflow-wrap: normal;
   white-space: normal;
+  letter-spacing: 0.3rem;
 }
 
 /* Styler beskrivelsen */

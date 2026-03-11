@@ -158,7 +158,7 @@ export default function ProductDetailPage() {
               )}
             </div>
             <h4 className={styles.brand}>{product.brand}</h4>
-            <h2 className={styles.title}>{product.title}</h2>
+            <h2 className={styles.titleItem}>{product.title}</h2>
             <p>
               {product.discounts && product.discounts[0]?.discount ? (
                 <>
