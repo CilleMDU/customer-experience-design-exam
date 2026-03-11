@@ -25,7 +25,7 @@ html {
 /* Navigations bar */
 nav {
   background-color: var(--primary-color-light);
-  box-shadow: 0 4px 4px 0 #e66a9d;
+  box-shadow: 0 0.4rem 0.4rem 0 #e66a9d;
   display: flex;
   width: auto;
   justify-content: space-between;
@@ -41,7 +41,7 @@ nav a {
   color: var(--text-color-light);
   text-decoration: none;
   padding: 0.5rem 1rem;
-  border-radius: 8px;
+  border-radius: 0.8rem;
   transition: background-color 0.3s ease;
   font-size: 2rem;
   font-family: var(--text-font-family);
@@ -60,16 +60,16 @@ nav a {
   justify-content: center;
   align-items: center;
   align-content: center;
-  gap: 0 40px;
+  gap: 0 4rem;
   flex-wrap: wrap;
 }
 
 .ikoner {
   display: flex;
-  width: 240px;
+  width: 24rem;
   justify-content: flex-end;
   align-items: center;
-  gap: 15px;
+  gap: 1.5rem;
   flex-shrink: 0;
 }
 

@@ -1,7 +1,7 @@
 /* Product Grid */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(388px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(38.8rem, 1fr));
   gap: 2rem;
 }
 
@@ -9,19 +9,19 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  gap: 8px;
+  gap: 0.8rem;
   align-self: stretch;
 }
 
 .filterButton {
   display: flex;
-  padding: 4px 12px;
+  padding: 0.4rem 1.2rem;
   justify-content: flex-end;
   align-items: center;
-  gap: 8px;
-  border-radius: 39px;
+  gap: 0.8rem;
+  border-radius: 3.9rem;
   background: var(--primary, #fff);
-  box-shadow: 0 4px 4px 0 rgba(230, 106, 157, 0.25);
+  box-shadow: 0 0.4rem 0.4rem 0 rgba(230, 106, 157, 0.25);
   border: none;
   font-family: var(--text-font-family);
   font-size: var(--body-text-font-size);
@@ -39,10 +39,10 @@
   padding: 0.4rem 1.2rem;
   justify-content: flex-end;
   align-items: center;
-  gap: 18px;
-  border-radius: 39px;
+  gap: 1.8rem;
+  border-radius: 4rem;
   background: var(--primary, #fff);
-  box-shadow: 0 4px 4px 0 rgba(230, 106, 157, 0.25);
+  box-shadow: 0 0.4rem 0.4rem 0 rgba(230, 106, 157, 0.25);
   border: none;
   font-family: var(--text-font-family);
   font-size: var(--body-text-font-size);
@@ -62,7 +62,7 @@
   border-radius: 0.8rem;
   z-index: 20;
   min-width: 24rem;
-  box-shadow: 0 4px 4px 0 rgba(230, 106, 157, 0.25);
+  box-shadow: 0 0.4rem 0.4rem 0 rgba(230, 106, 157, 0.25);
 }
 
 .sortOption {
@@ -112,7 +112,7 @@
 
 .drawer {
   background: #fff;
-  border-left: 1px solid #ddd;
+  border-left: 0.1rem solid #ddd;
   height: 100dvh;
   max-width: 100%;
   overflow-y: auto;
@@ -122,7 +122,7 @@
   top: 0;
   transform: translateX(100%);
   transition: transform 0.25s ease;
-  width: min(360px, 88vw);
+  width: min(36rem, 88vw);
   z-index: 111;
   display: flex;
   flex-direction: column;
@@ -141,8 +141,8 @@
 .resetButton {
   display: flex;
   width: 100%;
-  padding: 8px;
-  border-radius: 80px;
+  padding: 0.8rem;
+  border-radius: 8rem;
   border: 0.15rem solid var(--accent-2, #940200);
   background: white;
   justify-content: center;
@@ -162,8 +162,8 @@
 .showAllButton {
   display: flex;
   width: 100%;
-  padding: 8px;
-  border-radius: 80px;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
   border: none;
   background: var(--accent-2, #940200);
   justify-content: center;
@@ -188,7 +188,7 @@
 
   /* body-text-big */
   font-family: "Work Sans";
-  font-size: 20px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 300;
   line-height: 150%; /* 36px */
@@ -215,29 +215,29 @@
 
 .sizesFilterSection {
   display: flex;
-  padding: 8px;
+  padding: 0.8rem;
   align-items: flex-start;
   align-content: flex-start;
-  gap: 8px;
+  gap: 0.8rem;
   align-self: stretch;
   flex-wrap: wrap;
 }
 
 .sizeButton {
   display: flex;
-  width: 60px;
-  height: 60px;
-  padding: 8px;
+  width: 6rem;
+  height: 6rem;
+  padding: 0.8rem;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 0.8rem;
   aspect-ratio: 1/1;
-  border-radius: 10px;
-  border: 0.5px solid #8e8e8e;
+  border-radius: 1rem;
+  border: 0.05rem solid #8e8e8e;
   background: var(--Filling, #fff);
   color: #151515;
   font-family: "Work Sans";
-  font-size: 16px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -257,29 +257,28 @@
 .brandsFilterSection {
   display: flex;
   width: 100%;
-  padding: 8px;
+  padding: 0.8rem;
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
+  gap: 0.8rem;
 }
 
 .brandButton {
   display: flex;
   width: 100%;
-  height: 27px;
-  padding: 4px;
+  padding: 0.4rem;
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
-  border-radius: 4px;
+  border-radius: 0.4rem;
   background: var(--primary, #fff);
   color: var(--text, #151515);
-  border: 0.5px solid var(--text, #151515);
+  border: 0.05rem solid var(--text, #151515);
   cursor: pointer;
 
   /* body-text */
   font-family: "Work Sans";
-  font-size: 16px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -297,13 +296,13 @@
 
 .flowerCheckbox {
   display: flex;
-  width: 16px;
-  height: 16px;
-  padding: 2px;
+  width: 1.6rem;
+  height: 1.6rem;
+  padding: 0.2rem;
   justify-content: center;
   align-items: center;
-  border-radius: 4px;
-  border: 0.5px solid var(--text, #151515);
+  border-radius: 0.4rem;
+  border: 0.05rem solid var(--text, #151515);
   background: var(--primary, #fff);
 }
 
@@ -320,9 +319,9 @@
 .colorsFilterSection {
   display: flex;
   width: 100%;
-  padding: 8px;
+  padding: 0.8rem;
   flex-direction: column;
-  gap: 8px;
+  gap: 0.8rem;
 }
 
 .colorButton {
@@ -332,15 +331,15 @@
   align-items: center;
   align-self: stretch;
   color: var(--text, #151515);
-  border-radius: 4px;
-  border: 0.5px solid var(--text, #151515);
+  border-radius: 0.4rem;
+  border: 0.05rem solid var(--text, #151515);
   background: var(--primary, #fff);
-  padding: 4px;
+  padding: 0.4rem;
   cursor: pointer;
 
   /* body-text */
   font-family: "Work Sans";
-  font-size: 16px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -358,16 +357,16 @@
 
 .color {
   display: flex;
-  padding: 4px 0;
+  padding: 0.4rem 0;
   align-items: center;
-  gap: 8px;
+  gap: 0.8rem;
 }
 
 .colorCircle {
-  width: 16px;
-  height: 16px;
+  width: 1.6rem;
+  height: 1.6rem;
   border-radius: 50%;
-  border: 1px solid #e2e2e2; /* Denne linje gør hvid synlig */
+  border: 0.1rem solid #e2e2e2; /* Denne linje gør hvid synlig */
 }
 
 .filterHeader {
@@ -377,9 +376,9 @@
   width: 100%;
   background: none;
   border: none;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
-  padding: 12px 0;
+  padding: 1.2rem 0;
   cursor: pointer;
 }
 
@@ -394,19 +393,19 @@
 .touchApprovedSection {
   display: flex;
   width: 100%;
-  padding: 4px;
+  padding: 0.4rem;
   flex-direction: column;
-  gap: 8px;
+  gap: 0.8rem;
 }
 
 .touchApprovedArea {
   display: flex;
-  gap: 8px;
+  gap: 0.8rem;
   color: var(--text, #151515);
 
   /* body-text */
   font-family: "Work Sans";
-  font-size: 16px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
