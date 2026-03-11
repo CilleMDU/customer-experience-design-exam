@@ -85,9 +85,10 @@ html {
 
 .singleItemServiceTitle {
   font-family: var(--title-font-font-family, "Sue Ellen Francisco"), cursive;
-  color: var(--seconndary-color-light-pink);
+  color: var(--secondary-color-light-turqouise);
   font-size: 4vw;
   font-weight: var(--light-font-weight);
+  letter-spacing: 0.3rem;
 }
 
 .singleItemServiceText {
@@ -197,7 +198,7 @@ html {
   }
 
   .singleItemServiceTitle {
-    color: var(--secondary-color-dark-pink);
+    color: var(--secondary-color-dark-turqouise);
   }
 
   .heroDivider {
