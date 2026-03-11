@@ -195,7 +195,7 @@ html {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.favoriteIcon {
+.like {
   background: none;
   border: none;
   cursor: pointer;
@@ -307,6 +307,27 @@ html {
 .star {
   width: 1.6rem;
   height: 1.6rem;
+}
+
+.heart {
+  display: inline-block;
+  width: 4.5rem;
+  height: 4.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-image 0.3s ease;
+}
+
+.activeHeart {
+  content: url(../../assets/hjerte-smil.svg);
+}
+
+.inactiveHeart {
+  content: url(../../assets/inactive-heart.svg);
+}
+
+.rating a {
+  color: var(--secondary-color-light-turqouise);
 }
 
 .minReturn,
@@ -451,11 +472,35 @@ html {
   }
 
   .rating a {
-    color: rgb(132, 132, 240);
+    color: var(--secondary-color-dark-turqouise);
   }
 
   .buyButton {
     background-color: var(--secondary-color-dark-pink);
     color: var(--text-color-dark);
+  }
+
+  .informationBtn {
+    content: url(../../assets/infoBtnDark.svg);
+  }
+
+  .informationBtn:hover {
+    content: url(../../assets/infoDark.svg);
+  }
+
+  .activeHeart {
+    content: url(../../assets/likedDark.svg);
+  }
+
+  .inactiveHeart {
+    content: url(../../assets/likeDark.svg);
+  }
+
+  .minReturn img {
+    content: url(../../assets/truckDark.svg);
+  }
+
+  .return img {
+    content: url(../../assets/packagedark.svg);
   }
 }

@@ -9,8 +9,6 @@ import starIcon from "../../assets/star.svg";
 import touchIcon from "../../assets/touch-approved-badge.svg";
 import truckIcon from "../../assets/truck.svg";
 import packageIcon from "../../assets/package.svg";
-import inactiveHeart from "../../assets/inactive-heart.svg";
-import activeHeart from "../../assets/hjerte-smil.svg";
 import { ToastContainer, toast } from "react-toastify";
 import toastIcon from "../../assets/added-to-cart.svg";
 
@@ -159,20 +157,23 @@ export default function ProductDetailPage() {
                 </button>
                 <ToastContainer toastClassName={styles.toastContainer} />
                 <button
-                  className={styles.favoriteIcon}
+                  className={styles.like}
+                  title="like"
                   onClick={toggleFavorite}
                 >
-                  <img
-                    src={isFavorited ? activeHeart : inactiveHeart}
-                    alt="favorit"
-                    className={styles.faveActivity}
-                  />
+                  <span
+                    className={`${styles.heart} ${
+                      isFavorited ? styles.activeHeart : styles.inactiveHeart
+                    }`}
+                  ></span>
                 </button>
               </div>
               <div className={styles.serviceAndInformation}>
                 {product["single-item-service"] && (
-                  <button onClick={() => setSpecialBuyOpen(true)}
-                  className={styles.serviceButton}>
+                  <button
+                    onClick={() => setSpecialBuyOpen(true)}
+                    className={styles.serviceButton}
+                  >
                     Single Item Service
                   </button>
                 )}
@@ -198,7 +199,7 @@ export default function ProductDetailPage() {
                   className={styles.star}
                 />
                 <div className={styles.rate}>{product.rating?.rate} </div>
-                <a href="error">({product.rating?.count})</a>
+                <a href="../errorpage/errorpage">({product.rating?.count})</a>
               </div>
               <div className={styles.stock}>
                 <div
@@ -263,7 +264,10 @@ export default function ProductDetailPage() {
           </div>
         </section>
       </main>
-      <SpecialBuy isOpen={specialBuyOpen} onClose={() => setSpecialBuyOpen(false)}/>
+      <SpecialBuy
+        isOpen={specialBuyOpen}
+        onClose={() => setSpecialBuyOpen(false)}
+      />
       <SISPopUp isOpen={sisPopUpOpen} onClose={() => setSISPopUpOpen(false)} />
     </>
   );

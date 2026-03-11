@@ -122,18 +122,38 @@ nav a {
   justify-content: center;
 }
 
+.logo {
+  width: 20rem;
+  align-items: center;
+  padding-top: 1rem;
+}
+
 :global(.dark-mode) {
   .darkmodeButton img {
-    content: url(../assets/lightmode.svg);
+    content: url(../assets/lightDark.svg);
   }
   .pages a:hover,
   .pages a:focus {
     background-color: var(--secondary-color-dark-pink);
   }
-}
 
-.logo {
-  width: 20rem;
-  align-items: center;
-  padding-top: 1rem;
+  .searchIkon {
+    content: url(../assets/searchDark.svg);
+  }
+
+  .hjerteIkon {
+    content: url(../assets/likePageDark.svg);
+  }
+
+  .profilIkon {
+    content: url(../assets/profileDark.svg);
+  }
+
+  .shoppingBag {
+    content: url(../assets/basketDark.svg);
+  }
+
+  .logo {
+    content: url(../assets/logoNavDark.svg);
+  }
 }

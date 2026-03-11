@@ -154,7 +154,7 @@
 .circle {
   width: 4rem;
   height: 4rem;
-  border: 0.3rem solid black;
+  border: 0.3rem solid var(--text-color-light);
   border-radius: 50%;
   background-color: white;
   transition: background-color 0.2s, border-color 0.2s;
@@ -230,4 +230,49 @@
   color: var(--text-color-light);
   border-bottom: solid 0.2rem var(--secondary-color-light-turqouise);
   line-height: 5rem;
+}
+
+:global(.dark-mode) {
+  .popup {
+    background-color: var(--primary-color-dark);
+  }
+
+  .orderTitle {
+    color: var(--text-color-dark);
+    border-bottom: solid 0.2rem var(--secondary-color-dark-turqouise);
+  }
+
+  .label {
+    color: var(--text-color-dark);
+  }
+
+  .title {
+    color: var(--text-color-dark);
+  }
+
+  .closeBtn img {
+    content: url(../assets/closePopupDark.svg);
+  }
+
+  .closeBtn img:hover {
+    content: url(../assets/closePopupDarkHover.svg);
+  }
+
+  .titleAndClose {
+    border-bottom: solid 0.2rem var(--secondary-color-dark-turqouise);
+  }
+
+  .circle {
+    border-color: #3b1c35;
+    background-color: var(--text-color-dark);
+  }
+
+  .buyButton {
+    background-color: var(--secondary-color-dark-turqouise);
+    color: var(--text-color-dark);
+  }
+
+  .colorCircle {
+    border-color: var(--primary-color-dark);
+  }
 }
