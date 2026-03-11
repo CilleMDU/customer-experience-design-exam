@@ -34,7 +34,7 @@
     "sizes": [
       {
         "size": 32,
-        "available": true
+        "available": false
       },
       {
         "size": 33,
@@ -58,7 +58,7 @@
       },
       {
         "size": 38,
-        "available": true
+        "available": false
       },
       {
         "size": 39,
@@ -86,7 +86,7 @@
       },
       {
         "size": 45,
-        "available": true
+        "available": false
       },
       {
         "size": 46,
@@ -102,12 +102,13 @@
       },
       {
         "size": 49,
-        "available": true
+        "available": false
       }
     ],
     "stock": true,
     "single-item-service": false,
     "touch-approved": true,
+    "new": true,
     "rating": {
       "rate": "4.4/5",
       "count": "971"
@@ -156,7 +157,7 @@
       },
       {
         "size": 34,
-        "available": true
+        "available": false
       },
       {
         "size": 35,
@@ -192,7 +193,7 @@
       },
       {
         "size": 43,
-        "available": true
+        "available": false
       },
       {
         "size": 44,
@@ -204,7 +205,7 @@
       },
       {
         "size": 46,
-        "available": true
+        "available": false
       },
       {
         "size": 47,
@@ -222,6 +223,7 @@
     "stock": true,
     "single-item-service": false,
     "touch-approved": true,
+    "new": false,
     "rating": {
       "rate": "Ikke angivet",
       "count": "Ikke angivet"
@@ -262,80 +264,81 @@
     "sizes": [
       {
         "size": 32,
-        "available": true
+        "available": false
       },
       {
         "size": 33,
-        "available": true
+        "available": false
       },
       {
         "size": 34,
-        "available": true
+        "available": false
       },
       {
         "size": 35,
-        "available": true
+        "available": false
       },
       {
         "size": 36,
-        "available": true
+        "available": false
       },
       {
         "size": 37,
-        "available": true
+        "available": false
       },
       {
         "size": 38,
-        "available": true
+        "available": false
       },
       {
         "size": 39,
-        "available": true
+        "available": false
       },
       {
         "size": 40,
-        "available": true
+        "available": false
       },
       {
         "size": 41,
-        "available": true
+        "available": false
       },
       {
         "size": 42,
-        "available": true
+        "available": false
       },
       {
         "size": 43,
-        "available": true
+        "available": false
       },
       {
         "size": 44,
-        "available": true
+        "available": false
       },
       {
         "size": 45,
-        "available": true
+        "available": false
       },
       {
         "size": 46,
-        "available": true
+        "available": false
       },
       {
         "size": 47,
-        "available": true
+        "available": false
       },
       {
         "size": 48,
-        "available": true
+        "available": false
       },
       {
         "size": 49,
-        "available": true
+        "available": false
       }
     ],
-    "stock": true,
+    "stock": false,
     "single-item-service": true,
     "touch-approved": true,
+    "new": true,
     "rating": {
       "rate": "4.5/5",
       "count": "33"
@@ -395,7 +398,7 @@
       },
       {
         "size": 37,
-        "available": true
+        "available": false
       },
       {
         "size": 38,
@@ -411,7 +414,7 @@
       },
       {
         "size": 41,
-        "available": true
+        "available": false
       },
       {
         "size": 42,
@@ -431,7 +434,7 @@
       },
       {
         "size": 46,
-        "available": true
+        "available": false
       },
       {
         "size": 47,
@@ -443,12 +446,13 @@
       },
       {
         "size": 49,
-        "available": true
+        "available": false
       }
     ],
     "stock": true,
     "single-item-service": true,
     "touch-approved": true,
+    "new": false,
     "rating": {
       "rate": "4.8/5",
       "count": "14"
@@ -489,7 +493,7 @@
     "sizes": [
       {
         "size": 32,
-        "available": true
+        "available": false
       },
       {
         "size": 33,
@@ -501,7 +505,7 @@
       },
       {
         "size": 35,
-        "available": true
+        "available": false
       },
       {
         "size": 36,
@@ -537,7 +541,7 @@
       },
       {
         "size": 44,
-        "available": true
+        "available": false
       },
       {
         "size": 45,
@@ -553,7 +557,7 @@
       },
       {
         "size": 48,
-        "available": true
+        "available": false
       },
       {
         "size": 49,
@@ -563,6 +567,7 @@
     "stock": true,
     "single-item-service": false,
     "touch-approved": true,
+    "new": false,
     "rating": {
       "rate": "5/5",
       "count": "1"
@@ -572,14 +577,14 @@
     "id": 6,
     "gallery": [
       {
-        "image-name": "Homerun1 Power Sports Bra product image",
-        "image_url": "https://www.planetnusa.com/cdn/shop/files/Homerun_Blue.png?v=1760427762&width=2100",
-        "alt_text": "Homerun1 Power Sports Bra"
-      },
-      {
         "image-name": "Homerun1 Power Sports Bra front view",
         "image_url": "https://www.planetnusa.com/cdn/shop/products/060421_PLANETNUSA1124.jpg?v=1760427762&width=1512",
         "alt_text": "Homerun1 Power Sports Bra set forfra, viser det tætte og støttende design, der er lavet til bevægelse"
+      },
+            {
+        "image-name": "Homerun1 Power Sports Bra product image",
+        "image_url": "https://www.planetnusa.com/cdn/shop/files/Homerun_Blue.png?v=1760427762&width=2100",
+        "alt_text": "Homerun1 Power Sports Bra"
       },
       {
         "image-name": "Homerun1 Power Sports Bra side view",
@@ -603,80 +608,81 @@
     "sizes": [
       {
         "size": 32,
-        "available": true
+        "available": false
       },
       {
         "size": 33,
-        "available": true
+        "available": false
       },
       {
         "size": 34,
-        "available": true
+        "available": false
       },
       {
         "size": 35,
-        "available": true
+        "available": false
       },
       {
         "size": 36,
-        "available": true
+        "available": false
       },
       {
         "size": 37,
-        "available": true
+        "available": false
       },
       {
         "size": 38,
-        "available": true
+        "available": false
       },
       {
         "size": 39,
-        "available": true
+        "available": false
       },
       {
         "size": 40,
-        "available": true
+        "available": false
       },
       {
         "size": 41,
-        "available": true
+        "available": false
       },
       {
         "size": 42,
-        "available": true
+        "available": false
       },
       {
         "size": 43,
-        "available": true
+        "available": false
       },
       {
         "size": 44,
-        "available": true
+        "available": false
       },
       {
         "size": 45,
-        "available": true
+        "available": false
       },
       {
         "size": 46,
-        "available": true
+        "available": false
       },
       {
         "size": 47,
-        "available": true
+        "available": false
       },
       {
         "size": 48,
-        "available": true
+        "available": false
       },
       {
         "size": 49,
-        "available": true
+        "available": false
       }
     ],
-    "stock": true,
+    "stock": false,
     "single-item-service": false,
     "touch-approved": true,
+    "new": false,
     "rating": {
       "rate": "5/5",
       "count": "2"
@@ -686,13 +692,13 @@
     "id": 7,
     "gallery": [
       {
-        "image-name": "LS2 Air Long Sleeve product image",
-        "image_url": "https://www.planetnusa.com/cdn/shop/files/LS2Air_OrangeBlack.png?v=1764760345&width=2100",
+        "image-name": "LS2 Air Long Sleeve front view",
+        "image_url": "https://www.planetnusa.com/cdn/shop/files/ORANGEBLACK.png?v=1764760345&width=1512",
         "alt_text": "LS2 Air Long Sleeve i orange og sort, viser det luftige og komfortable design, der er lavet til bevægelse"
       },
       {
-        "image-name": "LS2 Air Long Sleeve front view",
-        "image_url": "https://www.planetnusa.com/cdn/shop/files/ORANGEBLACK.png?v=1764760345&width=1512",
+        "image-name": "LS2 Air Long Sleeve product image",
+        "image_url": "https://www.planetnusa.com/cdn/shop/files/LS2Air_OrangeBlack.png?v=1764760345&width=2100",
         "alt_text": "LS2 Air Long Sleeve i orange og sort, viser det luftige og komfortable design, der er lavet til bevægelse"
       },
       {
@@ -791,6 +797,7 @@
     "stock": true,
     "single-item-service": false,
     "touch-approved": true,
+    "new": false,
     "rating": {
       "rate": "5/5",
       "count": "2"
@@ -830,6 +837,7 @@
     "stock": true,
     "single-item-service": false,
     "touch-approved": true,
+    "new": false,
     "rating": {
       "rate": "5/5",
       "count": "1"
@@ -839,13 +847,13 @@
     "id": 9,
     "gallery": [
       {
-        "image-name": "Recycled Nylon Track Jacket product image",
-        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active-track_jacket-pink-packshot-1_51f7e025-f300-4bcc-adbe-ebc0e378c365.jpg?v=1739211260",
+        "image-name": "Recycled Nylon Track Jacket front view",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active-track_jacket-pink-studio-2.jpg?v=1739211259",
         "alt_text": "Recycled Nylon Track Jacket front view, viser det lette og sporty design, der er perfekt til opvarmning, nedkøling eller lag-på-lag"
       },
       {
-        "image-name": "Recycled Nylon Track Jacket front view",
-        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active-track_jacket-pink-studio-2.jpg?v=1739211259",
+        "image-name": "Recycled Nylon Track Jacket product image",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active-track_jacket-pink-packshot-1_51f7e025-f300-4bcc-adbe-ebc0e378c365.jpg?v=1739211260",
         "alt_text": "Recycled Nylon Track Jacket front view, viser det lette og sporty design, der er perfekt til opvarmning, nedkøling eller lag-på-lag"
       },
       {
@@ -948,14 +956,14 @@
     "id": 10,
     "gallery": [
       {
-        "image-name": "Active Flow Tank Top product image",
-        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active_flow-tank_top-canyon_pink-packshot-1.jpg?v=1734601136&width=990",
-        "alt_text": "Active Flow Tank Top, viser det slanke og sporty design, der er perfekt til træning eller som en del af dit hverdagsoutfit"
-      },
-      {
         "image-name": "Active Flow Tank Top front view",
         "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active_flow-tank_top-canyon_pink-studio-1.jpg?v=1734601130&width=990",
         "alt_text": "Active Flow Tank Top set fra fronten, viser det slanke og sporty design, der er perfekt til træning eller som en del af dit hverdagsoutfit"
+      },
+      {
+        "image-name": "Active Flow Tank Top product image",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active_flow-tank_top-canyon_pink-packshot-1.jpg?v=1734601136&width=990",
+        "alt_text": "Active Flow Tank Top, viser det slanke og sporty design, der er perfekt til træning eller som en del af dit hverdagsoutfit"
       },
       {
         "image-name": "Active Flow Tank Top back view",
@@ -1048,6 +1056,7 @@
     "stock": true,
     "single-item-service": false,
     "touch-approved": true,
+    "new": true,
     "rating": {
       "rate": "4.7/5",
       "count": "53"
@@ -1162,6 +1171,7 @@
     "stock": true,
     "single-item-service": false,
     "touch-approved": false,
+    "new": false,
     "rating": {
       "rate": "4.5/5",
       "count": "22"
@@ -1276,6 +1286,7 @@
     "stock": true,
     "single-item-service": false,
     "touch-approved": true,
+    "new": false,
     "rating": {
       "rate": "4.2/5",
       "count": "37"
@@ -1390,6 +1401,7 @@
     "stock": true,
     "single-item-service": false,
     "touch-approved": true,
+    "new": false,
     "rating": {
       "rate": "4/5",
       "count": "5"
@@ -1399,14 +1411,14 @@
     "id": 14,
     "gallery": [
       {
-        "image-name": "Active Flow Bike Shorts product image",
-        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active_flow-bike_shorts-river-packshot-1.jpg?v=1734437671&width=990",
-        "alt_text": "Active Flow Bike Shorts, viser det slanke og sporty design, der er perfekt til træning eller som en del af dit hverdagsoutfit"
-      },
-      {
         "image-name": "Active Flow Bike Shorts front view",
         "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active_flow-bike_shorts-river-studio-2.jpg?v=1734437647&width=990",
         "alt_text": "Active Flow Bike Shorts set fra fronten, viser det slanke og sporty design, der er perfekt til træning eller som en del af dit hverdagsoutfit"
+      },
+      {
+        "image-name": "Active Flow Bike Shorts product image",
+        "image_url": "https://dk.organicbasics.com/cdn/shop/files/dg_organic_basics-women-active_flow-bike_shorts-river-packshot-1.jpg?v=1734437671&width=990",
+        "alt_text": "Active Flow Bike Shorts, viser det slanke og sporty design, der er perfekt til træning eller som en del af dit hverdagsoutfit"
       },
       {
         "image-name": "Active Flow Bike Shorts back view",
@@ -1504,6 +1516,7 @@
     "stock": true,
     "single-item-service": false,
     "touch-approved": true,
+    "new": false,
     "rating": {
       "rate": "4.5/5",
       "count": "72"
@@ -1618,6 +1631,7 @@
     "stock": true,
     "single-item-service": false,
     "touch-approved": true,
+    "new":true,
     "rating": {
       "rate": "4.5/5",
       "count": "8"
@@ -1732,6 +1746,7 @@
     "stock": true,
     "single-item-service": false,
     "touch-approved": true,
+    "new":true,
     "rating": {
       "rate": "5.5/5",
       "count": "1"
@@ -1768,6 +1783,7 @@
     "stock": true,
     "single-item-service": false,
     "touch-approved": true,
+    "new": false,
     "rating": {
       "rate": "3.7/5",
       "count": "27"
@@ -1804,6 +1820,7 @@
     "stock": "true",
     "single-item-service": false,
     "touch-approved": true,
+    "new": false,
     "rating": {
       "rate": "4.6/5",
       "count": "76"
@@ -1813,14 +1830,14 @@
     "id": 19,
     "gallery": [
       {
-        "image-name": "Terrex Xperior CLIMACOOL+ T-shirt product image",
-        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/a32103c3cb644f898986a0fa65c72afa_9366/Terrex_Xperior_CLIMACOOL_T-shirt_Bla_KD4856_01_laydown.jpg",
-        "alt_text": "Terrex Xperior CLIMACOOL+ T-shirt, viser det sporty og funktionelle design, der er perfekt til trail-løb eller outdoor-eventyr, med avanceret Climacool+-teknologi for at holde dig kølig og tør under lange distancer"
-      },
-      {
         "image-name": "Terrex Xperior CLIMACOOL+ T-shirt front view",
         "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/9a74bff1a8cf4ab2864786f822bccb00_9366/Terrex_Xperior_CLIMACOOL_T-shirt_Bla_KD4856_21_model.jpg",
         "alt_text": "Terrex Xperior CLIMACOOL+ T-shirt set fra fronten, viser det sporty og funktionelle design, der er perfekt til trail-løb eller outdoor-eventyr, med avanceret Climacool+-teknologi for at holde dig kølig og tør under lange distancer"
+      },
+      {
+        "image-name": "Terrex Xperior CLIMACOOL+ T-shirt product image",
+        "image_url": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/a32103c3cb644f898986a0fa65c72afa_9366/Terrex_Xperior_CLIMACOOL_T-shirt_Bla_KD4856_01_laydown.jpg",
+        "alt_text": "Terrex Xperior CLIMACOOL+ T-shirt, viser det sporty og funktionelle design, der er perfekt til trail-løb eller outdoor-eventyr, med avanceret Climacool+-teknologi for at holde dig kølig og tør under lange distancer"
       },
       {
         "image-name": "Terrex Xperior CLIMACOOL+ T-shirt back view",
@@ -1918,6 +1935,7 @@
     "stock": true,
     "single-item-service": false,
     "touch-approved": true,
+    "new": false,
     "rating": {
       "rate": "5/5",
       "count": "1"
@@ -2031,7 +2049,8 @@
     ],
     "stock": true,
     "single-item-service": false,
-    "touch-approved": true,
+    "touch-approved": false,
+    "new": false,
     "rating": {
       "rate": "4.8/5",
       "count": "66"
@@ -2080,6 +2099,7 @@
     "stock": true,
     "single-item-service": true,
     "touch-approved": true,
+    "new": true,
     "rating": {
       "rate": "4.2/5",
       "count": "16"
@@ -2111,6 +2131,7 @@
     "stock": true,
     "single-item-service": false,
     "touch-approved": true,
+    "new": false,
     "rating": {
       "rate": "5/5",
       "count": "1"
@@ -2225,6 +2246,7 @@
     "stock": true,
     "single-item-service": false,
     "touch-approved": true,
+    "new": false,
     "rating": {
       "rate": "4.3/5",
       "count": "3"
