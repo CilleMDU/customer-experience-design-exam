@@ -21,6 +21,7 @@
   --normal-font-weight: 400;
 }
 
+/* Gør baggrunden bagved mørkere når popup er åben */
 .overlay {
   position: fixed;
   top: 0;
@@ -37,6 +38,7 @@
   animation: popupIn 0.3s forwards;
 }
 
+/* Selve popupen informationerne sættes ind på */
 .popup {
   background: white;
   padding: 2rem 3rem;
@@ -48,12 +50,14 @@
   gap: 1.5rem;
 }
 
+/* Styler hele layoutet */
 .order {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
+/* En animation når popup skal åbnes for at få bruger til nemmere at justere efter det */
 @keyframes popupIn {
   to {
     transform: scale(1);
@@ -61,6 +65,7 @@
   }
 }
 
+/* Gør at title og closeBtn er på samme linje og har en underlinje */
 .titleAndClose {
   display: flex;
   justify-content: space-between;
@@ -68,6 +73,7 @@
   line-height: 10rem;
 }
 
+/* Styler titlen */
 .title {
   font-family: var(--title-font-font-family);
   font-size: 4.5rem;
@@ -75,6 +81,7 @@
   letter-spacing: 0.3rem;
 }
 
+/* Styler closeBtn */
 .closeBtn {
   border: none;
   background: none;
@@ -83,10 +90,12 @@
   cursor: pointer;
 }
 
+/* Styler closeBtn hover */
 .closeBtn img:hover {
   content: url(../assets/closebtnHover.svg);
 }
 
+/* Styler alt teksten på popup */
 .text {
   font-family: var(--text-font-family);
   font-size: var(--body-text-font-size);
@@ -95,6 +104,7 @@
   margin-top: 1rem;
 }
 
+/* Styler cirklen der viser farverne */
 .colorCircle {
   width: 2.4rem;
   height: 2.4rem;
@@ -102,6 +112,7 @@
   border: 0.1rem solid #e2e2e2; /* Denne linje gør hvid synlig */
 }
 
+/* Styler de cirkler der bruges til side valg */
 .circleToggle {
   display: flex;
   gap: 2rem;
@@ -139,6 +150,7 @@
   border-color: black;
 }
 
+/* Styler købs knappen */
 .buyButton {
   display: flex;
   width: 100%;
@@ -162,6 +174,7 @@
   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.5);
 }
 
+/* Styler toast notifikation */
 .toastContainer {
   display: flex;
   background: transparent !important;
@@ -172,6 +185,7 @@
   border: none !important;
 }
 
+/* Styler farvevalget så cirklen sidder med titlen */
 .colors {
   display: flex;
   flex-direction: row;
@@ -179,24 +193,28 @@
   gap: 1rem;
 }
 
+/* Styler alle kategori titler */
 .underTitle {
   font-family: var(--text-font-family);
   font-size: var(--body-text-font-size);
   text-align: left;
 }
 
+/* Styler  størrelses valget så titel og dropdown sidder sammen*/
 .size {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
+/* Styler sid valget så den sidder sammen med titlen */
 .sides {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
 
+/* Styler undertitlen for popup */
 .orderTitle {
   font-family: var(--text-font-family);
   font-size: var(--body-text-big-font-size);
@@ -205,6 +223,7 @@
   line-height: 5rem;
 }
 
+/* Global selector der gør at alle de selectors der sættes under den ældres når .dark-mode aktiveres. Der ændres kun i de properties der skal ændres når darkmode er sat til */
 :global(.dark-mode) {
   .popup {
     background-color: var(--primary-color-dark);

@@ -18,14 +18,6 @@
   position: relative;
 }
 
-.originalPrice {
-  text-decoration: line-through;
-  color: gray;
-  margin-left: 0.5rem;
-  font-weight: normal;
-  font-family: "work sans", sans-serif;
-}
-
 .imageArea {
   height: 54rem;
   width: 100%;
@@ -92,6 +84,7 @@
   letter-spacing: 0.12rem;
 }
 
+/* Disse linjer styler prisen på produktet */
 .price {
   color: #000;
 
@@ -103,6 +96,16 @@
   line-height: normal;
   letter-spacing: 1.92px;
 }
+
+/* Her styles der den originale pris hvis der er rabat på produktet */
+.originalPrice {
+  text-decoration: line-through;
+  color: gray;
+  margin-left: 0.5rem;
+  font-weight: normal;
+  font-family: "work sans", sans-serif;
+}
+
 
 .hoverInfo {
   justify-content: space-between;
@@ -125,6 +128,7 @@
   border: 0.1rem solid var(--text-color-dark); /* Denne linje gør hvid synlig */
 }
 
+/* Disse linjer styler størrelse og lokation på badges */
 .newItem,
 .discount {
   position: absolute;
@@ -136,6 +140,8 @@
 .badges {
   width: 10rem;
 }
+
+/* Global selector der gør at alle de selectors der sættes under den ældres når .dark-mode aktiveres. Der ændres kun i de properties der skal ændres når darkmode er sat til */
 
 :global(.dark-mode) {
   .titleProduct {

@@ -26,6 +26,10 @@
     "brand": "Lululemon",
     "title": "Lululemon Align No Line™ High-Rise Pant 20",
     "price": "696.00,-",
+    "discounts": [{
+      "discount": false,
+      "discountPrice": "0"
+    }],
     "color": "Lyserød",
     "description": "Align No Line™ High-Rise Pant 20 er designet til yoga og hverdagsbrug og har en høj talje og et smørblødt stof, der føles som en anden hud. Med sin sømløse konstruktion og fire-vejs stretch giver den maksimal komfort og bevægelsesfrihed. Buksen er perfekt til dem, der ønsker at bevæge sig frit og føle sig godt tilpas hele dagen.",
     "category": "Leggings/Yogabukser",
@@ -141,7 +145,10 @@
     "brand": "Design by Si",
     "title": "Essential folded yoga pants - Jet black/cloud",
     "price": "319.00,-",
-    "discountPrice": "287.10,-",
+    "discounts": [{
+      "discount": true,
+      "discountPrice": "287.10,-"
+    }],
     "color": "Sort/hvid",
     "description": "Disse sorte yogabukser med hvid foldetalje forener bevægelsesfrihed med et stilrent design. Det bløde, elastiske materiale giver maksimal komfort, mens den kontrastfarvede talje tilføjer et frisk og sporty udtryk. Pasformen følger kroppens naturlige linjer og skaber en elegant silhuet, uanset om du bruger dem til træning eller afslappede hverdage. Den høje, foldbare talje giver fleksibilitet og støtte, perfekt til yoga, pilates eller loungebrug. Et tidløst valg, hvor funktion møder feminin minimalisme. Bukserne er designet med tanken om at de skulle matches med vores Prosper tank top I Cloud.",
     "category": "Leggings/Yogabukser",
@@ -257,6 +264,10 @@
     "brand": "Adidas",
     "title": "Adistar 4 løbesko",
     "price": "1099.00,-",
+    "discounts": [{
+      "discount": false,
+      "discountPrice": "0"
+    }],
     "color": "Multi",
     "description": "Disse adidas-løbesko er designet til længere løb i jævnt, moderat tempo og er skabt til at opretholde komforten under træningen. REPETITOR-mellemsålen bevarer en let fornemmelse og giver samtidig maksimal støddæmpning med returenergi og stabilitet til længere løbeture. Den holdbare ydersål er designet til træning på lange distancer.",
     "category": "Løbesko",
@@ -372,7 +383,10 @@
     "brand": "Adidas",
     "title": "Stabil 16 Indoor Sko",
     "price": "1299.00,-",
-    "discountPrice": "1169.10",
+    "discounts": [{
+      "discount": true,
+      "discountPrice": "1169.10,-"
+    }],
     "color": "Multi",
     "description": "Disse sko fra adidas er pakket med innovativ teknologi, der presser dig til at præstere i sport, som håndbold, volleyball og indendørshockey. En adidas BOOST-indsats i mellemsålen giver komfort og returenergi, så du kan holde dig kørende, mens konstruktionen omkring skoen giver den stabilitet, du har brug for, til intenst spil. Mesh-zoner i overdelen øger åndbarheden, og det bløde for holder foden komfortabelt på plads. Signaturdetaljer såsom det forstærkede tåområde hylder originalen, mens et nyt trækkraftmønster hjælper dig med at skifte retning på et øjeblik. Sammen giver disse funktioner dig mulighed for at genopdage din styrke og bruge din energi til at gå efter sejren. Dette produkt indeholder mindst 20 % genanvendte materialer. Ved at genbruge materialer, der allerede er blevet skabt, hjælper vi med at reducere spild og vores afhængighed af begrænsede ressourcer, og reducerer vores produkters aftryk.",
     "category": "Indesko",
@@ -487,6 +501,10 @@
     "brand": "Design by Si",
     "title": "Prosper tank top - Cloud",
     "price": "279.00,-",
+    "discounts": [{
+      "discount": false,
+      "discountPrice": "0"
+    }],
     "color": "Hvid",
     "description": "Prosper tank toppen er den perfekte blanding af komfort og moderne stil. Den enkle, minimalistiske design gør den super nem at style med andre styles fra hele vores hjemmeside, og den elastiske pasform sikrer, at du føler dig godt tilpas hele dagen. Toppen har udtagelige indlæg, som giver mulighed for at tilpasse pasformen og opnå den ønskede støtte. Den indre silikonekant sørger for, at tube toppen bliver på plads, uanset hvad du laver. Perfekt både til træning og som en del af dit hverdagsoutfit.",
     "category": "Tank top",
@@ -603,6 +621,10 @@
     "title": "Homerun1 Power Sports Bra",
     "price": "475.00,-",
     "discountPrice": "427.50,-",
+    "discounts": [{
+      "discount": true,
+      "discountPrice": "427.50"
+    }],
     "color": "Blå",
     "description": "Det er en homerun hver. eneste. gang. Homerun1 er den vægtløse sportsbh, der stadig holder alt præcis, hvor det skal være. Tæt, støttende og lavet til bevægelse – den slags bh, du stoler på under dine svedigste vandreture, dine hurtigste løb, eller når du hopper lige i havet bagefter.",
     "category": "Sports BH",
@@ -718,6 +740,10 @@
     "brand": "Planet Nusa",
     "title": "LS2 Air Long Sleeve",
     "price": "560.00,-",
+    "discounts": [{
+      "discount": false,
+      "discountPrice": "0"
+    }],
     "color": "Orange",
     "description": "En langærmet, der føles som luft og bevæger sig som en anden hud. Elsket af vores fællesskab, LS2 Air handler om lethed, åndbarhed og komfort—afsluttet med blød rynkning og et print af planeter over det hele for et dristigt, men feminint touch.",
     "category": "Bluser",
@@ -818,6 +844,10 @@
     "brand": "Planet Nusa",
     "title": "Ankle Sock 2-Pack",
     "price": "119.00,-",
+    "discounts": [{
+      "discount": false,
+      "discountPrice": "0"
+    }],
     "color": "Hvid",
     "description": "Lav skæring, høj ydeevne. Vores Ankelstrømper er hverdagens MVP'er, designet til at blive på plads, ånde let og hjælpe dig igennem træning, gåture eller afslappende dage på sofaen. Slank pasform. Ingen irritation. Maksimal komfort.",
     "category": "Sokker",
@@ -868,6 +898,10 @@
     "brand": "Organic Basics",
     "title": "Recycled Nylon Track Jacket",
     "price": "699.00,-",
+    "discounts": [{
+      "discount": false,
+      "discountPrice": "0"
+    }],
     "color": "Multi",
     "description": "Denne trackjakke med høj krave bringer retro sporty stil ind i din daglige rutine. Fremstillet af letvægts genanvendt stof og kontrastpiping, er den velegnet til opvarmning, nedkøling eller lag-på-lag, når du er på farten",
     "category": "Løbejakker",
@@ -977,6 +1011,10 @@
     "brand": "Organic Basics",
     "title": "Active Flow Tank Top",
     "price": "479.00,-",
+    "discounts": [{
+      "discount": false,
+      "discountPrice": "0"
+    }],
     "color": "Lyserød",
     "description": "En tanktop, der matcher din energi! Gør træningen sjov i Active Flow Tank Top, der har en slank finish og skyfarvet kantbånd til et retro twist",
     "category": "Tank top",
@@ -1092,6 +1130,10 @@
     "brand": "Nike",
     "title": "Sportswear Phoenix Fleece Hoodie",
     "price": "479.90,-",
+    "discounts": [{
+      "discount": false,
+      "discountPrice": "0"
+    }],
     "color": "Sort",
     "description": "Mød vores bud på nyt luksuriøst loungewear, der er designet med stil, komfort og alsidighed i tankerne. Denne klassiske hættetrøje hjælper dig med at holde dig godt tilpas hele dagen takket være mellemvægtig fleece, der føles blød, men struktureret. Plus, overdimensionerede detaljer (som højere ribkant og overdimensioneret pasform) giver dig et moderne snit",
     "category": "Hoodies",
@@ -1207,7 +1249,10 @@
     "brand": "Lululemon",
     "title": "Softstreme Pintuck High-Rise Wide-Leg Pant",
     "price": "823.00,-",
-    "discountPrice": "740.70,-",
+    "discounts": [{
+      "discount": true,
+      "discountPrice": "740.70,-"
+    }],
     "color": "Blå",
     "description": "Føl det for at tro det. Disse brede bukser har en fløjlsagtig berøring, som er umulig at modstå, plus kant-detaljer og en flad taljekant, som gør dem nemme at klædes op eller ned.",
     "category": "Sweatpants",
@@ -1323,6 +1368,10 @@
     "brand": "Nike",
     "title": "Dri-FIT 2-i-1-shorts med mellemhøj talje",
     "price": "329.90,-",
+    "discounts": [{
+      "discount": false,
+      "discountPrice": "0"
+    }],
     "color": "Blå",
     "description": "Disse shorts er skabt til alt det, du laver – fra lange gåture til HIIT til at løbe ærinder. Deres superglatte, ultrabløde vævede materiale er afbalanceret med svedtransporterende teknologi, så du har ultimativ komfort og føler dig tør, mens du træner. Det tætsiddende indvendige lag hjælper med at forhindre hudirritation, så du kan presse dig selv med kompromisløs tildækning.",
     "category": "Shorts",
@@ -1438,6 +1487,10 @@
     "brand": "Organic Basics",
     "title": "Active Flow Bike Shorts",
     "price": "379.00,-",
+    "discounts": [{
+      "discount": false,
+      "discountPrice": "0"
+    }],
     "color": "Grøn",
     "description": "At træne har aldrig set så godt ud! Kom ud og bevæg dig med disse cykelshorts som har en slank finish og skyfarvet kantbånd til et retro twist.",
     "category": "Shorts",
@@ -1553,6 +1606,10 @@
     "brand": "Lululemon",
     "title": "A-Line Side-Pleat Tennis Skirt",
     "price": "501.50,-",
+    "discounts": [{
+      "discount": false,
+      "discountPrice": "0"
+    }],
     "color": "Grøn",
     "description": "Enkelhed virker. Denne minimalistiske A-line tenniskjole er lavet af svedalignende, hurtigt tørrende stof og har en indbygget shorts-liner for ekstra selvtillid på banen.",
     "category": "Nederdele",
@@ -1668,6 +1725,10 @@
     "brand": "Design by Si",
     "title": "Motion wrap bluse - Espresso",
     "price": "279.00,-",
+    "discounts": [{
+      "discount": false,
+      "discountPrice": "0"
+    }],
     "color": "Brun",
     "description": "Vores Wrap Blouse kombinerer feminin elegance med en afslappet pasform, der gør den perfekt til både hverdagsbrug og særlige anledninger. Den smigrende slå-om-effekt fremhæver taljen, mens de bløde, lette materialer sikrer maksimal komfort. Med sine lange ærmer og delikate bindebånd kan blusen styles på flere måder – både løst og figursyet. Uanset om du matcher den med jeans for et casual look eller en nederdel for en sofistikeret stil, er denne wrap blouse et alsidigt must-have i garderoben.",
     "category": "Tynde jakker",
@@ -1773,6 +1834,10 @@
     "brand": "Lululemon",
     "title": "Crossover Headband",
     "price": "141.50,-",
+    "discounts": [{
+      "discount": false,
+      "discountPrice": "0"
+    }],
     "color": "Hvid",
     "description": "Tæm din manke i varme studier. Dette pandebånd kan bæres med krydsningen foran eller bag og er lavet af svedeabsobernde stof for at hjælpe dig med at føle dig frisk og tør.",
     "category": "Pandebånd",
@@ -1810,7 +1875,10 @@
     "brand": "Lululemon",
     "title": "Uplifting Scrunchie Big Bow",
     "price": "103.00,-",
-    "discountPrice": "92.70,-",
+    "discounts": [{
+      "discount": true,
+      "discountPrice": "92.70,-"
+    }],
     "color": "Hvid",
     "description": "Tilføj noget kærlighed til dine lokker. Denne scrunchie har en sløjfe du kan binde så stor (eller lille) som du vil.",
     "category": "Elastikker",
@@ -1858,6 +1926,10 @@
     "brand": "Adidas",
     "title": "Terrex Xperior CLIMACOOL+ T-shirt",
     "price": "499.00,-",
+    "discounts": [{
+      "discount": false,
+      "discountPrice": "0"
+    }],
     "color": "Blå",
     "description": "Hvis du er trail-løber eller outdoor-eventyrer, der leder efter udstyr til at klare de lange distancer, behøver du ikke lede længere end adidas Terrex Xperior Climacool+ T-shirten. Denne sportstop er designet til at holde dig kølig og tør, og er fremstillet med avanceret Climacool+-teknologi, der transporterer og fordeler sved med hurtigtørrende fibre,så huden føles frisk. Den er fremstillet af let, køligt stof og har en normal pasform, der sidder perfekt og giver dig fuld fokus på din præstation. Denne T-shirt er fremstillet med svedtransporterende materialer i områder med høj svedproduktion og er udstyret med Polygiene StayFresh-lugtkontrolteknologi, så du kan holde dig frisk og selvsikker kilometer efter kilometer. Og med et Terrex-trykt logo på venstre bryst, der tilføjer et strejf af stil til dit trail-klare look, er dette smarte sæt konstrueret til at understøtte alle dine bevægelser.",
     "category": "T-shirts",
@@ -1974,6 +2046,10 @@
     "title": "Essentials French Terry joggingbukser",
     "price": "291.85,-",
     "color": "Lyserød",
+    "discounts": [{
+      "discount": false,
+      "discountPrice": "0"
+    }],
     "description": "Når du tager disse joggingbukser fra adidas på, kan du se, hvorfor den bløde komfort fra isoli er svær at slå. Den løse og afslappede silhuet passer til stort set alt i dit klædeskab og giver bevægelsesfrihed. Disse joggingbukser hjælper med at holde dig godt tilpas uden at gå på kompromis med stilen, uanset om du slapper af derhjemme eller løber ærinder i weekenden.",
     "category": "Sweatpants",
     "material": "Better Cotton bomuld",
@@ -2078,6 +2154,10 @@
     "brand": "Lululemon",
     "title": "Wunder Train Padded Gloves",
     "price": "244.50,-",
+    "discounts": [{
+      "discount": false,
+      "discountPrice": "0"
+    }],
     "color": "Blå",
     "description": "Knus personlige rekorder i komfort. Fra kradsninger til pull-ups, disse polstrede, understøttende handsker hjælper med at beskytte dine hænder, mens du træner.",
     "category": "Handsker",
@@ -2122,6 +2202,10 @@
     "brand": "Nike",
     "title": "NikeCourt Premier Double-Wide",
     "price": "149.90,-",
+    "discounts": [{
+      "discount": false,
+      "discountPrice": "0"
+    }],
     "color": "Hvid",
     "description": "NikeCourt Premier Double-Wide-tennissvedbåndene er fremstillet i elastisk, absorberende materiale, som giver en behagelig pasform og en fremragende hjælp til at holde dine hænder tørre.",
     "category": "Svedbånd",
@@ -2169,7 +2253,10 @@
     "brand": "Nike",
     "title": "Tætsiddende kort T-shirt",
     "price": "249.90,-",
-    "discountPrice": "224.91,-",
+    "discounts": [{
+      "discount": true,
+      "discountPrice": "224.91,-"
+    }],
     "color": "Grøn",
     "description": "Denne croptop er tætsiddende og let elastisk og er perfekt til et poleret hverdagslook.",
     "category": "T-shirts",

@@ -49,10 +49,14 @@ export default function Product({ product }) {
             )}
         </div>
         <div className={styles.discount}>
-          {product["discountPrice"] && (
-            <img src={discountBadge} alt="Der er 10% rabat på dette produkt" className={styles.badges}/>
-          )}
-        </div>
+          {product.discounts?.some(item => item.discount) && (
+            <img
+            src={discountBadge}
+            alt="Der er rabat på dette produkt"
+            className={styles.badges}
+            />
+            )}
+            </div>
         <figure className={styles.imageArea}>
           <Link to={`/products/${product.id}`}>
             <img
@@ -80,15 +84,15 @@ export default function Product({ product }) {
           <span className={styles.brandName}>{product.brand}</span>
           <h2 className={styles.titleProduct}>{product.title}</h2>
           <p>
-            {product.discountPrice ? (
+            {product.discounts && product.discounts[0]?.discount ? (
               <>
-              <span className={styles.price}>{product.discountPrice}</span>
+              <span className={styles.price}>{product.discounts[0].discountPrice || product.price}</span>
               <span className={styles.originalPrice}>{product.price}</span>
               </>
               ) : (
-                <span className={styles.price}>{product.price}</span>
+              <span className={styles.price}>{product.price}</span>
               )}
-            </p>
+              </p>
           <section className={styles.hoverInfo} aria-label="Produkt detaljer">
             <div
               className={styles.ratingStarsAmount}

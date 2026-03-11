@@ -17,6 +17,7 @@
   --body-text-font-size: 1.6rem;
 }
 
+/* Disse linjer styler alt det ydre af selector knappen */
 .sizeSelector {
   position: relative;
   width: fit-content;
@@ -51,6 +52,7 @@
   margin-left: auto;
 }
 
+/* Disse linjer styler alle valgmulighederne som en helhed*/
 .sizeOptions {
   position: absolute;
   top: 100%;
@@ -65,6 +67,7 @@
   overflow-y: auto;
 }
 
+/* Disse linjer styler valgmulighederne som individuelle dele */
 .sizeOption {
   padding: 1rem;
   font-size: 1.6rem;
@@ -101,6 +104,7 @@
   color: #999;
 }
 
+/* Global selector der gør at alle de selectors der sættes under den ældres når .dark-mode aktiveres. Der ændres kun i de properties der skal ændres når darkmode er sat til */
 :global(.dark-mode) {
   .selectorButton {
     background-color: var(--primary-color-dark);
