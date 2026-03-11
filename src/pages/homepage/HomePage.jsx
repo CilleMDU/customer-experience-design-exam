@@ -5,6 +5,7 @@ import rating from "../../assets/rating.svg";
 import styles from "./HomePage.module.css";
 import { useEffect, useState } from "react";
 import Product from "../../components/Product";
+import Data from "../../../public/data.json"
 
 export default function HomePage() {
   return (
@@ -77,12 +78,7 @@ function InlineProductGrid() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    async function fetchProducts() {
-      const response = await fetch("/data.json");
-      const data = await response.json();
-      setProducts(data);
-    }
-    fetchProducts();
+      setProducts(Data);
   }, []);
 
   return (

@@ -11,10 +11,12 @@ import truckIcon from "../../assets/truck.svg";
 import packageIcon from "../../assets/package.svg";
 import { ToastContainer, toast } from "react-toastify";
 import toastIcon from "../../assets/added-to-cart.svg";
+import Data from "../../../public/data.json"
 
 export default function ProductDetailPage() {
   const params = useParams();
   const productId = Number(params.id);
+  const [products] = useState(Data)
   const [product, setProduct] = useState({});
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [materialOpen, setMaterialOpen] = useState(false);
@@ -45,18 +47,9 @@ export default function ProductDetailPage() {
   }
 
   useEffect(() => {
-    async function fetchProducts() {
-      const url = "/data.json";
-      const response = await fetch(url);
-      const products = await response.json();
-      console.log(products);
-
       const productToDisplay = products.find((p) => p.id === productId);
-      console.log(productToDisplay);
       setProduct(productToDisplay);
       setCurrentImageIndex(0);
-    }
-    fetchProducts();
   }, [productId]);
 
   const handleThumbnailClick = (index) => {
