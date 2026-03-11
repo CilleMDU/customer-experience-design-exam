@@ -47,6 +47,7 @@
   justify-items: center;
 }
 
+/* styler det ydre er sorting */
 .sortButton {
   width: 24.2rem;
   display: flex;
@@ -67,6 +68,7 @@
   position: relative;
 }
 
+/* styler valgmulighederne som en helhed */
 .sortMenu {
   position: absolute;
   top: 100%;
@@ -79,6 +81,7 @@
   box-shadow: 0 0.4rem 0.4rem 0 rgba(230, 106, 157, 0.25);
 }
 
+/* Disse linjer styler valgmulighederne som en individuel */
 .sortOption {
   display: block;
   width: 100%;
@@ -93,15 +96,18 @@
   transition: background-color 0.2s ease;
 }
 
+/* Styler første objekt */
 .sortOption:first-child {
   border-radius: 0.8rem 0.8rem 0 0;
 }
 
+/* Styler sidste objekt */
 .sortOption:last-child {
   border-radius: 0 0 0.8rem 0.8rem;
   border: none;
 }
 
+/* disse linjer styler hover og den aktive sorting der er blevet valgt */
 .sortOption:hover {
   background-color: #f5f5f5;
 }
@@ -428,6 +434,7 @@
   cursor: pointer;
 }
 
+/* Global selector der gør at alle de selectors der sættes under den ældres når .dark-mode aktiveres. Der ændres kun i de properties der skal ændres når darkmode er sat til */
 :global(.dark-mode) {
   .filterIcon {
     content: url(../assets/filterDark.svg);

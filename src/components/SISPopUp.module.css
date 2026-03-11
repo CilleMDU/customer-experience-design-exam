@@ -16,6 +16,8 @@
   --body-text-font-size: 1.6rem; /*bruges*/
 }
 
+
+/* Gør baggrunden bagved mørkere når popup er åben */
 .overlay {
   position: fixed;
   top: 0;
@@ -32,6 +34,8 @@
   animation: popupIn 0.3s forwards;
 }
 
+
+/* Selve popupen informationerne sættes ind på */
 .popup {
   background: white;
   padding: 2rem 3rem;
@@ -41,6 +45,7 @@
   text-align: center;
 }
 
+/* En animation når popup skal åbnes for at få bruger til nemmere at justere efter det */
 @keyframes popupIn {
   to {
     transform: scale(1);
@@ -48,6 +53,7 @@
   }
 }
 
+/* Gør at title og closeBtn er på samme linje og har en underlinje */
 .titleAndClose {
   display: flex;
   justify-content: space-between;
@@ -55,6 +61,7 @@
   line-height: 10rem;
 }
 
+/* Styler titlen */
 .title {
   font-family: var(--title-font-font-family);
   font-size: 4.5rem;
@@ -62,6 +69,7 @@
   letter-spacing: 0.3rem;
 }
 
+/* Styler closeBtn */
 .closeBtn {
   border: none;
   background: none;
@@ -70,10 +78,12 @@
   cursor: pointer;
 }
 
+/* Styler closeBtn hover */
 .closeBtn img:hover {
   content: url(../assets/closebtnHover.svg);
 }
 
+/* Styler alt teksten på popup */
 .text {
   font-family: var(--text-font-family);
   font-size: var(--body-text-font-size);
@@ -82,6 +92,7 @@
   margin-top: 1rem;
 }
 
+/* Global selector der gør at alle de selectors der sættes under den ældres når .dark-mode aktiveres. Der ændres kun i de properties der skal ændres når darkmode er sat til */
 :global(.dark-mode) {
   .popup {
     background-color: var(--primary-color-dark);

@@ -89,6 +89,7 @@ nav a {
   padding-top: 1rem;
 }
 
+/* Global selector der gør at alle de selectors der sættes under den ældres når .dark-mode aktiveres. Der ændres kun i de properties der skal ændres når darkmode er sat til */
 :global(.dark-mode) {
   .darkmodeButton img {
     content: url(../assets/lightDark.svg);
