@@ -18,6 +18,14 @@
   position: relative;
 }
 
+.originalPrice {
+  text-decoration: line-through;
+  color: gray;
+  margin-left: 0.5rem;
+  font-weight: normal;
+  font-family: "work sans", sans-serif;
+}
+
 .imageArea {
   height: 54rem;
   width: 100%;
@@ -117,14 +125,15 @@
   border: 0.1rem solid var(--text-color-dark); /* Denne linje gør hvid synlig */
 }
 
-.newItem {
+.newItem,
+.discount {
   position: absolute;
   z-index: 5;
   top: 1.6rem;
   left: 1.6rem;
 }
 
-.news {
+.badges {
   width: 10rem;
 }
 
@@ -141,7 +150,15 @@
     background-color: var(--primary-color-dark);
   }
 
-  .news {
+  .newItem img {
     content: url(../assets/newsBadgeDark.svg);
+  }
+
+  .discount img {
+    content: url(../assets/discountBadgeDark.svg);
+  }
+
+  .price {
+    color: var(--text-color-dark);
   }
 }

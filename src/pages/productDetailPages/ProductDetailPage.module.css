@@ -154,6 +154,14 @@ html {
   color: var(--text-color-light);
 }
 
+.originalPrice {
+  text-decoration: line-through;
+  color: gray;
+  margin-left: 0.5rem;
+  font-weight: normal;
+  font-family: var(--text-font-family);
+}
+
 .buyAndFave {
   display: flex;
   flex-direction: row;
@@ -491,5 +499,9 @@ html {
 
   .return img {
     content: url(../../assets/packagedark.svg);
+  }
+
+  .price {
+    color: var(--text-color-dark);
   }
 }
