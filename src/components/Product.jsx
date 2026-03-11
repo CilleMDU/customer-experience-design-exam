@@ -3,6 +3,7 @@ import styles from "./Product.module.css";
 import inactiveHeart from "../assets/inactive-heart.svg";
 import activeHeart from "../assets/hjerte-smil.svg";
 import { useState } from "react";
+import newsBadge from "../assets/newsBadge.svg"
 
 function getColor(color) {
   if (color === "Lyserød") {
@@ -41,6 +42,11 @@ export default function Product({ product }) {
   return (
     <div className={styles.cardLink}>
       <article className={styles.card}>
+        <div className={styles.newItem}>
+          {product["new"] && (
+            <img src={newsBadge} alt="Dette produkt er nyt" className={styles.news}/>
+            )}
+        </div>
         <figure className={styles.imageArea}>
           <Link to={`/products/${product.id}`}>
             <img
