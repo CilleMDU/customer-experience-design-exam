@@ -218,7 +218,7 @@ export default function ProductGrid() {
               key={color}
               type="button"
               className={`${styles.colorButton} ${selectedColor === color ? styles.activecolorButton : ""}`}
-              onClick={() => setSelectedColor(color)}
+              onClick={() => (selectedColor === color ? "all" : color)}
               aria-pressed={selectedColor === color}
             >
               {color}
