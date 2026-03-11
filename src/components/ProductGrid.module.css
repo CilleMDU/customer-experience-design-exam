@@ -85,6 +85,7 @@
   padding: 1rem 1.2rem;
   background-color: var(--primary-color-light);
   border: none;
+  border-bottom: solid 0.1rem #e2e2e2;
   text-align: left;
   font-family: var(--text-font-family);
   font-size: var(--body-text-font-size);
@@ -98,6 +99,7 @@
 
 .sortOption:last-child {
   border-radius: 0 0 0.8rem 0.8rem;
+  border: none;
 }
 
 .sortOption:hover {
@@ -441,5 +443,92 @@
 
   .filterButton {
     background-color: var(--primary-color-dark);
+  }
+
+  .sortOption {
+    background-color: var(--text-color-dark);
+    color: var(--text-color-light);
+    border-bottom: solid 0.1rem #cccccc;
+  }
+
+  .sortOption:last-child {
+    border: none;
+  }
+
+  .sortMenu {
+    border-color: var(--secondary-color-dark-pink);
+  }
+
+  .sortOption:hover {
+    background-color: #f0f0f0;
+  }
+
+  .sortOption.activeSortOption {
+    background-color: var(--secondary-color-dark-pink);
+    color: var(--text-color-dark);
+  }
+
+  .drawer {
+    background-color: var(--primary-color-dark);
+    border-left: solid 0.1rem #3b1c35;
+  }
+
+  .sizeButton,
+  .brandButton,
+  .colorButton {
+    background-color: var(--text-color-dark);
+    color: var(--text-color-light);
+  }
+  
+  .sizeButton:hover,
+  .brandButton:hover,
+  .colorButton:hover,
+  .resetButton:hover {
+    background-color: #f0f0f0;
+  }
+
+  .activeSizeButton,
+  .activeBrandButton,
+  .activeColorButton {
+    background-color: #f8f8f8;
+  }
+
+  .drawerHeader {
+    color: var(--text-color-dark);
+  }
+
+  .filterHeader {
+    color: var(--text-color-dark);
+  }
+
+  .closeFilterButton svg {
+    filter: invert(99%) sepia(5%) saturate(81%) hue-rotate(137deg) brightness(110%) contrast(79%);
+  }
+
+  .chevron {
+    filter: invert(99%) sepia(5%) saturate(81%) hue-rotate(137deg) brightness(110%) contrast(79%);
+  }
+
+  .touchApprovedArea {
+    color: var(--text-color-dark);
+  }
+
+  .resetButton {
+    background-color: var(--text-color-dark);
+    border-color: #C35755;
+    color: #C35755;
+  }
+
+  .showAllButton {
+    background-color: #C35755;
+    color: var(--text-color-dark);
+  }
+
+  .showAllButton:hover {
+    background-color: #b85250;
+  }
+
+  .colorCircle {
+    border: solid 0.1rem var(--primary-color-dark);
   }
 }
