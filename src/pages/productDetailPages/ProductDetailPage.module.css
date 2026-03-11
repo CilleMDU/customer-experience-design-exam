@@ -245,7 +245,7 @@ html {
 }
 
 .informationBtn:hover {
-  content: url(../../assets/information-btn-hover.svg);
+  content: url(../../assets/information-btn.svg);
 }
 
 .serviceAndInformation {
@@ -481,11 +481,11 @@ html {
   }
 
   .informationBtn {
-    content: url(../../assets/infoBtnDark.svg);
+    content: url(../../assets/infoDark.svg);
   }
 
   .informationBtn:hover {
-    content: url(../../assets/infoDark.svg);
+    content: url(../../assets/infoBtnDark.svg);
   }
 
   .activeHeart {

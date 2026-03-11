@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import SizeSelector from "../../components/SizeSelector";
 import SISPopUp from "../../components/SISPopUp";
 import SpecialBuy from "../../components/SpecialBuy"
-import informationBtn from "../../assets/information-btn.svg";
+import informationBtn from "../../assets/information-btn-hover.svg";
 import starIcon from "../../assets/star.svg";
 import touchIcon from "../../assets/touch-approved-badge.svg";
 import truckIcon from "../../assets/truck.svg";
