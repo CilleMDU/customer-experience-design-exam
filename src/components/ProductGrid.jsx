@@ -90,6 +90,33 @@ export default function ProductGrid() {
     setSortBy("none");
   }
 
+  function getColor(color) {
+    if (color === "Lyserød") {
+      return "#FF3FC5";
+    } else if (color === "Sort") {
+      return "#000";
+    } else if (color === "Sort/hvid") {
+      return "linear-gradient(90deg, #000 50%, #fff 50%)";
+    } else if (color === "Multi") {
+      return "conic-gradient(from 180deg at 50% 50%, #00AC06 0deg, #07F 121.15384697914124deg, #DF2FE2 242.30769395828247deg, #9443EA 360deg)";
+    } else if (color === "Hvid") {
+      return "#ffffff";
+    } else if (color === "Blå") {
+      return "#0077FF";
+    } else if (color === "Orange") {
+      return "#FF5900";
+    } else if (color === "Grøn") {
+      return "#00AC06";
+    } else if (color === "Lilla") {
+      return "#9444EA";
+    } else if (color === "Brun") {
+      return "#562b00";
+    } else {
+      // Hvis farven ikke findes i listen, returneres en neutral grå
+      return "#ccc";
+    }
+  }
+
   return (
     <>
       <div className={styles.productPageHeader}>
@@ -209,6 +236,13 @@ export default function ProductGrid() {
               aria-pressed={selectedBrand === brand}
             >
               {brand}
+              <div className={styles.flowerCheckbox}>
+                <img
+                  className={`${styles.flower} ${selectedBrand === brand ? styles.activeFlowerCheckbox : ""}`}
+                  src="../src/assets/flower-pink.svg"
+                  alt="active"
+                />
+              </div>
             </button>
           ))}
         </div>
@@ -218,10 +252,25 @@ export default function ProductGrid() {
               key={color}
               type="button"
               className={`${styles.colorButton} ${selectedColor === color ? styles.activecolorButton : ""}`}
-              onClick={() => (selectedColor === color ? "all" : color)}
+              onClick={() =>
+                setSelectedColor(selectedColor === color ? "all" : color)
+              }
               aria-pressed={selectedColor === color}
             >
-              {color}
+              <div className={styles.color}>
+                <div
+                  className={styles.colorCircle}
+                  style={{ background: getColor(color) }}
+                ></div>
+                {color}
+              </div>
+              <div className={styles.flowerCheckbox}>
+                <img
+                  className={`${styles.flower} ${selectedColor === color ? styles.activeFlowerCheckbox : ""}`}
+                  src="../src/assets/flower-pink.svg"
+                  alt="active"
+                />
+              </div>
             </button>
           ))}
         </div>
