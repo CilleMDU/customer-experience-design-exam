@@ -1,6 +1,7 @@
 import styles from "./ProductGrid.module.css";
 import { useEffect, useState } from "react";
 import Product from "./Product";
+import Data from "../../public/data.json"
 
 export default function ProductGrid() {
   const [products, setProducts] = useState([]);
@@ -28,12 +29,7 @@ export default function ProductGrid() {
   }
 
   useEffect(() => {
-    async function fetchProducts() {
-      const response = await fetch("/data.json");
-      const data = await response.json();
-      setProducts(data);
-    }
-    fetchProducts();
+      setProducts(Data);
   }, []);
 
   // Finder alle unikke brands (f.eks. Nike, Adidas, Puma)
