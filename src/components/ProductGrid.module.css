@@ -1,4 +1,18 @@
 /* Product Grid */
+:root {
+  /* Colors light */
+  --primary-color-light: #ffffff;
+  --secondary-color-light-turqouise: #38a495;
+  --secondary-color-light-pink: #e66a9d;
+  --text-color-light: #151515;
+
+  /* Colors dark */
+  --primary-color-dark: #5d2f54;
+  --secondary-color-dark-turqouise: #65bdab;
+  --secondary-color-dark-pink: #d3628a;
+  --text-color-dark: #e4e4e4;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(38.8rem, 1fr));
@@ -410,4 +424,22 @@
   font-weight: 400;
   line-height: normal;
   cursor: pointer;
+}
+
+:global(.dark-mode) {
+  .filterIcon {
+    content: url(../assets/filterDark.svg);
+  }
+
+  .sortIcon {
+    content: url(../assets/sortDark.svg)
+  }
+
+  .sortButton {
+    background-color: var(--primary-color-dark);
+  }
+
+  .filterButton {
+    background-color: var(--primary-color-dark);
+  }
 }

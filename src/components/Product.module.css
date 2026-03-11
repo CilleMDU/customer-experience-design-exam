@@ -1,3 +1,17 @@
+:root {
+  /* Colors light */
+  --primary-color-light: #ffffff;
+  --secondary-color-light-turqouise: #38a495;
+  --secondary-color-light-pink: #e66a9d;
+  --text-color-light: #151515;
+
+  /* Colors dark */
+  --primary-color-dark: #5d2f54;
+  --secondary-color-dark-turqouise: #65bdab;
+  --secondary-color-dark-pink: #d3628a;
+  --text-color-dark: #e4e4e4;
+}
+
 .Link {
   text-decoration: none;
   width: 100%;
@@ -36,7 +50,7 @@
 }
 
 .brandName {
-  color: #000;
+  color: var(--text-color-light);
 
   /* desktop-card-brand */
   font-family: "Work Sans";
@@ -67,7 +81,7 @@
 }
 
 .title {
-  color: #000;
+  color: var(--text-color-light);
 
   /* desktop-card-title */
   font-family: "Work Sans";
@@ -108,5 +122,19 @@
   width: 2.4rem;
   height: 2.4rem;
   border-radius: 50%;
-  border: 0.1rem solid #e2e2e2; /* Denne linje gør hvid synlig */
+  border: 0.1rem solid var(--text-color-dark); /* Denne linje gør hvid synlig */
+}
+
+:global(.dark-mode) {
+  .titleProduct {
+    color: var(--text-color-dark);
+  }
+
+  .brandName {
+    color: var(--text-color-dark);
+  }
+
+  .card {
+    background-color: var(--primary-color-dark);
+  }
 }
