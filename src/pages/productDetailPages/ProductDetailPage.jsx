@@ -166,7 +166,17 @@ export default function ProductDetailPage() {
             </div>
             <h4 className={styles.brand}>{product.brand}</h4>
             <h2 className={styles.title}>{product.title}</h2>
-            <p className={styles.price}>{product.price}</p>
+            <p>
+              {product.discountPrice ? (
+                 <>
+
+                 <span className={styles.price}>{product.discountPrice}</span>
+                 <span className={styles.originalPrice}>{product.price}</span>
+                 </>
+                 ) : (
+                 <span className={styles.price}>{product.price}</span>
+                 )}
+                 </p>
             <div classnName={styles.colors}>
               <p className={styles.colorTitle}>Farver</p>
               <div

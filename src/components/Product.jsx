@@ -4,6 +4,7 @@ import inactiveHeart from "../assets/inactive-heart.svg";
 import activeHeart from "../assets/hjerte-smil.svg";
 import { useState } from "react";
 import newsBadge from "../assets/newsBadge.svg"
+import discountBadge from "../assets/discountBadge.svg"
 
 function getColor(color) {
   if (color === "Lyserød") {
@@ -44,8 +45,13 @@ export default function Product({ product }) {
       <article className={styles.card}>
         <div className={styles.newItem}>
           {product["new"] && (
-            <img src={newsBadge} alt="Dette produkt er nyt" className={styles.news}/>
+            <img src={newsBadge} alt="Dette produkt er nyt" className={styles.badges}/>
             )}
+        </div>
+        <div className={styles.discount}>
+          {product["discountPrice"] && (
+            <img src={discountBadge} alt="Der er 10% rabat på dette produkt" className={styles.badges}/>
+          )}
         </div>
         <figure className={styles.imageArea}>
           <Link to={`/products/${product.id}`}>
@@ -73,7 +79,16 @@ export default function Product({ product }) {
         <Link to={`/products/${product.id}`} className={styles.Link}>
           <span className={styles.brandName}>{product.brand}</span>
           <h2 className={styles.titleProduct}>{product.title}</h2>
-          <p className={styles.price}>{product.price} kr.</p>
+          <p>
+            {product.discountPrice ? (
+              <>
+              <span className={styles.price}>{product.discountPrice}</span>
+              <span className={styles.originalPrice}>{product.price}</span>
+              </>
+              ) : (
+                <span className={styles.price}>{product.price}</span>
+              )}
+            </p>
           <section className={styles.hoverInfo} aria-label="Produkt detaljer">
             <div
               className={styles.ratingStarsAmount}
