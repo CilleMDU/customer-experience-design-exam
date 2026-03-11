@@ -815,15 +815,15 @@
     "care": "Vask ved lav temperatur, maks. 30 grader. Må ikke tørretumbles.",
     "sizes": [
       {
-        "size1": "36 - 40",
+        "size": "36 - 40",
         "available": true
       },
       {
-        "size2": "41 - 44",
+        "size": "41 - 44",
         "available": true
       },
       {
-        "size3": "45 - 48",
+        "size": "45 - 48",
         "available": true
       }
     ],

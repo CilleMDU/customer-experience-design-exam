@@ -95,3 +95,13 @@ html {
   flex-direction: column;
   gap: 1vh;
 }
+
+:global(.dark-mode) {
+  .h1 {
+    color: var(--secondary-color-dark-pink);
+  }
+
+  .heroLogo {
+    content: url(../../assets/stortLogoDark.svg);
+  }
+}

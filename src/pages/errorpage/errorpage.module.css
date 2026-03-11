@@ -90,3 +90,13 @@ html {
   align-items: center;
   gap: 10vh;
 }
+
+:global(.dark-mode) {
+  .uterus {
+    content: url(../../assets/uterusDark.svg);
+  }
+
+  .h1 {
+    color: var(--text-color-dark);
+  }
+}

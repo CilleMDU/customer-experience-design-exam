@@ -30,10 +30,10 @@ export default function NavigationBar() {
         >
           <img src={darkmodeIkon} alt="darkmode knap" />
         </button>
-        <img src={searchIkon} alt="søge funktion" />
-        <img src={profilIkon} alt="profil" />
-        <img src={hjerteIkon} alt="favoritter" />
-        <img src={shoppingBag} alt="Indkøbskurv" />
+        <img src={searchIkon} alt="søge funktion" className={styles.searchIkon}/>
+        <img src={profilIkon} alt="profil" className={styles.profilIkon}/>
+        <img src={hjerteIkon} alt="favoritter" className={styles.hjerteIkon}/>
+        <img src={shoppingBag} alt="Indkøbskurv" className={styles.shoppingBag}/>
       </div>
     </nav>
   );
