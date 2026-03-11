@@ -7,52 +7,15 @@
 :root {
   /* Colors light */
   --primary-color-light: #ffffff;
-  --secondary-color-light-turqouise: #38a495;
   --secondary-color-light-pink: #e66a9d;
-  --accent-color-light-yellow: #ffd678;
   --text-color-light: #151515;
 
   /* Colors dark */
   --primary-color-dark: #5d2f54;
-  --secondary-color-dark-turqouise: #65bdab;
   --secondary-color-dark-pink: #d3628a;
-  --accent-color-dark-yellow: #e9db89;
-  --text-color-dark: #e4e4e4;
 
   /* Fonts */
-  --title-font-font-family: "Sue Ellen Francisco", cursive;
   --text-font-family: "work-sans", sans-serif;
-
-  /* Font sizes */
-  --display-title-font-size: 12.8rem;
-  --header2-display-font-size: 6.4rem;
-  --mobile-header1-display-font-size: 3.2rem;
-  --desktop-detail-title-font-size: 3.2rem;
-  --desktop-card-price-font-size: 2.4rem;
-  --detail-price-font-size: 2.4rem;
-  --header2-font-size: 2.4rem;
-  --desktop-card-title-font-size: 2.4rem;
-  --body-text-big-font-size: 2.4rem;
-  --body-text-font-size: 1.6rem;
-  --mobile-detail-brand-font-size: 1.6rem;
-  --mobile-card-brand-font-size: 1.4rem;
-  --moms-font-size: 1.2rem;
-
-  /* Font thickness */
-  --normal-font-weight: 400;
-  --bold-font-weight: 700;
-  --medium-font-weight: 500;
-  --light-font-weight: 300;
-  --semi-bold-font-weight: 600;
-
-  /* Line heights */
-  --work-sans-line-height: normal;
-  --sue-ellen-francisco-line-height: 150%;
-
-  /* Letter spacing */
-  --card-title-letter-spacing: 1px;
-  --card-price-letter-spacing: 2px;
-  --card-brand-letter-spacing: 3.5px;
 }
 /* rem 10px=1rem */
 html {
@@ -62,17 +25,15 @@ html {
 /* Navigations bar */
 nav {
   background-color: var(--primary-color-light);
-  padding: 1rem 2rem;
   box-shadow: 0 4px 4px 0 #e66a9d;
-  /* alle elementer centreres */
   display: flex;
   width: auto;
-  padding: 20px 24px;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; /* elementerne centreres*/
   position: sticky;
   top: 0;
   z-index: 100;
+  padding: 0 2vw 0 1vw;
 }
 
 nav a {
@@ -80,9 +41,9 @@ nav a {
   color: var(--text-color-light);
   text-decoration: none;
   padding: 0.5rem 1rem;
-  border-radius: 4px;
+  border-radius: 8px;
   transition: background-color 0.3s ease;
-  font-size: var(--body-text-big-font-size);
+  font-size: 2rem;
   font-family: var(--text-font-family);
 }
 
