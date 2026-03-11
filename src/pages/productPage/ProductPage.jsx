@@ -1,4 +1,3 @@
-import FooterBar from "../../components/FooterBar";
 import ProductGrid from "../../components/ProductGrid";
 // import styles from "./ProductPage.module.css";
 
