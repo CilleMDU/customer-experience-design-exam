@@ -74,6 +74,11 @@
   border-color: var(--secondary-color-light-turqouise);
 }
 
+.selectorButton:focus {
+  outline: 0.2rem solid var(--secondary-color-light-turqouise);
+  outline-offset: 0.2rem;
+}
+
 .arrow {
   font-size: 0.8rem;
   margin-left: auto;
@@ -104,12 +109,18 @@
 
 .sizeOption:last-child {
   border-bottom: none;
-  border-radius: 0 0 0.8rem, 0.8rem;
+  border-radius:
+    0 0 0.8rem,
+    0.8rem;
 }
 
 .sizeOption:hover:not(.disabled) {
   border: 0.1rem solid var(--secondary-color-light-turqouise);
   border-radius: 0.4rem;
+}
+
+.sizeOption.highlighted:not(.disabled) {
+  background-color: #f0f0f0;
 }
 
 .sizeOption.selected {
@@ -131,7 +142,7 @@
   }
 
   .selectorButton:hover {
-    border-color: var(--secondary-color-dark-turqouise)
+    border-color: var(--secondary-color-dark-turqouise);
   }
 
   .sizeOptions {
