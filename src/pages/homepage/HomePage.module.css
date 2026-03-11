@@ -189,3 +189,22 @@ html {
   width: 100%;
   height: auto;
 }
+
+
+:global(.dark-mode) {
+  .socialProofCard {
+    border-right: solid 1rem var(--secondary-color-dark-pink);
+  }
+
+  .singleItemServiceTitle {
+    color: var(--secondary-color-dark-pink);
+  }
+
+  .heroDivider {
+    color: var(--secondary-color-dark-pink);
+  }
+
+  .heroLogo {
+    content: url(../../assets/heroLogoDark.svg);
+  }
+}
