@@ -37,7 +37,7 @@ html {
 
 .footerIndhold {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(28rem, 2fr));
   width: 100%;
   gap: 2rem;
   font-family: var(--text-font-family);
@@ -69,8 +69,9 @@ html {
 }
 
 .copyright {
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  text-align: center;
+  margin-top: 1.2rem;
   color: #ffffff;
   font-family: var(--text-font-family);
   font-size: var(--moms-font-size);
