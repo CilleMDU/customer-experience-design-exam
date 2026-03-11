@@ -14,7 +14,7 @@ export default function NavigationBar() {
   return (
     <nav className={styles.NavigationBar}>
       <a href="/" className={styles.logoLink}>
-        <img src={navbarLogo} alt="logo" className={styles.logo}/>
+        <img src={navbarLogo} alt="logo" className={styles.logo} />
       </a>
 
       <div className={styles.pages}>
@@ -30,10 +30,18 @@ export default function NavigationBar() {
         >
           <img src={darkmodeIkon} alt="darkmode knap" />
         </button>
-        <img src={searchIkon} alt="søge funktion" className={styles.searchIkon}/>
-        <img src={profilIkon} alt="profil" className={styles.profilIkon}/>
-        <img src={hjerteIkon} alt="favoritter" className={styles.hjerteIkon}/>
-        <img src={shoppingBag} alt="Indkøbskurv" className={styles.shoppingBag}/>
+        <img
+          src={searchIkon}
+          alt="søge funktion"
+          className={styles.searchIkon}
+        />
+        <img src={profilIkon} alt="profil" className={styles.profilIkon} />
+        <img src={hjerteIkon} alt="favoritter" className={styles.hjerteIkon} />
+        <img
+          src={shoppingBag}
+          alt="Indkøbskurv"
+          className={styles.shoppingBag}
+        />
       </div>
     </nav>
   );
