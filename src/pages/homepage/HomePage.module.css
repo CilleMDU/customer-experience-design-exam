@@ -3,14 +3,8 @@
   --primary-color-light: #ffffff;
   --secondary-color-light-turqouise: #38a495;
   --seconndary-color-light-pink: #e66a9d;
-  --accent-color-light-yellow:
-    #ff.udtalelese1 {font-family: var(--text-font-family, "work-sans"),
-    sans-serif; font-size: 1.5vw; width: 85vw; line-height: 150%;} .udtalelese2
-      {font-family: var(--text-font-family, "work-sans"),
-    sans-serif; font-size: 1.5vw; width: 85vw; line-height: 150%;} .udtalelese3
-      {font-family: var(--text-font-family, "work-sans"),
-    sans-serif; font-size: 1.5vw; width: 85vw;
-      line-height: 150%;}-light: #151515;
+  --accent-color-light-yellow: #ffd678;
+  --text-color-light: #151515;
 
   /* Colors dark */
   --primary-color-dark: #5d2f54;
@@ -29,6 +23,8 @@
   --text-font-size: 1.6rem;
   --menu-and-options-font-size: 2.4rem;
   --button-and-price-font-size: 4.2rem;
+  --body-text-big-font-size: 2.4rem;
+  --body-text-font-size: 1.6rem;
   --moms-font-size: 1.2rem;
 
   /* Font thickness */
@@ -36,7 +32,7 @@
   --bold-font-weight: 700;
   --medium-font-weight: 500;
   --light-font-weight: 300;
-  --semi-bodl-font-weight: 600;
+  --semi-bold-font-weight: 600;
 }
 
 /* rem 10px=1rem */
@@ -62,15 +58,15 @@ html {
 
 .heroBg {
   display: block;
-  width: 100vw;
+  width: 100%;
   max-width: none; /* gør at den ikke bliver max width ligesom heroSection */
   height: auto;
 }
 
 .heroLogo {
   position: absolute;
-  top: 16vw;
-  left: 65vw;
+  top: 6vw;
+  right: 8vw;
   width: 30vw;
   height: auto;
   z-index: 2;
@@ -82,7 +78,7 @@ html {
   left: 0; /* alting sat til 0 for at den går fra kant til kant */
   right: 0;
   bottom: 0;
-  height: 3vh;
+  height: 4vh;
   background: var(--seconndary-color-light-pink);
   z-index: 3;
 }
@@ -91,154 +87,95 @@ html {
   font-family: var(--title-font-font-family, "Sue Ellen Francisco"), cursive;
   color: var(--seconndary-color-light-pink);
   font-size: 4vw;
-  margin: 0 0 2vh 0;
+  font-weight: var(--light-font-weight);
 }
 
 .singleItemServiceText {
   font-family: "Work Sans";
-  font-size: 1.6vw;
+  font-size: 2rem;
   font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
+  font-weight: var(--light-font-weight);
+  line-height: 180%;
 }
 
 .singleItemService {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
-  padding: 2rem 2rem 4rem 2rem;
-  margin-bottom: 4vw;
-}
-.singleItemService {
-  display: flex;
-  align-items: stretch;
-  gap: 2vw;
-  padding: 8vh 8vw;
-  min-height: var(--service-image-height);
+  padding-left: 4rem;
+  padding-right: 0rem;
+  padding-bottom: 8rem;
 }
 
 .serviceText {
   width: var(--service-text-width);
   flex: 0 0 var(--service-text-width);
   display: flex;
+  gap: 2vh;
   flex-direction: column;
   justify-content: flex-start;
 }
 
 .etBen {
-  width: var(--service-image-width);
-  flex: 0 0 var(--service-image-width);
+  width: 100%;
   display: block;
-  height: var(--service-image-height);
+  height: auto;
   object-fit: cover;
-}
-
-.uterus {
-  position: absolute;
-  left: 75vw;
-  top: 205%;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+  overflow: hidden;
 }
 
 .socialProof {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(388px, 1fr));
+  gap: 2rem;
   margin-left: 0;
-  display: flex;
-  flex-direction: row;
   width: 100%;
-  margin-bottom: 4vw;
-  padding: 4vh 8vw;
+  padding: 10vh 0 12vh 0;
 }
 
 .socialProofCard {
   display: flex;
   flex-direction: column;
-  gap: 1.2vh;
   align-items: flex-start;
   text-align: left;
-  flex: 1;
   padding: 0 7vw;
-  border-right: var(--seconndary-color-light-pink) 9px solid;
+  border-right: var(--seconndary-color-light-pink) 10px solid;
   justify-content: space-between;
-  min-height: 25vh;
+  height: auto;
+  gap: 1.5rem;
 }
 
 /*gør at det sidste af cardsne ikke har border*/
 .socialProofCard:last-child {
   border-right: none;
-  padding-right: 2rem;
 }
 
-.rating1 {
+.rating {
   display: flex;
-  width: 90%;
+  width: 80%;
+  height: auto;
   align-items: center;
   justify-content: flex-start;
 }
 
-.rating2 {
-  display: flex;
-  width: 90%;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.rating3 {
-  display: flex;
-  width: 90%;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.udtalelese1 {
+.udtalelese {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
-  font-size: 1.4vw;
-  width: 85%;
-  line-height: 150%;
+  font-size: var(--text-font-size);
+  width: 100%;
+  line-height: 180%;
 }
 
-.udtalelese2 {
-  font-family: var(--text-font-family, "work-sans"), sans-serif;
-  font-size: 1.4vw;
-  width: 85%;
-  line-height: 150%;
-}
-
-.udtalelese3 {
-  font-family: var(--text-font-family, "work-sans"), sans-serif;
-  font-size: 1.4vw;
-  width: 85%;
-  line-height: 150%;
-}
-
-.navn1 {
+.navn {
   font-family: var(--text-font-family, "work-sans"), sans-serif;
   display: flex;
   justify-content: flex-end;
-  font-size: 1.4vw;
+  font-size: 1.8rem;
   margin: 0;
-  width: 85%;
-}
-
-.navn2 {
-  font-family: var(--text-font-family, "work-sans"), sans-serif;
-  display: flex;
-  justify-content: flex-end;
-  font-size: 1.4vw;
-  margin: 0;
-  width: 85%;
-}
-
-.navn3 {
-  font-family: var(--text-font-family, "work-sans"), sans-serif;
-  display: flex;
-  justify-content: flex-end;
-  font-size: 1.4vw;
-  margin: 0;
-  width: 85%;
+  width: 100%;
 }
 
 .productShowcase {
-  padding: 8vh 8vw;
+  padding: 10vh 0 16vh 0;
   width: 100%;
 }
 
@@ -248,6 +185,7 @@ html {
     3,
     1fr
   ); /*laver tre kolonner hvor der kan være cards og 1fr definerer hvor meget plads hver card skal bruge så 1fr, så bruger de lige meget*/
-  gap: 2vw;
+  gap: 8vw;
   width: 100%;
+  height: auto;
 }

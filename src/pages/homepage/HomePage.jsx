@@ -1,7 +1,6 @@
 import heroLogo from "../../assets/logo-hero-section.svg";
 import heroBg from "../../assets/hero-section-background.svg";
 import etBen from "../../assets/etBen.svg";
-import uterus from "../../assets/uterus1.svg";
 import rating from "../../assets/rating.svg";
 import styles from "./HomePage.module.css";
 import { useEffect, useState } from "react";
@@ -12,16 +11,22 @@ export default function HomePage() {
     <>
       <header>
         <section className={styles.heroSection}>
-          <img src={heroBg} alt="Hero Background" className={styles.heroBg} />
+          <img
+            src={heroBg}
+            alt="Hero Baggrunds billede"
+            className={styles.heroBg}
+          />
           <img src={heroLogo} alt="Hero Logo" className={styles.heroLogo} />
           <div className={styles.heroDivider} />
         </section>
       </header>
+
       <main>
         <section className={styles.productShowcase}>
           <InlineProductGrid />{" "}
           {/* <kalder funktion med productgrid med tre cards /> */}
         </section>
+
         <section className={styles.singleItemService}>
           <div className={styles.serviceText}>
             <h1 className={styles.singleItemServiceTitle}>
@@ -34,33 +39,33 @@ export default function HomePage() {
               sokker osv. Vi er her for at hjælpe dig med det du har brug for!
             </p>
           </div>
-          <img className={styles.uterus} src={uterus} alt="Uterus" />
           <img className={styles.etBen} src={etBen} alt="Et Ben" />
         </section>
+
         <section className={styles.socialProof}>
           <div className={styles.socialProofCard}>
-            <img className={styles.rating1} src={rating} alt="Rating" />
-            <p className={styles.udtalelese1}>
+            <img className={styles.rating} src={rating} alt="Rating" />
+            <p className={styles.udtalelese}>
               "Jeg havde kun brug for en sko, men har aldrig kunnet finde en
-              side hvor jeg kunne få det før nu, jeg føler mig set"
+              side hvor jeg kunne få det før nu."
             </p>
-            <p className={styles.navn1}>-Anne(22)</p>
+            <p className={styles.navn}>-Anne (22)</p>
           </div>
           <div className={styles.socialProofCard}>
-            <img className={styles.rating2} src={rating} alt="Rating" />
-            <p className={styles.udtalelese2}>
+            <img className={styles.rating} src={rating} alt="Rating" />
+            <p className={styles.udtalelese}>
               "Elsker at farverne er anderledes end på andre tøj hjemmesider,
-              jeg er så træt af sort og blå"
+              jeg er så træt af sort og blå."
             </p>
-            <p className={styles.navn2}>-Bolette(40)</p>
+            <p className={styles.navn}>-Bolette (40)</p>
           </div>
           <div className={styles.socialProofCard}>
-            <img className={styles.rating3} src={rating} alt="Rating" />
-            <p className={styles.udtalelese3}>
+            <img className={styles.rating} src={rating} alt="Rating" />
+            <p className={styles.udtalelese}>
               "Jeg var lidt usikker på siden til at starte med fordi den virkede
-              så ny, men den er faktisk super fed"
+              så ny, men den er faktisk super fed."
             </p>
-            <p className={styles.navn3}>-Agnes(28)</p>
+            <p className={styles.navn}>-Agnes (28)</p>
           </div>
         </section>
       </main>
