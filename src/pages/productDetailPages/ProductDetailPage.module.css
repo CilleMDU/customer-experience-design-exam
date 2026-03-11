@@ -469,7 +469,6 @@ html {
 
   .titleItem {
     color: var(--text-color-dark);
-    letter-spacing: 0.3rem;
   }
 
   .brand {
