@@ -1,4 +1,5 @@
 import { NavLink } from "react-router";
+import { Link } from "react-router";
 import styles from "./NavigationBar.module.css";
 import shoppingBag from "../assets/shopping-bag.svg";
 import hjerteIkon from "../assets/heart-icon.svg";
@@ -13,12 +14,12 @@ export default function NavigationBar() {
 
   return (
     <nav className={styles.NavigationBar}>
-      <link
+      <Link
         to="/"
         className={styles.logoLink}
       >
         <img src={navbarLogo} alt="logo" className={styles.logo} />
-      </link>
+      </Link>
 
       <div className={styles.pages}>
         <NavLink to="/">Home</NavLink>
