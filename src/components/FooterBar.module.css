@@ -47,7 +47,7 @@ html {
   justify-items: center;
 }
 
-.h3 {
+.h2 {
   color: #ffffff;
   font-family: var(--title-font-font-family);
   font-size: var(--mobile-header1-display-font-size);

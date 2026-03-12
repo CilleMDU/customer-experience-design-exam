@@ -36,7 +36,7 @@ html {
   gap: 10vw;
 }
 
-.h1 {
+.h2 {
   color: var(--secondary-color-light-pink);
   font-family: var(--title-font-font-family);
   font-size: var(--header2-display-font-size);

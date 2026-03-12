@@ -5,7 +5,7 @@ export default function About() {
     <>
       <main className={styles.main}>
         <section className={styles.tekst}>
-          <h1 className={styles.h1}>Uniquely Her, hvem er vi?</h1>
+          <h2 className={styles.h2}>Uniquely Her, hvem er vi?</h2>
           <p className={styles.p}>
             Uniquely Her er et brand, der stræber efter at inkludere og omfavne
             kvinder i alle de former og farver de kommer i.
