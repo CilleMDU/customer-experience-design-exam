@@ -13,12 +13,12 @@ export default function NavigationBar() {
 
   return (
     <nav className={styles.NavigationBar}>
-      <a
-        href="/customer-experience-design-exam/"
+      <link
+        to="/"
         className={styles.logoLink}
       >
         <img src={navbarLogo} alt="logo" className={styles.logo} />
-      </a>
+      </link>
 
       <div className={styles.pages}>
         <NavLink to="/">Home</NavLink>
