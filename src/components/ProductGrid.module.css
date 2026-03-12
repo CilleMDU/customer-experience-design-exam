@@ -11,6 +11,13 @@
   --secondary-color-dark-turqouise: #65bdab;
   --secondary-color-dark-pink: #d3628a;
   --text-color-dark: #e4e4e4;
+
+    /* Fonts */
+  --title-font-font-family: "Sue Ellen Francisco", cursive;
+  --text-font-family: "work-sans", sans-serif;
+
+  /* Font sizes */
+  --body-text-font-size: 1.6rem;
 }
 
 .grid {
@@ -206,7 +213,7 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
-  color: var(--text, #151515);
+  color: var(--text-color-light);
 
   /* body-text-big */
   font-family: "Work Sans";
@@ -256,9 +263,9 @@
   aspect-ratio: 1/1;
   border-radius: 1rem;
   border: 0.05rem solid #8e8e8e;
-  background: var(--Filling, #fff);
-  color: #151515;
-  font-family: "Work Sans";
+  background: #fff;
+  color: var(--text-color-light);
+  font-family: var(--text-font-family);
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 500;
@@ -293,13 +300,13 @@
   align-items: center;
   align-self: stretch;
   border-radius: 0.4rem;
-  background: var(--primary, #fff);
-  color: var(--text, #151515);
-  border: 0.05rem solid var(--text, #151515);
+  background: var(--primary-color-light);
+  color: var(--text-color-light);
+  border: 0.05rem solid var(--text-color-light);
   cursor: pointer;
 
   /* body-text */
-  font-family: "Work Sans";
+  font-family: var(--text-font-family);
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
@@ -324,8 +331,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 0.4rem;
-  border: 0.05rem solid var(--text, #151515);
-  background: var(--primary, #fff);
+  border: 0.05rem solid var(--text-color-light);
+  background: var(--primary-color-light);
 }
 
 .flower {
@@ -352,15 +359,15 @@
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
-  color: var(--text, #151515);
+  color: var(--text-color-light);
   border-radius: 0.4rem;
-  border: 0.05rem solid var(--text, #151515);
+  border: 0.05rem solid var(--text-color-light);
   background: var(--primary, #fff);
   padding: 0.4rem;
   cursor: pointer;
 
   /* body-text */
-  font-family: "Work Sans";
+  font-family: var(--text-font-family);
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
@@ -423,10 +430,10 @@
 .touchApprovedArea {
   display: flex;
   gap: 0.8rem;
-  color: var(--text, #151515);
+  color: var(--text-color-light);
 
   /* body-text */
-  font-family: "Work Sans";
+  font-family: var(--text-font-family);
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;

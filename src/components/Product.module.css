@@ -1,7 +1,14 @@
 :root {
+  /* Colors light */
+  --primary-color-light: #ffffff;
+  --text-color-light: #151515;
+
   /* Colors dark */
   --primary-color-dark: #5d2f54;
   --text-color-dark: #e4e4e4;
+
+    /* Fonts */
+  --text-font-family: "work-sans", sans-serif;
 }
 
 .Link {
@@ -45,7 +52,7 @@
   color: var(--text-color-light);
 
   /* desktop-card-brand */
-  font-family: "Work Sans";
+  font-family: var(--text-font-family);
   font-size: 2rem;
   font-style: normal;
   font-weight: 300;
@@ -72,7 +79,7 @@
   padding: 1rem 0;
 }
 
-.title {
+.titleProduct {
   color: var(--text-color-light);
 
   /* desktop-card-title */
@@ -86,7 +93,7 @@
 
 /* Disse linjer styler prisen på produktet */
 .price {
-  color: #000;
+  color: var(--text-color-light);
 
   /* desktop-card-price */
   font-family: "Work Sans";
@@ -103,7 +110,8 @@
   color: gray;
   margin-left: 0.5rem;
   font-weight: normal;
-  font-family: "work sans", sans-serif;
+  font-family: var(--text-font-family);
+  font-size: 1.8rem;
 }
 
 
@@ -138,7 +146,7 @@
 }
 
 .badges {
-  width: 10rem;
+  width: 8rem;
 }
 
 /* Global selector der gør at alle de selectors der sættes under den ældres når .dark-mode aktiveres. Der ændres kun i de properties der skal ændres når darkmode er sat til */
