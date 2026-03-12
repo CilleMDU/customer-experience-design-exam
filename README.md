@@ -1,11 +1,11 @@
-Denne opgave er blevet udafbejdet af følgende elever:
+Denne opgave er blevet udarbejdet af følgende elever:
 
 - Cecilie Schmidt
 - Fredrik Moellenberg
 - Mathilde Tilsted Hansen
 - Jeppe Korsgaard Kristensen
 
-Hver elev har fået ansvaret for dele af koden. Nogle dele af koden har den ansvarlige fået assistance fra en af de andre elever.
+Hver elev har fået ansvaret for dele af koden. Nogle dele af koden har den ansvarlige fået assistance af en af de andre elever.
 Følgende er eleverne og deres ansvars områder:
 
 Cecilie Schmidt

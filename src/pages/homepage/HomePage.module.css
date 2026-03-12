@@ -86,6 +86,7 @@ html {
   padding-left: 4rem;
   padding-right: 0rem;
   padding-bottom: 8rem;
+  margin: 1.6rem;
 }
 
 .serviceText {
@@ -131,7 +132,7 @@ html {
 
 /*gør at det sidste af cardsne ikke har border*/
 .socialProofCard:last-child {
-  border-right: none;
+  border: none;
 }
 
 .rating {
@@ -160,7 +161,7 @@ html {
 
 .productShowcase {
   padding: 10vh 0 16vh 0;
-  width: 100%;
+  margin: 1.6rem;
 }
 
 .productShowcaseGrid {
@@ -178,6 +179,10 @@ html {
 :global(.dark-mode) {
   .socialProofCard {
     border-right: solid 1rem var(--secondary-color-dark-pink);
+  }
+
+  .socialProofCard:last-child {
+    border: none;
   }
 
   .singleItemServiceTitle {

@@ -5,12 +5,12 @@ import rating from "../../assets/rating.svg";
 import styles from "./HomePage.module.css";
 import { useEffect, useState } from "react";
 import Product from "../../components/Product";
-import Data from "../../../public/data.json"
+import Data from "../../../public/data.json";
 
 export default function HomePage() {
   return (
     <>
-      <header>
+      <main>
         <section className={styles.heroSection}>
           <img
             src={heroBg}
@@ -20,19 +20,15 @@ export default function HomePage() {
           <img src={heroLogo} alt="Hero Logo" className={styles.heroLogo} />
           <div className={styles.heroDivider} />
         </section>
-      </header>
-
-      <main>
         <section className={styles.productShowcase}>
           <InlineProductGrid />{" "}
           {/* <kalder funktion med productgrid med tre cards /> */}
         </section>
-
         <section className={styles.singleItemService}>
           <div className={styles.serviceText}>
-            <h1 className={styles.singleItemServiceTitle}>
+            <h2 className={styles.singleItemServiceTitle}>
               Single Item Service
-            </h1>
+            </h2>
             <p className={styles.singleItemServiceText}>
               Har du kun brug for et produkt, men de kommer som sæt? Bare rolig,
               med vores single item service kan du aktivt fravælge den del af et
@@ -78,7 +74,7 @@ function InlineProductGrid() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-      setProducts(Data);
+    setProducts(Data);
   }, []);
 
   return (

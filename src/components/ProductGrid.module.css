@@ -24,6 +24,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(38.8rem, 1fr));
   gap: 2rem;
+  margin: 1.6rem;
 }
 
 .productManagement {
