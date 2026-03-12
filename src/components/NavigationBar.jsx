@@ -13,7 +13,10 @@ export default function NavigationBar() {
 
   return (
     <nav className={styles.NavigationBar}>
-      <a href="/" className={styles.logoLink}>
+      <a
+        href="https://cillemdu.github.io/customer-experience-design-exam/"
+        className={styles.logoLink}
+      >
         <img src={navbarLogo} alt="logo" className={styles.logo} />
       </a>
 
